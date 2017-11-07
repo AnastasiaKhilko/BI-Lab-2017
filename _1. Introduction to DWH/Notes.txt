@@ -1,0 +1,29 @@
+1.  Set name in GIT
+	git config --global user.name "Name Surname"
+
+2.  Leave meaningful comments for your commits (no games, please!)
+	[labwork #1-9 (#1-9 of version)] text comment
+		- for hometasks
+		- please, set the number of task, which is the same as number of topic
+		- in case of multiple commits set the number of version
+		- leave text comment (e.g. uploaded the report, modifications in report)
+
+3.  Folders structure (currently only for REPORTS directory, other rules for DWSO folder):
+	reports
+		Task 01 (the number must correspond to the Topic number)
+			Task 01 report.docx
+		Task 02
+			Task 02 report.docx
+			(you can also create SCRIPTS folder here if necessary and put your code there)
+	
+	Don't generate reduntant files and folders in your working directory, keep it clean. Create PERSONAL forlder if you want to store any additional data in your directory
+
+4.  Please, consider the size of screenshots
+	Try to match the font sizes of your document and font size in screenshot (or at least visible with 90% zoom in MS Word)
+	And, please, do not paste the screenshots of your full screen
+
+5.  In your report use the same structure as in Labwork document (navigation should exist)
+	You may also leave the task in your report (but distingish them by different colors)
+
+6.  Check your grammar: Word helps you by blue/red underscores
+	Try not to use street slang like wanna, gonna, yo man, etc.
