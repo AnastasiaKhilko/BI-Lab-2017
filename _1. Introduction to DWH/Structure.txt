@@ -1,0 +1,46 @@
+DWSO
+	system
+		bl_3nf
+			bl_3nf.sql - create user statement, user grants
+	sa_scr
+	bl_3nf
+		tables
+							-- ce - core tables (ex. ce_contracts_msisdns)
+			ce_bls_bls
+				ce_bls_bls.sql
+				ce_bls_bls-grants.sql
+				ce_bls_bls-syn.sql
+	bl_dm
+		tables
+			dim_resellers
+				dim_resellers.sql
+				dim_resellers-grants.sql
+				dim_resellers-syn.sql
+	bl_cl
+		packages
+							-- pkg_etl - (ex. prk_etl_retail_store_orders)
+		tables
+							-- wrk - working tables (ex. wrk_contract_products)
+							-- cls - cleansing tables (ex. cls_contracts_resellers)
+			wrk_contract_products
+				wrk_contract_products.sql - create tables
+				wrk_contract_products-grants.sql
+				wrk_contract_products-syn.sql
+
+
+
+--------------------------------------------------------------------------------------------	
+			connected as BL_CL
+			BL_CL is owner of wrk_contract_products
+			we want BL_3NF to be able to read wrk_contract_products table
+			
+				grant select on wrk_contract_products to BL_3NF;
+				create public synonym wrk_contract_products on bl_cl.wrk_contract_products;
+				
+			connected as BL_3NF
+			
+				select * from bl_cl.wrk_contract_products; -- without synonym
+				select * from wrk_contract_products; -- with synonym
+				
+				create synonym wrk_contract_products on bl_cl.wrk_contract_products;
+				select * from wrk_contract_products;
