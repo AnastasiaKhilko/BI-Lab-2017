@@ -13,4 +13,6 @@
  --CREATE ROLE conn;
 -- CONNECT Olga_Hilko/123456;
 
+grant all PRIVILEGES to Olga_Hilko;
+
   
