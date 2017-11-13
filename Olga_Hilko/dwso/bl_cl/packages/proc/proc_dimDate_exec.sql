@@ -1,0 +1,1 @@
+EXEC Proc_DimDate_Recreate('DimDateTable', to_date('01.01.2000', 'DD.MM.YYYY'),  to_date('31.12.2030', 'DD.MM.YYYY'), TRUE);
