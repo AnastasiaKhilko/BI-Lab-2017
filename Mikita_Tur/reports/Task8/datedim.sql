@@ -29,5 +29,5 @@ CREATE TABLE DimDate as SELECT
 	      level n
 	    FROM
 	      dual
-	      CONNECT BY level <= 5000
+	      CONNECT BY level <= 7500
 	  );
