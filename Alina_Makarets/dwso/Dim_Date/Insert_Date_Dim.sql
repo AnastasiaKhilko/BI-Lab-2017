@@ -12,7 +12,7 @@ SELECT SYSDATE+rownum-365*7 as Date_id,
        to_date(last_day(SYSDATE+rownum-365*7)+1,'DD-MM-YYYY') AS First_day_of_month,
        to_date(last_day(SYSDATE+rownum-365*7),'DD-MM-YYYY') AS Last_day_of_month,
        to_number(to_char(extract(year from SYSDATE+rownum-365*7))) as Year,
-       to_char(extract(year from SYSDATE+rownum-365*7) || ' '|| to_char(SYSDATE+rownum-365*7, 'Q') || ' ' ||' ‚‡Ú‡Î') as "Year-Quater"
+       to_char(extract(year from SYSDATE+rownum-365*7) || ' '|| to_char(SYSDATE+rownum-365*7, 'Q') || ' ' ||'–ö–≤–∞—Ä—Ç–∞–ª') as "Year-Quater"
 FROM dual
 CONNECT BY rownum <=365*7;
 

@@ -3,7 +3,7 @@ DROP TABLE COLORS;
 CREATE TABLE COLORS (
         "Color_id" NUMBER(4) NOT NULL,
         "Color_name" VARCHAR2(40),
-        "Category_desc" VARCHAR2(80)
+        "Color_desc" VARCHAR2(80)
           );
         
 ALTER TABLE COLORS 
