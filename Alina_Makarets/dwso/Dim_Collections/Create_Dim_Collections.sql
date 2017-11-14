@@ -4,7 +4,7 @@ CREATE TABLE COLLECTIONS (
         "Collection_id" NUMBER(4) NOT NULL,
         "Collection_name" VARCHAR2(40),
         "Collection_date" DATE,
-        "Collection_desñ" VARCHAR2(80)
+        "Collection_desc" VARCHAR2(80)
           );
         
 ALTER TABLE COLLECTIONS 

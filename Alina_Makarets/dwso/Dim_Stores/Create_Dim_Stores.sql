@@ -15,7 +15,7 @@ ALTER TABLE STORES
 ALTER TABLE STORES 
     ADD CONSTRAINT "FK_Manager_id_Store"
     FOREIGN KEY ("Manager_id")
-        REFERENCES EMPLOYEES("Manager_id");
+        REFERENCES EMPLOYEES("Employee_id");
         
 ALTER TABLE STORES 
     ADD CONSTRAINT "FK_Address_id_Store"
