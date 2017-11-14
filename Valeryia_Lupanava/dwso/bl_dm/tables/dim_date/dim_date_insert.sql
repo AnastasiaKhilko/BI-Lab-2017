@@ -21,19 +21,19 @@ INSERT INTO dim_date (
     to_number(TRIM(LEADING '0' FROM TO_CHAR(start_date,'D') ) ),
     to_number(TRIM(LEADING '0' FROM TO_CHAR(start_date,'DD') ) ),
     to_number(TRIM(LEADING '0' FROM TO_CHAR(start_date,'DDD') ) ),
-    upper(TO_CHAR(start_date,'Mon') || '-' || TO_CHAR(start_date,'YYYY') ),
+    upper(TO_CHAR(start_date,'YYYY') || '-' || TO_CHAR(start_date,'Mon') ),
     TO_CHAR(start_date,'Month'),
     TO_CHAR(start_date,'Mon'),
     to_number(TRIM(LEADING '0' FROM TO_CHAR(start_date,'MM') ) ),
-    'Q' || upper(TO_CHAR(start_date,'Q') || '-' || TO_CHAR(start_date,'YYYY') ),
+    upper(TO_CHAR(start_date,'YYYY')) || '-' || 'Q' || TO_CHAR(start_date,'Q'),
     TO_CHAR(start_date,'Q'),
     (CASE
      WHEN to_number(TO_CHAR(start_date,'Q') ) <= 2 
      THEN 1
      ELSE 2 END),
     (CASE WHEN to_number(TO_CHAR(start_date,'Q') ) <= 2 
-     THEN 'H' || 1 || '-' || TO_CHAR(start_date,'YYYY') 
-     ELSE 'H' || 2 || '-' || TO_CHAR(start_date,'YYYY')END),
+     THEN TO_CHAR(start_date,'YYYY') || '-' ||  'H' || 1 
+     ELSE TO_CHAR(start_date,'YYYY') || '-' || 'H' || 2 END),
      TO_CHAR(start_date,'YYYY')
 FROM
     (SELECT level n,
