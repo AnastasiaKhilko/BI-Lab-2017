@@ -1,7 +1,7 @@
 CREATE TABLE fact_retail_sales (
     sale_id              NUMBER(10) NOT NULL,
     receipt_id           NUMBER(10) NOT NULL,
-    date_id              NUMBER(10) NOT NULL,
+    start_date           DATE,
     product_details_id   NUMBER(10) NOT NULL,
     employee_id          NUMBER(10) NOT NULL,
     customer_id          NUMBER(10),
@@ -11,8 +11,8 @@ CREATE TABLE fact_retail_sales (
     currency_id          NUMBER(10) NOT NULL,
     sale_sum             NUMBER(10) NOT NULL,
     sale_amount          NUMBER(10) NOT NULL,
-    CONSTRAINT date_id_fk FOREIGN KEY ( date_id )
-        REFERENCES dim_date ( date_id ),
+    CONSTRAINT date_id_fk FOREIGN KEY ( start_date )
+        REFERENCES dim_date ( start_date ),
     CONSTRAINT product_id_fk FOREIGN KEY ( product_details_id )
         REFERENCES dim_products ( product_details_id ),
     CONSTRAINT customer_id_fk FOREIGN KEY ( customer_id )
