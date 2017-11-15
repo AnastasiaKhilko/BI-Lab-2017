@@ -1,10 +1,13 @@
-CREATE TABLE collections (
-    collection_id            NUMBER(10) NOT NULL,
+CREATE TABLE ce_collections (
+    collection_srcid         NUMBER(10) NOT NULL,
     collection_name          VARCHAR2(10 BYTE),
-    season_id                NUMBER(10) NOT NULL,
+    season_srcid             NUMBER(10) NOT NULL,
     collection_description   VARCHAR2(40 BYTE),
-    collection_date          DATE NOT NULL,
-    CONSTRAINT collection_id_pk PRIMARY KEY ( collection_id ),
-    CONSTRAINT season_id_fk FOREIGN KEY ( season_id )
-        REFERENCES seasons ( season_id )
+    collection_dt            DATE NOT NULL,
+    start_dt                 DATE NOT NULL,
+    end_dt                   DATE NOT NULL,
+    is_active                VARCHAR2(4) NOT NULL,
+    CONSTRAINT collection_srcid_pk PRIMARY KEY ( collection_srcid ),
+    CONSTRAINT season_srcid_fk FOREIGN KEY ( season_srcid )
+        REFERENCES ce_seasons ( season_srcid )
 );

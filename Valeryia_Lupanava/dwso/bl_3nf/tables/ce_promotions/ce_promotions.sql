@@ -1,18 +1,19 @@
-CREATE TABLE promotions (
-    promotion_id        NUMBER(10) NOT NULL,
-    promotion_type_id   NUMBER(10) NOT NULL,
-    start_date          DATE NOT NULL,
-    end_date            DATE,
-    collection_id       NUMBER(10),
-    line_id             NUMBER(10),
-    product_type_id     NUMBER(10),
-    CONSTRAINT promotion_id_pk PRIMARY KEY ( promotion_id ),
-    CONSTRAINT collection_pr_id_fk FOREIGN KEY ( collection_id )
-        REFERENCES collections ( collection_id ),
-    CONSTRAINT line_pr_id_fk FOREIGN KEY ( line_id )
-        REFERENCES lines ( line_id ),
-    CONSTRAINT product_type_pr_id_fk FOREIGN KEY ( product_type_id )
-        REFERENCES product_types ( product_type_id ),
-    CONSTRAINT promotion_type_id_fk FOREIGN KEY ( promotion_type_id )
-        REFERENCES promotion_types ( promotion_type_id )
+CREATE TABLE ce_promotions (
+    promotion_srcid        NUMBER(10) NOT NULL,
+    promotion_type_srcid   NUMBER(10) NOT NULL,
+    collection_srcid       NUMBER(10) DEFAULT '-99',
+    line_srcid             NUMBER(10) DEFAULT '-99',
+    product_type_srcid     NUMBER(10) DEFAULT '-99',
+    start_dt               DATE NOT NULL,
+    end_dt                 DATE NOT NULL,
+    is_active              VARCHAR2(4) NOT NULL,
+    CONSTRAINT promotion_srcid_pk PRIMARY KEY ( promotion_srcid ),
+    CONSTRAINT collection_pr_srcid_fk FOREIGN KEY ( collection_srcid )
+        REFERENCES ce_collections ( collection_srcid ),
+    CONSTRAINT line_pr_srcid_fk FOREIGN KEY ( line_srcid )
+        REFERENCES ce_lines ( line_srcid ),
+    CONSTRAINT product_type_pr_srcid_fk FOREIGN KEY ( product_type_srcid )
+        REFERENCES ce_product_types ( product_type_srcid ),
+    CONSTRAINT promotion_type_srcid_fk FOREIGN KEY ( promotion_type_srcid )
+        REFERENCES ce_promotion_types ( promotion_type_srcid )
 );
