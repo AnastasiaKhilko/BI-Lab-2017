@@ -1,4 +1,4 @@
-CREATE TABLE DimEmployee
+CREATE TABLE DimEmployee_SCD
   (
     Employee_key             NUMBER(8) PRIMARY KEY,
     Employee_id              VARCHAR2(8) NOT NULL,
@@ -6,26 +6,14 @@ CREATE TABLE DimEmployee
     Employee_surname         VARCHAR2(30) NOT NULL,
     Employee_email           VARCHAR2(50) NOT NULL,
     Employee_phone           VARCHAR2(30) NOT NULL,
-    Employee_age             NUMBER(3) NOT NULL,
-    Employee_gender          VARCHAR2(10) NOT NULL,
-    Employee_manager_id      VARCHAR2(8),
-    Employee_manager_name    VARCHAR2(30) NOT NULL,
-    Employee_manager_surname VARCHAR2(30) NOT NULL,
-    Employee_manager_email   VARCHAR2(50) NOT NULL,
-    Employee_manager_phone   VARCHAR2(30) NOT NULL,
-    Employee_dep_id          NUMBER(8) NOT NULL,
-    Employee_dep_name        VARCHAR2(60) NOT NULL,
-	Store_name               VARCHAR2(30) NOT NULL,
-    Store_region_id          NUMBER(8) NOT NULL,
-    Store_region             VARCHAR2(60) NOT NULL,
-    Store_country_id         NUMBER(8) NOT NULL,
-    Store_country            VARCHAR2(60) NOT NULL,
-    Store_city_id            NUMBER(8) NOT NULL,
-    Store_city               VARCHAR2(60) NOT NULL,
-    Store_address_id         NUMBER(8) NOT NULL,
-    Store_address            VARCHAR2(60) NOT NULL,
-    Store_postal_code        VARCHAR2(20),
-    Date_of_change           DATE NOT NULL,
-    Reason                   VARCHAR2(200),
-    Current_flag             VARCHAR2(10)
+    Employee_department_name VARCHAR2(30) NOT NULL,
+    Employee_manager_key     NUMBER(8),
+    Employee_manager_name    VARCHAR2(70),
+    Employee_store_key       NUMBER(8),
+    Employee_store_name      VARCHAR2(30) NOT NULL,
+    Employee_store_city      VARCHAR2(50) NOT NULL,
+    Employee_store_address   VARCHAR2(50) NOT NULL,
+    Start_DT                 DATE NOT NULL,
+    End_DT                   DATE NOT NULL,
+    Current_flag             VARCHAR2(10) NOT NULL
   );

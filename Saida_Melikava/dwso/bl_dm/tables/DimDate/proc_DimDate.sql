@@ -18,8 +18,7 @@ BEGIN
     INSERT
     INTO DimDate
       (
-        DATE_KEY,
-        FULL_DATE,
+        FULL_DATE_DT,
         FULL_DATE_DESCR,
         DAY_OF_WEEK,
         DAY_OF_MONTH,
@@ -30,7 +29,7 @@ BEGIN
         LAST_DAY_OF_MONTH_INDICATOR,
         WEEK_OF_MONTH,
         WEEK_OF_YEAR,
-        WEEK_ENDING_DATE,
+        WEEK_ENDING_DT,
         MONTH_NUMBER,
         MONTH_NAME,
         MONTH_YEAR,
@@ -40,17 +39,15 @@ BEGIN
       )
       VALUES
       (
-        TO_CHAR(v_CURRENT_DATE,'YYYY')
-        ||TO_CHAR(v_CURRENT_DATE,'MM')
-        ||TO_CHAR(v_CURRENT_DATE,'DD'),      --DATE_KEY
+        --DATE_KEY
         to_date(v_CURRENT_DATE, 'dd-MM-yyyy'), --FULL_DATE
         TO_CHAR(v_CURRENT_DATE,'DD')
         ||' '
         ||TO_CHAR(v_CURRENT_DATE,'Month')
         ||TO_CHAR(v_CURRENT_DATE,'YYYY'),                                                         --FULL_DATE _DESCR
         TO_NUMBER(TO_CHAR(v_CURRENT_DATE, 'DAY', 'NLS_DATE_LANGUAGE=''numeric date language''')), --DAY_OF_WEEK
-        TO_CHAR(v_CURRENT_DATE,'DD'),                                                             --DAY_OF_MONTH
-        TO_CHAR(v_CURRENT_DATE,'DDD'),                                                            --DAY_OF_YEAR
+        TO_NUMBER(TO_CHAR(v_CURRENT_DATE,'DD')),                                                  --DAY_OF_MONTH
+        TO_NUMBER(TO_CHAR(v_CURRENT_DATE,'DDD')),                                                 --DAY_OF_YEAR
         TO_CHAR(v_CURRENT_DATE,'FMDay'),                                                          --DAY_NAME
         CASE                                                                                      --LWEEKend_INDICATOR
           WHEN TO_CHAR(v_CURRENT_DATE,'FMDay') = 'Saturday'
@@ -60,27 +57,27 @@ BEGIN
         END,
         CASE --LAST_DAY_OF_WEEK_INDICATOR
           WHEN TO_CHAR(v_CURRENT_DATE,'FMDay') = 'Sunday'
-          THEN 'Last day of week'
-          ELSE 'Not last day of week'
+          THEN 'Last day of the week'
+          ELSE 'Not last day of the week'
         END,
         CASE --LAST_DAY_OF_MONTH_INDICATOR
           WHEN LAST_DAY(TO_DATE(v_CURRENT_DATE, 'DD-MM-YYYY')) = TO_DATE(v_CURRENT_DATE, 'DD-MM-YYYY')
-          THEN 'Last day of month'
-          ELSE 'Not last day of month'
+          THEN 'Last day of the month'
+          ELSE 'Not last day of the month'
         END,
-        TO_CHAR(v_CURRENT_DATE,'W'),  --WEEK_OF_MONTH
-        TO_CHAR(v_CURRENT_DATE,'IW'), --WEEK_OF_YEAR
-        CASE                          --WEEK_ENDING_DATE OF CURRENT WEEK ENDING ON SUNDAY
+        TO_NUMBER(TO_CHAR(v_CURRENT_DATE,'W')),  --WEEK_OF_MONTH
+        TO_NUMBER(TO_CHAR(v_CURRENT_DATE,'IW')), --WEEK_OF_YEAR
+        CASE                                     --WEEK_ENDING_DATE OF CURRENT WEEK ENDING ON SUNDAY
           WHEN TO_CHAR(v_CURRENT_DATE,'FMDay') = 'Sunday'
           THEN v_CURRENT_DATE
           ELSE NEXT_DAY(v_CURRENT_DATE,'SUNDAY')
         END,
-        TO_CHAR(v_CURRENT_DATE,'MM'),         --MONTH_NUMBER
-        TO_CHAR(v_CURRENT_DATE,'MONTH'),      --MONTH_NAME
-        TO_CHAR(v_CURRENT_DATE,'MONTH YYYY'), --YEAR_MONTH
-        TO_CHAR(v_CURRENT_DATE,'Q'),          --QUARTER_NUMBER
-        TO_CHAR(v_CURRENT_DATE,'Q YYYY'),     --YEAR_QUARTER
-        TO_CHAR(v_CURRENT_DATE,'YYYY')        --YEAR_NUMBER
+        TO_NUMBER(TO_CHAR(v_CURRENT_DATE,'MM')),  --MONTH_NUMBER
+        TO_CHAR(v_CURRENT_DATE,'MONTH'),          --MONTH_NAME
+        TO_CHAR(v_CURRENT_DATE,'MONTH-YYYY'),     --YEAR_MONTH
+        TO_CHAR(v_CURRENT_DATE,'Q'),              --QUARTER_NUMBER
+        TO_CHAR(v_CURRENT_DATE,'Q-YYYY'),         --YEAR_QUARTER
+        TO_NUMBER(TO_CHAR(v_CURRENT_DATE,'YYYY')) --YEAR_NUMBER
       );
     --Increment and assign the current date value to be re-evaluated
     v_CURRENT_DATE := v_CURRENT_DATE + 1;
