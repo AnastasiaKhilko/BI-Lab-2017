@@ -1,6 +1,6 @@
 CREATE TABLE FactSales
   (
-    Full_date_dt        DATE NOT NULL,
+    Event_dt            DATE NOT NULL,
     Customer_key        NUMBER(8) NOT NULL,
     Employee_key        NUMBER(8) NOT NULL,
     Store_key           NUMBER(8) NOT NULL,
@@ -16,7 +16,7 @@ CREATE TABLE FactSales
     Unit_price_USD      NUMBER(10,2) NOT NULL,
     Unit_price_disc_USD NUMBER(10,2) NOT NULL,
     Sales_Amount_USD    NUMBER(10,2) NOT NULL,
-    CONSTRAINT fk_date FOREIGN KEY (full_date_dt) REFERENCES dimdate(full_date_dt),
+    CONSTRAINT fk_date FOREIGN KEY (Event_dt) REFERENCES dimdate(full_date_dt),
     CONSTRAINT fk_customer FOREIGN KEY (customer_key) REFERENCES dimcustomer(customer_key),
     CONSTRAINT fk_employee FOREIGN KEY (employee_key) REFERENCES dimemployee_scd(employee_key),
     CONSTRAINT fk_store FOREIGN KEY (store_key) REFERENCES dimstore(store_key),
