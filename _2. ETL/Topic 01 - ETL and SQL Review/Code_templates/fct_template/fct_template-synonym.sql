@@ -1,0 +1,1 @@
+CREATE SYNONYM fct_template FOR some_scheme.fct_template;
