@@ -1,0 +1,20 @@
+ create TABLE fact_orders(
+   order_id number(8) PRIMARY KEY,
+   Product_id          VARCHAR2(25),
+   Customer_id         number(8),
+   seller_id         number(8),
+   payment_method_id     NUMBER(10) NOT NULL,
+   delivery_method_id     NUMBER(10) NOT NULL,
+   Stock_id              NUMBER(8),
+   Amount number(8),
+   order_date_id date,
+   delivery_date date,
+   CONSTRAINT fk_fact_prod FOREIGN KEY (product_id) REFERENCES dim_products(product_id),
+   CONSTRAINT fk_fact_cust FOREIGN KEY (customer_id) REFERENCES dim_customers(customer_id),
+   CONSTRAINT fk_fact_sell FOREIGN KEY (seller_id) REFERENCES dim_sellers(seller_id),
+   CONSTRAINT fk_fact_paymet FOREIGN KEY (payment_method_id) REFERENCES dim_payment_methods(payment_method_id),
+   CONSTRAINT fk_fact_delmet FOREIGN KEY (delivery_method_id) REFERENCES dim_delivery_methods(delivery_method_id),
+   CONSTRAINT fk_fact_stk FOREIGN KEY (Stock_id) REFERENCES dim_Stocks(Stock_id),
+  CONSTRAINT fk_fact_orddate FOREIGN KEY (order_date_id) REFERENCES dim_date(date_id),
+  CONSTRAINT fk_fact_deldate FOREIGN KEY (delivery_date) REFERENCES dim_date(date_id)  
+   );
