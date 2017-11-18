@@ -10,13 +10,13 @@ BEGIN
   v_CURRENT_DATE := TO_DATE('0101' || v_START_YEAR, 'MMDDYYYY');
   v_END_DATE     := TO_DATE('1231' || v_END_YEAR, 'MMDDYYYY');
   --Clear/Dump what is currently stored in the table
-  DELETE FROM DimDate;
+  DELETE FROM Dim_Time_Day;
   --Check the condition to see if the start year is less than the end year (Input Parameters)
   WHILE v_CURRENT_DATE <= v_END_DATE
   LOOP
     --DATE_DIMENSION Table
     INSERT
-    INTO DimDate
+    INTO Dim_Time_Day
       (
         FULL_DATE_DT,
         FULL_DATE_DESCR,

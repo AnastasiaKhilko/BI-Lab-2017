@@ -1,7 +1,8 @@
-  CREATE TABLE ce_city
+DROP TABLE ce_city;  
+CREATE TABLE ce_city
   (
-    city_id NUMBER(8) PRIMARY KEY,
+    city_code NUMBER(8) PRIMARY KEY,
     city    VARCHAR2(60) NOT NULL,
-    country_id  NUMBER(8) NOT NULL,
-    CONSTRAINT fk_city_coun FOREIGN KEY (country_id) REFERENCES ce_country(country_id)
+    country_code  NUMBER(8) NOT NULL,
+    CONSTRAINT fk_city_coun FOREIGN KEY (country_code) REFERENCES ce_country(country_code)
   );
