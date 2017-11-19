@@ -71,5 +71,7 @@
     )
     reject limit unlimited;
 
-
+grant select on sa_src.EXT_CNTR2STRUCTURE_ISO3166 to bl_cl;
+grant select on sa_src.EXT_GEO_COUNTRIES_ISO3166 to bl_cl;
+grant select on sa_src.EXT_GEO_STRUCTURE_ISO3166 to bl_cl;
 
