@@ -18,7 +18,7 @@ CREATE TABLE Dim_Customers
     Customer_city         VARCHAR2(60) NOT NULL,
     Customer_address_id   NUMBER(8) NOT NULL,
     Customer_address      VARCHAR2(60) NOT NULL,
-    Customer_postal_id    VARCHAR2(20),
+    Customer_postal_code  VARCHAR2(20),
     Insert_DT             DATE NOT NULL,
     Update_DT             DATE NOT NULL
   );
