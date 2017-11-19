@@ -11,5 +11,7 @@ grant
   create view,
   create synonym,
   create procedure,
-  create sequence
+  create sequence,
+  create any procedure
 to BL_CL;
+
