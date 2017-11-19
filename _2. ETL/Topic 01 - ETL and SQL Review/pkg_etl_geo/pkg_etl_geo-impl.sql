@@ -7,23 +7,6 @@ AS
   Date...............:   Date of last update
   \*=============================================== */
   /****************************************************/
-PROCEDURE load_cls_geo_structure
-IS
-BEGIN
-  EXECUTE immediate 'truncate table cls_geo_structure';
-
-   INSERT INTO cls_geo_structure
-  SELECT DISTINCT * FROM EXT_GEO_STRUCTURE_ISO3166;
-  COMMIT;
-
-EXCEPTION
-
-WHEN OTHERS THEN
-  RAISE;
-
-END load_cls_geo_structure;
-/****************************************************/
-
 PROCEDURE load_worlds
 IS
 BEGIN

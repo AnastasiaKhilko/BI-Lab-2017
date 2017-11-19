@@ -1,5 +1,5 @@
 --DROP PACKAGE pkg_etl_generic;
-
+ 
 CREATE OR REPLACE PACKAGE pkg_etl_geo
 AS
   /**===============================================*\
@@ -17,7 +17,7 @@ AS
   /**
   * Loads cleansisng table for geo structure
   */
-  PROCEDURE load_cls_geo_structure;
+  
   
   /**
   * Loads T_WORLDS
