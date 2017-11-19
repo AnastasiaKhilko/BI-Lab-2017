@@ -1,0 +1,437 @@
+SQL> select * from employees where salary < 3000;
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+        116 Shelli               Baida                                          
+SBAIDA                    515.127.4563         24.12.05 PU_CLERK         2900   
+                      114            30                                         
+                                                                                
+        117 Sigal                Tobias                                         
+STOBIAS                   515.127.4564         24.07.05 PU_CLERK         2800   
+                      114            30                                         
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+                                                                                
+        118 Guy                  Himuro                                         
+GHIMURO                   515.127.4565         15.11.06 PU_CLERK         2600   
+                      114            30                                         
+                                                                                
+        119 Karen                Colmenares                                     
+KCOLMENA                  515.127.4566         10.08.07 PU_CLERK         2500   
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+                      114            30                                         
+                                                                                
+        126 Irene                Mikkilineni                                    
+IMIKKILI                  650.124.1224         28.09.06 ST_CLERK         2700   
+                      120            50                                         
+                                                                                
+        127 James                Landry                                         
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+JLANDRY                   650.124.1334         14.01.07 ST_CLERK         2400   
+                      120            50                                         
+                                                                                
+        128 Steven               Markle                                         
+SMARKLE                   650.124.1434         08.03.08 ST_CLERK         2200   
+                      120            50                                         
+                                                                                
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+        130 Mozhe                Atkinson                                       
+MATKINSO                  650.124.6234         30.10.05 ST_CLERK         2800   
+                      121            50                                         
+                                                                                
+        131 James                Marlow                                         
+JAMRLOW                   650.124.7234         16.02.05 ST_CLERK         2500   
+                      121            50                                         
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+                                                                                
+        132 TJ                   Olson                                          
+TJOLSON                   650.124.8234         10.04.07 ST_CLERK         2100   
+                      121            50                                         
+                                                                                
+        134 Michael              Rogers                                         
+MROGERS                   650.127.1834         26.08.06 ST_CLERK         2900   
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+                      122            50                                         
+                                                                                
+        135 Ki                   Gee                                            
+KGEE                      650.127.1734         12.12.07 ST_CLERK         2400   
+                      122            50                                         
+                                                                                
+        136 Hazel                Philtanker                                     
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+HPHILTAN                  650.127.1634         06.02.08 ST_CLERK         2200   
+                      122            50                                         
+                                                                                
+        139 John                 Seo                                            
+JSEO                      650.121.2019         12.02.06 ST_CLERK         2700   
+                      123            50                                         
+                                                                                
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+        140 Joshua               Patel                                          
+JPATEL                    650.121.1834         06.04.06 ST_CLERK         2500   
+                      123            50                                         
+                                                                                
+        143 Randall              Matos                                          
+RMATOS                    650.121.2874         15.03.06 ST_CLERK         2600   
+                      124            50                                         
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+                                                                                
+        144 Peter                Vargas                                         
+PVARGAS                   650.121.2004         09.07.06 ST_CLERK         2500   
+                      124            50                                         
+                                                                                
+        182 Martha               Sullivan                                       
+MSULLIVA                  650.507.9878         21.06.07 SH_CLERK         2500   
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+                      120            50                                         
+                                                                                
+        183 Girard               Geoni                                          
+GGEONI                    650.507.9879         03.02.08 SH_CLERK         2800   
+                      120            50                                         
+                                                                                
+        190 Timothy              Gates                                          
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+TGATES                    650.505.3876         11.07.06 SH_CLERK         2900   
+                      122            50                                         
+                                                                                
+        191 Randall              Perkins                                        
+RPERKINS                  650.505.4876         19.12.07 SH_CLERK         2500   
+                      122            50                                         
+                                                                                
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+        195 Vance                Jones                                          
+VJONES                    650.501.4876         17.03.07 SH_CLERK         2800   
+                      123            50                                         
+                                                                                
+        198 Donald               OConnell                                       
+DOCONNEL                  650.507.9833         21.06.07 SH_CLERK         2600   
+                      124            50                                         
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+                                                                                
+        199 Douglas              Grant                                          
+DGRANT                    650.507.9844         13.01.08 SH_CLERK         2600   
+                      124            50                                         
+                                                                                
+        211 Hermann              Hartstein                                      
+HHartstein5                962.907.1199        18.08.11 BI_Dev           2200   
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+                                    180                                         
+                                                                                
+        215 Hermann              Mavris                                         
+HMavris9                   333.693.4065        30.07.11 HR_REP           1700   
+                                     90                                         
+                                                                                
+        219 Hermann              Whalen                                         
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+HWhalen13                  333.817.3018        10.12.10 PU_MAN           2000   
+                                     60                                         
+                                                                                
+        220 Hermann              Whalen                                         
+HWhalen14                  480.457.0858        13.07.11 MK_REP           2500   
+                                    190                                         
+                                                                                
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+        221 Jennifer             Baer                                           
+JBaer15                    394.221.4355        09.05.10 IT_PROG          1000   
+                                    230                                         
+                                                                                
+        224 Jennifer             Baer                                           
+JBaer18                    727.567.6683        20.05.10 DWH_Dev          2300   
+                                    130                                         
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+                                                                                
+        233 Jennifer             Hartstein                                      
+JHartstein27               473.073.8689        30.08.10 FI_ACCOUNT       1200   
+                                    240                                         
+                                                                                
+        237 Jennifer             Mavris                                         
+JMavris31                  485.677.3190        30.04.11 AD_VP            2800   
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+                                    140                                         
+                                                                                
+        238 Jennifer             Whalen                                         
+JWhalen32                  191.115.2490        17.11.09 PU_CLERK         2500   
+                                    100                                         
+                                                                                
+        239 Jennifer             Whalen                                         
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+JWhalen33                  207.188.0263        02.05.11 AD_PRES          2500   
+                                    200                                         
+                                                                                
+        245 Michael              Fay                                            
+MFay39                     893.376.3985        29.06.11 AC_ACCOUNT       1400   
+                                    300                                         
+                                                                                
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+        246 Michael              Hartstein                                      
+MHartstein40               807.388.9126        30.09.10 AD_ASST          2300   
+                                    160                                         
+                                                                                
+        249 Michael              Higgins                                        
+MHiggins43                 356.184.6454        09.06.11 SA_REP           1700   
+                                    220                                         
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+                                                                                
+        255 Michael              Whalen                                         
+MWhalen49                  128.792.7119        04.11.10 ST_CLERK         2100   
+                                     20                                         
+                                                                                
+        260 Pat                  Baer                                           
+PBaer54                    612.378.2119        30.09.09 FI_MGR           1200   
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+                                    250                                         
+                                                                                
+        265 Pat                  Hartstein                                      
+PHartstein59               370.936.0921        15.10.09 ST_CLERK         1900   
+                                    270                                         
+                                                                                
+        268 Pat                  Hartstein                                      
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+PHartstein62               711.485.8922        06.04.11 PU_CLERK         1400   
+                                    170                                         
+                                                                                
+        271 Pat                  Mavris                                         
+PMavris65                  515.226.0403        17.09.11 MK_REP           2000   
+                                    280                                         
+                                                                                
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+        273 Pat                  Whalen                                         
+PWhalen67                  360.261.9926        20.08.10 IT_PROG          1000   
+                                    240                                         
+                                                                                
+        274 Pat                  Whalen                                         
+PWhalen68                  708.450.9050        02.08.10 PU_CLERK         1000   
+                                     40                                         
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+                                                                                
+        281 Shelley              Hartstein                                      
+SHartstein75               740.750.9563        18.07.10 SH_CLERK         2700   
+                                    130                                         
+                                                                                
+        283 Shelley              Higgins                                        
+SHiggins77                 184.315.3875        04.01.11 MK_MAN           2800   
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+                                    210                                         
+                                                                                
+        287 Shelley              Mavris                                         
+SMavris81                  384.683.3574        24.08.11 SH_CLERK         1000   
+                                    250                                         
+                                                                                
+        290 Susan                Baer                                           
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+SBaer84                    264.700.7626        18.11.09 SA_REP           1400   
+                                    240                                         
+                                                                                
+        295 Susan                Fay                                            
+SFay89                     617.930.7071        13.10.10 MK_REP           2400   
+                                     10                                         
+                                                                                
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+        299 Susan                Higgins                                        
+SHiggins93                 402.661.4340        15.05.11 SH_CLERK         1200   
+                                     80                                         
+                                                                                
+        304 Susan                Mavris                                         
+SMavris98                  152.445.4441        15.04.11 ST_CLERK         1900   
+                                     50                                         
+
+EMPLOYEE_ID FIRST_NAME           LAST_NAME                                      
+----------- -------------------- -------------------------                      
+EMAIL                     PHONE_NUMBER         HIRE_DAT JOB_ID         SALARY   
+------------------------- -------------------- -------- ---------- ----------   
+COMMISSION_PCT MANAGER_ID DEPARTMENT_ID                                         
+-------------- ---------- -------------                                         
+                                                                                
+
+51 rows selected.
+
+Elapsed: 00:00:00.07
+
+Execution Plan
+----------------------------------------------------------                      
+Plan hash value: 1445457117                                                     
+                                                                                
+------------------------------------------------------------------------------- 
+| Id  | Operation         | Name      | Rows  | Bytes | Cost (%CPU)| Time     | 
+------------------------------------------------------------------------------- 
+|   0 | SELECT STATEMENT  |           |    18 |  1188 |     3   (0)| 00:00:01 | 
+|*  1 |  TABLE ACCESS FULL| EMPLOYEES |    18 |  1188 |     3   (0)| 00:00:01 | 
+------------------------------------------------------------------------------- 
+                                                                                
+Predicate Information (identified by operation id):                             
+---------------------------------------------------                             
+                                                                                
+   1 - filter("SALARY"<3000)                                                    
+
+SQL> spool off

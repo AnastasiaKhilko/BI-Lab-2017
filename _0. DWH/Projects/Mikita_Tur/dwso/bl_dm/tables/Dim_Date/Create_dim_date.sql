@@ -1,0 +1,16 @@
+ CREATE TABLE Dim_Date (
+        "DATE_ID" DATE NOT NULL PRIMARY KEY,
+        "DA_OF_WEEK" NUMBER(2),
+        "DAY_NAME_OF_WEEK" VARCHAR2(25),
+        "DAY_OF_MONTH" NUMBER(8),
+        "DAY_OF_YEAR" NUMBER(8),
+        "WEEK_OF_MONTH" NUMBER(8),
+        "WEEK_OF_YEAR" NUMBER(8),
+        "MONTH_NUMBER" NUMBER(8),
+        "MONTH_NAME" VARCHAR2(20),
+        "QUARTER" NUMBER(2),
+        "FIRST_DAY_OF_MONTH" DATE,
+        "LAST_DAY_OF_MONTH" DATE,
+        "YEAR" NUMBER(8)
+     );
+        
