@@ -1,0 +1,13 @@
+--Создание пользователя bl_cl
+
+CREATE USER bl_cl IDENTIFIED BY bl_cl
+    DEFAULT TABLESPACE users;
+
+
+--Права для пользователя bl_cl
+
+GRANT connect TO bl_cl;
+
+GRANT resource TO bl_cl;
+
+GRANT dba TO bl_cl;

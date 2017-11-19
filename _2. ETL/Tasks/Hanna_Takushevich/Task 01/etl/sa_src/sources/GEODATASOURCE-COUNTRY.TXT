@@ -1,0 +1,259 @@
+﻿AA	AW	.aw	Aruba	1
+AC	AG	.ag	Antigua and Barbuda	1
+AE	AE	.ae	United Arab Emirates	2
+AF	AF	.af	Afghanistan	2
+AG	DZ	.dz	Algeria	3
+AJ	AZ	.az	Azerbaijan	2
+AL	AL	.al	Albania	4
+AM	AM	.am	Armenia	2
+AN	AD	.ad	Andorra	4
+AO	AO	.ao	Angola	5
+AQ	AS	.as	American Samoa	6
+AR	AR	.ar	Argentina	7
+AS	AU	.au	Australia	6
+AT	-	-	Ashmore and Cartier Islands	6
+AU	AT	.at	Austria	4
+AV	AI	.ai	Anguilla	1
+-	AX	.ax	Åland Islands	4
+AY	AQ	.aq	Antarctica	8
+BA	BH	.bh	Bahrain	2
+BB	BB	.bb	Barbados	1
+BC	BW	.bw	Botswana	5
+BD	BM	.bm	Bermuda	1
+BE	BE	.be	Belgium	4
+BF	BS	.bs	Bahamas	1
+BG	BD	.bd	Bangladesh	9
+BH	BZ	.bz	Belize	10
+BK	BA	.ba	Bosnia and Herzegovina	4
+BL	BO	.bo	Bolivia	7
+BM	MM	.mm	Myanmar	9
+BN	BJ	.bj	Benin	5
+BO	BY	.by	Belarus	4
+BP	SB	.sb	Solomon Islands	6
+BR	BR	.br	Brazil	7
+BT	BT	.bt	Bhutan	9
+BU	BG	.bg	Bulgaria	4
+BV	BV	.bv	Bouvet Island	8
+BX	BN	.bn	Brunei	9
+BY	BI	.bi	Burundi	5
+CA	CA	.ca	Canada	11
+CB	KH	.kh	Cambodia	9
+CD	TD	.td	Chad	5
+CE	LK	.lk	Sri Lanka	9
+CF	CG	.cg	Republic of the Congo	5
+CG	CD	.cd	Democratic Republic of the Congo 	5
+CH	CN	.cn	China 	12
+CI	CL	.cl	Chile	7
+CJ	KY	.ky	Cayman Islands	1
+CK	CC	.cc	Cocos (Keeling) Islands 	6
+CM	CM	.cm	Cameroon	5
+CN	KM	.km	Comoros	5
+CO	CO	.co	Colombia	7
+CQ	MP	.mp	Northern Mariana Islands	6
+CS	CR	.cr	Costa Rica	10
+CT	CF	.cf	Central African Republic	5
+CU	CU	.cu	Cuba	1
+CV	CV	.cv	Cape Verde	5
+CW	CK	.ck	Cook Islands	6
+CY	CY	.cy	Cyprus	2
+DA	DK	.dk	Denmark	4
+DJ	DJ	.dj	Djibouti	5
+DO	DM	.dm	Dominica	1
+DR	DO	.do	Dominican Republic	1
+EC	EC	.ec	Ecuador	7
+EG	EG	.eg	Egypt	3
+EI	IE	.ie	Ireland	4
+EK	GQ	.gq	Equatorial Guinea	5
+EN	EE	.ee	Estonia	4
+ER	ER	.er	Eritrea	5
+ES	SV	.sv	El Salvador	10
+ET	ET	.et	Ethiopia	5
+EZ	CZ	.cz	Czech Republic	4
+FG	GF	.gf	French Guiana	7
+FI	FI	.fi	Finland	4
+FJ	FJ	.fj	Fiji	6
+FK	FK	.fk	Falkland Islands (Islas Malvinas)	7
+FM	FM	.fm	Federated States of Micronesia	6
+FO	FO	.fo	Faroe Islands	4
+FP	PF	.pf	French Polynesia	6
+FR	FR	.fr	France	4
+FS	TF	.tf	French Southern and Antarctic Lands	8
+GA	GM	.gm	Gambia	5
+GB	GA	.ga	Gabon	5
+GG	GE	.ge	Georgia	2
+GH	GH	.gh	Ghana	5
+GI	GI	.gi	Gibraltar	4
+GJ	GD	.gd	Grenada	1
+GK	GG	.gg	Guernsey	4
+GL	GL	.gl	Greenland	4
+GM	DE	.de	Germany	4
+GO	-	-	Glorioso Islands	6
+GP	GP	.gp	Guadeloupe	1
+GQ	GU	.gu	Guam	6
+GR	GR	.gr	Greece	4
+GT	GT	.gt	Guatemala	10
+GV	GN	.gn	Guinea	5
+GY	GY	.gy	Guyana	7
+GZ	-	-	Gaza Strip	2
+HA	HT	.ht	Haiti	1
+HK	HK	.hk	Hong Kong	12
+HM	HM	.hm	Heard Island and McDonald Islands	8
+HO	HN	.hn	Honduras	10
+HR	HR	.hr	Croatia	4
+HU	HU	.hu	Hungary	4
+IC	IS	.is	Iceland	4
+ID	ID	.id	Indonesia	9
+IM	IM	.im	Isle of Man	4
+IN	IN	.in	India	9
+IO	IO	.io	British Indian Ocean Territory	9
+IP	-	-	Clipperton Island	4
+IR	IR	.ir	Iran	2
+IS	IL	.il	Israel	2
+IT	IT	.it	Italy	4
+IV	CI	.ci	Cote d'Ivoire	5
+IZ	IQ	.iq	Iraq	2
+JA	JP	.jp	Japan	12
+JE	JE	.je	Jersey	4
+JM	JM	.jm	Jamaica	1
+JN	SJ	-	Jan Mayen	4
+JO	JO	.jo	Jordan	2
+JU	-	-	Juan de Nova Island	10
+KE	KE	.ke	Kenya	5
+KG	KG	.kg	Kyrgyzstan	2
+KN	KP	.kp	North Korea	12
+KR	KI	.ki	Kiribati	6
+KS	KR	.kr	South Korea	12
+KT	CX	.cx	Christmas Island	6
+KU	KW	.kw	Kuwait	2
+KV	XK	-	Kosovo	4
+KZ	KZ	.kz	Kazakhstan	2
+LA	LA	.la	Laos	9
+LE	LB	.lb	Lebanon	2
+LG	LV	.lv	Latvia	4
+LH	LT	.lt	Lithuania	4
+LI	LR	.lr	Liberia	5
+LO	SK	.sk	Slovakia	4
+-	UM	.us	United States Minor Outlying Islands	6
+LS	LI	.li	Liechtenstein	4
+LT	LS	.ls	Lesotho	5
+LU	LU	.lu	Luxembourg	4
+LY	LY	.ly	Libya	11
+MA	MG	.mg	Madagascar	5
+MB	MQ	.mq	Martinique	1
+MC	MO	.mo	Macau	12
+MD	MD	.md	Moldova	4
+MF	YT	.yt	Mayotte	5
+MG	MN	.mn	Mongolia	12
+MH	MS	.ms	Montserrat	1
+MI	MW	.mw	Malawi	5
+MJ	ME	.me	Montenegro	4
+MK	MK	.mk	The Former Yugoslav Republic of Macedonia	4
+ML	ML	.ml	Mali	5
+MN	MC	.mc	Monaco	4
+MO	MA	.ma	Morocco	3
+MP	MU	.mu	Mauritius	5
+MR	MR	.mr	Mauritania	5
+MT	MT	.mt	Malta	4
+MU	OM	.om	Oman	2
+MV	MV	.mv	Maldives	9
+MX	MX	.mx	Mexico	10
+MY	MY	.my	Malaysia	9
+MZ	MZ	.mz	Mozambique	5
+NC	NC	.nc	New Caledonia	6
+NE	NU	.nu	Niue	6
+NF	NF	.nf	Norfolk Island	6
+NG	NE	.ne	Niger	5
+NH	VU	.vu	Vanuatu	6
+NI	NG	.ng	Nigeria	5
+NL	NL	.nl	Netherlands	4
+NO	NO	.no	Norway	4
+NP	NP	.np	Nepal	9
+NR	NR	.nr	Nauru	6
+NS	SR	.sr	Suriname	7
+-	BQ	.bq	Bonaire, Sint Eustatius and Saba	1
+NU	NI	.ni	Nicaragua	10
+NZ	NZ	.nz	New Zealand	10
+PA	PY	.py	Paraguay	7
+PC	PN	.pn	Pitcairn Islands	10
+PE	PE	.pe	Peru	7
+PF	-	-	Paracel Islands	6
+PG	-	-	Spratly Islands	6
+PK	PK	.pk	Pakistan	2
+PL	PL	.pl	Poland	4
+PM	PA	.pa	Panama	10
+PO	PT	.pt	Portugal	4
+PP	PG	.pg	Papua New Guinea	6
+PS	PW	.pw	Palau	6
+PU	GW	.gw	Guinea-Bissau	5
+QA	QA	.qa	Qatar	2
+RE	RE	.re	Reunion	6
+RI	RS	.rs	Serbia	4
+RM	MH	.mh	Marshall Islands	6
+RN	MF	-	Saint Martin	1
+RO	RO	.ro	Romania	4
+RP	PH	.ph	Philippines	9
+RQ	PR	.pr	Puerto Rico	1
+RS	RU	.ru	Russia	13
+RW	RW	.rw	Rwanda	5
+SA	SA	.sa	Saudi Arabia	2
+SB	PM	.pm	Saint Pierre and Miquelon	11
+SC	KN	.kn	Saint Kitts and Nevis	1
+SE	SC	.sc	Seychelles	5
+SF	ZA	.za	South Africa	5
+SG	SN	.sn	Senegal	5
+SH	SH	.sh	Saint Helena	5
+SI	SI	.si	Slovenia	4
+SL	SL	.sl	Sierra Leone	5
+SM	SM	.sm	San Marino	4
+SN	SG	.sg	Singapore	9
+SO	SO	.so	Somalia	5
+SP	ES	.es	Spain	4
+-	SS	.ss	South Sudan	5
+ST	LC	.lc	Saint Lucia	1
+SU	SD	.sd	Sudan	5
+SV	SJ	.sj	Svalbard	4
+SW	SE	.se	Sweden	4
+SX	GS	.gs	South Georgia and the Islands	8
+NN	SX	.sx	Sint Maarten	4
+SY	SY	.sy	Syrian Arab Republic	2
+SZ	CH	.ch	Switzerland	4
+TD	TT	.tt	Trinidad and Tobago	1
+TE	-	-	Tromelin Island	1
+TH	TH	.th	Thailand	9
+TI	TJ	.tj	Tajikistan	2
+TK	TC	.tc	Turks and Caicos Islands	1
+TL	TK	.tk	Tokelau	6
+TN	TO	.to	Tonga	6
+TO	TG	.tg	Togo	5
+TP	ST	.st	Sao Tome and Principe	5
+TS	TN	.tn	Tunisia	3
+TT	TL	.tl	East Timor	9
+TU	TR	.tr	Turkey	2
+TV	TV	.tv	Tuvalu	6
+TW	TW	.tw	Taiwan	12
+TX	TM	.tm	Turkmenistan	2
+TZ	TZ	.tz	United Republic of Tanzania	5
+UC	CW	.cw	Curacao	1
+UG	UG	.ug	Uganda	5
+UK	GB	.uk	United Kingdom	4
+UP	UA	.ua	Ukraine	4
+US	US	.us	United States	11
+UV	BF	.bf	Burkina Faso	5
+UY	UY	.uy	Uruguay	7
+UZ	UZ	.uz	Uzbekistan	2
+VC	VC	.vc	Saint Vincent and the Grenadines	1
+VE	VE	.ve	Venezuela	7
+VI	VG	.vg	British Virgin Islands	1
+VM	VN	.vn	Vietnam	9
+VQ	VI	.vi	Virgin Islands (US)	11
+VT	VA	.va	Holy See (Vatican City)	4
+WA	NA	.na	Namibia	5
+WE	PS	.ps	Palestine, State of	2
+WF	WF	.wf	Wallis and Futuna	6
+WI	EH	.eh	Western Sahara	3
+WS	WS	.ws	Samoa	6
+WZ	SZ	.sz	Swaziland	5
+YI	CS	.yu	Serbia and Montenegro	4
+YM	YE	.ye	Yemen	2
+ZA	ZM	.zm	Zambia	5
+ZI	ZW	.zw	Zimbabwe	5
