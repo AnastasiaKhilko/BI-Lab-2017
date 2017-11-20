@@ -1,0 +1,43 @@
+BEGIN
+  FOR i IN 1..50
+  LOOP
+    dbms_random.seed ( i * 5 ) ;
+    INSERT
+    INTO FCT_SALES
+      (
+        SALES_ID,
+        SALES_DATE,
+        PRODUCT_ID,
+        EMPLOYEE_ID,
+        CUSTOMER_ID,
+        COUNTRY_ID,
+        PROMO_ID,
+        SUMM,
+        AMOUNT,
+        DISCOUNT
+      )
+    SELECT seq_products.nextval AS SALES_ID,
+      TRUNC ( SYSDATE - DBMS_RANDOM.VALUE ( 1, 1700 ) ) AS SALES_DATE ,
+      ROUND (DBMS_RANDOM.VALUE (1,
+      (SELECT MAX(PRODUCT_ID)FROM PRODUCTS
+      ))) AS PRODUCT_ID ,
+      ROUND ( DBMS_RANDOM.VALUE (1,
+      (SELECT MAX(EMPLOYEE_ID)FROM HR.EMPLOYEES
+      ))) AS EMPLOYEE_ID ,
+      ROUND ( DBMS_RANDOM.VALUE (1,
+      ( SELECT MAX(CUST_ID) FROM SH.CUSTOMERS
+      )) ) AS CUSTOMER_ID ,
+      ROUND ( DBMS_RANDOM.VALUE (1,
+      ( SELECT MAX(COUNTRY_ID) FROM CE_COUNTRIES
+      )) ) AS COUNTRY_ID ,
+      ROUND ( DBMS_RANDOM.VALUE (1,
+      ( SELECT MAX(PROMO_ID) FROM SH.PROMOTIONS
+      )) )                                  AS PROMO_ID ,
+      ROUND ( DBMS_RANDOM.VALUE (10, 500) ) AS SUMM ,
+      ROUND ( DBMS_RANDOM.VALUE (1, 20) )   AS AMOUNT ,
+      ROUND( DBMS_RANDOM.VALUE (1, 10))     AS DISCOUNT
+    FROM dual
+      CONNECT BY level <= 10000;
+  END LOOP;
+END;
+/
