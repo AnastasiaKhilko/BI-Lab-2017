@@ -1,0 +1,102 @@
+--DML DIM TABLES IN 3NF
+-- only 1 time execution (will be corrected later)!!!!
+
+---STATION
+--BK: longitude + latitude
+insert into BL_3NF2.STATION (ID_STATION,S_NUMBER,ID_LOCATION,LATITUDE,LONGITUDE,ROAD1,ROAD2,LOCATION_DECS) 
+SELECT FRAMEWORK.pkg_utl_seq.seq_getval('BL_CL2.SEQ_BL_3NF_Station_ID_STATION') ID_STATION,
+  S_NUMBER,trunc(SYS.DBMS_RANDOM.value(1,100)) ID_LOCATION,LATITUDE,LONGITUDE,
+  ROAD1,ROAD2,LOCATION_DESC--substr(LOCATION_DESC,0,100)
+FROM SRC_STATION ;
+
+
+--CURRENCY
+
+/*update BL_3NF2.CURRENCY
+set RUS_DESCRIPTION='Белорусский рубль(старый)',
+ENG_DESCRIPTION='Belorussian rubl(old)'
+where ID_CURRENCY='BYR';*/
+
+insert into BL_3NF2.CURRENCY (ID_CURRENCY, RUS_DESCRIPTION, ENG_DESCRIPTION)
+values ('BYR', 'Белорусский рубль(старый)', 'Belorussian rubl(old)');
+insert into BL_3NF2.CURRENCY (ID_CURRENCY, RUS_DESCRIPTION, ENG_DESCRIPTION)
+values ('BYN', 'Белорусский рубль(новый)', 'Belorussian rubl(new)');
+insert into BL_3NF2.CURRENCY (ID_CURRENCY, RUS_DESCRIPTION, ENG_DESCRIPTION)
+values ('USD', 'Доллар США', 'United States Dollar');
+insert into BL_3NF2.CURRENCY (ID_CURRENCY, RUS_DESCRIPTION, ENG_DESCRIPTION)
+values ('EUR', 'Евро', 'Euro');
+insert into BL_3NF2.CURRENCY (ID_CURRENCY, RUS_DESCRIPTION, ENG_DESCRIPTION)
+values ('RUR', 'Российский рубль', 'Russian rubl');
+
+
+--PAYMENT_TYPE
+INSERT INTO BL_3NF2.PAYMENT_TYPE  (ID_PAYMENT_TYPE,PT_DESCRIPTION, PT_NAME  )
+  VALUES (1,'Оплата наличными деньгами','Наличные');
+INSERT INTO BL_3NF2.PAYMENT_TYPE  (ID_PAYMENT_TYPE,PT_DESCRIPTION, PT_NAME  )
+  VALUES (2,'Оплата по счет-фактуре','Безнал');
+commit;
+
+
+--CUSTOMER_TYPE
+insert into BL_3NF2.CUSTOMER_TYPE (ID_CUSTOMER_TYPE, DESCRIPTION)
+values (1,'Физические лица');
+insert into BL_3NF2.CUSTOMER_TYPE (ID_CUSTOMER_TYPE, DESCRIPTION)
+values (2,'Юридические лица');
+
+
+--SEQ_BL_3NF_Station_ID_STATION, SEQ_BL_3NF_Customer_ID_CUST, SEQ_BL_3NF_Payment_Type_ID_PT, SEQ_BL_3NF_Currency_ID_CURR
+
+/*SELECT ID_STATION,  S_NUMBER,   ID_LOCATION,
+  LONGITUDE,   LATITUDE,   ROAD1,   ROAD2,   LOCATION_DECS
+FROM BL_3NF2.STATION 
+order by S_NUMBER;
+
+SELECT ID_CUSTOMER,   ID_CUSTOMER_TYPE,   ID_LOCATION,   ADDRESS,
+  PHONE,   POSTALCODE,   EMAIL 
+FROM BL_3NF2.CUSTOMER ;
+
+SELECT ID_CURRENCY, RUS_DESCRIPTION, ENG_DESCRIPTION FROM BL_3NF2.CURRENCY ;
+SELECT ID_CUSTOMER_TYPE, DESCRIPTION FROM BL_3NF2.CUSTOMER_TYPE ;*/
+
+ 
+
+--CUSTOMER_BASE
+/*give grants on sequence!*/
+INSERT INTO BL_3NF2.CUSTOMER (ID_CUSTOMER, ID_CUSTOMER_TYPE, ID_LOCATION, ADDRESS, PHONE, POSTALCODE, EMAIL) 
+--ID_CUSTOMER_TYPE, ID_LOCATION, ADDRESS, PHONE, POSTALCODE, EMAIL
+SELECT FRAMEWORK.pkg_utl_seq.seq_getval('BL_CL2.SEQ_BL_3NF_Customer_ID_CUST') ID_CUSTOMER, 
+  1 ID_CUSTOMER_TYPE,
+  null ID_LOCATION,
+  null ADDRESS,
+  null PHONE,
+   220000+trunc(dbms_random.value(0,5000)) POSTALCODE,--,
+  c.EMAILADDRESS as EMAIL
+FROM SRC_CUSTOMER_INDIVIDUAL c;-- left join  BL_3NF2.INDIVIDUAL ind on c.ID_CUSTOMER=ind.ID_CUSTOMER;
+
+--select * from BL_3NF2.INDIVIDUAL;
+--select count(*) from BL_3NF2.CUSTOMER;
+
+--CUSTOMER_INDIVIDUAL
+-- needed to be modified the order of geberation: first - INDIVIDUALS, then - insert to parent CUSTOMERS
+insert into BL_3NF2.INDIVIDUAL (ID_CUSTOMER, FIRST_NAME, LAST_NAME, MIDDLE_NAME,   BITRHDAY,   SEX)
+select src.* from (SELECT --c.ID_CUSTOMER, 
+  rownum ID_CUSTOMER, 
+  SURNAME as LAST_NAME,
+  GIVENNAME as FIRST_NAME,
+  MIDDLEINITIAL as MIDDLE_NAME,
+  to_date(BIRTHDAY,'mm/dd/yyyy') BIRTHDAY_DATE,
+ -- substr(VEHICLE,5,length(VEHICLE)) VEHICLE_DESC,
+ -- cast(substr(VEHICLE,0,4) as number) VEHICLE_YEAR,
+  case when GENDER='male' then 1 when GENDER='female' then 2 end SEX
+FROM SRC_CUSTOMER_INDIVIDUAL) src 
+inner join BL_3NF2.CUSTOMER c on src.ID_CUSTOMER = c.ID_CUSTOMER
+--inner join BL_3NF2.CUSTOMER c on c.email=src.EMAILADDRESS
+--on c.ROWNUM = src.ROWNUM
+;
+
+
+
+
+
+
+

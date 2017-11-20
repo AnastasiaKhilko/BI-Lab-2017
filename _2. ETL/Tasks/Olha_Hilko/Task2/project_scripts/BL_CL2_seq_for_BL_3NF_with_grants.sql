@@ -1,0 +1,27 @@
+
+exec  FRAMEWORK.pkg_utl_drop.proc_drop_obj ('SEQ_BL_3NF_Station_ID_STATION', 'SEQUENCE');
+CREATE SEQUENCE SEQ_BL_3NF_Station_ID_STATION 
+	INCREMENT BY 1 
+	START WITH 1 
+	NOMAXVALUE 
+	MINVALUE  1 
+	NOCYCLE 
+	NOCACHE 
+	NOORDER
+;
+
+
+exec  FRAMEWORK.pkg_utl_drop.proc_drop_obj ('SEQ_BL_3NF_Customer_ID_CUST', 'SEQUENCE');
+CREATE SEQUENCE SEQ_BL_3NF_Customer_ID_CUST 
+	INCREMENT BY 1 
+	START WITH 1 
+	NOMAXVALUE 
+	MINVALUE  1 
+	NOCYCLE 
+	NOCACHE 
+	NOORDER
+;
+
+
+GRANT select on BL_CL2.SEQ_BL_3NF_Station_ID_STATION to Public;
+GRANT select on BL_CL2.SEQ_BL_3NF_Customer_ID_CUST to Public;
