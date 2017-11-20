@@ -1,4 +1,4 @@
-INSERT INTO  Date_Dim 
+INSERT INTO  DIM_TIME_DAY 
 SELECT SYSDATE+rownum-365*7 as Date_id, 
        to_number(to_char(SYSDATE+rownum-365*7-1, 'D')) as Day_of_week,
        to_char(SYSDATE+rownum-365*7,'Day','NLS_DATE_LANGUAGE = RUSSIAN') AS Day_name_of_week,       
