@@ -6,10 +6,10 @@ CREATE TABLE Fct_Sales
     Fct_employee_id         NUMBER(8) NOT NULL,
     Fct_store_id            NUMBER(8) NOT NULL,
     Fct_product_id          NUMBER(8) NOT NULL,
-    Fct_discount_id         NUMBER(8) NOT NULL,
     Fct_payment_id          NUMBER(8) NOT NULL,
     Fct_check_id            NUMBER(8) NOT NULL,
     Fct_quantity            NUMBER(5) NOT NULL,
+    Fct_discount            NUMBER(2,3) NOT NULL,
     Fct_unit_price_BYN      NUMBER(10,2) NOT NULL,
     Fct_unit_price_disc_BYN NUMBER(10,2) NOT NULL,
     Fct_sales_Amount_BYN    NUMBER(10,2) NOT NULL,
@@ -22,10 +22,9 @@ CREATE TABLE Fct_Sales
     CONSTRAINT fk_date FOREIGN KEY (Event_dt) REFERENCES dim_time_day(full_date_dt),
     CONSTRAINT fk_customer FOREIGN KEY (Fct_customer_id) REFERENCES dim_customers(customer_id),
     CONSTRAINT fk_employee FOREIGN KEY (Fct_employee_id) REFERENCES dim_employees_scd(employee_id),
-    CONSTRAINT fk_store FOREIGN KEY (Fct_store_id) REFERENCES dim_stores(store_id),
+    CONSTRAINT fk_store FOREIGN KEY (Fct_store_id) REFERENCES dim_stores_scd(store_id),
     CONSTRAINT fk_product FOREIGN KEY (Fct_product_id) REFERENCES dim_products(product_id),
-    CONSTRAINT fk_payment FOREIGN KEY (Fct_payment_id) REFERENCES dim_payments(payment_id),
-    CONSTRAINT fk_discount FOREIGN KEY (Fct_discount_id) REFERENCES dim_discounts_scd(discount_id)
+    CONSTRAINT fk_payment FOREIGN KEY (Fct_payment_id) REFERENCES dim_payments(payment_id)
   );
 COMMENT ON TABLE Fct_Sales
 IS
@@ -50,9 +49,7 @@ IS
   COMMENT ON column Fct_Sales.Fct_payment_id
 IS
   'Foreign key to Dim_Payments';
-  COMMENT ON column Fct_Sales.Fct_discount_id
-IS
-  'Foreign key to Dim_Discounts';
+ 
   COMMENT ON column Fct_Sales.Fct_unit_price_BYN
 IS
   'Price for one piece in BYN';

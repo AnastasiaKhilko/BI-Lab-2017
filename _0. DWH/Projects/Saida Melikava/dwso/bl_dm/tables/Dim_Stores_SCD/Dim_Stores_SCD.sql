@@ -1,5 +1,5 @@
-DROP TABLE Dim_Stores;
-CREATE TABLE Dim_Stores
+DROP TABLE Dim_Stores_SCD;
+CREATE TABLE Dim_Stores_SCD
   (
     Store_id           NUMBER(8) PRIMARY KEY,
     Store_code         VARCHAR2(15) NOT NULL,
@@ -16,43 +16,51 @@ CREATE TABLE Dim_Stores
     Store_city         VARCHAR2(60) NOT NULL,
     Store_address_id   NUMBER(8) NOT NULL,
     Store_address      VARCHAR2(60) NOT NULL,
-    Insert_DT          DATE NOT NULL,
-    Update_DT          DATE NOT NULL
+    start_DT           DATE NOT NULL,
+    end_DT             DATE NOT NULL,
+    is_active          VARCHAR2(4) NOT NULL,
+    insert_DT          DATE NOT NULL
   );
-COMMENT ON TABLE Dim_Stores
+COMMENT ON TABLE Dim_Stores_SCD
 IS
   'Table Content: All information about stores is contained here.   
 Refresh Cycle/Window: Data is loaded rarely and for a long period of time.  
 ';
-  COMMENT ON column Dim_Stores.Store_id
+  COMMENT ON column Dim_Stores_SCD.Store_id
 IS
   'Dimension surrogate key';
-  COMMENT ON column Dim_Stores.Store_code
+  COMMENT ON column Dim_Stores_SCD.Store_code
 IS
   'Dimension business key, comes from external system.';
-  COMMENT ON column Dim_Stores.Store_manager_id
+  COMMENT ON column Dim_Stores_SCD.Store_manager_id
 IS
   'Employee_id of a manager if additional join is needed.';
-  COMMENT ON column Dim_Stores.Store_manager_name
+  COMMENT ON column Dim_Stores_SCD.Store_manager_name
 IS
   'Name+Surname of manager';
-  COMMENT ON column Dim_Stores.Store_Region_id
+  COMMENT ON column Dim_Stores_SCD.Store_Region_id
 IS
   'ID on region if additional join is needed.';
-  COMMENT ON column Dim_Stores.Store_Country_id
+  COMMENT ON column Dim_Stores_SCD.Store_Country_id
 IS
   'ID on country if additional join  is needed.';
-  COMMENT ON column Dim_Stores.Store_City_id
+  COMMENT ON column Dim_Stores_SCD.Store_City_id
 IS
   'ID on city if additional join  is needed.';
-  COMMENT ON column Dim_Stores.Store_Address_id
+  COMMENT ON column Dim_Stores_SCD.Store_Address_id
 IS
   'ID on address if additional join  is needed.';
-  COMMENT ON column Dim_Stores.Insert_DT
+ COMMENT ON column Dim_Stores_SCD.Start_DT
+IS
+  'When started to function.';
+  COMMENT ON column Dim_Stores_SCD.End_DT
+IS
+  'IWhen ended to function.';
+  COMMENT ON column Dim_Stores_SCD.Is_Active
+IS
+  'Active(Y) or Not(Y).';
+  COMMENT ON column Dim_Stores_SCD.Insert_DT
 IS
   'When data was loaded';
-  COMMENT ON column Dim_Stores.Update_DT
-IS
-  'When data was updated';
   /*
   GRANT SELECT ON dim_template TO some_user;*/

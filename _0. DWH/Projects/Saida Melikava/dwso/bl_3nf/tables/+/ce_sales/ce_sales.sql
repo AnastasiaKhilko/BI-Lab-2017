@@ -1,15 +1,15 @@
 CREATE TABLE ce_sales
   (
-    Sales_id      NUMBER(8) PRIMARY KEY,
-    Event_DT      DATE NOT NULL,
-    Customer_code VARCHAR2(8) NOT NULL,
-    Employee_code VARCHAR2(8) NOT NULL,
-    Store_code    VARCHAR2(8) NOT NULL,
-    --Product_id          VARCHAR2(8) NOT NULL,
-    Discount_code       VARCHAR2(8) NOT NULL,
+    Sales_id            NUMBER(8) PRIMARY KEY,
+    Event_DT            DATE NOT NULL,
+    Customer_code       VARCHAR2(8) NOT NULL,
+    Employee_code       VARCHAR2(8) NOT NULL,
+    Store_code          VARCHAR2(8) NOT NULL,
+    Book_id             NUMBER(8) NOT NULL,
     Payment_id          NUMBER(8) NOT NULL,
     Check_id            VARCHAR2(8) NOT NULL,
     Quantity            NUMBER(5) NOT NULL,
+    Discount            NUMBER(2,3) NOT NULL,
     Unit_price_BYN      NUMBER(10,2) NOT NULL,
     Unit_price_disc_BYN NUMBER(10,2) NOT NULL,
     Sales_Amount_BYN    NUMBER(10,2) NOT NULL,
@@ -23,7 +23,6 @@ CREATE TABLE ce_sales
     CONSTRAINT fk_customer FOREIGN KEY (customer_code) REFERENCES ce_customers(customer_code),
     CONSTRAINT fk_employee FOREIGN KEY (employee_code) REFERENCES ce_employees(employee_code),
     CONSTRAINT fk_store FOREIGN KEY (store_code) REFERENCES ce_stores(store_code),
-    --   CONSTRAINT fk_product FOREIGN KEY (product_id) REFERENCES ce_product(product_id),
-    CONSTRAINT fk_discount FOREIGN KEY (discount_code) REFERENCES ce_discounts(discount_code),
+    CONSTRAINT fk_product FOREIGN KEY (book_id) REFERENCES ce_all_books(book_id),
     CONSTRAINT fk_payment FOREIGN KEY (payment_id) REFERENCES ce_payments(payment_id)
   );

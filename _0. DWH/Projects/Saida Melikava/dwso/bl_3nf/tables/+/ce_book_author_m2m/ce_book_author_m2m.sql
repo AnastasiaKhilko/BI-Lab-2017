@@ -1,4 +1,4 @@
-CREATE TABLE ce_book_author
+CREATE TABLE ce_book_author_M2M
   (
     Book_author_id NUMBER(8) PRIMARY KEY,
     Book_id        NUMBER(8) NOT NULL,
@@ -6,6 +6,6 @@ CREATE TABLE ce_book_author
     IsAuthor       VARCHAR2(10) NOT NULL,
     insert_DT      DATE NOT NULL,
     update_DT      DATE NOT NULL,
-    --CONSTRAINT fk_book_id FOREIGN KEY (product_id) REFERENCES dim_products (product_id),
+    CONSTRAINT fk_book_id FOREIGN KEY (book_id) REFERENCES ce_all_books (book_id),
     CONSTRAINT fk_auth_id FOREIGN KEY (author_code) REFERENCES ce_authors (author_code)
   );

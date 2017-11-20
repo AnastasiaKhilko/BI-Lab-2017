@@ -1,0 +1,16 @@
+CREATE TABLE category
+  (
+    category_id   NUMBER(8) PRIMARY KEY,
+    category_name VARCHAR2(25) NOT NULL
+  );
+INSERT INTO CATEGORY VALUES
+  ('1', 'PRINTED'
+  );
+INSERT INTO CATEGORY VALUES
+  ('2', 'AUDIOBOOK'
+  );
+INSERT INTO CATEGORY VALUES
+  ('3', 'EBOOK'
+  );
+COMMIT;
+SELECT * FROM category
