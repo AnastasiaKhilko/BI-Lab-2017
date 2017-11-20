@@ -1,0 +1,1906 @@
+SQL> select * from countries
+  2  /
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+         4                                                                      
+Afghanistan                                                                     
+AFG           30                                                                
+                                                                                
+       248                                                                      
+?land Islands                                                                   
+ALA          154                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+         8                                                                      
+Albania                                                                         
+ALB           39                                                                
+                                                                                
+        12                                                                      
+Algeria                                                                         
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+DZA           15                                                                
+                                                                                
+        16                                                                      
+American Samoa                                                                  
+ASM           61                                                                
+                                                                                
+        20                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Andorra                                                                         
+AND           39                                                                
+                                                                                
+        24                                                                      
+Angola                                                                          
+AGO           17                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       660                                                                      
+Anguilla                                                                        
+AIA           29                                                                
+                                                                                
+        28                                                                      
+Antigua and Barbuda                                                             
+ATG           29                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+        32                                                                      
+Argentina                                                                       
+ARG            5                                                                
+                                                                                
+        51                                                                      
+Armenia                                                                         
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+ARM          145                                                                
+                                                                                
+       533                                                                      
+Aruba                                                                           
+ABW           29                                                                
+                                                                                
+        36                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Australia                                                                       
+AUS           53                                                                
+                                                                                
+        40                                                                      
+Austria                                                                         
+AUT          155                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+        31                                                                      
+Azerbaijan                                                                      
+AZE          145                                                                
+                                                                                
+        44                                                                      
+Bahamas                                                                         
+BHS           29                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+        48                                                                      
+Bahrain                                                                         
+BHR          145                                                                
+                                                                                
+        50                                                                      
+Bangladesh                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+BGD           30                                                                
+                                                                                
+        52                                                                      
+Barbados                                                                        
+BRB           29                                                                
+                                                                                
+       112                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Belarus                                                                         
+BLR          151                                                                
+                                                                                
+        56                                                                      
+Belgium                                                                         
+BEL          155                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+        84                                                                      
+Belize                                                                          
+BLZ           13                                                                
+                                                                                
+       204                                                                      
+Benin                                                                           
+BEN           11                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+        60                                                                      
+Bermuda                                                                         
+BMU           21                                                                
+                                                                                
+        64                                                                      
+Bhutan                                                                          
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+BTN           30                                                                
+                                                                                
+        68                                                                      
+Bolivia (Plurinational State of)                                                
+BOL            5                                                                
+                                                                                
+       535                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Bonaire, Saint Eustatius and Saba                                               
+BES           29                                                                
+                                                                                
+        70                                                                      
+Bosnia and Herzegovina                                                          
+BIH           39                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+        72                                                                      
+Botswana                                                                        
+BWA           18                                                                
+                                                                                
+        76                                                                      
+Brazil                                                                          
+BRA            5                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+        92                                                                      
+British Virgin Islands                                                          
+VGB           29                                                                
+                                                                                
+        96                                                                      
+Brunei Darussalam                                                               
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+BRN           35                                                                
+                                                                                
+       100                                                                      
+Bulgaria                                                                        
+BGR          151                                                                
+                                                                                
+       854                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Burkina Faso                                                                    
+BFA           11                                                                
+                                                                                
+       108                                                                      
+Burundi                                                                         
+BDI           14                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       116                                                                      
+Cambodia                                                                        
+KHM           35                                                                
+                                                                                
+       120                                                                      
+Cameroon                                                                        
+CMR           17                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       124                                                                      
+Canada                                                                          
+CAN           21                                                                
+                                                                                
+       132                                                                      
+Cape Verde                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+CPV           11                                                                
+                                                                                
+       136                                                                      
+Cayman Islands                                                                  
+CYM           29                                                                
+                                                                                
+       140                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Central African Republic                                                        
+CAF           17                                                                
+                                                                                
+       148                                                                      
+Chad                                                                            
+TCD           17                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       830                                                                      
+Channel Islands                                                                 
+             154                                                                
+                                                                                
+       152                                                                      
+Chile                                                                           
+CHL            5                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       156                                                                      
+China                                                                           
+CHN           30                                                                
+                                                                                
+       344                                                                      
+China, Hong Kong Special Administrative Region                                  
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+HKG           30                                                                
+                                                                                
+       446                                                                      
+China, Macao Special Administrative Region                                      
+MAC           30                                                                
+                                                                                
+       170                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Colombia                                                                        
+COL            5                                                                
+                                                                                
+       174                                                                      
+Comoros                                                                         
+COM           14                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       178                                                                      
+Congo                                                                           
+COG           17                                                                
+                                                                                
+       184                                                                      
+Cook Islands                                                                    
+COK           61                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       188                                                                      
+Costa Rica                                                                      
+CRI           13                                                                
+                                                                                
+       384                                                                      
+Cote d'Ivoire                                                                   
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+CIV           11                                                                
+                                                                                
+       191                                                                      
+Croatia                                                                         
+HRV           39                                                                
+                                                                                
+       192                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Cuba                                                                            
+CUB           29                                                                
+                                                                                
+       531                                                                      
+Curacao                                                                         
+CUW           29                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       196                                                                      
+Cyprus                                                                          
+CYP          145                                                                
+                                                                                
+       203                                                                      
+Czech Republic                                                                  
+CZE          151                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       408                                                                      
+Democratic People's Republic of Korea                                           
+PRK           30                                                                
+                                                                                
+       180                                                                      
+Democratic Republic of the Congo                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+COD           17                                                                
+                                                                                
+       208                                                                      
+Denmark                                                                         
+DNK          154                                                                
+                                                                                
+       262                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Djibouti                                                                        
+DJI           14                                                                
+                                                                                
+       212                                                                      
+Dominica                                                                        
+DMA           29                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       214                                                                      
+Dominican Republic                                                              
+DOM           29                                                                
+                                                                                
+       218                                                                      
+Ecuador                                                                         
+ECU            5                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       818                                                                      
+Egypt                                                                           
+EGY           15                                                                
+                                                                                
+       222                                                                      
+El Salvador                                                                     
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+SLV           13                                                                
+                                                                                
+       226                                                                      
+Equatorial Guinea                                                               
+GNQ           17                                                                
+                                                                                
+       232                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Eritrea                                                                         
+ERI           14                                                                
+                                                                                
+       233                                                                      
+Estonia                                                                         
+EST          154                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       231                                                                      
+Ethiopia                                                                        
+ETH           14                                                                
+                                                                                
+       234                                                                      
+Faeroe Islands                                                                  
+FRO          154                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       238                                                                      
+Falkland Islands (Malvinas)                                                     
+FLK            5                                                                
+                                                                                
+       242                                                                      
+Fiji                                                                            
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+FJI           54                                                                
+                                                                                
+       246                                                                      
+Finland                                                                         
+FIN          154                                                                
+                                                                                
+       250                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+France                                                                          
+FRA          155                                                                
+                                                                                
+       254                                                                      
+French Guiana                                                                   
+GUF            5                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       258                                                                      
+French Polynesia                                                                
+PYF           61                                                                
+                                                                                
+       266                                                                      
+Gabon                                                                           
+GAB           17                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       270                                                                      
+Gambia                                                                          
+GMB           11                                                                
+                                                                                
+       268                                                                      
+Georgia                                                                         
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+GEO          145                                                                
+                                                                                
+       276                                                                      
+Germany                                                                         
+DEU          155                                                                
+                                                                                
+       288                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Ghana                                                                           
+GHA           11                                                                
+                                                                                
+       292                                                                      
+Gibraltar                                                                       
+GIB           39                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       300                                                                      
+Greece                                                                          
+GRC           39                                                                
+                                                                                
+       304                                                                      
+Greenland                                                                       
+GRL           21                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       308                                                                      
+Grenada                                                                         
+GRD           29                                                                
+                                                                                
+       312                                                                      
+Guadeloupe                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+GLP           29                                                                
+                                                                                
+       316                                                                      
+Guam                                                                            
+GUM           57                                                                
+                                                                                
+       320                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Guatemala                                                                       
+GTM           13                                                                
+                                                                                
+       831                                                                      
+Guernsey                                                                        
+GGY          154                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       324                                                                      
+Guinea                                                                          
+GIN           11                                                                
+                                                                                
+       624                                                                      
+Guinea-Bissau                                                                   
+GNB           11                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       328                                                                      
+Guyana                                                                          
+GUY            5                                                                
+                                                                                
+       332                                                                      
+Haiti                                                                           
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+HTI           29                                                                
+                                                                                
+       336                                                                      
+Holy See                                                                        
+VAT           39                                                                
+                                                                                
+       340                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Honduras                                                                        
+HND           13                                                                
+                                                                                
+       348                                                                      
+Hungary                                                                         
+HUN          151                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       352                                                                      
+Iceland                                                                         
+ISL          154                                                                
+                                                                                
+       356                                                                      
+India                                                                           
+IND           30                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       360                                                                      
+Indonesia                                                                       
+IDN           35                                                                
+                                                                                
+       364                                                                      
+Iran (Islamic Republic of)                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+IRN           30                                                                
+                                                                                
+       368                                                                      
+Iraq                                                                            
+IRQ          145                                                                
+                                                                                
+       372                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Ireland                                                                         
+IRL          154                                                                
+                                                                                
+       833                                                                      
+Isle of Man                                                                     
+IMN          154                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       376                                                                      
+Israel                                                                          
+ISR          145                                                                
+                                                                                
+       380                                                                      
+Italy                                                                           
+ITA           39                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       388                                                                      
+Jamaica                                                                         
+JAM           29                                                                
+                                                                                
+       392                                                                      
+Japan                                                                           
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+JPN           30                                                                
+                                                                                
+       832                                                                      
+Jersey                                                                          
+JEY          154                                                                
+                                                                                
+       400                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Jordan                                                                          
+JOR          145                                                                
+                                                                                
+       398                                                                      
+Kazakhstan                                                                      
+KAZ          143                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       404                                                                      
+Kenya                                                                           
+KEN           14                                                                
+                                                                                
+       296                                                                      
+Kiribati                                                                        
+KIR           57                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       414                                                                      
+Kuwait                                                                          
+KWT          145                                                                
+                                                                                
+       417                                                                      
+Kyrgyzstan                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+KGZ          143                                                                
+                                                                                
+       418                                                                      
+Lao People's Democratic Republic                                                
+LAO           35                                                                
+                                                                                
+       428                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Latvia                                                                          
+LVA          154                                                                
+                                                                                
+       422                                                                      
+Lebanon                                                                         
+LBN          145                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       426                                                                      
+Lesotho                                                                         
+LSO           18                                                                
+                                                                                
+       430                                                                      
+Liberia                                                                         
+LBR           11                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       434                                                                      
+Libya                                                                           
+LBY           15                                                                
+                                                                                
+       438                                                                      
+Liechtenstein                                                                   
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+LIE          155                                                                
+                                                                                
+       440                                                                      
+Lithuania                                                                       
+LTU          154                                                                
+                                                                                
+       442                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Luxembourg                                                                      
+LUX          155                                                                
+                                                                                
+       450                                                                      
+Madagascar                                                                      
+MDG           14                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       454                                                                      
+Malawi                                                                          
+MWI           14                                                                
+                                                                                
+       458                                                                      
+Malaysia                                                                        
+MYS           35                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       462                                                                      
+Maldives                                                                        
+MDV           30                                                                
+                                                                                
+       466                                                                      
+Mali                                                                            
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+MLI           11                                                                
+                                                                                
+       470                                                                      
+Malta                                                                           
+MLT           39                                                                
+                                                                                
+       584                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Marshall Islands                                                                
+MHL           57                                                                
+                                                                                
+       474                                                                      
+Martinique                                                                      
+MTQ           29                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       478                                                                      
+Mauritania                                                                      
+MRT           11                                                                
+                                                                                
+       480                                                                      
+Mauritius                                                                       
+MUS           14                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       175                                                                      
+Mayotte                                                                         
+MYT           14                                                                
+                                                                                
+       484                                                                      
+Mexico                                                                          
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+MEX           13                                                                
+                                                                                
+       583                                                                      
+Micronesia (Federated States of)                                                
+FSM           57                                                                
+                                                                                
+       492                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Monaco                                                                          
+MCO          155                                                                
+                                                                                
+       496                                                                      
+Mongolia                                                                        
+MNG           30                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       499                                                                      
+Montenegro                                                                      
+MNE           39                                                                
+                                                                                
+       500                                                                      
+Montserrat                                                                      
+MSR           29                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       504                                                                      
+Morocco                                                                         
+MAR           15                                                                
+                                                                                
+       508                                                                      
+Mozambique                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+MOZ           14                                                                
+                                                                                
+       104                                                                      
+Myanmar                                                                         
+MMR           35                                                                
+                                                                                
+       516                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Namibia                                                                         
+NAM           18                                                                
+                                                                                
+       520                                                                      
+Nauru                                                                           
+NRU           57                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       524                                                                      
+Nepal                                                                           
+NPL           30                                                                
+                                                                                
+       528                                                                      
+Netherlands                                                                     
+NLD          155                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       540                                                                      
+New Caledonia                                                                   
+NCL           54                                                                
+                                                                                
+       554                                                                      
+New Zealand                                                                     
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+NZL           53                                                                
+                                                                                
+       558                                                                      
+Nicaragua                                                                       
+NIC           13                                                                
+                                                                                
+       562                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Niger                                                                           
+NER           11                                                                
+                                                                                
+       566                                                                      
+Nigeria                                                                         
+NGA           11                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       570                                                                      
+Niue                                                                            
+NIU           61                                                                
+                                                                                
+       574                                                                      
+Norfolk Island                                                                  
+NFK           53                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       580                                                                      
+Northern Mariana Islands                                                        
+MNP           57                                                                
+                                                                                
+       578                                                                      
+Norway                                                                          
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+NOR          154                                                                
+                                                                                
+       275                                                                      
+Occupied Palestinian Territory                                                  
+PSE          145                                                                
+                                                                                
+       512                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Oman                                                                            
+OMN          145                                                                
+                                                                                
+       586                                                                      
+Pakistan                                                                        
+PAK           30                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       585                                                                      
+Palau                                                                           
+PLW           57                                                                
+                                                                                
+       591                                                                      
+Panama                                                                          
+PAN           13                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       598                                                                      
+Papua New Guinea                                                                
+PNG           54                                                                
+                                                                                
+       600                                                                      
+Paraguay                                                                        
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+PRY            5                                                                
+                                                                                
+       604                                                                      
+Peru                                                                            
+PER            5                                                                
+                                                                                
+       608                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Philippines                                                                     
+PHL           35                                                                
+                                                                                
+       612                                                                      
+Pitcairn                                                                        
+PCN           61                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       616                                                                      
+Poland                                                                          
+POL          151                                                                
+                                                                                
+       620                                                                      
+Portugal                                                                        
+PRT           39                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       630                                                                      
+Puerto Rico                                                                     
+PRI           29                                                                
+                                                                                
+       634                                                                      
+Qatar                                                                           
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+QAT          145                                                                
+                                                                                
+       410                                                                      
+Republic of Korea                                                               
+KOR           30                                                                
+                                                                                
+       498                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Republic of Moldova                                                             
+MDA          151                                                                
+                                                                                
+       638                                                                      
+Reunion                                                                         
+REU           14                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       642                                                                      
+Romania                                                                         
+ROU          151                                                                
+                                                                                
+       643                                                                      
+Russian Federation                                                              
+RUS          151                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       646                                                                      
+Rwanda                                                                          
+RWA           14                                                                
+                                                                                
+       652                                                                      
+Saint-Barthelemy                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+BLM           29                                                                
+                                                                                
+       654                                                                      
+Saint Helena                                                                    
+SHN           11                                                                
+                                                                                
+       659                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Saint Kitts and Nevis                                                           
+KNA           29                                                                
+                                                                                
+       662                                                                      
+Saint Lucia                                                                     
+LCA           29                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       663                                                                      
+Saint-Martin (French part)                                                      
+MAF           29                                                                
+                                                                                
+       666                                                                      
+Saint Pierre and Miquelon                                                       
+SPM           21                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       670                                                                      
+Saint Vincent and the Grenadines                                                
+VCT           29                                                                
+                                                                                
+       882                                                                      
+Samoa                                                                           
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+WSM           61                                                                
+                                                                                
+       674                                                                      
+San Marino                                                                      
+SMR           39                                                                
+                                                                                
+       678                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Sao Tome and Principe                                                           
+STP           17                                                                
+                                                                                
+       680                                                                      
+Sark                                                                            
+             154                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       682                                                                      
+Saudi Arabia                                                                    
+SAU          145                                                                
+                                                                                
+       686                                                                      
+Senegal                                                                         
+SEN           11                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       688                                                                      
+Serbia                                                                          
+SRB           39                                                                
+                                                                                
+       690                                                                      
+Seychelles                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+SYC           14                                                                
+                                                                                
+       694                                                                      
+Sierra Leone                                                                    
+SLE           11                                                                
+                                                                                
+       702                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Singapore                                                                       
+SGP           35                                                                
+                                                                                
+       534                                                                      
+Sint Maarten (Dutch part)                                                       
+SXM           29                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       703                                                                      
+Slovakia                                                                        
+SVK          151                                                                
+                                                                                
+       705                                                                      
+Slovenia                                                                        
+SVN           39                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+        90                                                                      
+Solomon Islands                                                                 
+SLB           54                                                                
+                                                                                
+       706                                                                      
+Somalia                                                                         
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+SOM           14                                                                
+                                                                                
+       710                                                                      
+South Africa                                                                    
+ZAF           18                                                                
+                                                                                
+       728                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+South Sudan                                                                     
+SSD           15                                                                
+                                                                                
+       724                                                                      
+Spain                                                                           
+ESP           39                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       144                                                                      
+Sri Lanka                                                                       
+LKA           30                                                                
+                                                                                
+       729                                                                      
+Sudan                                                                           
+SDN           15                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       740                                                                      
+Suriname                                                                        
+SUR            5                                                                
+                                                                                
+       744                                                                      
+Svalbard and Jan Mayen Islands                                                  
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+SJM          154                                                                
+                                                                                
+       748                                                                      
+Swaziland                                                                       
+SWZ           18                                                                
+                                                                                
+       752                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Sweden                                                                          
+SWE          154                                                                
+                                                                                
+       756                                                                      
+Switzerland                                                                     
+CHE          155                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       760                                                                      
+Syrian Arab Republic                                                            
+SYR          145                                                                
+                                                                                
+       762                                                                      
+Tajikistan                                                                      
+TJK          143                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       764                                                                      
+Thailand                                                                        
+THA           35                                                                
+                                                                                
+       807                                                                      
+The former Yugoslav Republic of Macedonia                                       
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+MKD           39                                                                
+                                                                                
+       626                                                                      
+Timor-Leste                                                                     
+TLS           35                                                                
+                                                                                
+       768                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Togo                                                                            
+TGO           11                                                                
+                                                                                
+       772                                                                      
+Tokelau                                                                         
+TKL           61                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       776                                                                      
+Tonga                                                                           
+TON           61                                                                
+                                                                                
+       780                                                                      
+Trinidad and Tobago                                                             
+TTO           29                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       788                                                                      
+Tunisia                                                                         
+TUN           15                                                                
+                                                                                
+       792                                                                      
+Turkey                                                                          
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+TUR          145                                                                
+                                                                                
+       795                                                                      
+Turkmenistan                                                                    
+TKM          143                                                                
+                                                                                
+       796                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Turks and Caicos Islands                                                        
+TCA           29                                                                
+                                                                                
+       798                                                                      
+Tuvalu                                                                          
+TUV           61                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       800                                                                      
+Uganda                                                                          
+UGA           14                                                                
+                                                                                
+       804                                                                      
+Ukraine                                                                         
+UKR          151                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       784                                                                      
+United Arab Emirates                                                            
+ARE          145                                                                
+                                                                                
+       826                                                                      
+United Kingdom of Great Britain and Northern Ireland                            
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+GBR          154                                                                
+                                                                                
+       834                                                                      
+United Republic of Tanzania                                                     
+TZA           14                                                                
+                                                                                
+       840                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+United States of America                                                        
+USA           21                                                                
+                                                                                
+       850                                                                      
+United States Virgin Islands                                                    
+VIR           29                                                                
+                                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+       858                                                                      
+Uruguay                                                                         
+URY            5                                                                
+                                                                                
+       860                                                                      
+Uzbekistan                                                                      
+UZB          143                                                                
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+                                                                                
+       548                                                                      
+Vanuatu                                                                         
+VUT           54                                                                
+                                                                                
+       862                                                                      
+Venezuela (Bolivarian Republic of)                                              
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+VEN            5                                                                
+                                                                                
+       704                                                                      
+Viet Nam                                                                        
+VNM           35                                                                
+                                                                                
+       876                                                                      
+
+COUNTRY_ID                                                                      
+----------                                                                      
+COUNTRY_DESC                                                                    
+--------------------------------------------------------------------------------
+COUNT  REGION_ID                                                                
+----- ----------                                                                
+Wallis and Futuna Islands                                                       
+WLF           61                                                                
+                                                                                
+       732                                                                      
+Western Sahara                                                                  
+ESH           15                                                                
+                                                             

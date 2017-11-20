@@ -1,0 +1,1 @@
+CREATE OR REPLACE DIRECTORY external_tables AS '/media/sf_Mikita_Tur'; 

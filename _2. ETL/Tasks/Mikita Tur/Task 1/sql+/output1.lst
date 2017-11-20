@@ -1,0 +1,59 @@
+SQL> select * from continents
+  2  /
+
+CONTINENT_ID                                                                    
+------------                                                                    
+CONTINENT_DESC                                                                  
+--------------------------------------------------------------------------------
+ GLOBAL_ID                                                                      
+----------                                                                      
+           2                                                                    
+Africa                                                                          
+         1                                                                      
+                                                                                
+         419                                                                    
+Latin America and the Caribbean                                                 
+         1                                                                      
+
+CONTINENT_ID                                                                    
+------------                                                                    
+CONTINENT_DESC                                                                  
+--------------------------------------------------------------------------------
+ GLOBAL_ID                                                                      
+----------                                                                      
+                                                                                
+          21                                                                    
+Northern America                                                                
+         1                                                                      
+                                                                                
+         142                                                                    
+Asia                                                                            
+
+CONTINENT_ID                                                                    
+------------                                                                    
+CONTINENT_DESC                                                                  
+--------------------------------------------------------------------------------
+ GLOBAL_ID                                                                      
+----------                                                                      
+         1                                                                      
+                                                                                
+         150                                                                    
+Europe                                                                          
+         1                                                                      
+                                                                                
+           9                                                                    
+
+CONTINENT_ID                                                                    
+------------                                                                    
+CONTINENT_DESC                                                                  
+--------------------------------------------------------------------------------
+ GLOBAL_ID                                                                      
+----------                                                                      
+Oceania                                                                         
+         1                                                                      
+                                                                                
+
+6 rows selected.
+
+Elapsed: 00:00:00.00
+SQL> spool off
