@@ -1,6 +1,6 @@
 DROP TABLE Date_Dimension;
 CREATE TABLE Date_Dimension (
-    Date_id DATE NOT NULL,
+    Event_DT DATE NOT NULL,
     Day_per_week NUMBER(8),
     Day_per_month NUMBER(8),
     Day_per_year NUMBER(8),
