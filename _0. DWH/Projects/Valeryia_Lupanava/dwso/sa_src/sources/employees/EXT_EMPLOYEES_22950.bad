@@ -990,4 +990,12 @@ employee_code,first_name,last_name,age,store_srcid,position_name,position_grade_
 09-8176560,Eleanor,Blyth,41,235,financial planner,expert,13,eblythrh@lycos.com,880-841-6903,5368 Golden Leaf Center,Euro,EUR,$761.95 ,3.56493E+15,02-May-2017,-99,TRUE
 78-2769574,Rice,Scolli,43,621,sales representative,novice,14,rscolliri@hexun.com,787-426-5706,62 Caliangt Parkway,Euro,EUR,$512.89 ,5.60225E+15,16-Dec-2016,-99,TRUE
 73-9017550,Georgina,Colleran,25,706,store manager,middle,7,gcolleranrj@state.gov,714-169-0579,21 Monica Circle,Dollar,USD,$647.10 ,4.04137E+12,08-Feb-2017,-99,TRUE
-65-9758360,Corie,Duffill,52,490,
+65-9758360,Corie,Duffill,52,490,sales representative,experienced,12,cduffillrk@businessweek.com,956-251-7986,68 Sachs Pass,Real,BRL,$932.56 ,4.01796E+15,21-Mar-2017,-99,FALSE
+06-0510010,Vidovik,Stillwell,23,285,financial planner,novice,13,vstillwellrl@arizona.edu,663-555-2647,58 Dunning Avenue,Yen,JPY,$846.54 ,6.76708E+15,12-Sep-2017,-99,TRUE
+16-9582819,Johnna,Henri,54,139,account executive,expert,8,jhenrirm@creativecommons.org,686-861-8202,36153 Doe Crossing Court,Rupee,PKR,$604.14 ,3.55345E+15,21-Jul-2017,-99,FALSE
+02-9469287,Bernetta,Jovanovic,19,428,financial advisor,experienced,4,bjovanovicrn@netvibes.com,418-372-2566,8223 Grover Road,Yuan Renminbi,CNY,$678.34 ,5.03813E+18,23-Jan-2017,-99,FALSE
+54-0126752,Janessa,Itzik,61,146,financial planner,experienced,9,jitzikro@ocn.ne.jp,834-355-2691,60 Macpherson Terrace,Peso,PHP,$759.05 ,6.76112E+16,13-Jun-2017,-99,FALSE
+23-6092430,Roarke,Kubek,24,604,financial planner,novice,11,rkubekrp@yale.edu,301-947-7102,50 Summerview Place,Euro,EUR,$913.22 ,3.54662E+15,23-Jan-2017,-99,TRUE
+79-1616850,Anselm,Hoggin,38,89,store manager,novice,13,ahogginrq@diigo.com,805-606-4001,7221 David Street,Rial,SAR,$464.48 ,3.57889E+15,09-Jul-2017,-99,FALSE
+34-4977246,Ashien,Uridge,37,386,sales representative,middle,6,auridgerr@apache.org,598-892-4871,00726 Farwell Street,Yuan Renminbi,CNY,$779.40 ,3.01093E+13,03-Oct-2017,-99,TRUE
+employee_code,first_name,last_name,age,store_srcid,position_name,position_grade_srcid,work_experience,email,phone,personal_address,currency,currency_code,month_salary,credit_card,start_date,end_date,is_active

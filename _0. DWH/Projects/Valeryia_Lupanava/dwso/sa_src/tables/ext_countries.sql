@@ -1,20 +1,21 @@
--- ext_geo_countries_iso3166.
-    create table EXT_COUNTRIES
-        (COUNTRY_ID     number ( 10 ),
-         COUNTRY_DESC   varchar2 ( 200 char ),
-         COUNTRY_CODE   varchar2 ( 3 )
+-- EXT_COUNTRIES.
+
+    CREATE TABLE ext_countries
+        (country_id     NUMBER ( 10 ),
+         country_desc   VARCHAR2 ( 200 CHAR ),
+         country_code   VARCHAR2 ( 3 )
          )
-    organization external
-        (type ORACLE_LOADER
-         default directory EXTERNAL_GEO_TABLES
-         access parameters
-            (RECORDS DELIMITED by 0x'0D0A'
-             NOBADFILE NODISCARDFILE NOLOGFILE FIELDS TERMINATED by ';'
-             MISSING FIELD values ARE null 
-                (COUNTRY_ID integer external (4),
-                 COUNTRY_DESC char(200),
-                 COUNTRY_CODE char(3) )
+    ORGANIZATION EXTERNAL
+        (TYPE oracle_loader
+         DEFAULT DIRECTORY external_geo_tables
+         ACCESS PARAMETERS
+            (records delimited BY 0x'0D0A'
+             nobadfile nodiscardfile nologfile fields terminated BY ';'
+             missing field VALUES are NULL 
+                (country_id INTEGER EXTERNAL (4),
+                 country_desc CHAR(200),
+                 country_code CHAR(3) )
              )
-         location ('iso_3166.tab')
+         LOCATION ('iso_3166.tab')
     )
-    reject limit unlimited;
+    REJECT LIMIT UNLIMITED;
