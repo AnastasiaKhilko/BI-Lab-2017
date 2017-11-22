@@ -1,0 +1,5 @@
+1. Create employees*500 table.
+2. Create procedure that gives 3% raise to employees in specified department.
+3. Create function which takes number and returns true in 40% cases and lasts not less than .1 second.
+4. Create another procedure that gives 5% raise to employees in specified department but taking into consideration results of the above function.
+5*. Write procedures from 2 and 4 with the usage of cursors.
