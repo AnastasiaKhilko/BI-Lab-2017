@@ -1,3 +1,7 @@
+BEGIN
+  pkg_drop.DROP_Proc(Object_Name => 'ce_lines', Object_Type => 'table');
+END;
+
 CREATE TABLE ce_lines (
     line_srcid         NUMBER(10) NOT NULL,
     line_name          VARCHAR2(10 BYTE) NOT NULL,

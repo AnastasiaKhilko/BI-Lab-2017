@@ -1,3 +1,7 @@
+BEGIN
+  pkg_drop.DROP_Proc(Object_Name => 'ce_products', Object_Type => 'table');
+END;
+
 CREATE TABLE ce_products (
     product_srcid         NUMBER(10) NOT NULL,
     product_name          VARCHAR2(10 BYTE) NOT NULL,

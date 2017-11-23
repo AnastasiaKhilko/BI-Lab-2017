@@ -1,22 +1,23 @@
--- ext_geo_countries_iso3166.
-    create table EXT_CUSTOMERS
-        (passport_number varchar2 ( 200 char ),
-         first_name varchar2 ( 200 char ),
-         last_name varchar2 ( 200 char ),
-         gender varchar2 ( 200 char ),
-         age number ( 38 ),
-         email varchar2 ( 200 char ),
-         phone varchar2 ( 200 char ),
-         address varchar2 ( 200 char ),
-         city varchar2 ( 200 char ),
-         country_code varchar2 ( 200 char ),
-         country varchar2 ( 200 char ),
-         is_active varchar2 ( 200 char )
+-- EXT_CUSTOMERS.
+    CREATE TABLE ext_customers
+        (
+         passport_number VARCHAR2 ( 200 CHAR ),
+         first_name      VARCHAR2 ( 200 CHAR ),
+         last_name       VARCHAR2 ( 200 CHAR ),
+         gender          VARCHAR2 ( 200 CHAR ),
+         age             NUMBER ( 38 ),
+         email           VARCHAR2 ( 200 CHAR ),
+         phone           VARCHAR2 ( 200 CHAR ),
+         address         VARCHAR2 ( 200 CHAR ),
+         city            VARCHAR2 ( 200 CHAR ),
+         country_id      NUMBER ( 38 ),
+         is_active       VARCHAR2 ( 200 CHAR )
          )
-    organization external
-        (TYPE ORACLE_LOADER DEFAULT DIRECTORY external_cust_tables
-                         ACCESS PARAMETERS (FIELDS TERMINATED BY ',')
-                         LOCATION ('customers_1.csv',  'customers_2.csv',
+    ORGANIZATION EXTERNAL
+        (TYPE oracle_loader DEFAULT DIRECTORY external_cust_tables
+                            ACCESS PARAMETERS (fields terminated BY ',')
+                            LOCATION 
+                                  ('customers_1.csv',  'customers_2.csv',
                                    'customers_3.csv',  'customers_4.csv',
                                    'customers_5.csv',  'customers_6.csv',
                                    'customers_7.csv',  'customers_8.csv',
@@ -43,4 +44,4 @@
                                    'customers_49.csv', 'customers_50.csv'
                                   )
     )
-    reject limit unlimited;
+    REJECT LIMIT UNLIMITED;

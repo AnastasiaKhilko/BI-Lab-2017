@@ -1,3 +1,7 @@
+BEGIN
+  pkg_drop.DROP_Proc(Object_Name => 'ce_cities', Object_Type => 'table');
+END;
+
 CREATE TABLE ce_cities (
     city_srcid      NUMBER(10) NOT NULL,
     country_srcid   NUMBER(10) NOT NULL,

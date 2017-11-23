@@ -1,3 +1,7 @@
+BEGIN
+  pkg_drop.DROP_Proc(Object_Name => 'ce_panties_size_grid', Object_Type => 'table');
+END;
+
 CREATE TABLE ce_panties_size_grid (
     panties_size_srcid   NUMBER(10) NOT NULL,
     panties_size_uk      VARCHAR2(10 BYTE),

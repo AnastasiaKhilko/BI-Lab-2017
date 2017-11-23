@@ -1,3 +1,7 @@
+BEGIN
+  pkg_drop.DROP_Proc(Object_Name => 'ce_promotion_types', Object_Type => 'table');
+END;
+
 CREATE TABLE ce_promotion_types (
     promotion_type_srcid       NUMBER(10) NOT NULL,
     promotion_type             VARCHAR2(40 BYTE) NOT NULL,

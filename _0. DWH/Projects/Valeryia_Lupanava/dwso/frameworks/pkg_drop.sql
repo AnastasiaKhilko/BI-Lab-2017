@@ -2,12 +2,12 @@
 -- SO as to execute procedure use:
 -- execute pckg_drop.drop_proc('table', 't10');
 
-CREATE OR REPLACE PACKAGE pckg_drop 
+CREATE OR REPLACE PACKAGE pkg_drop 
   AUTHID CURRENT_USER as
   PROCEDURE DROP_Proc ( Object_Name IN varchar2, Object_Type varchar2);
-END pckg_drop;
+END pkg_drop;
 /
-CREATE OR REPLACE PACKAGE BODY  pckg_drop AS 
+CREATE OR REPLACE PACKAGE BODY  pkg_drop AS 
   PROCEDURE DROP_Proc (Object_Name IN varchar2, Object_Type varchar2) is
   ex_grants EXCEPTION;
   ex_inv_table_name EXCEPTION;
@@ -45,5 +45,5 @@ CREATE OR REPLACE PACKAGE BODY  pckg_drop AS
 	  WHEN OTHERS THEN
 		   RAISE;
 	END;
-END pckg_drop;
+END pkg_drop;
 /

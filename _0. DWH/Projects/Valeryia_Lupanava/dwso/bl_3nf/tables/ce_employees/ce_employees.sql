@@ -1,3 +1,7 @@
+BEGIN
+  pkg_drop.DROP_Proc(Object_Name => 'ce_employees', Object_Type => 'table');
+END;
+
 CREATE TABLE ce_employees (
     employee_id            NUMBER(10) NOT NULL,
     first_name             VARCHAR2(40 BYTE) NOT NULL,

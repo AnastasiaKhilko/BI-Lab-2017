@@ -1,28 +1,29 @@
--- ext_geo_countries_iso3166.
-    create table EXT_EMPLOYEES
-        (employee_code varchar2 ( 100 char ),
-         first_name varchar2 ( 100 char ),
-         last_name varchar2 ( 100 char ),
-         age number ( 38 ),
-         store_srcid varchar2 ( 100 char ),
-         position_name varchar2 ( 100 char ),
-         position_grade_srcid varchar2 ( 100 char ),
-         work_experience number ( 38 ),
-         email varchar2 ( 100 char ),
-         phone varchar2 ( 100 char ),
-         personal_address varchar2 ( 100 char ),
-         currency varchar2 ( 100 char ),
-         currency_code varchar2 ( 100 char ),
-         month_salary number ( 38,3 ),
-         credit_card number ( 38 ),
-         start_date date,
-         end_date varchar2 ( 100 char ),
-         is_active varchar2 ( 100 char )
+-- EXT_EMPLOYEES.
+    CREATE TABLE ext_employees
+        (employee_code        VARCHAR2 ( 100 CHAR ),
+         first_name           VARCHAR2 ( 100 CHAR ),
+         last_name            VARCHAR2 ( 100 CHAR ),
+         age                  NUMBER ( 38 ),
+         store_srcid          VARCHAR2 ( 100 CHAR ),
+         position_name        VARCHAR2 ( 100 CHAR ),
+         position_grade_srcid VARCHAR2 ( 100 CHAR ),
+         work_experience      NUMBER ( 38 ),
+         email                VARCHAR2 ( 100 CHAR ),
+         phone                VARCHAR2 ( 100 CHAR ),
+         personal_address     VARCHAR2 ( 100 CHAR ),
+         currency             VARCHAR2 ( 100 CHAR ),
+         currency_code        VARCHAR2 ( 100 CHAR ),
+         month_salary         NUMBER ( 38,3 ),
+         credit_card          NUMBER ( 38 ),
+         start_date           DATE,
+         end_date             VARCHAR2 ( 100 CHAR ),
+         is_active            VARCHAR2 ( 100 CHAR )
          )
-    organization external
-        (TYPE ORACLE_LOADER DEFAULT DIRECTORY external_emp_tables
-                         ACCESS PARAMETERS (FIELDS TERMINATED BY ',')
-                         LOCATION ('employees_1.csv',  'employees_2.csv',
+    ORGANIZATION EXTERNAL
+        (TYPE oracle_loader DEFAULT DIRECTORY external_emp_tables
+                            ACCESS PARAMETERS (fields terminated BY ',')
+                            LOCATION 
+                                  ('employees_1.csv',  'employees_2.csv',
                                    'employees_3.csv',  'employees_4.csv',
                                    'employees_5.csv',  'employees_6.csv',
                                    'employees_7.csv',  'employees_8.csv',
@@ -49,6 +50,6 @@
                                    'employees_49.csv', 'employees_50.csv'
                                   )
     )
-    reject limit unlimited;
+    REJECT LIMIT UNLIMITED;
     
 COMMIT;

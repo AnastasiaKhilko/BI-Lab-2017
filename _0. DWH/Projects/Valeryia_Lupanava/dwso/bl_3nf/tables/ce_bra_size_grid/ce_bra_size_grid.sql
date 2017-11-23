@@ -1,3 +1,7 @@
+BEGIN
+  pkg_drop.DROP_Proc(Object_Name => 'ce_bra_size_grid', Object_Type => 'table');
+END;
+
 CREATE TABLE ce_bra_size_grid (
     bra_size_srcid   NUMBER(10) NOT NULL,
     bra_size_uk      VARCHAR2(10 BYTE),
