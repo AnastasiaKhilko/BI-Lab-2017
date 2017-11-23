@@ -1,0 +1,12 @@
+drop table flight;
+drop table airline;
+drop table arr_info;
+drop table dep_info;
+drop table city;
+drop table state;
+drop table pilot;
+drop table plane;
+drop table pl_manufacturer;
+drop table pl_role;
+drop table pl_status;
+drop table country;
