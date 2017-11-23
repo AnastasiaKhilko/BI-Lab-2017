@@ -44,19 +44,5 @@ FROM ce_countries c1
 LEFT JOIN ce_regions rr
 ON c1.REGION_ID = rr.REGION_ID;
 
-select * from geo_data;
 
-SELECT parent_type, parent_desc , child_type , child_desc, level, LTRIM(SYS_CONNECT_BY_PATH(CHILD_DESC, '/'),'/') as Path,
-CONNECT_BY_ISLEAF as leaf,
-prior pid as parent,
-CONNECT_BY_ROOT id as Root
---CONNECT_BY_ISCYCLE parent_desc as cc
-FROM geo_data
-START WITH pid is null
-CONNECT BY NOCYCLE PRIOR id = pid
-order by level;
 
-select SYS_CONNECT_BY_PATH(parent_desc, '/') as path
-from geo_data
-start with pid is null
-connect by prior id = pid;
