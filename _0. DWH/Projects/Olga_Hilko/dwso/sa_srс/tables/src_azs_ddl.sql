@@ -2,10 +2,15 @@
 --CREATE OR REPLACE DIRECTORY EnterNewDir AS 'F:\Lola\BI\Kondrutsuk';
 --grant dba to dwh;
 SET DEFINE OFF
-CREATE OR REPLACE DIRECTORY EnterNewDir AS 'F:\Lola\BI\Kondrutsuk';
-GRANT READ ON DIRECTORY EnterNewDir TO public;
+CREATE OR REPLACE DIRECTORY EXT_TABLES_DWH AS '/media/sf_DWH/SRC/project/';
+GRANT READ ON DIRECTORY EXT_TABLES_DWH TO BL_CL2;
+GRANT write ON DIRECTORY EXT_TABLES_DWH TO BL_CL2;
+
+GRANT READ ON DIRECTORY EXT_TABLES_DWH TO BL_CL;
+GRANT READ ON DIRECTORY EXT_TABLES_DWH TO PUBLic;
+
 --GRANT WRITE ON DIRECTORY Enter New Dir TO USER;
-drop table SRC_AZS;
+exec  FRAMEWORK.pkg_utl_drop.proc_drop_obj ('SRC_AZS', 'TABLE');
 CREATE TABLE SRC_AZS 
 ( N NUMBER(4),
   Country VARCHAR2(3),
@@ -23,12 +28,12 @@ CREATE TABLE SRC_AZS
   AI98 NUMBER(1))
 ORGANIZATION EXTERNAL
   (  TYPE ORACLE_LOADER
-     DEFAULT DIRECTORY EnterNewDir
+     DEFAULT DIRECTORY EXT_TABLES_DWH
      ACCESS PARAMETERS 
        (records delimited BY '\n' 
            NOBADFILE
            NODISCARDFILE
-           LOGFILE EnterNewDir:'azsUTF.log'
+           LOGFILE EXT_TABLES_DWH:'azsUTF.log'
            skip 1 
            fields terminated BY ';'
            OPTIONALLY ENCLOSED BY '"' AND '"'
@@ -55,5 +60,7 @@ ORGANIZATION EXTERNAL
   REJECT LIMIT UNLIMITED;
 
 select * from SRC_AZS ;
-
-
+--commit;
+exec FRAMEWORK.pkg_utl_grants_mgmt.proc_grant ('select', 'SRC','SRC_AZS','BL_CL2');
+grant select on SRC.SRC_AZS to BL_CL;
+grant RESOURCE to BL_CL2;

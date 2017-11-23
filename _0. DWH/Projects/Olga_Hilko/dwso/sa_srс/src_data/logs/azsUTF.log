@@ -1,0 +1,1256 @@
+
+
+ LOG file opened at 11/22/17 13:44:43
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_AZS
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    N                               CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    COUNTRY                         CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LOCATION                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LATITUDE                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LONGITUDE                       CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD1                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD2                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT                              CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT2                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    BN92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI95                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LPG                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI98                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+error processing column ROAD2 in row 13 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 39 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 40 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+
+
+ LOG file opened at 11/22/17 22:02:07
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_AZS
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    N                               CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    COUNTRY                         CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LOCATION                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LATITUDE                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LONGITUDE                       CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD1                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD2                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT                              CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT2                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    BN92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI95                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LPG                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI98                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+error processing column ROAD2 in row 13 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 39 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 40 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 87 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 201 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column LATITUDE in row 217 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-01722: invalid number
+error processing column ROAD2 in row 280 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 468 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column N in row 528 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-01722: invalid number
+error processing column N in row 529 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-01722: invalid number
+error processing column ROAD2 in row 544 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column N in row 558 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-01722: invalid number
+error processing column N in row 559 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 11/23/17 02:47:21
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_AZS
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    N                               CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    COUNTRY                         CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LOCATION                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LATITUDE                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LONGITUDE                       CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD1                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD2                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT                              CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT2                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    BN92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI95                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LPG                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI98                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+error processing column ROAD2 in row 13 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 39 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 40 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 87 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 201 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column LATITUDE in row 217 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-01722: invalid number
+error processing column ROAD2 in row 280 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 468 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column N in row 528 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-01722: invalid number
+error processing column N in row 529 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-01722: invalid number
+error processing column ROAD2 in row 544 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column N in row 558 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-01722: invalid number
+error processing column N in row 559 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 11/23/17 03:03:13
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_AZS
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    N                               CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    COUNTRY                         CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LOCATION                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LATITUDE                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LONGITUDE                       CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD1                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD2                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT                              CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT2                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    BN92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI95                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LPG                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI98                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+error processing column ROAD2 in row 13 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 39 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 40 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+
+
+ LOG file opened at 11/23/17 03:06:27
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_AZS
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    N                               CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    COUNTRY                         CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LOCATION                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LATITUDE                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LONGITUDE                       CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD1                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD2                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT                              CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT2                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    BN92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI95                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LPG                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI98                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+error processing column ROAD2 in row 13 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 39 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 40 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+
+
+ LOG file opened at 11/23/17 03:05:20
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_AZS
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    N                               CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    COUNTRY                         CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LOCATION                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LATITUDE                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LONGITUDE                       CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD1                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD2                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT                              CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT2                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    BN92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI95                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LPG                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI98                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+error processing column ROAD2 in row 13 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 39 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 40 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+
+
+ LOG file opened at 11/23/17 03:07:32
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_AZS
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    N                               CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    COUNTRY                         CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LOCATION                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LATITUDE                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LONGITUDE                       CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD1                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD2                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT                              CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT2                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    BN92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI95                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LPG                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI98                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+error processing column ROAD2 in row 13 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 39 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 40 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+
+
+ LOG file opened at 11/23/17 03:11:29
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_AZS
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    N                               CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    COUNTRY                         CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LOCATION                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LATITUDE                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LONGITUDE                       CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD1                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD2                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT                              CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT2                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    BN92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI95                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LPG                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI98                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+error processing column ROAD2 in row 13 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 39 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 40 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+
+
+ LOG file opened at 11/23/17 03:21:53
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_AZS
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    N                               CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    COUNTRY                         CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LOCATION                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LATITUDE                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LONGITUDE                       CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD1                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD2                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT                              CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT2                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    BN92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI95                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LPG                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI98                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+error processing column ROAD2 in row 13 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 39 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 40 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+
+
+ LOG file opened at 11/23/17 03:17:58
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_AZS
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    N                               CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    COUNTRY                         CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LOCATION                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LATITUDE                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LONGITUDE                       CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD1                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD2                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT                              CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT2                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    BN92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI95                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LPG                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI98                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+error processing column ROAD2 in row 13 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 39 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 40 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+
+
+ LOG file opened at 11/23/17 03:16:39
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_AZS
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    N                               CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    COUNTRY                         CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LOCATION                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LATITUDE                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LONGITUDE                       CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD1                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD2                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT                              CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT2                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    BN92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI95                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LPG                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI98                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+error processing column ROAD2 in row 13 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 39 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 40 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+
+
+ LOG file opened at 11/23/17 03:11:06
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_AZS
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    N                               CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    COUNTRY                         CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LOCATION                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LATITUDE                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LONGITUDE                       CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD1                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD2                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT                              CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT2                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    BN92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI95                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LPG                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI98                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+error processing column ROAD2 in row 13 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 39 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 40 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+
+
+ LOG file opened at 11/23/17 03:43:50
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_AZS
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    N                               CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    COUNTRY                         CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LOCATION                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LATITUDE                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LONGITUDE                       CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD1                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD2                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT                              CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT2                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    BN92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI95                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LPG                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI98                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+error processing column ROAD2 in row 13 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 39 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 40 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+
+
+ LOG file opened at 11/23/17 04:22:59
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_AZS
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    N                               CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    COUNTRY                         CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LOCATION                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LATITUDE                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LONGITUDE                       CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD1                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD2                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT                              CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT2                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    BN92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI95                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LPG                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI98                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+error processing column ROAD2 in row 13 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 39 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 40 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+
+
+ LOG file opened at 11/23/17 04:22:52
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_AZS
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    N                               CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    COUNTRY                         CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LOCATION                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LATITUDE                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LONGITUDE                       CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD1                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD2                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT                              CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT2                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    BN92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI95                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LPG                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI98                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+error processing column ROAD2 in row 13 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 39 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 40 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+
+
+ LOG file opened at 11/23/17 04:23:58
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_AZS
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    N                               CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    COUNTRY                         CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LOCATION                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LATITUDE                        CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LONGITUDE                       CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD1                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    ROAD2                           CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT                              CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DT2                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    BN92                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI95                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    LPG                             CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    AI98                            CHAR (4000)
+      Terminated by ";"
+      Enclosed by """ and """
+      Trim whitespace from left and right
+error processing column ROAD2 in row 13 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 39 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)
+error processing column ROAD2 in row 40 for datafile /media/sf_DWH/SRC/project/azsUTF.csv
+ORA-12899: value too large for column ROAD2 (actual: 6, maximum: 5)

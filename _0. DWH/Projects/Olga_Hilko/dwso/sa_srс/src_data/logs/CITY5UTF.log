@@ -1,0 +1,1273 @@
+
+
+ LOG file opened at 11/22/17 05:49:21
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_GEO
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    SOATO                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    NAME                            CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    OBL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    RAION                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOVET                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    TIP                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    GNI                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATAV                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOATON                          CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATEL                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    MAL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+
+Date Cache Statistics for table SRC_GEO
+  Max Size:      1000
+  Entries :        13
+  Hits    :     31405
+  Misses  :         0
+
+
+
+ LOG file opened at 11/22/17 05:49:10
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_GEO
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    SOATO                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    NAME                            CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    OBL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    RAION                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOVET                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    TIP                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    GNI                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATAV                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOATON                          CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATEL                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    MAL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+
+Date Cache Statistics for table SRC_GEO
+  Max Size:      1000
+  Entries :        12
+  Hits    :     24100
+  Misses  :         0
+
+
+
+ LOG file opened at 11/22/17 05:49:32
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_GEO
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    SOATO                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    NAME                            CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    OBL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    RAION                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOVET                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    TIP                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    GNI                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATAV                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOATON                          CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATEL                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    MAL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+
+Date Cache Statistics for table SRC_GEO
+  Max Size:      1000
+  Entries :        13
+  Hits    :     31405
+  Misses  :         0
+
+
+
+ LOG file opened at 11/22/17 05:52:56
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_GEO
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    SOATO                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    NAME                            CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    OBL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    RAION                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOVET                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    TIP                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    GNI                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATAV                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOATON                          CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATEL                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    MAL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+
+Date Cache Statistics for table SRC_GEO
+  Max Size:      1000
+  Entries :        13
+  Hits    :     31405
+  Misses  :         0
+
+
+
+ LOG file opened at 11/22/17 22:01:55
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_GEO
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    SOATO                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    NAME                            CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    OBL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    RAION                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOVET                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    TIP                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    GNI                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATAV                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOATON                          CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATEL                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    MAL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+
+Date Cache Statistics for table SRC_GEO
+  Max Size:      1000
+  Entries :        13
+  Hits    :     31405
+  Misses  :         0
+
+
+
+ LOG file opened at 11/23/17 02:59:21
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_GEO
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    SOATO                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    NAME                            CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    OBL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    RAION                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOVET                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    TIP                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    GNI                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATAV                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOATON                          CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATEL                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    MAL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+
+Date Cache Statistics for table SRC_GEO
+  Max Size:      1000
+  Entries :         2
+  Hits    :        88
+  Misses  :         0
+
+
+
+ LOG file opened at 11/23/17 04:36:59
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_GEO
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    SOATO                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    NAME                            CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    OBL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    RAION                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOVET                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    TIP                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    GNI                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATAV                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOATON                          CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATEL                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    MAL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+
+Date Cache Statistics for table SRC_GEO
+  Max Size:      1000
+  Entries :         2
+  Hits    :        88
+  Misses  :         0
+
+
+
+ LOG file opened at 11/23/17 04:27:47
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_GEO
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    SOATO                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    NAME                            CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    OBL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    RAION                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOVET                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    TIP                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    GNI                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATAV                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOATON                          CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATEL                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    MAL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+
+Date Cache Statistics for table SRC_GEO
+  Max Size:      1000
+  Entries :         2
+  Hits    :        88
+  Misses  :         0
+
+
+
+ LOG file opened at 11/23/17 05:32:03
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_GEO
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    SOATO                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    NAME                            CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    OBL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    RAION                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOVET                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    TIP                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    GNI                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATAV                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOATON                          CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATEL                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    MAL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+
+Date Cache Statistics for table SRC_GEO
+  Max Size:      1000
+  Entries :         2
+  Hits    :        88
+  Misses  :         0
+
+
+
+ LOG file opened at 11/23/17 05:32:47
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_GEO
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    SOATO                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    NAME                            CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    OBL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    RAION                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOVET                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    TIP                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    GNI                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATAV                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOATON                          CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATEL                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    MAL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+
+Date Cache Statistics for table SRC_GEO
+  Max Size:      1000
+  Entries :         2
+  Hits    :        88
+  Misses  :         0
+
+
+
+ LOG file opened at 11/23/17 05:33:42
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_GEO
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    SOATO                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    NAME                            CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    OBL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    RAION                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOVET                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    TIP                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    GNI                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATAV                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOATON                          CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATEL                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    MAL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+
+Date Cache Statistics for table SRC_GEO
+  Max Size:      1000
+  Entries :         2
+  Hits    :        88
+  Misses  :         0
+
+
+
+ LOG file opened at 11/23/17 05:34:30
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_GEO
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    SOATO                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    NAME                            CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    OBL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    RAION                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOVET                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    TIP                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    GNI                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATAV                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOATON                          CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATEL                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    MAL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+
+Date Cache Statistics for table SRC_GEO
+  Max Size:      1000
+  Entries :         2
+  Hits    :        88
+  Misses  :         0
+
+
+
+ LOG file opened at 11/23/17 05:35:45
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_GEO
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    SOATO                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    NAME                            CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    OBL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    RAION                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOVET                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    TIP                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    GNI                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATAV                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOATON                          CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATEL                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    MAL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+
+Date Cache Statistics for table SRC_GEO
+  Max Size:      1000
+  Entries :        13
+  Hits    :     31405
+  Misses  :         0
+
+
+
+ LOG file opened at 11/23/17 05:34:41
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_GEO
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    SOATO                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    NAME                            CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    OBL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    RAION                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOVET                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    TIP                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    GNI                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATAV                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOATON                          CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATEL                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    MAL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+
+Date Cache Statistics for table SRC_GEO
+  Max Size:      1000
+  Entries :         2
+  Hits    :        88
+  Misses  :         0
+
+
+
+ LOG file opened at 11/23/17 05:38:52
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_GEO
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    SOATO                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    NAME                            CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    OBL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    RAION                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOVET                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    TIP                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    GNI                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATAV                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOATON                          CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATEL                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    MAL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+
+Date Cache Statistics for table SRC_GEO
+  Max Size:      1000
+  Entries :        13
+  Hits    :     31405
+  Misses  :         0
+
+
+
+ LOG file opened at 11/23/17 05:38:29
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_GEO
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    SOATO                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    NAME                            CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    OBL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    RAION                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOVET                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    TIP                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    GNI                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATAV                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOATON                          CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATEL                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    MAL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+
+Date Cache Statistics for table SRC_GEO
+  Max Size:      1000
+  Entries :        10
+  Hits    :      2240
+  Misses  :         0
+
+
+
+ LOG file opened at 11/23/17 05:39:00
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_GEO
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    SOATO                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    NAME                            CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    OBL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    RAION                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOVET                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    TIP                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    GNI                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATAV                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOATON                          CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATEL                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    MAL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+
+Date Cache Statistics for table SRC_GEO
+  Max Size:      1000
+  Entries :        13
+  Hits    :     31405
+  Misses  :         0
+
+
+
+ LOG file opened at 11/23/17 05:46:09
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_GEO
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    SOATO                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    NAME                            CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    OBL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    RAION                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOVET                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    TIP                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    GNI                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATAV                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOATON                          CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATEL                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    MAL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+
+Date Cache Statistics for table SRC_GEO
+  Max Size:      1000
+  Entries :        13
+  Hits    :     31405
+  Misses  :         0
+
+
+
+ LOG file opened at 11/23/17 05:46:07
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table SRC_GEO
+  Record format DELIMITED, delimited by 
+
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    SOATO                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    NAME                            CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    OBL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    RAION                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOVET                           CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    TIP                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    GNI                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATAV                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    SOATON                          CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    DATEL                           CHAR (4000)
+      Date datatype DATE, date mask mm/dd/yyyy
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+    MAL                             CHAR (4000)
+      Terminated by ","
+      Enclosed by """ and """
+      Trim whitespace from left and right
+
+Date Cache Statistics for table SRC_GEO
+  Max Size:      1000
+  Entries :         2
+  Hits    :        88
+  Misses  :         0
+
