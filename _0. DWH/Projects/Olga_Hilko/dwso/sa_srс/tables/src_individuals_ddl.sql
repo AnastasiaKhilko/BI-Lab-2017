@@ -1,9 +1,10 @@
 SET DEFINE OFF
-CREATE OR REPLACE DIRECTORY ENTERNEWDIR AS 'F:\Lola\BI\Kondrutsuk';
+CREATE OR REPLACE DIRECTORY EXT_TABLES_DWH AS '/media/sf_DWH/SRC/project/';
 --GRANT READ ON DIRECTORY ENTERNEWDIR TO USER;
 --GRANT WRITE ON DIRECTORY ENTERNEWDIR TO USER;
-drop table src_ind;
-CREATE TABLE src_ind 
+
+exec  FRAMEWORK.pkg_utl_drop.proc_drop_obj ('src_individuals', 'TABLE');
+CREATE TABLE src_individuals 
 ( NameSet VARCHAR2(30),
   Gender VARCHAR2(10),
   Title VARCHAR2(4),
@@ -27,12 +28,12 @@ CREATE TABLE src_ind
   Vehicle VARCHAR2(34))
 ORGANIZATION EXTERNAL
   (  TYPE ORACLE_LOADER
-     DEFAULT DIRECTORY ENTERNEWDIR
+     DEFAULT DIRECTORY EXT_TABLES_DWH
      ACCESS PARAMETERS 
        (records delimited BY '\r\n' 
            NOBADFILE
            NODISCARDFILE
-           LOGFILE ENTERNEWDIR:'FakeName.log'
+           LOGFILE EXT_TABLES_DWH:'FakeName.log'
            skip 1 
            fields terminated BY ','
            OPTIONALLY ENCLOSED BY '"' AND '"'
@@ -65,6 +66,6 @@ ORGANIZATION EXTERNAL
   )
   REJECT LIMIT UNLIMITED;
 
---select * from src_ind WHERE ROWNUM <= 100;
+select * from SRC_INDIVIDUALS ;
 
 
