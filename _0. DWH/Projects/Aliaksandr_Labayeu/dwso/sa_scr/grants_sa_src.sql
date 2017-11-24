@@ -1,0 +1,9 @@
+-- Grants to sa_src
+
+GRANT CREATE ANY DIRECTORY TO sa_src;
+GRANT CONNECT TO sa_src;
+GRANT CREATE TABLE TO sa_src;
+GRANT READ ON DIRECTORY ext_tables TO sa_src;
+GRANT WRITE ON DIRECTORY ext_tables TO sa_src;
+GRANT CREATE ANY SYNONYM TO sa_src;
+    
