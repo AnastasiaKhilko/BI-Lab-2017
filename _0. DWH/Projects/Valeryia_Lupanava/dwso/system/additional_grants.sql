@@ -18,15 +18,10 @@ BEGIN
   pkg_grants.USER_GRANT(GRANT_NAME => 'READ ON DIRECTORY external_ext_tables', USER_NAME => 'SA_SRC');
 END;
 ------------------------------------------------------------------------------------------------------
+BEGIN
+  pkg_grants.USER_GRANT(GRANT_NAME => 'UNLIMITED TABLESPACE', USER_NAME => 'BL_3NF');
+END;
 ------------------------------------------------------------------------------------------------------
-BEGIN
-  pkg_grants.USER_GRANT(GRANT_NAME => 'UNLIMITED TABLESPACE', USER_NAME => 'SA_SRC');
-END;
-
-BEGIN
-  pkg_grants.USER_GRANT(GRANT_NAME => 'UNLIMITED TABLESPACE', USER_NAME => 'BL_3NF_LAB');
-END;
-
 BEGIN
   pkg_grants.USER_GRANT(GRANT_NAME => 'CREATE PUBLIC SYNONYM', USER_NAME => 'SA_SRC_LAB');
 END;

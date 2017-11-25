@@ -1,0 +1,5 @@
+CREATE SEQUENCE ce_product_sales_seq
+ START WITH     1
+ INCREMENT BY   1
+ NOCACHE
+ NOCYCLE;

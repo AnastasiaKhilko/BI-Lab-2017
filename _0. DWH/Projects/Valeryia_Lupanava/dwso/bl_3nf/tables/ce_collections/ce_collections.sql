@@ -1,17 +1,15 @@
 BEGIN
-  pkg_drop.DROP_Proc(Object_Name => 'ce_collections', Object_Type => 'table');
+  pkg_drop.drop_proc(object_name => 'ce_collections', object_type => 'table');
 END;
 
-CREATE TABLE ce_collections (
-    collection_srcid         NUMBER(10) NOT NULL,
-    collection_name          VARCHAR2(10 BYTE),
-    season_srcid             NUMBER(10) NOT NULL,
-    collection_description   VARCHAR2(40 BYTE),
-    collection_dt            DATE NOT NULL,
-    start_dt                 DATE NOT NULL,
-    end_dt                   DATE NOT NULL,
-    is_active                VARCHAR2(4) NOT NULL,
-    CONSTRAINT collection_srcid_pk PRIMARY KEY ( collection_srcid ),
-    CONSTRAINT season_srcid_fk FOREIGN KEY ( season_srcid )
-        REFERENCES ce_seasons ( season_srcid )
-);
+CREATE TABLE ce_collections
+  (
+    collection_id    NUMBER ( 38 ) NOT NULL,
+    collection_srcid NUMBER ( 38 ) NOT NULL,
+    collection_desc  VARCHAR2 ( 200 CHAR ) NOT NULL,
+    start_dt         DATE DEFAULT '01-JAN-1990',
+    end_dt           DATE DEFAULT '31-DEC-9999',
+    is_active        VARCHAR2 ( 200 CHAR ) NOT NULL,
+    CONSTRAINT collection_id_pk PRIMARY KEY ( collection_id ),
+    CONSTRAINT collection_srcid_unq UNIQUE ( collection_srcid )
+  );
