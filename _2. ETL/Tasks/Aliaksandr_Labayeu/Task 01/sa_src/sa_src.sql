@@ -1,7 +1,7 @@
 CREATE DIRECTORY ext_tables AS '/media/sf_shared';
 
 --==============================================================
--- Table: t_ext_geo_countries_iso3166
+-- Table: t_ext_products
 --==============================================================
 
 DROP TABLE ext_products;
