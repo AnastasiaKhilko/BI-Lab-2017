@@ -1,0 +1,1 @@
+CREATE OR REPLACE PUBLIC SYNONYM cls_subregions FOR bl_cl.cls_subregions;

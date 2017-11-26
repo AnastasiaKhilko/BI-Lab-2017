@@ -1,0 +1,1 @@
+CREATE OR REPLACE PUBLIC SYNONYM cls_service_classes FOR bl_cl.cls_service_classes;

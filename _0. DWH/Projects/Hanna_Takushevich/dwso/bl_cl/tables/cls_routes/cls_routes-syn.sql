@@ -1,0 +1,1 @@
+CREATE OR REPLACE PUBLIC SYNONYM cls_routes FOR bl_cl.cls_routes;

@@ -1,0 +1,1 @@
+CREATE PUBLIC SYNONYM ce_regions FOR bl_3nf.ce_regions

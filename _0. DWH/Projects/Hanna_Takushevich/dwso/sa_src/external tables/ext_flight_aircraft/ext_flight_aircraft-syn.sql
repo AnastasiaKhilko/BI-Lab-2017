@@ -1,0 +1,1 @@
+CREATE OR REPLACE PUBLIC SYNONYM ext_flight_aircraft FOR sa_src.ext_flight_aircraft;

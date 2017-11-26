@@ -1,0 +1,1 @@
+CREATE OR REPLACE PUBLIC SYNONYM cls_countries FOR bl_cl.cls_countries;

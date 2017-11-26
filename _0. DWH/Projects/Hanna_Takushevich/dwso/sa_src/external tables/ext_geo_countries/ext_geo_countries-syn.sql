@@ -1,0 +1,1 @@
+CREATE OR REPLACE PUBLIC SYNONYM ext_geo_countries FOR sa_src.ext_geo_countries;

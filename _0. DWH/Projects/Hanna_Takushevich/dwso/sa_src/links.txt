@@ -1,3 +1,0 @@
-http://www.geodatasource.com/world-cities-database/free  для гео
-https://en.wikipedia.org/wiki/List_of_airports  для аэропортов по странам
-https://www.world-airport-codes.com/ для аэропортов по городам

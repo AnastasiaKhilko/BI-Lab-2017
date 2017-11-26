@@ -1,0 +1,1 @@
+CREATE OR REPLACE PUBLIC SYNONYM ext_geo_cities FOR sa_src.ext_geo_cities;

@@ -1,0 +1,1 @@
+CREATE OR REPLACE PUBLIC SYNONYM ext_service_classes FOR sa_src.ext_service_classes;

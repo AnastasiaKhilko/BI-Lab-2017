@@ -1,0 +1,1 @@
+CREATE PUBLIC SYNONYM ce_passengers FOR bl_3nf.ce_passengers;

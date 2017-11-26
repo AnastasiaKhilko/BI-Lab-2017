@@ -1,0 +1,1 @@
+CREATE PUBLIC SYNONYM ce_cities FOR bl_3nf.ce_cities;

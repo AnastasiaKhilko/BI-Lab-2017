@@ -1,0 +1,1 @@
+CREATE OR REPLACE PUBLIC SYNONYM ext_airports FOR sa_src.ext_airports;

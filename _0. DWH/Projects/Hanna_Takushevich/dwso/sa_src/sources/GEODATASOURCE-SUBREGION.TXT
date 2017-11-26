@@ -1,0 +1,13 @@
+1A	North Africa	3
+1B	Sub-Saharan Africa	5
+2A	South America	7
+2B	North America	11
+2C	Mesoamerica	10
+3A	Antarctica	8
+4A	East Asia	12
+4B	North Asia	13
+4C	South and South East Asia	9
+4D	West and Central Asia	2
+5A	Europe	4
+6A	Caribbean Iaslands	1
+6B	Other	6

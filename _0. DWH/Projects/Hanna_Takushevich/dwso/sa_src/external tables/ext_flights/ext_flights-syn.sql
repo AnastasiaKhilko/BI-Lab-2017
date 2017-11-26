@@ -1,0 +1,1 @@
+CREATE OR REPLACE PUBLIC SYNONYM ext_flights FOR sa_src.ext_flights;
