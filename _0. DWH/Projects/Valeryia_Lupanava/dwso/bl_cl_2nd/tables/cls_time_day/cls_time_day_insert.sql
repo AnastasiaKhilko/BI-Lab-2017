@@ -1,4 +1,6 @@
-INSERT INTO bl_dm.dim_time_day (
+TRUNCATE TABLE cls_time_day;
+
+INSERT INTO cls_time_day (
     date_dt,
     week_day_full_name,
     week_day_short_name,
@@ -41,4 +43,3 @@ FROM
      FROM dual
      CONNECT BY level <= 10950)
 ORDER BY date_dt;
-COMMIT;

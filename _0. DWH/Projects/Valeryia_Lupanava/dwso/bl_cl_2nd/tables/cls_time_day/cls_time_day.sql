@@ -1,4 +1,8 @@
-CREATE TABLE dim_time_day (
+BEGIN
+  pkg_drop.drop_proc(object_name => 'cls_time_day', object_type => 'table');
+END;
+
+CREATE TABLE cls_time_day (
     date_dt                  DATE NOT NULL,
     week_day_full_name       VARCHAR2(10) NOT NULL,
     week_day_short_name      VARCHAR2(10) NOT NULL,
@@ -13,6 +17,5 @@ CREATE TABLE dim_time_day (
     quarter_number_of_year   VARCHAR2(10) NOT NULL,
     half_year_number         VARCHAR2(10) NOT NULL,
     half_year                VARCHAR2(10) NOT NULL,
-    year                     VARCHAR2(10) NOT NULL,
-    CONSTRAINT date_dt_pk PRIMARY KEY ( date_dt )
+    year                     VARCHAR2(10) NOT NULL
 );
