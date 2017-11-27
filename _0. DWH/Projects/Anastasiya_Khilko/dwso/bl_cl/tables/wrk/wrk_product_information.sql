@@ -1,0 +1,16 @@
+CREATE TABLE wrk_product_information
+  (
+    "PRODUCT"           VARCHAR2(200 BYTE),
+    "VENDOR_CODE"       VARCHAR2(200 CHAR),
+    "IMPORTER"          VARCHAR2(50 BYTE),
+    "CODE"              NUMBER(10,0),
+    "COMMENTS"          VARCHAR2(200 BYTE),
+    "PLACE_OF_PURCHASE" VARCHAR2(100 BYTE),
+    "GROUP_CODE"        VARCHAR2(100 BYTE),
+    "MAIN_PROVIDER"     VARCHAR2(100 BYTE),
+    "MAIN_MANUFACTURER" VARCHAR2(100 BYTE),
+    "TAX"               VARCHAR2(50 BYTE),
+    "COUNTRY_PROVIDER"  VARCHAR2(50 BYTE),
+    "DISCOUNT"          VARCHAR2(50 BYTE),
+    "PRICE"             NUMBER(5,2)
+  ) ;

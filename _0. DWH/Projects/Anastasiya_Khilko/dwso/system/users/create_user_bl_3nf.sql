@@ -6,12 +6,8 @@ quota unlimited on USERS
 profile DEFAULT;
 
 grant 
-  create session ,
-  create table,
-  create view,
-  create synonym,
-  create procedure,
-  create sequence,
+  connect ,
+  resource, 
   select on bl_cl.cls_countries,
   select on bl_cl.cls_geo_structure,
   select on bl_cl.cls_structure
