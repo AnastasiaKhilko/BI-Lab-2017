@@ -1,7 +1,7 @@
 CREATE DIRECTORY ext_tables AS '/media/sf_shared';
 
 --==============================================================
--- Table: t_ext_products
+-- Table: ext_products
 --==============================================================
 
 DROP TABLE ext_products;
@@ -31,7 +31,7 @@ reject LIMIT unlimited;
 -- SELECT * FROM ext_products ORDER BY 2;
 
 --==============================================================
--- Table: consumer_list
+-- Table: ext_consumers
 --==============================================================
 -- Consumers + Addresses + Responsible + Cities 
 DROP TABLE ext_consumers;
@@ -75,7 +75,7 @@ reject LIMIT unlimited;
 -- SELECT * FROM ext_consumers ORDER BY 2;
 
 --==============================================================
--- Table: department_list
+-- Table: ext_departments
 --==============================================================
 -- Departments + Addresses + Cities 
 DROP TABLE ext_departments;
