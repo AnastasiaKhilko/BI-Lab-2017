@@ -51,7 +51,15 @@ MERGE INTO bl_dm.dim_stores_scd t USING
       FROM   bl_dm.dim_stores_scd
     ) c ON ( c.store_surr_id = t.store_surr_id )
     WHEN matched THEN
-    UPDATE SET t.store_id = c.store_id 
+    UPDATE SET t.store_id = c.store_id,
+               t.store_desc = c.store_desc,
+               t.phone = c.phone,
+               t.address = c.address,
+               t.city = c.city,
+               t.country = c.country,
+               t.region = c.region,
+               t.insert_dt = c.insert_dt,
+               t.update_dt = c.update_dt
     WHEN NOT matched THEN
     INSERT
       (

@@ -32,11 +32,9 @@ BEGIN
          address,
          wct.city_id,
          SYSDATE AS start_dt,
-         (CASE WHEN round(dbms_random.value (1,2)) = 1 THEN 'true'
-               WHEN round(dbms_random.value (1,2)) = 2 THEN 'false'
-               ELSE 'true'
-               END) AS is_active
-  FROM   wrk_stores wst left join wrk_cities wct on wst.city = wct.city_desc;
+         'TRUE' AS is_active
+  FROM   wrk_stores wst left join wrk_cities wct on wst.city = wct.city_desc
+  WHERE  wct.city_id IS NOT NULL;
 
   COMMIT;
   
@@ -77,7 +75,15 @@ MERGE INTO bl_3nf.ce_stores t USING
       FROM   bl_3nf.ce_stores
     ) c ON ( c.store_id = t.store_srcid )
     WHEN matched THEN
-    UPDATE SET t.end_dt  = c.end_dt,
+    UPDATE SET 
+               t.store_number = c.store_number,
+               t.store_desc  = c.store_name,
+               t.manager_number = c.manager_id,
+               t.phone  = c.phone,
+               t.address = c.address,
+               t.city_srcid  = c.city_id,
+               t.start_dt = c.start_dt,
+               t.end_dt  = c.end_dt,
                t.is_active = c.is_active
     WHEN NOT matched THEN
     INSERT

@@ -43,7 +43,11 @@ MERGE INTO bl_dm.dim_payment_methods_scd t USING
       FROM   bl_dm.dim_payment_methods_scd
     ) c ON ( c.payment_method_id = t.payment_method_id )
     WHEN matched THEN
-    UPDATE SET t.payment_method_desc = c.payment_method_desc 
+    UPDATE SET t.payment_method_desc = c.payment_method_desc,
+               t.bank_name = c.bank_name,
+               t.start_dt = c.start_dt,
+               t.end_dt = c.end_dt,
+               t.is_active = c.is_active
     WHEN NOT matched THEN
     INSERT
       (

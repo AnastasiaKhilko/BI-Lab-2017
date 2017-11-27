@@ -23,7 +23,7 @@ BEGIN
                               bra_size_fr,
                               bra_size_uie
                             )
-  SELECT cls_bra_sizes_seq.NEXTVAL,
+  SELECT bra_size_code,
          bra_size_uk,
          bra_size_usa,
          bra_size_eu,
@@ -51,7 +51,7 @@ BEGIN
                                panty_size_fr,
                                panty_size_uie
                               )
-  SELECT cls_panty_sizes_seq.NEXTVAL,
+  SELECT panty_size_code,
          panty_size_uk,
          panty_size_usa,
          panty_size_eu,
@@ -90,7 +90,8 @@ MERGE INTO bl_3nf.ce_bra_size_grid t USING
       FROM   bl_3nf.ce_bra_size_grid
     ) c ON ( c.bra_size_id = t.bra_size_srcid )
     WHEN matched THEN
-    UPDATE SET t.bra_size_uk  = c.bra_size_uk,
+    UPDATE SET 
+               t.bra_size_uk  = c.bra_size_uk,
                t.bra_size_usa = c.bra_size_usa,
                t.bra_size_eu  = c.bra_size_eu,
                t.bra_size_fr  = c.bra_size_fr,
@@ -144,7 +145,8 @@ MERGE INTO bl_3nf.ce_panty_size_grid t USING
       FROM   bl_3nf.ce_panty_size_grid
     ) c ON ( c.panty_size_id = t.panty_size_srcid )
     WHEN matched THEN
-    UPDATE SET t.panty_size_uk  = c.panty_size_uk,
+    UPDATE SET 
+               t.panty_size_uk  = c.panty_size_uk,
                t.panty_size_usa = c.panty_size_usa,
                t.panty_size_eu  = c.panty_size_eu,
                t.panty_size_fr  = c.panty_size_fr,

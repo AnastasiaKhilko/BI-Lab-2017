@@ -30,10 +30,7 @@ BEGIN
   SELECT   cls_product_types_seq.NEXTVAL as product_type_id,
            product_type,
            SYSDATE AS start_dt,
-           (CASE WHEN round(dbms_random.value (1,2)) = 1 THEN 'true'
-                 WHEN round(dbms_random.value (1,2)) = 2 THEN 'false'
-                 ELSE 'true'
-                 END) AS is_active
+           'TRUE' AS is_active
   FROM     (SELECT DISTINCT product_type
            FROM wrk_products);
 
@@ -58,9 +55,7 @@ BEGIN
   SELECT   cls_collections_seq.NEXTVAL as collection_id,
            collection_name,
            SYSDATE AS start_dt,
-           (CASE WHEN round(dbms_random.value (1,2)) = 1 THEN 'true'
-                 WHEN round(dbms_random.value (1,2)) = 2 THEN 'false'
-                 END) AS is_active
+           'TRUE' AS is_active
   FROM     (SELECT DISTINCT collection_name
             FROM wrk_products);
 
@@ -87,10 +82,7 @@ BEGIN
            a.line_name,
            b.collection_id,
            SYSDATE AS start_dt,
-           (CASE WHEN round(dbms_random.value (1,2)) = 1 THEN 'true'
-                 WHEN round(dbms_random.value (1,2)) = 2 THEN 'false'
-                 ELSE 'true'
-                 END) AS is_active
+           'TRUE' AS is_active
   FROM     (SELECT DISTINCT line_name, collection_name
            FROM wrk_products) a left join cls_collections b 
                                        ON a.collection_name = b.collection_name;
@@ -122,10 +114,7 @@ BEGIN
            b.line_id,
            c.product_type_id,
            SYSDATE AS start_dt,
-           (CASE WHEN round(dbms_random.value (1,2)) = 1 THEN 'true'
-                 WHEN round(dbms_random.value (1,2)) = 2 THEN 'false'
-                 ELSE 'true'
-                 END) AS is_active
+           'TRUE' AS is_active
   FROM     wrk_products a LEFT JOIN cls_lines b 
                                  ON a.line_name = b.line_name
                           LEFT JOIN cls_product_types c 
@@ -151,7 +140,8 @@ BEGIN
                                    color,
                                    price,
                                    balance,
-                                   insert_dt
+                                   insert_dt,
+                                   update_dt
                                  )
   SELECT cls_product_details_seq.NEXTVAL AS product_detail_id, 
          c.product_id,
@@ -160,7 +150,8 @@ BEGIN
          a.color,
          a.price,
          a.balance,
-         SYSDATE AS insert_dt
+         SYSDATE AS insert_dt,
+         SYSDATE AS update_dt
   FROM   (
   SELECT product_id,
          bsg.bra_size_id AS bra_size_id,
@@ -212,7 +203,10 @@ MERGE INTO bl_3nf.ce_collections t USING
       FROM   bl_3nf.ce_collections
     ) c ON ( c.collection_id = t.collection_srcid )
     WHEN matched THEN
-    UPDATE SET t.end_dt  = c.end_dt,
+    UPDATE SET 
+               t.collection_desc  = c.collection_name,
+               t.start_dt  = c.start_dt,
+               t.end_dt  = c.end_dt,
                t.is_active  = c.is_active
     WHEN NOT matched THEN
     INSERT
@@ -261,7 +255,11 @@ MERGE INTO bl_3nf.ce_lines t USING
       FROM   bl_3nf.ce_lines
     ) c ON ( c.line_id = t.line_srcid )
     WHEN matched THEN
-    UPDATE SET t.end_dt  = c.end_dt,
+    UPDATE SET 
+               t.line_desc  = c.line_name,
+               t.collection_srcid  = c.collection_id,
+               t.start_dt  = c.start_dt,
+               t.end_dt  = c.end_dt,
                t.is_active  = c.is_active
     WHEN NOT matched THEN
     INSERT
@@ -309,7 +307,10 @@ MERGE INTO bl_3nf.ce_product_types t USING
       FROM   bl_3nf.ce_product_types
     ) c ON ( c.product_type_id = t.product_type_srcid )
     WHEN matched THEN
-    UPDATE SET t.end_dt  = c.end_dt,
+    UPDATE SET 
+               t.product_type_desc  = c.product_type,
+               t.start_dt  = c.start_dt,
+               t.end_dt  = c.end_dt,
                t.is_active  = c.is_active
     WHEN NOT matched THEN
     INSERT
@@ -362,7 +363,13 @@ MERGE INTO bl_3nf.ce_products t USING
       FROM   bl_3nf.ce_products
     ) c ON ( c.product_id = t.product_srcid )
     WHEN matched THEN
-    UPDATE SET t.end_dt  = c.end_dt,
+    UPDATE SET 
+               t.product_ein  = c.product_ein,
+               t.product_desc  = c.product_name,
+               t.line_srcid  = c.line_id,
+               t.product_type_srcid  = c.product_type_id,
+               t.start_dt  = c.start_dt,
+               t.end_dt  = c.end_dt,
                t.is_active  = c.is_active
     WHEN NOT matched THEN
     INSERT
@@ -423,7 +430,15 @@ MERGE INTO bl_3nf.ce_product_details t USING
       FROM   bl_3nf.ce_product_details
     ) c ON ( c.product_detail_id = t.product_details_srcid )
     WHEN matched THEN
-    UPDATE SET t.update_dt  = c.update_dt
+    UPDATE SET 
+              t.product_srcid  = c.product_id,
+              t.bra_size_srcid  = c.bra_size_id,
+              t.panty_size_srcid  = c.panty_size_id,
+              t.color  = c.color,
+              t.price  = c.price,
+              t.product_balance  = c.balance,
+              t.insert_dt  = c.insert_dt,
+              t.update_dt  = c.update_dt
     WHEN NOT matched THEN
     INSERT
       (

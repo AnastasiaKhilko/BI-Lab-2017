@@ -40,7 +40,7 @@ BEGIN
          email,
          phone,
          SYSDATE AS start_dt,
-         'true' AS is_active
+         'TRUE' AS is_active
   FROM wrk_employees we left join cls_position_grade cpg
                                on we.position_grade_srcid = cpg.position_grade;
 
@@ -99,7 +99,9 @@ MERGE INTO bl_3nf.ce_position_grades t USING
       FROM   bl_3nf.ce_position_grades
     ) c ON ( c.position_grade_id = t.position_grade_srcid )
     WHEN matched THEN
-    UPDATE SET t.position_grade_desc = c.position_grade 
+    UPDATE SET 
+               t.position_grade_desc = c.position_grade ,
+               t.work_experience = c.work_experience 
     WHEN NOT matched THEN
     INSERT
       (
@@ -157,7 +159,18 @@ MERGE INTO bl_3nf.ce_employees t USING
       FROM   bl_3nf.ce_employees
     ) c ON ( c.employee_id = t.employee_srcid )
     WHEN matched THEN
-    UPDATE SET t.end_dt  = c.end_dt,
+    UPDATE SET 
+               t.employee_number = c.employee_id,
+               t.first_name = c.first_name,
+               t.last_name = c.last_name,
+               t.store_number = c.store_number,
+               t.position_name = c.position_name,
+               t.position_grade_srcid = c.position_grade_id,
+               t.work_experience = c.work_experience,
+               t.email = c.email,
+               t.phone = c.phone,
+               t.start_dt = c.start_dt,
+               t.end_dt  = c.end_dt,
                t.is_active = c.is_active
     WHEN NOT matched THEN
     INSERT

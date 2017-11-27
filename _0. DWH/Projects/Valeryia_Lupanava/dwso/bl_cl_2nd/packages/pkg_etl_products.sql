@@ -67,7 +67,26 @@ MERGE INTO bl_dm.dim_products_scd t USING
       FROM   bl_dm.dim_products_scd
     ) c ON ( c.product_surr_id = t.product_surr_id )
     WHEN matched THEN
-    UPDATE SET t.product_id = c.product_id 
+    UPDATE SET t.product_id = c.product_id,
+               t.product_desc = c.product_desc,
+               t.line_name = c.line_name,
+               t.collection_name = c.collection_name,
+               t.product_type = c.product_type,
+               t.bra_size_uk = c.bra_size_uk,
+               t.bra_size_usa = c.bra_size_usa,
+               t.bra_size_eu = c.bra_size_eu,
+               t.bra_size_fr = c.bra_size_fr,
+               t.bra_size_uie = c.bra_size_uie,
+               t.panties_size_uk = c.panties_size_uk,
+               t.panties_size_usa = c.panties_size_usa,
+               t.panties_size_eu = c.panties_size_eu,
+               t.panties_size_fr = c.panties_size_fr,
+               t.panties_size_uie = c.panties_size_uie,
+               t.color = c.color,
+               t.price = c.price,
+               t.start_dt = c.start_dt,
+               t.end_dt = c.end_dt,
+               t.is_active = c.is_active
     WHEN NOT matched THEN
     INSERT
       (

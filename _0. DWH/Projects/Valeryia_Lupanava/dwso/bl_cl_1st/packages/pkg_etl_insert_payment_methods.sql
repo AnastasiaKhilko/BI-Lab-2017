@@ -24,10 +24,7 @@ SELECT cls_payment_methods_seq.NEXTVAL AS payment_method_id,
        payment_method_name AS payment_method,
        bank,
        SYSDATE AS start_dt,
-           (CASE WHEN round(dbms_random.value (1,2)) = 1 THEN 'true'
-                 WHEN round(dbms_random.value (1,2)) = 2 THEN 'false'
-                 ELSE 'true'
-                 END) AS is_active
+       'TRUE' AS is_active
   FROM wrk_payment_methods;
 
   COMMIT;
@@ -61,7 +58,11 @@ MERGE INTO bl_3nf.ce_payment_methods t USING
       FROM   bl_3nf.ce_payment_methods
     ) c ON ( c.payment_method_id = t.payment_method_srcid )
     WHEN matched THEN
-    UPDATE SET t.end_dt  = c.end_dt,
+    UPDATE SET 
+               t.payment_method_desc  = c.payment_method,
+               t.bank_desc  = c.bank,
+               t.start_dt  = c.start_dt,
+               t.end_dt  = c.end_dt,
                t.is_active = c.is_active
     WHEN NOT matched THEN
     INSERT

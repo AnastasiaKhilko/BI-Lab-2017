@@ -43,10 +43,7 @@ SELECT   cls_customers_seq.NEXTVAL AS customer_id,
          address,
          city_id,
          SYSDATE AS start_dt,
-         (CASE WHEN round(dbms_random.value (1,2)) = 1 THEN 'true'
-               WHEN round(dbms_random.value (1,2)) = 2 THEN 'false'
-               ELSE 'true'
-               END) AS is_active
+         'TRUE' AS is_active
   FROM wrk_customers wst inner join wrk_cities wct on wst.city = wct.city_desc;
 
   COMMIT;
@@ -94,7 +91,18 @@ MERGE INTO bl_3nf.ce_customers t USING
       FROM   bl_3nf.ce_customers
     ) c ON ( c.customer_id = t.customer_srcid )
     WHEN matched THEN
-    UPDATE SET t.end_dt  = c.end_dt,
+    UPDATE SET 
+               t.customer_number  = c.customer_number,
+               t.first_name  = c.first_name,
+               t.last_name  = c.last_name,
+               t.age  = c.age,
+               t.age_category_srcid  = c.age_category_id,
+               t.email  = c.email,
+               t.phone  = c.phone,  
+               t.address  = c.address,
+               t.city_srcid  = c.city_id,
+               t.start_dt  = c.start_dt,
+               t.end_dt  = c.end_dt,
                t.is_active = c.is_active
     WHEN NOT matched THEN
     INSERT

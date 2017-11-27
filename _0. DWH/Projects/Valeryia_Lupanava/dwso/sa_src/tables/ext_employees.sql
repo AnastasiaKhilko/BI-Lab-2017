@@ -32,22 +32,7 @@
                                    'employees_13.csv', 'employees_14.csv',
                                    'employees_15.csv', 'employees_16.csv',
                                    'employees_17.csv', 'employees_18.csv',
-                                   'employees_19.csv', 'employees_20.csv',
-                                   'employees_21.csv', 'employees_22.csv',
-                                   'employees_23.csv', 'employees_24.csv',
-                                   'employees_25.csv', 'employees_26.csv',
-                                   'employees_27.csv', 'employees_28.csv',
-                                   'employees_29.csv', 'employees_30.csv',
-                                   'employees_31.csv', 'employees_32.csv',
-                                   'employees_33.csv', 'employees_34.csv',
-                                   'employees_35.csv', 'employees_36.csv',
-                                   'employees_37.csv', 'employees_38.csv',
-                                   'employees_39.csv', 'employees_40.csv',
-                                   'employees_41.csv', 'employees_42.csv',
-                                   'employees_43.csv', 'employees_44.csv',
-                                   'employees_45.csv', 'employees_46.csv',
-                                   'employees_47.csv', 'employees_48.csv',
-                                   'employees_49.csv', 'employees_50.csv'
+                                   'employees_19.csv', 'employees_20.csv'
                                   )
     )
     REJECT LIMIT UNLIMITED;

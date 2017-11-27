@@ -30,6 +30,7 @@ BEGIN
                                 employee_id,
                                 customer_id,
                                 payment_method_id,
+                                product_detail_id,
                                 receipt_sum,
                                 insert_dt
                               )
@@ -40,6 +41,7 @@ BEGIN
            employee_id,
            customer_id,
            payment_method_id,
+           product_detail_id,
            receipt_sum,
            receipt_dt AS insert_dt
     FROM (
@@ -49,6 +51,7 @@ BEGIN
                ROUND ( dbms_random.value ( ( SELECT MIN ( employee_id) FROM cls_employees),(SELECT MAX (employee_id) FROM cls_employees))) AS employee_id,
                ROUND ( dbms_random.value ( ( SELECT MIN ( customer_id ) FROM cls_customers), ( SELECT MAX ( customer_id ) FROM cls_customers) ) ) AS customer_id,
                ROUND ( dbms_random.value ( ( SELECT MIN ( payment_method_id ) FROM cls_payment_methods), ( SELECT MAX ( payment_method_id ) FROM cls_payment_methods) ) ) AS payment_method_id,
+               ROUND ( dbms_random.value ( ( SELECT MIN ( product_detail_id ) FROM cls_product_details), ( SELECT MAX ( product_detail_id ) FROM cls_product_details) ) ) AS product_detail_id,
                ROUND ( dbms_random.value( 100, 99999), 2) AS receipt_sum 
          FROM dual
         );
@@ -78,6 +81,7 @@ MERGE INTO bl_3nf.ce_receipts t USING
              employee_id,
              customer_id,
              payment_method_id,
+             product_detail_id,
              receipt_sum,
              insert_dt
       FROM   cls_receipts
@@ -89,12 +93,22 @@ MERGE INTO bl_3nf.ce_receipts t USING
              employee_srcid AS employee_id,
              customer_srcid AS customer_id,
              payment_method_srcid AS payment_method_id,
+             product_detail_srcid AS product_detail_id,
              receipt_sum_usd AS receipt_sum,
              insert_dt 
       FROM   bl_3nf.ce_receipts
     ) c ON ( c.receipt_id = t.receipt_srcid )
     WHEN matched THEN
-    UPDATE SET t.insert_dt  = c.insert_dt
+    UPDATE SET 
+              t.receipt_number  = c.receipt_number,
+              t.receipt_dt  = c.receipt_dt,
+              t.store_srcid  = c.store_id,
+              t.employee_srcid  = c.employee_id,
+              t.customer_srcid  = c.customer_id,
+              t.payment_method_srcid  = c.payment_method_id,
+              t.product_detail_srcid  = c.product_detail_id,
+              t.receipt_sum_usd  = c.receipt_sum,
+              t.insert_dt  = c.insert_dt
     WHEN NOT matched THEN
     INSERT
       (
@@ -106,6 +120,7 @@ MERGE INTO bl_3nf.ce_receipts t USING
         employee_srcid,
         customer_srcid,
         payment_method_srcid,
+        product_detail_srcid,
         receipt_sum_usd,
         insert_dt 
       )
@@ -119,6 +134,7 @@ MERGE INTO bl_3nf.ce_receipts t USING
         c.employee_id,
         c.customer_id,
         c.payment_method_id,
+        c.product_detail_id,
         c.receipt_sum,
         c.insert_dt
       ) ;

@@ -11,6 +11,7 @@ CREATE TABLE cls_fct_retail_sales_dd (
     customer_surr_id         NUMBER(38) NOT NULL,
     store_id                 NUMBER(38) NOT NULL,
     payment_method_surr_id   NUMBER(38) NOT NULL,
+    product_detail_surr_id   NUMBER(38) NOT NULL,
     tot_sale_sum             NUMBER(38) NOT NULL,
     tot_sale_amount          NUMBER(38) NOT NULL,
     insert_dt                DATE NOT NULL,

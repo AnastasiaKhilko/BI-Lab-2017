@@ -101,7 +101,10 @@ BEGIN
         city_id,
         city_desc,
         country_id
-  FROM  wrk_cities;
+  FROM  wrk_cities
+  WHERE city_id IS NOT NULL 
+    AND city_desc IS NOT NULL
+    AND country_id IS NOT NULL;
 
   COMMIT;
   
@@ -126,7 +129,7 @@ MERGE INTO bl_3nf.ce_continents t USING
       FROM   bl_3nf.ce_continents
     ) c ON ( c.continent_id = t.continent_srcid )
     WHEN matched THEN
-    UPDATE SET t.continent_desc = c.continent_desc 
+    UPDATE SET t.continent_desc = c.continent_desc
     WHEN NOT matched THEN
     INSERT
       (
@@ -162,7 +165,8 @@ MERGE INTO bl_3nf.ce_regions t USING
       FROM   bl_3nf.ce_regions
     ) c ON ( c.region_id = t.region_srcid )
     WHEN matched THEN
-    UPDATE SET t.region_desc = c.region_desc 
+    UPDATE SET t.continent_srcid = c.continent_id,
+               t.region_desc = c.region_desc
     WHEN NOT matched THEN
     INSERT
       (
@@ -200,7 +204,8 @@ MERGE INTO bl_3nf.ce_countries t USING
       FROM   bl_3nf.ce_countries
     ) c ON ( c.country_id = t.country_srcid )
     WHEN matched THEN
-    UPDATE SET t.country_desc = c.country_desc 
+    UPDATE SET t.region_srcid = c.region_id,
+               t.country_desc = c.country_desc
     WHEN NOT matched THEN
     INSERT
       (
@@ -238,7 +243,8 @@ MERGE INTO bl_3nf.ce_cities t USING
       FROM   bl_3nf.ce_cities
     ) c ON ( c.city_id = t.city_srcid )
     WHEN matched THEN
-    UPDATE SET t.city_desc = c.city_desc 
+    UPDATE SET t.country_srcid = c.country_id,
+               t.city_desc = c.city_desc
     WHEN NOT matched THEN
     INSERT
       (

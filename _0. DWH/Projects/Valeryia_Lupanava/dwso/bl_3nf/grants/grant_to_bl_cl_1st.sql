@@ -286,19 +286,3 @@ BEGIN
   pkg_grants.USER_GRANT(GRANT_NAME => 'UPDATE', SCHEMA_NAME => 'BL_3NF', OBJECT_NAME => 'CE_RECEIPTS', USER_NAME => 'BL_CL_1ST');
 END;
 ---------------------------------------------------------------------------------------------------------------------------------------
-BEGIN
-  pkg_grants.USER_GRANT(GRANT_NAME => 'INSERT', SCHEMA_NAME => 'BL_3NF', OBJECT_NAME => 'CE_PRODUCT_SALES', USER_NAME => 'BL_CL_1ST');
-END;
-
-BEGIN
-  pkg_grants.USER_GRANT(GRANT_NAME => 'SELECT', SCHEMA_NAME => 'BL_3NF', OBJECT_NAME => 'CE_PRODUCT_SALES', USER_NAME => 'BL_CL_1ST');
-END;
-
-BEGIN
-  pkg_grants.USER_GRANT(GRANT_NAME => 'SELECT', SCHEMA_NAME => 'BL_3NF', OBJECT_NAME => 'CE_PRODUCT_SALES_SEQ', USER_NAME => 'BL_CL_1ST');
-END;
-
-BEGIN
-  pkg_grants.USER_GRANT(GRANT_NAME => 'UPDATE', SCHEMA_NAME => 'BL_3NF', OBJECT_NAME => 'CE_PRODUCT_SALES', USER_NAME => 'BL_CL_1ST');
-END;
----------------------------------------------------------------------------------------------------------------------------------------

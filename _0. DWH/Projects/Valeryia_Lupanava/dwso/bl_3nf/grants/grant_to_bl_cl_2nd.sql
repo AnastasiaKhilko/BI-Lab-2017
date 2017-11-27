@@ -70,7 +70,3 @@ BEGIN
   pkg_grants.USER_GRANT(GRANT_NAME => 'SELECT', SCHEMA_NAME => 'BL_3NF', OBJECT_NAME => 'CE_RECEIPTS', USER_NAME => 'BL_CL_2ND');
 END;
 ---------------------------------------------------------------------------------------------------------------------------------------
-BEGIN
-  pkg_grants.USER_GRANT(GRANT_NAME => 'SELECT', SCHEMA_NAME => 'BL_3NF', OBJECT_NAME => 'CE_PRODUCT_SALES', USER_NAME => 'BL_CL_2ND');
-END;
----------------------------------------------------------------------------------------------------------------------------------------

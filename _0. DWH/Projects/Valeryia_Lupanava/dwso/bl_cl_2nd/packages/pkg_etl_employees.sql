@@ -50,7 +50,18 @@ BEGIN
       FROM   bl_dm.dim_employees_scd
     ) c ON ( c.employee_surr_id = t.employee_surr_id )
     WHEN matched THEN
-    UPDATE SET t.employee_id = c.employee_id 
+    UPDATE SET t.employee_id = c.employee_id,
+               t.first_name = c.first_name,
+               t.last_name = c.last_name,
+               t.store_number = c.store_number,
+               t.position_name = c.position_name,
+               t.position_grade = c.position_grade,
+               t.work_experience = c.work_experience,
+               t.email = c.email,
+               t.phone = c.phone,
+               t.start_dt = c.start_dt,
+               t.end_dt = c.end_dt,
+               t.is_active = c.is_active
     WHEN NOT matched THEN
     INSERT
       (

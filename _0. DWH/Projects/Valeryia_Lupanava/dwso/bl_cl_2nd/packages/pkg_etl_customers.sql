@@ -60,7 +60,20 @@ BEGIN
       FROM   bl_dm.dim_customers_scd
     ) c ON ( c.customer_surr_id = t.customer_surr_id )
     WHEN matched THEN
-    UPDATE SET t.customer_id = c.customer_id 
+    UPDATE SET t.customer_id = c.customer_id,
+               t.first_name = c.first_name,
+               t.last_name = c.last_name,
+               t.age = c.age,
+               t.age_category = c.age_category,
+               t.email = c.email,
+               t.phone = c.phone,
+               t.address = c.address,
+               t.city = c.city,
+               t.country = c.country,
+               t.region = c.region,
+               t.start_dt = c.start_dt,
+               t.end_dt = c.end_dt,
+               t.is_active = c.is_active
     WHEN NOT matched THEN
     INSERT
       (

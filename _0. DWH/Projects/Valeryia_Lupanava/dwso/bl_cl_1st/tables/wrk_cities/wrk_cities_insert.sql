@@ -1,3 +1,5 @@
+TRUNCATE table wrk_cities;
+
 INSERT INTO wrk_cities (
                         city_id,
                         city_desc,
