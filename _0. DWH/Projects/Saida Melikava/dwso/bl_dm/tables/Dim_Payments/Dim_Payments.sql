@@ -1,4 +1,4 @@
-DROP TABLE Dim_Payments;
+EXECUTE pckg_drop.drop_proc(object_name=>'Dim_Payments',object_type=>'table');
 CREATE TABLE Dim_Payments
   (
     Payment_id               NUMBER(8) PRIMARY KEY,

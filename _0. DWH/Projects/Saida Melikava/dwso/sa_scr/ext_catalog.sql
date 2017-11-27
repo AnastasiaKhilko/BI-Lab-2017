@@ -1,4 +1,4 @@
-EXECUTE pckg_drop.drop_proc('ext_catalog', 'table');
+EXECUTE pckg_drop.drop_proc(object_name=>'ext_catalog', object_type=>'table');
 CREATE TABLE ext_catalog
   (
     code             NUMBER(8),

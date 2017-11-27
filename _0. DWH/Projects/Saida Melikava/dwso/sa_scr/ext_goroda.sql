@@ -1,4 +1,4 @@
-execute pckg_drop.drop_proc('ext_goroda', 'table');
+execute pckg_drop.drop_proc(object_name=>'ext_goroda',object_type=>'table');
 CREATE TABLE ext_goroda
         (  geo_id NUMBER(8),
         city_name   VARCHAR2 ( 200 CHAR ),

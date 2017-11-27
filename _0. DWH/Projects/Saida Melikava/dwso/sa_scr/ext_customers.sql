@@ -1,6 +1,6 @@
 --table1
 
-EXECUTE pckg_drop.drop_proc('ext_customers_2', 'table');
+EXECUTE pckg_drop.drop_proc(object_name=>'ext_customers_2', object_type=>'table');
 CREATE TABLE ext_customers_2
   (
     code        VARCHAR2 ( 200 CHAR ),
@@ -25,7 +25,7 @@ CREATE TABLE ext_customers_2
 SELECT *FROM ext_customers_2;
 
 --table2
-EXECUTE pckg_drop.drop_proc('ext_customers_3', 'table');
+EXECUTE pckg_drop.drop_proc(object_name=>'ext_customers_3', object_type=>'table');
 CREATE TABLE ext_customers_3
   (
     code        VARCHAR2 ( 200 CHAR ),
@@ -50,7 +50,7 @@ CREATE TABLE ext_customers_3
 SELECT *FROM ext_customers_3;
 
 --table3
-EXECUTE pckg_drop.drop_proc('ext_customers_4', 'table');
+EXECUTE pckg_drop.drop_proc(object_name=>'ext_customers_4', object_type=>'table');
 CREATE TABLE ext_customers_4
   (
     code        VARCHAR2 ( 200 CHAR ),

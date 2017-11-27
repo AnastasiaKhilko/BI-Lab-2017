@@ -1,7 +1,7 @@
-EXECUTE pckg_drop.drop_proc('ext_employee', 'table');
+EXECUTE pckg_drop.drop_proc(object_name=>'ext_employee',object_type=>'table');
 CREATE TABLE ext_employee
   (
-    code       VARCHAR2 ( 200 CHAR ),
+    code       NUMBER(8),
     surname    VARCHAR2 ( 200 CHAR ),
     name       VARCHAR2 ( 200 CHAR ),
     patronymic VARCHAR2 ( 200 CHAR ),
@@ -15,7 +15,7 @@ CREATE TABLE ext_employee
   )
   ORGANIZATION EXTERNAL
   (
-    Type oracle_loader DEFAULT directory ETL access parameters (fields terminated BY ';' ) location ('zaym.csv')
+    Type oracle_loader DEFAULT directory ETL access parameters (fields terminated BY ';' ) location ('zaym1.csv')
   )
   reject limit unlimited;
 /

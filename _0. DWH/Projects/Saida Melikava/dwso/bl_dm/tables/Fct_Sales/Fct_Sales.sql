@@ -1,4 +1,4 @@
-DROP TABLE Fct_Sales;
+EXECUTE pckg_drop.drop_proc(object_name=>'Fct_Sales',object_type=>'table');
 CREATE TABLE Fct_Sales
   (
     Event_dt                DATE NOT NULL,

@@ -1,4 +1,4 @@
-EXECUTE pckg_drop.drop_proc('ext_shop_nov_knizh', 'table');
+EXECUTE pckg_drop.drop_proc(object_name=>'ext_shop_nov_knizh', object_type=>'table');
 CREATE TABLE ext_shop_nov_knizh
   (
     code         VARCHAR2 ( 200 CHAR ),

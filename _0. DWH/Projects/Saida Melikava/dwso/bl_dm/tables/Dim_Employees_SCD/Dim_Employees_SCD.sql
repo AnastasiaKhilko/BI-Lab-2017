@@ -1,4 +1,4 @@
-DROP TABLE Dim_Employees_SCD;
+EXECUTE pckg_drop.drop_proc(object_name=>'Dim_Employees_SCD',object_type=>'table');
 CREATE TABLE Dim_Employees_SCD
   (
     Employee_id              NUMBER(8) PRIMARY KEY,

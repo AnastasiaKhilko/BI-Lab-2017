@@ -1,4 +1,4 @@
-DROP TABLE Dim_Customers;
+EXECUTE pckg_drop.drop_proc(object_name=>'Dim_Customers',object_type=>'table');
 CREATE TABLE Dim_Customers
   (
     Customer_id           NUMBER(8) PRIMARY KEY,
