@@ -22,5 +22,3 @@ GRANT CONNECT TO bl_3nf;
 GRANT RESOURCE TO bl_3nf;
 -- GRANT all privileges to bl_3nf;
 
-CREATE DIRECTORY ext_tables
-as '/media/sf_my';
