@@ -6,8 +6,6 @@
 ------------------------------------------------------------------------------
 CREATE OR REPLACE PACKAGE pckg_insert_districts
 AS
-  PROCEDURE drop_seq(
-      Object_Name IN VARCHAR2);
   PROCEDURE insert_bl_cls(
       source_table_wrk IN VARCHAR2,
       target_table_cls IN VARCHAR2);
@@ -16,19 +14,6 @@ END pckg_insert_districts;
 /
 CREATE OR REPLACE PACKAGE BODY pckg_insert_districts
 AS
-PROCEDURE drop_seq(
-    Object_Name IN VARCHAR2)
-IS
-  ex_seq EXCEPTION;
-  PRAGMA EXCEPTION_INIT( ex_seq, -02289);
-BEGIN
-  EXECUTE immediate 'drop sequence ' || Object_Name;
-EXCEPTION
-WHEN ex_seq THEN
-  dbms_output.put_line('does not exist');
-WHEN OTHERS THEN
-  RAISE;
-END;
 /********wrk->cls*************/
 /*****************************/
 PROCEDURE insert_bl_cls(
@@ -40,7 +25,7 @@ IS
   sql_stmt_select VARCHAR2(1050);
 BEGIN
   sql_stmt_select:= q'< 
-(select DISTINCT  
+select DISTINCT  
 CASE    
 WHEN (INSTR(district_name,'-', 1, 1)>0 )    
 THEN SUBSTR(district_name,1,3)      
@@ -57,15 +42,12 @@ THEN 'Урал'
 ELSE SUBSTR(district_name,1,3)  
 END AS code,  
 district_name
-FROM wrk_geodata)   
+FROM wrk_geodata   
 >';
   sql_stmt_trunc :='TRUNCATE TABLE '|| target_table_cls;
-  sql_stmt_insert:='INSERT INTO '|| target_table_cls||' SELECT SEQ_DISTR.NEXTVAL, CODE, DISTRICT_NAME FROM '|| sql_stmt_select;
+  sql_stmt_insert:='INSERT INTO '|| target_table_cls|| sql_stmt_select;
   EXECUTE immediate sql_stmt_trunc;
   dbms_output.put_line('Table '|| target_table_cls||' is successfully truncated.');
-  drop_seq('seq_distr');
-  EXECUTE IMMEDIATE 'CREATE SEQUENCE seq_distr INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE';
-  dbms_output.put_line('New sequence is created.');
   EXECUTE immediate sql_stmt_insert;
   dbms_output.put_line('Data in the table '||target_table_cls||' is successfully loaded: '||SQL%ROWCOUNT|| ' rows were inserted.');
   COMMIT;
@@ -87,7 +69,7 @@ BEGIN
 WHEN MATCHED THEN
   UPDATE
   SET ce.district_desc = cls.district_desc,
-    ce.update_dt   = sysdate 
+      ce.update_dt= sysdate 
 WHEN NOT MATCHED THEN
   INSERT
     (
@@ -109,5 +91,4 @@ EXECUTE pckg_insert_districts.insert_bl_cls(source_table_wrk=>'wrk_geodata', tar
 SELECT * FROM cls_districts;
 EXECUTE pckg_insert_districts.insert_bl_3NF;
 SELECT * FROM bl_3nf.ce_districts;
-CREATE SEQUENCE seq_distr INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE;
 CREATE SEQUENCE seq_distr_3NF INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE;

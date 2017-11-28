@@ -2,7 +2,7 @@
 -- Author  : Melikava Saida
 -- Created : 23/11/2017
 -- Modified: 23/11/2017
--- Purpose : Insert data about departments from source to DWH.
+-- Purpose : Insert data about categories from source to DWH.
 ------------------------------------------------------------------------------
 CREATE OR REPLACE PACKAGE pckg_insert_category
 AS
@@ -64,7 +64,8 @@ BEGIN
 WHEN MATCHED THEN
   UPDATE
   SET ce.category_description = cls.category_desc,
-    ce.update_dt              =sysdate WHEN NOT MATCHED THEN
+    ce.update_dt=sysdate 
+    WHEN NOT MATCHED THEN
   INSERT
     (
       category_id ,
@@ -84,7 +85,6 @@ WHEN OTHERS THEN
 END;
 END pckg_insert_category;
 /
-CREATE SEQUENCE SEQ_AUTH_3NF INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE;
   EXECUTE pckg_insert_category.insert_bl_cls;
   SELECT * FROM cls_category;
   EXECUTE pckg_insert_category.insert_bl_3nf;

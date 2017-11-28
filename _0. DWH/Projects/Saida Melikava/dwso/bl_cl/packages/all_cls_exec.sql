@@ -1,0 +1,13 @@
+EXECUTE pckg_insert_auth.insert_bl_cls(source_table=>'src.ext_catalog', target_table_cls=>'cls_authors');
+EXECUTE pckg_insert_category.insert_bl_cls;
+EXECUTE pckg_insert_genre.insert_bl_cls(source_table=>'src.ext_catalog', target_table_cls=>'cls_genre');
+EXECUTE pckg_insert_cat_print.insert_bl_cls(source_table_wrk=>'wrk_catalog_print', target_table_cls=>'cls_catalog');
+EXECUTE pckg_insert_districts.insert_bl_cls(source_table_wrk=>'wrk_geodata', target_table_cls=>'cls_districts');
+EXECUTE pckg_insert_regions.insert_bl_cls(source_table_wrk=>'wrk_geodata', target_table_cls=>'cls_regions');
+EXECUTE pckg_insert_cities.insert_bl_cls(source_table_wrk=>'wrk_geodata', target_table_cls=>'cls_cities');
+EXECUTE pckg_insert_addr.insert_bl_cls(source_table_wrk=>'wrk_addr', target_table_cls=>'cls_addr');
+EXECUTE pckg_insert_employees.insert_bl_cls(source_table_wrk=>'wrk_employees', target_table_cls=>'cls_employees');
+EXECUTE pckg_insert_customers.insert_bl_cls(source_table_wrk=>'wrk_customers', target_table_cls=>'cls_customers');
+EXECUTE pckg_insert_dep.insert_bl_cls(source_table_wrk=>'wrk_departments', target_table_cls=>'cls_departments');
+EXECUTE pckg_insert_store.insert_bl_cls(source_table_wrk=>'wrk_stores', target_table_cls=>'cls_stores');
+EXECUTE pckg_insert_payment.insert_bl_cls(source_table_wrk=>'TABLE(tab_func())', target_table_cls=>'cls_payments');

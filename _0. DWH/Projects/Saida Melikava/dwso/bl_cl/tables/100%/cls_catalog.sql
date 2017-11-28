@@ -1,7 +1,6 @@
 EXECUTE pckg_drop.drop_proc(object_name=>'cls_catalog', object_type=>'table');
 CREATE TABLE cls_catalog
   (
-    cat_src_id  NUMBER(8),
     ISBN        VARCHAR2 ( 200 CHAR ),
     cat_id      NUMBER(8),
     book_name   VARCHAR2 ( 200 CHAR ),

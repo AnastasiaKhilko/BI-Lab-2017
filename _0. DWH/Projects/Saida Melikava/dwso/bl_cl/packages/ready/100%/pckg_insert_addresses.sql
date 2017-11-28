@@ -9,8 +9,6 @@ AS
   PROCEDURE insert_bl_wrk(
       source_table     IN VARCHAR2,
       target_table_wrk IN VARCHAR2);
-  PROCEDURE drop_seq(
-      Object_Name IN VARCHAR2);
   PROCEDURE insert_bl_cls(
       source_table_wrk IN VARCHAR2,
       target_table_cls IN VARCHAR2);
@@ -19,19 +17,6 @@ END pckg_insert_addr;
 /
 CREATE OR REPLACE PACKAGE BODY pckg_insert_addr
 AS
-PROCEDURE drop_seq(
-    Object_Name IN VARCHAR2)
-IS
-  ex_seq EXCEPTION;
-  PRAGMA EXCEPTION_INIT( ex_seq, -02289);
-BEGIN
-  EXECUTE immediate 'drop sequence ' || Object_Name;
-EXCEPTION
-WHEN ex_seq THEN
-  dbms_output.put_line('does not exist');
-WHEN OTHERS THEN
-  RAISE;
-END;
 /*************SRC->WRK****************/
 /*************************************/
 PROCEDURE insert_bl_wrk(
@@ -77,7 +62,7 @@ BEGIN
   sql_stmt_trunc :='TRUNCATE TABLE '|| target_table_cls;
   EXECUTE immediate sql_stmt_trunc;
   dbms_output.put_line('Table '|| target_table_cls||' is successfully truncated.');
-  drop_seq('seq_addr');
+  EXECUTE IMMEDIATE 'DROP SEQUENCE SEQ_ADDR';
   EXECUTE IMMEDIATE 'CREATE SEQUENCE SEQ_ADDR INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE';
   dbms_output.put_line('New sequence is created.');
   OPEN c_data;
@@ -129,14 +114,14 @@ PROCEDURE insert_bl_3NF
 IS
 BEGIN
   MERGE INTO bl_3nf.ce_addr ce USING
-  ( SELECT addr_src_id, addr_street, addr_number_house, addr_city FROM cls_addr
+  ( SELECT addr_code, addr_street, addr_number_house, addr_city FROM cls_addr
   MINUS
   SELECT addr_code,
     addr_street,
     addr_number_house,
     addr_city_id
   FROM bl_3nf.ce_addr
-  ) cls ON ( cls.addr_src_id = ce.addr_code )
+  ) cls ON ( cls.addr_code = ce.addr_code )
 WHEN MATCHED THEN
   UPDATE
   SET ce.addr_street     = cls.addr_street,
@@ -154,7 +139,7 @@ WHEN MATCHED THEN
     VALUES
     (
       seq_addr_3nf.nextval ,
-      cls.addr_src_id,
+      cls.addr_code,
       cls.addr_street ,
       cls.addr_number_house,
       cls.addr_city
@@ -163,10 +148,10 @@ WHEN MATCHED THEN
 END;
 END pckg_insert_addr;
 /
-CREATE SEQUENCE SEQ_ADDR INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE;
-CREATE SEQUENCE SEQ_ADDR_3NF INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE;
   EXECUTE pckg_insert_addr.insert_bl_wrk(source_table=>'wrk_stores', target_table_wrk=>'wrk_addr');
   EXECUTE pckg_insert_addr.insert_bl_cls(source_table_wrk=>'wrk_addr', target_table_cls=>'cls_addr');
   SELECT * FROM cls_addr;
   EXECUTE pckg_insert_addr.insert_bl_3nf;
   SELECT * FROM bl_3nf.ce_addr;
+  CREATE SEQUENCE SEQ_ADDR_3NF INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE;
+

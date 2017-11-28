@@ -72,9 +72,6 @@ BEGIN
   dbms_output.put_line('Table '|| target_table_cls||' is successfully truncated.');
   EXECUTE immediate sql_stmt_trunc||'_error';
   dbms_output.put_line('Table '|| target_table_cls||'_error is successfully truncated.');
-   drop_seq('seq_cat_print');
-  EXECUTE IMMEDIATE 'CREATE SEQUENCE SEQ_CAT_PRINT INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE';
-  dbms_output.put_line('New sequence is created.');
   OPEN c_data;
   LOOP
     FETCH c_data bulk collect INTO t_data limit 10000;
@@ -96,16 +93,9 @@ BEGIN
         acc_err := acc_err+ SQL%ROWCOUNT;
       ELSE
         INSERT INTO cls_catalog
-        SELECT seq_cat_print.nextval,
-          isbn,
-          cat_id,
-          bname,
-          auth,
-          d,
-          g,
-          w
-        FROM
-          (SELECT DISTINCT t_data(i).isbn isbn,
+        SELECT DISTINCT 
+            t_data(i).isbn isbn,
+            '1',
             t_data(i).book_name bname,
             author_id auth,
             NVL(t_data(i).description, 'N/D') d,
@@ -117,10 +107,10 @@ BEGIN
           inner join cls_genre cls2
           on t_data(i).genre=cls2.genre_name
           inner join bl_3nf.ce_authors ce1
-          on ce1.author_code=cls1.author_src_id
+          on ce1.author_code=cls1.author_code
           inner join bl_3nf.ce_genres ce2
-          on ce2.genre_code=cls2.genre_src_id
-          );
+          on ce2.genre_code=cls2.genre_code
+          ;
         acc := acc + SQL%ROWCOUNT;
       END IF;
     END LOOP;
@@ -133,11 +123,14 @@ EXCEPTION
 WHEN OTHERS THEN
   RAISE;
 END insert_bl_cls;
+/********cls->3NF *************/
+/*****************************/
 PROCEDURE insert_bl_3NF
 IS
 BEGIN
 MERGE INTO bl_3nf.ce_catalog ce USING
-(SELECT isbn,
+(SELECT 
+  isbn,
   cat_id,
   book_name,
   author_id,
@@ -146,7 +139,8 @@ MERGE INTO bl_3nf.ce_catalog ce USING
   weight_kg
 FROM cls_catalog
 MINUS
-SELECT prod_code,
+SELECT 
+  prod_code,
   prod_category_id,
   prod_name,
   prod_author_id,
@@ -163,7 +157,8 @@ WHEN MATCHED THEN
     ce.prod_description   = cls.description,
     ce.prod_genre_id      = cls.genre_id,
     ce.prod_weight_kg     = cls.weight_kg,
-    ce.update_dt          =sysdate WHEN NOT MATCHED THEN
+    ce.update_dt          =sysdate 
+  WHEN NOT MATCHED THEN
   INSERT
     (
       Prod_id ,
@@ -196,5 +191,4 @@ EXECUTE pckg_insert_cat_print.insert_bl_cls(source_table_wrk=>'wrk_catalog_print
 SELECT * FROM cls_catalog;
 EXECUTE pckg_insert_cat_print.insert_bl_3nf;
 SELECT * FROM bl_3nf.ce_catalog;
-CREATE SEQUENCE SEQ_CAT_PRINT INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE;
 CREATE SEQUENCE SEQ_CAT_3NF INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE;

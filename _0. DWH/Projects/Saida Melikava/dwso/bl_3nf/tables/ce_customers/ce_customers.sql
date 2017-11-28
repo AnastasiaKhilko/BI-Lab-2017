@@ -1,4 +1,4 @@
-EXECUTE pckg_drop.drop_proc(object_name=>'ce_addr', object_type=>'table');
+EXECUTE pckg_drop.drop_proc(object_name=>'ce_customers', object_type=>'table');
 CREATE TABLE ce_customers
   (
     Customer_id    NUMBER(8) PRIMARY KEY,

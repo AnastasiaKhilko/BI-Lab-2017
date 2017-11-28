@@ -34,5 +34,5 @@ WHEN OTHERS THEN
 END;
 END pckg_insert_geodata;
 /
-EXECUTE pckg_insert_customers.insert_bl_wrk(source_table=>'src.ext_goroda', target_table_wrk=>'wrk_geodata');
+EXECUTE pckg_insert_geodata.insert_bl_wrk(source_table=>'src.ext_goroda', target_table_wrk=>'wrk_geodata');
 SELECT distinct district_name FROM wrk_geodata;

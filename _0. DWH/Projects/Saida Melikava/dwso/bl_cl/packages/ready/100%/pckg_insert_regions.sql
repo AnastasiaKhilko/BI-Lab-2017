@@ -9,26 +9,11 @@ AS
   PROCEDURE insert_bl_cls(
       source_table_wrk IN VARCHAR2,
       target_table_cls IN VARCHAR2);
-  PROCEDURE drop_seq(
-      Object_Name IN VARCHAR2);
-  PROCEDURE insert_bl_3NF;
+ PROCEDURE insert_bl_3NF;
 END pckg_insert_regions;
 /
 CREATE OR REPLACE PACKAGE BODY pckg_insert_regions
 AS
-PROCEDURE drop_seq(
-    Object_Name IN VARCHAR2)
-IS
-  ex_seq EXCEPTION;
-  PRAGMA EXCEPTION_INIT( ex_seq, -02289);
-BEGIN
-  EXECUTE immediate 'drop sequence ' || Object_Name;
-EXCEPTION
-WHEN ex_seq THEN
-  dbms_output.put_line('does not exist');
-WHEN OTHERS THEN
-  RAISE;
-END;
 /********wrk->cls*************/
 /*****************************/
 PROCEDURE insert_bl_cls(
@@ -38,11 +23,9 @@ IS
   sql_stmt_trunc  VARCHAR2(250);
   sql_stmt_insert VARCHAR2(1050);
   sql_stmt_select VARCHAR2(1050);
-  ex_seq          EXCEPTION;
-  PRAGMA EXCEPTION_INIT( ex_seq, -02289 );
 BEGIN
   sql_stmt_select:= q'< 
-(SELECT DISTINCT  
+ SELECT DISTINCT  
 CASE    
 WHEN (INSTR(region_name,' ', 1, 1)>0 )    
 THEN SUBSTR(region_name,1,4)||SUBSTR(region_name,7,1)      
@@ -59,23 +42,18 @@ inner join cls_districts cls
 on wrk.district_name=cls.district_desc
 inner join bl_3nf.ce_districts ce
 on cls.district_code=ce.district_code
-order by 1)
+order by 1
 >';
   sql_stmt_trunc :='TRUNCATE TABLE '|| target_table_cls;
-  sql_stmt_insert:='INSERT INTO '|| target_table_cls||' SELECT SEQ_REG.NEXTVAL, REGION,REGION_NAME, DISTRICT_ID FROM '|| sql_stmt_select;
+  sql_stmt_insert:='INSERT INTO '|| target_table_cls|| sql_stmt_select;
   EXECUTE immediate sql_stmt_trunc;
   dbms_output.put_line('Table '|| target_table_cls||' is successfully truncated.');
-  drop_seq('seq_reg');
-  EXECUTE IMMEDIATE 'CREATE SEQUENCE seq_reg INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE';
-  dbms_output.put_line('New sequence is created.');
   dbms_output.put_line(sql_stmt_insert);
   EXECUTE immediate sql_stmt_insert;
   dbms_output.put_line('Data in the table '||target_table_cls||' is successfully loaded: '||SQL%ROWCOUNT|| ' rows were inserted.');
   COMMIT;
   dbms_output.put_line('Transaction is commited.');
 EXCEPTION
-WHEN ex_seq THEN
-  dbms_output.put_line( 'does not exist');
 WHEN OTHERS THEN
   RAISE;
 END insert_bl_cls;
@@ -114,6 +92,6 @@ END pckg_insert_regions;
 /
 EXECUTE pckg_insert_regions.insert_bl_cls(source_table_wrk=>'wrk_geodata', target_table_cls=>'cls_regions');
 SELECT count(distinct region_code) FROM cls_regions;
-order by region_desc;
 EXECUTE pckg_insert_regions.insert_bl_3NF;
 select * from bl_3nf.ce_regions;
+CREATE SEQUENCE seq_reg_3nf INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE;
