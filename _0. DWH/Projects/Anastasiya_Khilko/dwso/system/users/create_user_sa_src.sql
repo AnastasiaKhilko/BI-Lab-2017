@@ -5,10 +5,8 @@ temporary tablespace TEMP
 quota unlimited on USERS
 profile DEFAULT;
 
-grant 
-  create session ,
-  create table,
-  create view 
-to SA_SRC;
+grant connect to sa_src;
+grant resource to sa_src;
+
 
 
