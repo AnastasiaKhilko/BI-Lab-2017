@@ -15,7 +15,7 @@ ext_cntr2structure_iso3166
 DROP TABLE ext_products;
 CREATE TABLE ext_products
     (
-    product_id NUMBER(2),
+    product_code VARCHAR2(8),
     product VARCHAR2(100),
     prod_category VARCHAR2(100),
     subcategory VARCHAR2(100),
@@ -33,7 +33,7 @@ ORGANIZATION EXTERNAL
          nobadfile nodiscardfile nologfile fields terminated by ','
          missing field values are null
          )
-     LOCATION ('Products_catalog_PMI.csv')
+     LOCATION ('Product_catalog_v4.csv')
 )
 reject LIMIT unlimited;
 
@@ -46,7 +46,7 @@ reject LIMIT unlimited;
 DROP TABLE ext_consumers;
 CREATE TABLE ext_consumers
     (
-     cons_id NUMBER(5),
+     consumer_code VARCHAR2(255),
      gender VARCHAR2(10),
      FullName VARCHAR2(255),
      StreetAddress VARCHAR2(255),
@@ -82,7 +82,7 @@ ORGANIZATION EXTERNAL
 )
 reject LIMIT unlimited;
 
--- SELECT * FROM ext_consumers;
+-- SELECT COUNT(DISTINCT consumer_code) FROM ext_consumers;
 
 --==============================================================
 -- Table: ext_departments
@@ -91,7 +91,7 @@ reject LIMIT unlimited;
 DROP TABLE ext_departments;
 CREATE TABLE ext_departments
     (
-     dep_id NUMBER(3),
+     dep_code VARCHAR(10),
      department VARCHAR(100),
      Country VARCHAR2(50),
      City VARCHAR2(50),
@@ -112,7 +112,7 @@ ORGANIZATION EXTERNAL
          nobadfile nodiscardfile nologfile fields terminated by ','
          missing field values are null
          )
-     LOCATION ('department_list.csv')
+     LOCATION ('department_list_v4.csv')
 )
 reject LIMIT unlimited;
 
@@ -170,9 +170,10 @@ reject limit unlimited;
 --==============================================================
 -- Table: t_ext_cntr2structure_iso3166
 --==============================================================
+DROP TABLE ext_cntr2structure_iso3166;
 create table ext_cntr2structure_iso3166
       (country_id           NUMBER(10,0),
-       county_desc          VARCHAR2(200 CHAR),
+       country_desc          VARCHAR2(200 CHAR),
        structure_code       NUMBER(10,0),
        structure_desc       VARCHAR2(200 CHAR)
        )
@@ -184,7 +185,7 @@ ORGANIZATION EXTERNAL (
          nobadfile nodiscardfile nologfile fields terminated by ';'
          missing field values are NULL
               (country_id integer external (4),
-               county_desc char(200),
+               country_desc char(200),
                structure_code integer external,
                structure_desc char(200) )
          )
