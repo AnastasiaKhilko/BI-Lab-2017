@@ -74,14 +74,6 @@ IS
 BEGIN
   acc            :=0;
   acc_err        :=0;
-  sql_stmt_select:= q'< 
-(SELECT DISTINCT addr_street, addr_number_house, city_id 
-FROM wrk_geodata wrk
-inner join cls_cities cls
-on wrk.cities _name=cls.cities _desc
-inner join bl_3nf.ce_cities  ce
-on cls.cities_code=ce.cities_code) 
->';
   sql_stmt_trunc :='TRUNCATE TABLE '|| target_table_cls;
   EXECUTE immediate sql_stmt_trunc;
   dbms_output.put_line('Table '|| target_table_cls||' is successfully truncated.');

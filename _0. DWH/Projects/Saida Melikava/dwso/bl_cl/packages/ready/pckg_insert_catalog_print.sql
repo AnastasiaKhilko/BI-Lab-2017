@@ -12,6 +12,7 @@ AS
   PROCEDURE insert_bl_cls(
       source_table_wrk IN VARCHAR2,
       target_table_cls IN VARCHAR2);
+  PROCEDURE insert_bl_3NF;
 END pckg_insert_cat_print;
 /
 CREATE OR REPLACE PACKAGE BODY pckg_insert_cat_print
@@ -66,17 +67,13 @@ BEGIN
   acc     :=0;
   acc_err :=0;
   cat_id  :=1;
-  na      :=-99;
-  /*  sql_stmt_select:= q'<
-  (SELECT DISTINCT isbn,book_name,author_name,description, genre, weight FROM wrk_catalog_print)
-  >';*/
   sql_stmt_trunc :='TRUNCATE TABLE '|| target_table_cls;
   EXECUTE immediate sql_stmt_trunc;
   dbms_output.put_line('Table '|| target_table_cls||' is successfully truncated.');
   EXECUTE immediate sql_stmt_trunc||'_error';
   dbms_output.put_line('Table '|| target_table_cls||'_error is successfully truncated.');
-  /* drop_seq('seq_cat_print');
-  EXECUTE IMMEDIATE 'CREATE SEQUENCE SEQ_CAT_PRINT INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE';*/
+   drop_seq('seq_cat_print');
+  EXECUTE IMMEDIATE 'CREATE SEQUENCE SEQ_CAT_PRINT INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE';
   dbms_output.put_line('New sequence is created.');
   OPEN c_data;
   LOOP
@@ -85,7 +82,7 @@ BEGIN
   WHEN t_data.count = 0;
     FOR i IN t_data.first .. t_data.last
     LOOP
-      IF t_data(i).author_name IS NULL THEN
+      IF t_data(i).author_name IS NULL OR t_data(i).isbn IS NULL OR t_data(i).genre IS NULL THEN
         INSERT
         INTO cls_catalog_error VALUES
           (
@@ -106,17 +103,23 @@ BEGIN
           auth,
           d,
           g,
-          w,
-          na,
-          na
+          w
         FROM
           (SELECT DISTINCT t_data(i).isbn isbn,
             t_data(i).book_name bname,
-            INITCAP(t_data(i).author_name) auth,
+            author_id auth,
             NVL(t_data(i).description, 'N/D') d,
-            t_data(i).genre g,
+            genre_id g,
             to_number(t_data(i).weight,'9999.99') w
-          FROM wrk_catalog_print
+          FROM wrk_catalog_print wrk
+          inner join cls_authors cls1
+          on t_data(i).author_name=cls1.author_name
+          inner join cls_genre cls2
+          on t_data(i).genre=cls2.genre_name
+          inner join bl_3nf.ce_authors ce1
+          on ce1.author_code=cls1.author_src_id
+          inner join bl_3nf.ce_genres ce2
+          on ce2.genre_code=cls2.genre_src_id
           );
         acc := acc + SQL%ROWCOUNT;
       END IF;
@@ -130,10 +133,68 @@ EXCEPTION
 WHEN OTHERS THEN
   RAISE;
 END insert_bl_cls;
+PROCEDURE insert_bl_3NF
+IS
+BEGIN
+MERGE INTO bl_3nf.ce_catalog ce USING
+(SELECT isbn,
+  cat_id,
+  book_name,
+  author_id,
+  description,
+  genre_id,
+  weight_kg
+FROM cls_catalog
+MINUS
+SELECT prod_code,
+  prod_category_id,
+  prod_name,
+  prod_author_id,
+  prod_description,
+  prod_genre_id,
+  prod_weight_kg
+FROM bl_3nf.ce_catalog
+) cls ON ( cls.isbn = ce.prod_code )
+WHEN MATCHED THEN
+  UPDATE
+  SET ce.prod_category_id = cls.cat_id,
+    ce.prod_name          = cls.book_name,
+    ce.prod_author_id     = cls.author_id,
+    ce.prod_description   = cls.description,
+    ce.prod_genre_id      = cls.genre_id,
+    ce.prod_weight_kg     = cls.weight_kg,
+    ce.update_dt          =sysdate WHEN NOT MATCHED THEN
+  INSERT
+    (
+      Prod_id ,
+      Prod_code ,
+      Prod_category_id ,
+      Prod_name ,
+      Prod_author_id ,
+      Prod_description ,
+      Prod_genre_id ,
+      Prod_weight_kg
+    )
+    VALUES
+    (
+      seq_cat_3nf.nextval ,
+      cls.isbn,
+      cls.cat_id,
+      cls.book_name,
+      cls.author_id,
+      cls.description,
+      cls.genre_id,
+      cls.weight_kg
+    ) ;
+    COMMIT;
+    END;
 END pckg_insert_cat_print;
 /
 EXECUTE pckg_insert_cat_print.insert_bl_wrk(source_table=>'src.ext_catalog', target_table_wrk=>'wrk_catalog_print');
 SELECT * FROM wrk_catalog_print;
 EXECUTE pckg_insert_cat_print.insert_bl_cls(source_table_wrk=>'wrk_catalog_print', target_table_cls=>'cls_catalog');
 SELECT * FROM cls_catalog;
+EXECUTE pckg_insert_cat_print.insert_bl_3nf;
+SELECT * FROM bl_3nf.ce_catalog;
 CREATE SEQUENCE SEQ_CAT_PRINT INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE;
+CREATE SEQUENCE SEQ_CAT_3NF INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE;

@@ -45,7 +45,7 @@ BEGIN
 (SELECT DISTINCT  
 CASE    
 WHEN (INSTR(region_name,' ', 1, 1)>0 )    
-THEN SUBSTR(region_name,1,4)      
+THEN SUBSTR(region_name,1,4)||SUBSTR(region_name,7,1)      
 ||SUBSTR(region_name,(INSTR(region_name,' ', 1, 1)+1),2)    
 WHEN (INSTR(region_name,'-', 1, 1)>0 )    
 THEN SUBSTR(region_name,1,3)      
@@ -58,7 +58,8 @@ FROM wrk_geodata wrk
 inner join cls_districts cls
 on wrk.district_name=cls.district_desc
 inner join bl_3nf.ce_districts ce
-on cls.district_code=ce.district_code)
+on cls.district_code=ce.district_code
+order by 1)
 >';
   sql_stmt_trunc :='TRUNCATE TABLE '|| target_table_cls;
   sql_stmt_insert:='INSERT INTO '|| target_table_cls||' SELECT SEQ_REG.NEXTVAL, REGION,REGION_NAME, DISTRICT_ID FROM '|| sql_stmt_select;
@@ -112,7 +113,7 @@ END;
 END pckg_insert_regions;
 /
 EXECUTE pckg_insert_regions.insert_bl_cls(source_table_wrk=>'wrk_geodata', target_table_cls=>'cls_regions');
-SELECT * FROM cls_regions
+SELECT count(distinct region_code) FROM cls_regions;
 order by region_desc;
 EXECUTE pckg_insert_regions.insert_bl_3NF;
 select * from bl_3nf.ce_regions;

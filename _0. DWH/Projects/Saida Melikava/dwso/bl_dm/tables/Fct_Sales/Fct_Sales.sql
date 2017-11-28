@@ -18,7 +18,7 @@ CREATE TABLE Fct_Sales
     Fct_unit_price_disc_USD NUMBER(10,2) NOT NULL,
     Fct_sales_Amount_USD    NUMBER(10,2) NOT NULL,
     Insert_DT               DATE NOT NULL,
-    Update_DT               DATE NOT NULL,
+   -- Update_DT               DATE NOT NULL,
     CONSTRAINT fk_date FOREIGN KEY (Event_dt) REFERENCES dim_time_day(full_date_dt),
     CONSTRAINT fk_customer FOREIGN KEY (Fct_customer_id) REFERENCES dim_customers(customer_id),
     CONSTRAINT fk_employee FOREIGN KEY (Fct_employee_id) REFERENCES dim_employees_scd(employee_id),

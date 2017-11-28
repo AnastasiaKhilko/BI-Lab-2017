@@ -40,7 +40,7 @@ IS
   sql_stmt_select VARCHAR2(1050);
 BEGIN
   sql_stmt_select:= q'< 
-(SELECT DISTINCT geo_id||'CT' as geo_id, city_name,region_id
+(SELECT DISTINCT geo_id||substr(city_name,1,2)||'CT' as geo_id, city_name,region_id
 FROM wrk_geodata wrk
 inner join cls_regions cls
 on wrk.region_name=cls.region_desc

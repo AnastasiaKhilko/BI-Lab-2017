@@ -5,6 +5,6 @@ CREATE TABLE cls_stores
     code         VARCHAR2 ( 200 CHAR ),
     name         VARCHAR2 ( 200 CHAR ),
     phone        VARCHAR2 ( 200 CHAR ),
-    address      VARCHAR2 ( 200 CHAR ),
-    manager_id   VARCHAR2 ( 200 CHAR )
+    address_id   NUMBER(8),
+    manager_id   NUMBER(8)
   );

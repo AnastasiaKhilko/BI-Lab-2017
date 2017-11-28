@@ -11,6 +11,7 @@ AS
   PROCEDURE insert_bl_cls(
       source_table     IN VARCHAR2,
       target_table_cls IN VARCHAR2);
+        PROCEDURE insert_bl_3NF;
 END pckg_insert_auth;
 /
 CREATE OR REPLACE PACKAGE BODY pckg_insert_auth
@@ -45,7 +46,6 @@ BEGIN
   EXECUTE IMMEDIATE 'CREATE SEQUENCE SEQ_AUTH INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE';
   dbms_output.put_line('New sequence is created.');
   EXECUTE immediate sql_stmt_insert;
-  EXECUTE immediate 'INSERT INTO '||target_table_cls||q'< VALUES('-99', 'N/D')>';
   dbms_output.put_line('Data in the table '||target_table_cls||' is successfully loaded: '||SQL%ROWCOUNT|| ' rows were inserted.');
   COMMIT;
   dbms_output.put_line('Transaction is commited.');
@@ -53,8 +53,41 @@ EXCEPTION
 WHEN OTHERS THEN
   RAISE;
 END insert_bl_cls;
+/********CLS->3NF*************/
+/*****************************/
+PROCEDURE insert_bl_3NF
+IS
+BEGIN
+MERGE INTO bl_3nf.ce_authors ce USING
+  ( SELECT author_src_id, author_name FROM cls_authorS
+  MINUS
+  SELECT author_code,author_name
+  FROM bl_3nf.ce_authors
+  ) cls ON ( cls.author_src_id = ce.author_code )
+WHEN MATCHED THEN
+  UPDATE
+  SET ce.author_name     = cls.author_name,
+    ce.update_dt         =sysdate WHEN NOT MATCHED THEN
+  INSERT
+    (
+      author_id ,
+      author_CODE ,
+      author_name
+    )
+    VALUES
+    (
+      seq_auth_3nf.nextval ,
+      cls.author_src_id,
+      cls.author_name
+    ) ;
+
+    END;
+COMMIT;
 END pckg_insert_auth;
 /
 EXECUTE pckg_insert_auth.insert_bl_cls(source_table=>'src.ext_catalog', target_table_cls=>'cls_authors');
 SELECT * FROM cls_authors;
+EXECUTE pckg_insert_auth.insert_bl_3nf;
+SELECT *   FROM bl_3nf.ce_authors;
 CREATE SEQUENCE SEQ_AUTH INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE;
+CREATE SEQUENCE SEQ_AUTH_3NF INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE;
