@@ -1,13 +1,13 @@
 create table ext_product_hierarchy(
-    product varchar2(80 char),
-    category_name varchar2(10 char),
-    category_code varchar2(5 char),
-    subcategory_name varchar2(10 char),
+    product varchar2(350 char),
+    category_name varchar2(100 char),
+    category_code varchar2(10 char),
+    subcategory_name varchar2(100 char),
     subcategory_code varchar2 (50 char)
 )
 organization external 
     ( type oracle_loader
-      default directory ext_dir
+      default directory ext_tables
       access parameters
       ( records delimited by 0x'0D0A'
              nobadfile nodiscardfile nologfile fields terminated by ','
@@ -25,5 +25,5 @@ organization external
     )
    reject limit unlimited ;
    
---select * from ext_product_hierarchy;
---drop table ext_product_hierarchy;
+select * from ext_product_hierarchy;
+drop table ext_product_hierarchy;

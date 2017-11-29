@@ -13,7 +13,7 @@ create table ext_products(
 )
 organization external 
     ( type oracle_loader
-      default directory ext_dir
+      default directory ext_tables
       access parameters
       ( records delimited by 0x'0D0A'
              nobadfile nodiscardfile nologfile fields terminated by ','
