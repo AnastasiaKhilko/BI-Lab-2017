@@ -1,8 +1,8 @@
 EXECUTE pckg_drop.drop_proc(object_name=>'ce_customers', object_type=>'table');
 CREATE TABLE ce_customers
   (
-    Customer_id    NUMBER(8) PRIMARY KEY,
-    Customer_code    NUMBER(8) NOT NULL,
+    Customer_id      NUMBER(8) PRIMARY KEY,
+    Customer_code    VARCHAR2(30) NOT NULL,
     Customer_name    VARCHAR2(30) NOT NULL,
     Customer_surname VARCHAR2(30) NOT NULL,
     Customer_email   VARCHAR2(50) NOT NULL,

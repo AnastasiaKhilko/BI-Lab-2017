@@ -5,5 +5,6 @@ CREATE TABLE wrk_stores
     name         VARCHAR2 ( 200 CHAR ),
     city         VARCHAR2 ( 200 CHAR ),
     street       VARCHAR2 ( 200 CHAR ),
-    number_house VARCHAR2 ( 200 CHAR )
+    number_house VARCHAR2 ( 200 CHAR ),
+    phone        VARCHAR2 ( 200 CHAR )
   );

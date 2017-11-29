@@ -1,0 +1,3 @@
+CREATE MATERIALIZED VIEW LOG ON fct_sales
+WITH ROWID, SEQUENCE(store_id,product_id,price,quantity) INCLUDING NEW VALUES;
+CREATE 

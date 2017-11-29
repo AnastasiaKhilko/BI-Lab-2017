@@ -1,4 +1,3 @@
-EXECUTE pckg_drop.drop_proc(object_name=>'ce_employees', object_type=>'table');
 EXECUTE pckg_drop.drop_proc(object_name=>'ce_catalog', object_type=>'table');
 CREATE TABLE ce_catalog
   (
@@ -9,7 +8,7 @@ CREATE TABLE ce_catalog
     Prod_author_id   NUMBER(8) NOT NULL,
     Prod_description VARCHAR2(500) NOT NULL,
     Prod_genre_id    NUMBER(8) NOT NULL,
-    Prod_weight_kg   NUMBER(3,3) NOT NULL,
+    Prod_weight_kg   NUMBER(8,5) NOT NULL,
     insert_DT        DATE DEFAULT(sysdate) NOT NULL ,
     update_DT        DATE DEFAULT(sysdate) NOT NULL
   );

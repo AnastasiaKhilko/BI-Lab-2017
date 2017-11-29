@@ -7,8 +7,15 @@ CREATE TABLE ce_stores
     Store_phone      VARCHAR2(30) NOT NULL,
     Store_manager_id NUMBER(8) NOT NULL,
     Store_address_id NUMBER(8) NOT NULL,
-    insert_DT        DATE DEFAULT(sysdate) NOT NULL ,
-    update_DT        DATE DEFAULT(sysdate) NOT NULL
+    start_DT            DATE DEFAULT(to_date('01-JAN-1900')) NOT NULL,
+    end_DT              DATE DEFAULT(to_date('31-DEC-9999')) NOT NULL,
+    is_active AS (
+    CASE
+      WHEN end_dt=to_date('31-DEC-9999')
+      THEN 'Y'
+      ELSE 'N'
+    END) ,
+    insert_DT DATE DEFAULT(sysdate) NOT NULL
   );
 ALTER TABLE ce_stores ADD CONSTRAINT fk_store_manag FOREIGN KEY (store_manager_id) REFERENCES ce_employees(employee_id);
 ALTER TABLE ce_stores ADD CONSTRAINT fk_store_address FOREIGN KEY (store_address_id) REFERENCES ce_addr(addr_id);

@@ -5,5 +5,7 @@ CREATE TABLE cls_stores
     name         VARCHAR2 ( 200 CHAR ),
     phone        VARCHAR2 ( 200 CHAR ),
     address_id   NUMBER(8),
-    manager_id   NUMBER(8)
+    manager_id   NUMBER(8),
+    start_dt DATE,
+    end_dt DATE
   );

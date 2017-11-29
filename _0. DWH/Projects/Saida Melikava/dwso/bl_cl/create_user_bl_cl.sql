@@ -13,9 +13,11 @@ EXEC system.pckg_grant.grant_proc(grant_name=>'SELECT ANY TABLE', user_name=>'BL
 EXEC system.pckg_grant.grant_proc(grant_name=>'READ,WRITE ON DIRECTORY ETL', user_name=>'BL_CL');
 EXEC system.pckg_grant.grant_proc(grant_name=>'CREATE ANY PROCEDURE', user_name=>'BL_CL');
 EXEC system.pckg_grant.grant_proc(grant_name=>'CREATE ANY SEQUENCE', user_name=>'BL_CL');
+EXEC system.pckg_grant.grant_proc(grant_name=>'CREATE ANY TYPE', user_name=>'BL_CL');
 
 EXEC system.pckg_grant.grant_proc(grant_name=>'INSERT', schema_name=>'BL_3NF', object_name=>'CE_DISTRICTS',user_name=>'BL_CL');
 EXEC system.pckg_grant.grant_proc(grant_name=>'UPDATE', schema_name=>'BL_3NF', object_name=>'CE_DISTRICTS',user_name=>'BL_CL');
 
 EXEC system.pckg_grant.grant_proc(grant_name=>'INSERT', schema_name=>'BL_3NF', object_name=>'CE_REGIONS',user_name=>'BL_CL');
 EXEC system.pckg_grant.grant_proc(grant_name=>'UPDATE', schema_name=>'BL_3NF', object_name=>'CE_REGIONS',user_name=>'BL_CL');
+grant create any synonym to bl_cl;
