@@ -1,0 +1,12 @@
+;;; 
+Export: Release 12.1.0.2.0 - Production on Wed Nov 29 01:37:30 2017
+
+Copyright (c) 1982, 2014, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 12c Enterprise Edition Release 12.1.0.2.0 - 64bit Production
+With the Partitioning, OLAP, Advanced Analytics and Real Application Testing options
+Starting "SYSTEM"."SYS_EXPORT_TRANSPORTABLE_01":  system/******** dumpfile=expdat2.dmp directory=export transport_tablespaces=tbl_t2 logfile=tbl_t1_log 
+ORA-39123: Data Pump transportable tablespace job aborted
+ORA-39185: The transportable tablespace failure list is
+ORA-29335: tablespace 'TBL_T2' is not read only
+Job "SYSTEM"."SYS_EXPORT_TRANSPORTABLE_01" stopped due to fatal error at Wed Nov 29 01:37:34 2017 elapsed 0 00:00:01

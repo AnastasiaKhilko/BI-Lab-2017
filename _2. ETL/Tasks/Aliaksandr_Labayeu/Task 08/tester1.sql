@@ -1,0 +1,1 @@
+SELECT * FROM dual@tester3_link;
