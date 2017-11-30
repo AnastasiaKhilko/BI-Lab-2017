@@ -1,20 +1,29 @@
-CREATE TABLE CE_PRODUCTS (
-        "Product_srcid" NUMBER(10) NOT NULL,
-        "Product_name" VARCHAR2(40),
-        "Product_code" VARCHAR2(10),
-        "Color_srcid" NUMBER(4),
-        "Category_srcid" NUMBER(4),
-        "Collection_srcid" NUMBER(4),
-        "Price" NUMBER(10),
-        CONSTRAINT "PK_Product_srcid"
-          PRIMARY KEY ("Product_srcid"),
-        CONSTRAINT "FK_Color_srcid"
-         FOREIGN KEY ("Color_srcid")
-            REFERENCES CE_COLORS("Color_srcid"),
-        CONSTRAINT "FK_Category_srcid"
-         FOREIGN KEY ("Category_srcid")
-            REFERENCES CE_CATEGORIES("Category_srcid"),
-       CONSTRAINT "FK_Collection_srcid"
-         FOREIGN KEY ("Collection_srcid")
-             REFERENCES CE_COLLECTIONS("Collection_srcid") 
+DROP TABLE ce_products cascade constraints;
+
+ALTER SESSION SET NLS_DATE_LANGUAGE = 'RUSSIAN' ;
+CREATE TABLE ce_products
+    (
+        product_surr_id      NUMBER ( 10 )         NOT NULL,
+        product_id           VARCHAR2 ( 100 )      NOT NULL,
+        product_name         VARCHAR2 ( 200 CHAR ) NOT NULL,
+        product_desc         VARCHAR2 ( 300 CHAR ) NOT NULL,
+        price                NUMBER ( 20,2 )       NOT NULL,
+        color_surr_id        NUMBER ( 10 )         NOT NULL,
+        collection_surr_id   NUMBER ( 10 )         NOT NULL,
+        subcategory_surr_id  NUMBER ( 10 )         NOT NULL,
+        start_dt             DATE     DEFAULT '01-ßÍÂ-1990',
+        end_dt               DATE     DEFAULT '31-ÄÅÊ-9999',
+        is_active            VARCHAR2 ( 10 )       NOT NULL,
+        
+        CONSTRAINT PK_product_id_3nf       PRIMARY KEY ( product_surr_id ),
+        CONSTRAINT UNQ_product_surr_id_3nf UNIQUE      ( product_id ),
+        CONSTRAINT FK_color_id_3nf         FOREIGN KEY ( color_surr_id )
+                   REFERENCES ce_colors                ( color_surr_id ),
+        CONSTRAINT FK_collection_id_3nf    FOREIGN KEY ( collection_surr_id )
+                   REFERENCES ce_collections           ( collection_surr_id ),
+        CONSTRAINT FK_subcategory_id_3nf   FOREIGN KEY ( subcategory_surr_id )
+                  REFERENCES ce_subcategories          ( subcategory_surr_id )      
         );
+        
+        
+ 

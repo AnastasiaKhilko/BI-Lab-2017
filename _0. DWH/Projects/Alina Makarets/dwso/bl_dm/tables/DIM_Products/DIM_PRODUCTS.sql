@@ -1,27 +1,27 @@
-CREATE TABLE DIM_PRODUCTS (
-        "Product_id" NUMBER(10) NOT NULL,
-        "Product_name" VARCHAR2(40) NOT NULL,
-        "Product_code" VARCHAR2(10) NOT NULL,
-        "Color_name" VARCHAR2(40) NOT NULL,
-        "Color_id" NUMBER(4) NOT NULL,
-        "Category_name" VARCHAR2(40) NOT NULL,
-        "Category_id" NUMBER(4) NOT NULL,
-        "Collection_name" VARCHAR2(40) NOT NULL,
-        "Collection_id" NUMBER(4) NOT NULL,
-        "Price" NUMBER(10) NOT NULL,
-        "Insert_dt" DATE NOT NULL,
-        "Start_dt" DATE NOT NULL,
-        "End_dt" DATE NOT NULL,
-        "Is_active" VARCHAR2(4) NOT NULL,
-        CONSTRAINT "PK_Product_id"
-          PRIMARY KEY ("Product_id"),
-        CONSTRAINT "FK_Color_id"
-          FOREIGN KEY ("Color_id")
-            REFERENCES DIM_COLORS("Color_id") ,
-        CONSTRAINT "FK_Category_id"
-          FOREIGN KEY ("Category_id")
-            REFERENCES DIM_CATEGORIES("Category_id"),
-        CONSTRAINT "FK_Collection_id"
-          FOREIGN KEY ("Collection_id")
-            REFERENCES DIM_COLLECTIONS("Collection_id")
-         );
+DROP TABLE dim_products CASCADE CONSTRAINTS;
+
+ALTER SESSION SET NLS_DATE_LANGUAGE = 'RUSSIAN' ;
+CREATE TABLE dim_products
+    (
+        product_id          NUMBER ( 10 )         NOT NULL,
+        product_surr_id     NUMBER ( 10 )         NOT NULL,
+        product_name        VARCHAR2 ( 200 CHAR ) NOT NULL,
+        product_desc        VARCHAR2 ( 300 CHAR ) NOT NULL,
+        price               NUMBER ( 20 )         NOT NULL,        
+        color_id            NUMBER ( 10 )         NOT NULL,
+        color_name          VARCHAR2 ( 200 CHAR ) NOT NULL,
+        collection_id       NUMBER ( 10 )         NOT NULL,
+        collection_name     VARCHAR2 ( 200 CHAR ) NOT NULL,
+        category_id         NUMBER ( 10 )         NOT NULL,
+        category_name       VARCHAR2 ( 200 CHAR ) NOT NULL,
+        subcategory_id      NUMBER ( 10 )         NOT NULL,
+        subcategory_name    VARCHAR2 ( 200 CHAR ) NOT NULL,
+        start_dt        DATE     DEFAULT '01-ßÍÂ-1990',
+        end_dt          DATE     DEFAULT '31-ÄÅÊ-9999',
+        is_active       VARCHAR2 ( 10 )       NOT NULL,
+        
+        CONSTRAINT PK_product_id_dm       PRIMARY KEY ( product_id )   
+        );
+        
+        
+ 

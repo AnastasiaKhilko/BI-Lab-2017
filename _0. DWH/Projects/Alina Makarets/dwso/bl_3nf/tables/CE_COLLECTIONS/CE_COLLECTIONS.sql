@@ -1,15 +1,14 @@
-CREATE TABLE CE_COLLECTIONS (
-        "Collection_srcid" NUMBER(4) NOT NULL,
-        "Collection_name" VARCHAR2(40),
-        "Collection_date" DATE,
-        "Collection_desc" VARCHAR2(80),
-        "Start_dt" DATE NOT NULL,
-        "End_dt" DATE NOT NULL,
-        "Is_active" VARCHAR(4) NOT NULL,
-        CONSTRAINT "PK_Collection_srcid"
-           PRIMARY KEY ("Collection_srcid"),
-        CONSTRAINT "FK_Collection_date"
-          FOREIGN KEY ("Collection_date")
-            REFERENCES CE_DATE("Date_srcid")
-          );
-        
+DROP TABLE ce_collections cascade constraints;
+
+ALTER SESSION SET NLS_DATE_LANGUAGE = 'RUSSIAN' ;
+CREATE TABLE ce_collections
+  (
+    collection_surr_id NUMBER   ( 38 )       NOT NULL,
+    collection_name    VARCHAR2 ( 200 CHAR ) NOT NULL,
+    insert_dt          DATE DEFAULT '01-ßÍÂ-1990',
+    update_dt          DATE DEFAULT '31-ÄÅÊ-9999',
+	
+    CONSTRAINT PK_collection_id_3nf PRIMARY KEY ( collection_surr_id )
+  );
+  
+                 
