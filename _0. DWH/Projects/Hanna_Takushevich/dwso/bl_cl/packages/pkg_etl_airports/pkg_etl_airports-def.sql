@@ -14,5 +14,9 @@ AS
   * Load data to cls table
   */
   PROCEDURE load_to_cls;
-  --PROCEDURE load_to_3nf;
+  /**
+  * Load data to 3nf table
+  */
+  PROCEDURE load_to_3nf;
+  
 END pkg_etl_airports;

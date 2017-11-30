@@ -8,5 +8,15 @@ CREATE TABLE cls_service_classes
     seat_letter VARCHAR2(1),
     menu        VARCHAR2(50),
     max_luggage NUMBER,
-    class_desc  VARCHAR2(100)
+    class_desc  VARCHAR2(100),
+    class_code  VARCHAR2(10),
+    start_dt    DATE,
+    end_dt      DATE,
+    insert_dt DATE DEFAULT sysdate,
+    is_active AS (
+    CASE
+      WHEN end_dt=to_date('31-DEC-9999')
+      THEN 'Y'
+      ELSE 'N'
+    END)
   );

@@ -1,0 +1,1 @@
+CREATE PUBLIC SYNONYM ce_purchaces FOR bl_3nf.ce_purchaces;

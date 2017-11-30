@@ -1,0 +1,1 @@
+CREATE PUBLIC SYNONYM ce_routes FOR bl_3nf.ce_routes;

@@ -1,0 +1,1 @@
+CREATE PUBLIC SYNONYM ce_service_classes FOR bl_3nf.ce_service_classes;

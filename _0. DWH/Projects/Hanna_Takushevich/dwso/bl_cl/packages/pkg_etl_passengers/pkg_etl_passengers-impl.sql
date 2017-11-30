@@ -39,7 +39,7 @@ BEGIN
   SELECT passenger_code, give_name, middle_name, last_name, country_abbr, email, phone, birthday, city FROM ce_passengers
   ) cls ON ( cls.num_pass = p.passenger_code )
 WHEN MATCHED THEN
-  UPDATE SET p.give_name = cls.give_name, p.middle_name = cls.middle_name, p.last_name = cls.last_name, p.country_abbr = cls.country_abbr, p.email = cls.email,p.phone = cls.phone WHEN NOT MATCHED THEN
+  UPDATE SET p.give_name = cls.give_name, p.middle_name = cls.middle_name, p.last_name = cls.last_name, p.country_abbr = cls.country_abbr, p.email = cls.email,p.phone = cls.phone, p.update_dt = sysdate, p.city=cls.city WHEN NOT MATCHED THEN
   INSERT
     (
       passenger_id,
@@ -51,7 +51,9 @@ WHEN MATCHED THEN
       country_abbr,
       email,
       phone,
-      birthday
+      birthday,
+      insert_dt,
+      update_dt
     )
     VALUES
     (
@@ -64,12 +66,13 @@ WHEN MATCHED THEN
       cls.country_abbr,
       cls.email,
       cls.phone,
-      cls.birthday
+      cls.birthday,
+      sysdate,
+      sysdate
     );
   COMMIT;
 EXCEPTION
 WHEN OTHERS THEN
   RAISE;
 END load_to_3nf;
-
 END pkg_etl_passengers;

@@ -35,4 +35,41 @@ EXCEPTION
 WHEN OTHERS THEN
   RAISE;
 END load_to_cls;
+PROCEDURE load_to_3nf
+IS
+BEGIN
+  --EXECUTE IMMEDIATE 'truncate table cls_regions';
+  MERGE INTO ce_aircrafts r USING
+  ( SELECT aircraft_type, aircraft_country, engines_num FROM cls_aircrafts
+  MINUS
+  SELECT aircraft_type, aircraft_country, engines_num FROM ce_aircrafts
+  ) cls ON ( cls.aircraft_type = r.aircraft_type)
+WHEN MATCHED THEN
+  UPDATE
+  SET r.aircraft_country = cls.aircraft_country,
+    r.engines_num        = cls.engines_num,
+    update_dt            = sysdate WHEN NOT MATCHED THEN
+  INSERT
+    (
+      aircraft_id,
+      aircraft_type,
+      aircraft_country,
+      engines_num,
+      update_dt,
+      insert_dt
+    )
+    VALUES
+    (
+      aircraft_seq.nextval,
+      cls.aircraft_type,
+      cls.aircraft_country,
+      cls.engines_num,
+      sysdate,
+      sysdate
+    );
+  COMMIT;
+EXCEPTION
+WHEN OTHERS THEN
+  RAISE;
+END load_to_3nf;
 END pkg_etl_aircrafts;
