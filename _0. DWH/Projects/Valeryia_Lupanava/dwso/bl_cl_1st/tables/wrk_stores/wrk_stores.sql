@@ -11,5 +11,6 @@ CREATE TABLE wrk_stores
     phone      VARCHAR2 ( 200 CHAR ),
     address    VARCHAR2 ( 200 CHAR ),
     city       VARCHAR2 ( 200 CHAR ),
-    country_id VARCHAR2 ( 200 CHAR )
+    country_id VARCHAR2 ( 200 CHAR ),
+    start_dt   DATE
   );

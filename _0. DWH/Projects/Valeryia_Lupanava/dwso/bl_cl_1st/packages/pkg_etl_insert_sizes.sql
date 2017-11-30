@@ -88,14 +88,12 @@ MERGE INTO bl_3nf.ce_bra_size_grid t USING
              bra_size_fr,
              bra_size_uie
       FROM   bl_3nf.ce_bra_size_grid
-    ) c ON ( c.bra_size_id = t.bra_size_srcid )
-    WHEN matched THEN
-    UPDATE SET 
-               t.bra_size_uk  = c.bra_size_uk,
-               t.bra_size_usa = c.bra_size_usa,
-               t.bra_size_eu  = c.bra_size_eu,
-               t.bra_size_fr  = c.bra_size_fr,
-               t.bra_size_uie = c.bra_size_uie
+    ) c ON ( c.bra_size_id = t.bra_size_srcid
+       AND   t.bra_size_uk  = c.bra_size_uk
+       AND   t.bra_size_usa = c.bra_size_usa
+       AND   t.bra_size_eu  = c.bra_size_eu
+       AND   t.bra_size_fr  = c.bra_size_fr
+       AND   t.bra_size_uie = c.bra_size_uie)
     WHEN NOT matched THEN
     INSERT
       (
@@ -143,14 +141,12 @@ MERGE INTO bl_3nf.ce_panty_size_grid t USING
              panty_size_fr,
              panty_size_uie
       FROM   bl_3nf.ce_panty_size_grid
-    ) c ON ( c.panty_size_id = t.panty_size_srcid )
-    WHEN matched THEN
-    UPDATE SET 
-               t.panty_size_uk  = c.panty_size_uk,
-               t.panty_size_usa = c.panty_size_usa,
-               t.panty_size_eu  = c.panty_size_eu,
-               t.panty_size_fr  = c.panty_size_fr,
-               t.panty_size_uie = c.panty_size_uie
+    ) c ON ( c.panty_size_id = t.panty_size_srcid 
+       AND   t.panty_size_uk  = c.panty_size_uk
+       AND   t.panty_size_usa = c.panty_size_usa
+       AND   t.panty_size_eu  = c.panty_size_eu
+       AND   t.panty_size_fr  = c.panty_size_fr
+       AND   t.panty_size_uie = c.panty_size_uie)
     WHEN NOT matched THEN
     INSERT
       (

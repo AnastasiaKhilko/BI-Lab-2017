@@ -9,7 +9,10 @@ CREATE TABLE ext_products
     color           VARCHAR2 ( 300 CHAR ),
     panty_size_id   VARCHAR2 ( 300 CHAR ),
     price           VARCHAR2 ( 300 CHAR ),
-    balance         VARCHAR2 ( 300 CHAR )
+    balance         VARCHAR2 ( 300 CHAR ),
+    start_dt        DATE,
+    end_dt          DATE,
+    is_active       VARCHAR2 ( 300 CHAR )
   )
     ORGANIZATION EXTERNAL
         (TYPE oracle_loader DEFAULT DIRECTORY external_prod_tables

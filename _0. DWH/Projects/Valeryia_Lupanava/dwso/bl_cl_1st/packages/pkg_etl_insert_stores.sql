@@ -15,24 +15,24 @@ BEGIN
   EXECUTE IMMEDIATE ('TRUNCATE TABLE cls_stores');
   INSERT INTO cls_stores (
                               store_id,
-                              store_number,
+                              store_code,
                               store_name,
                               manager_id,
                               phone,
                               address,
                               city_id,
-                              start_dt,
-                              is_active
+                              insert_dt,
+                              update_dt
                             )
-  SELECT cls_stores_seq.NEXTVAL AS store_id,
-         store_code AS store_number,
+  SELECT store_code || '-' || SUBSTR(phone,1,3) AS store_id,
+         store_code,
          store_name,
          manager_id,
          phone,
          address,
          wct.city_id,
-         SYSDATE AS start_dt,
-         'TRUE' AS is_active
+         insert_dt,
+         SYSDATE AS update_dt
   FROM   wrk_stores wst left join wrk_cities wct on wst.city = wct.city_desc
   WHERE  wct.city_id IS NOT NULL;
 
@@ -51,68 +51,63 @@ BEGIN
 
 MERGE INTO bl_3nf.ce_stores t USING
     ( SELECT store_id,
-             store_number,
+             store_code,
              store_name,
              manager_id,
              phone,
              address,
              city_id,
-             start_dt,
-             end_dt,
-             is_active
+             insert_dt,
+             update_dt
       FROM   cls_stores
     MINUS
       SELECT store_srcid AS store_id,
-             store_number,
+             store_code,
              store_desc AS store_name,
              manager_number AS manager_id,
              phone,
              address,
              city_srcid AS city_id,
-             start_dt,
-             end_dt,
-             is_active
+             insert_dt,
+             update_dt
       FROM   bl_3nf.ce_stores
-    ) c ON ( c.store_id = t.store_srcid )
+    ) c ON ( c.store_id = t.store_srcid
+       AND   t.store_desc  = c.store_name
+       AND   t.store_code  = c.store_code
+       AND   t.manager_number = c.manager_id
+       AND   t.phone  = c.phone
+       AND   t.address = c.address
+       AND   t.city_srcid  = c.city_id
+       AND   c.insert_dt = t.insert_dt )
     WHEN matched THEN
-    UPDATE SET 
-               t.store_number = c.store_number,
-               t.store_desc  = c.store_name,
-               t.manager_number = c.manager_id,
-               t.phone  = c.phone,
-               t.address = c.address,
-               t.city_srcid  = c.city_id,
-               t.start_dt = c.start_dt,
-               t.end_dt  = c.end_dt,
-               t.is_active = c.is_active
+    UPDATE SET
+              t.update_dt  = c.update_dt
     WHEN NOT matched THEN
     INSERT
       (
         store_id,
         store_srcid,
-        store_number,
+        store_code,
         store_desc,
         manager_number,
         phone,
         address,
         city_srcid,
-        start_dt,
-        end_dt,
-        is_active
+        insert_dt,
+        update_dt
       )
       VALUES
       (
         bl_3nf.ce_stores_seq.NEXTVAL,
         c.store_id,
-        c.store_number,
+        c.store_code,
         c.store_name,
         c.manager_id,
         c.phone,
         c.address,
         c.city_id,
-        c.start_dt,
-        c.end_dt,
-        c.is_active
+        c.insert_dt,
+        SYSDATE
       ) ;
     COMMIT;
 EXCEPTION

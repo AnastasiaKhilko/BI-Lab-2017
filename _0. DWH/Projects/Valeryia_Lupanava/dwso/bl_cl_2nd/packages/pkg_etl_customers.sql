@@ -16,8 +16,7 @@ BEGIN
   BEGIN
     INSERT INTO cls_customers_scd
     SELECT DISTINCT
-           customer_srcid AS customer_surr_id,
-           customer_number AS customer_id,
+           customer_id,
            first_name,
            last_name,
            age,
@@ -53,25 +52,51 @@ PROCEDURE merge_table_customers
 IS
 BEGIN
   MERGE INTO bl_dm.dim_customers_scd t USING
-    ( SELECT *
+    ( SELECT customer_id,
+             first_name,
+             last_name,
+             age,
+             age_category,
+             email,
+             phone,
+             address,
+             city,
+             country,
+             region,
+             start_dt,
+             end_dt,
+             is_active 
       FROM   cls_customers_scd
     MINUS
-      SELECT *          
+      SELECT customer_id,
+             first_name,
+             last_name,
+             age,
+             age_category,
+             email,
+             phone,
+             address,
+             city,
+             country,
+             region,
+             start_dt,
+             end_dt,
+             is_active           
       FROM   bl_dm.dim_customers_scd
-    ) c ON ( c.customer_surr_id = t.customer_surr_id )
+    ) c ON ( c.customer_id = t.customer_id 
+       AND   t.first_name = c.first_name
+       AND   t.last_name = c.last_name
+       AND   t.age = c.age
+       AND   t.age_category = c.age_category
+       AND   t.email = c.email
+       AND   t.phone = c.phone
+       AND   t.address = c.address
+       AND   t.city = c.city
+       AND   t.country = c.country
+       AND   t.region = c.region
+       AND   t.start_dt = c.start_dt)
     WHEN matched THEN
-    UPDATE SET t.customer_id = c.customer_id,
-               t.first_name = c.first_name,
-               t.last_name = c.last_name,
-               t.age = c.age,
-               t.age_category = c.age_category,
-               t.email = c.email,
-               t.phone = c.phone,
-               t.address = c.address,
-               t.city = c.city,
-               t.country = c.country,
-               t.region = c.region,
-               t.start_dt = c.start_dt,
+    UPDATE SET 
                t.end_dt = c.end_dt,
                t.is_active = c.is_active
     WHEN NOT matched THEN
@@ -95,7 +120,7 @@ BEGIN
       )
       VALUES
       (
-       c.customer_surr_id,
+       bl_dm.dim_customers_seq.NEXTVAL,
        c.customer_id,
        c.first_name,
        c.last_name,

@@ -9,6 +9,10 @@ END;
 BEGIN
   pkg_grants.USER_GRANT(GRANT_NAME => 'UPDATE', SCHEMA_NAME => 'BL_DM', OBJECT_NAME => 'DIM_CUSTOMERS_SCD', USER_NAME => 'BL_CL_2ND');
 END;
+
+BEGIN
+  pkg_grants.USER_GRANT(GRANT_NAME => 'SELECT', SCHEMA_NAME => 'BL_DM', OBJECT_NAME => 'DIM_CUSTOMERS_SEQ', USER_NAME => 'BL_CL_2ND');
+END;
 ---------------------------------------------------------------------------------------------------------------------------------------
 BEGIN
   pkg_grants.USER_GRANT(GRANT_NAME => 'INSERT', SCHEMA_NAME => 'BL_DM', OBJECT_NAME => 'DIM_EMPLOYEES_SCD', USER_NAME => 'BL_CL_2ND');
@@ -56,6 +60,10 @@ END;
 
 BEGIN
   pkg_grants.USER_GRANT(GRANT_NAME => 'UPDATE', SCHEMA_NAME => 'BL_DM', OBJECT_NAME => 'DIM_STORES_SCD', USER_NAME => 'BL_CL_2ND');
+END;
+
+BEGIN
+  pkg_grants.USER_GRANT(GRANT_NAME => 'SELECT', SCHEMA_NAME => 'BL_DM', OBJECT_NAME => 'DIM_STORES_SEQ', USER_NAME => 'BL_CL_2ND');
 END;
 ---------------------------------------------------------------------------------------------------------------------------------------
 BEGIN

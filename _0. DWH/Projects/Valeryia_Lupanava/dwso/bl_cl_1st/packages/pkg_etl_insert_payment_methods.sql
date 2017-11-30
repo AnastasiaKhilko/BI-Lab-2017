@@ -18,13 +18,15 @@ BEGIN
                                    payment_method,
                                    bank,
                                    start_dt,
+                                   end_dt,
                                    is_active
                                    )
-SELECT cls_payment_methods_seq.NEXTVAL AS payment_method_id,
+SELECT SUBSTR(bank,1,5) || '-' || SUBSTR(payment_method_name,1,2) AS payment_method_id,
        payment_method_name AS payment_method,
        bank,
-       SYSDATE AS start_dt,
-       'TRUE' AS is_active
+       start_dt,
+       end_dt,
+       is_active
   FROM wrk_payment_methods;
 
   COMMIT;
@@ -56,12 +58,13 @@ MERGE INTO bl_3nf.ce_payment_methods t USING
              end_dt,
              is_active
       FROM   bl_3nf.ce_payment_methods
-    ) c ON ( c.payment_method_id = t.payment_method_srcid )
+    ) c ON ( c.payment_method = t.payment_method_desc
+       AND   c.payment_method_id = t.payment_method_srcid
+       AND   c.bank = t.bank_desc
+       AND   c.start_dt = t.start_dt
+            )
     WHEN matched THEN
     UPDATE SET 
-               t.payment_method_desc  = c.payment_method,
-               t.bank_desc  = c.bank,
-               t.start_dt  = c.start_dt,
                t.end_dt  = c.end_dt,
                t.is_active = c.is_active
     WHEN NOT matched THEN
@@ -81,7 +84,7 @@ MERGE INTO bl_3nf.ce_payment_methods t USING
         c.payment_method_id,
         c.payment_method,
         c.bank,
-        c.start_dt,
+        sysdate,
         c.end_dt,
         c.is_active
       ) ;

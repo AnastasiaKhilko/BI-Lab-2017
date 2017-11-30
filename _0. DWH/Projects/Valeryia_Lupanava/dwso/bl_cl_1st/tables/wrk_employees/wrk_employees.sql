@@ -20,7 +20,7 @@ CREATE TABLE wrk_employees
  currency_code        VARCHAR2 ( 100 CHAR ),
  month_salary         NUMBER ( 38,3 ),
  credit_card          NUMBER ( 38 ),
- start_date           DATE,
- end_date             VARCHAR2 ( 100 CHAR ),
+ start_dt             DATE,
+ end_dt               DATE,
  is_active            VARCHAR2 ( 100 CHAR )
 );

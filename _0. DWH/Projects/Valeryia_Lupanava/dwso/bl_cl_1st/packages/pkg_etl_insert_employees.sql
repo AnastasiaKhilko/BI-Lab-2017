@@ -17,20 +17,19 @@ BEGIN
   EXECUTE IMMEDIATE ('TRUNCATE TABLE cls_employees');
   INSERT INTO cls_employees (
                               employee_id,
-                              employee_number,
                               first_name,
                               last_name,
-                              store_number,
+                              store_id,
                               position_name,
                               position_grade_id,
                               work_experience,
                               email,
                               phone,
                               start_dt,
+                              end_dt,
                               is_active
                             )
-  SELECT cls_employees_seq.NEXTVAL AS employee_id,
-         employee_code AS employee_number,
+  SELECT employee_code AS employee_id,
          first_name,
          last_name,
          store_srcid,
@@ -39,8 +38,9 @@ BEGIN
          we.work_experience,
          email,
          phone,
-         SYSDATE AS start_dt,
-         'TRUE' AS is_active
+         start_dt,
+         end_dt,
+         is_active
   FROM wrk_employees we left join cls_position_grade cpg
                                on we.position_grade_srcid = cpg.position_grade;
 
@@ -61,7 +61,7 @@ BEGIN
                                    position_grade,
                                    work_experience
                             )
-  SELECT cls_position_grade_seq.NEXTVAL as position_grade_id,
+  SELECT work_experience || ' ' || SUBSTR(position_grade,1,2) as position_grade_id,
          position_grade,
          work_experience
   FROM   (
@@ -97,11 +97,9 @@ MERGE INTO bl_3nf.ce_position_grades t USING
              position_grade_desc  AS position_grade,
              work_experience
       FROM   bl_3nf.ce_position_grades
-    ) c ON ( c.position_grade_id = t.position_grade_srcid )
-    WHEN matched THEN
-    UPDATE SET 
-               t.position_grade_desc = c.position_grade ,
-               t.work_experience = c.work_experience 
+    ) c ON ( c.position_grade = t.position_grade_desc
+       AND   t.position_grade_srcid = c.position_grade_id
+       AND   c.work_experience = t.work_experience)
     WHEN NOT matched THEN
     INSERT
       (
@@ -129,10 +127,9 @@ BEGIN
 
 MERGE INTO bl_3nf.ce_employees t USING
     ( SELECT employee_id,
-             employee_number,
              first_name,
              last_name,
-             store_number,
+             store_id,
              position_name,
              position_grade_id,
              work_experience,
@@ -143,11 +140,11 @@ MERGE INTO bl_3nf.ce_employees t USING
              is_active
       FROM   cls_employees
     MINUS
-      SELECT employee_srcid AS employee_id,
-             employee_number,
+      SELECT 
+             employee_srcid AS employee_id,
              first_name,
              last_name,
-             store_number,
+             store_srcid AS store_id,
              position_name,
              position_grade_srcid AS position_grade_id,
              work_experience,
@@ -157,19 +154,18 @@ MERGE INTO bl_3nf.ce_employees t USING
              end_dt,
              is_active
       FROM   bl_3nf.ce_employees
-    ) c ON ( c.employee_id = t.employee_srcid )
-    WHEN matched THEN
+    ) c ON ( c.employee_id = t.employee_srcid
+       AND   c.first_name = t.first_name
+       AND   c.last_name = t.last_name
+       AND   c.position_name = t.position_name
+       AND   t.position_grade_srcid = c.position_grade_id
+       AND   c.work_experience = t.work_experience
+       AND   t.store_srcid = c.store_id
+       AND   c.email = t.email
+       AND   c.phone = t.phone
+       )
+    WHEN MATCHED THEN
     UPDATE SET 
-               t.employee_number = c.employee_id,
-               t.first_name = c.first_name,
-               t.last_name = c.last_name,
-               t.store_number = c.store_number,
-               t.position_name = c.position_name,
-               t.position_grade_srcid = c.position_grade_id,
-               t.work_experience = c.work_experience,
-               t.email = c.email,
-               t.phone = c.phone,
-               t.start_dt = c.start_dt,
                t.end_dt  = c.end_dt,
                t.is_active = c.is_active
     WHEN NOT matched THEN
@@ -177,10 +173,9 @@ MERGE INTO bl_3nf.ce_employees t USING
       (
         employee_id,
         employee_srcid,
-        employee_number,
         first_name,
         last_name,
-        store_number,
+        store_srcid,
         position_name,
         position_grade_srcid,
         work_experience,
@@ -194,16 +189,15 @@ MERGE INTO bl_3nf.ce_employees t USING
       (
         bl_3nf.ce_employees_seq.NEXTVAL,
         c.employee_id,
-        c.employee_number,
         c.first_name,
         c.last_name,
-        c.store_number,
+        c.store_id,
         c.position_name,
         c.position_grade_id,
         c.work_experience,
         c.email,
         c.phone,
-        c.start_dt,
+        sysdate,
         c.end_dt,
         c.is_active
       ) ;

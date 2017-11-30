@@ -127,20 +127,19 @@ MERGE INTO bl_3nf.ce_continents t USING
       SELECT continent_srcid AS continent_id,
              continent_desc          
       FROM   bl_3nf.ce_continents
-    ) c ON ( c.continent_id = t.continent_srcid )
-    WHEN matched THEN
-    UPDATE SET t.continent_desc = c.continent_desc
+    ) c ON ( c.continent_id = t.continent_srcid
+        AND  c.continent_desc = t.continent_desc)
     WHEN NOT matched THEN
     INSERT
       (
-        continent_ID ,
-        continent_SRCID ,
+        continent_id,
+        continent_srcid,
         continent_desc
       )
       VALUES
       (
         bl_3nf.ce_continents_seq.NEXTVAL,
-        c.continent_ID ,
+        c.continent_id,
         c.continent_desc
       ) ;
     COMMIT;
@@ -163,10 +162,9 @@ MERGE INTO bl_3nf.ce_regions t USING
              region_srcid AS region_id,
              region_desc          
       FROM   bl_3nf.ce_regions
-    ) c ON ( c.region_id = t.region_srcid )
-    WHEN matched THEN
-    UPDATE SET t.continent_srcid = c.continent_id,
-               t.region_desc = c.region_desc
+    ) c ON ( c.region_id = t.region_srcid
+       AND   c.continent_id = t.continent_srcid
+       AND   c.region_desc = t.region_desc)
     WHEN NOT matched THEN
     INSERT
       (
@@ -178,7 +176,7 @@ MERGE INTO bl_3nf.ce_regions t USING
       VALUES
       (
         bl_3nf.ce_regions_seq.NEXTVAL,
-        c.region_ID ,
+        c.region_id,
         c.continent_id,
         c.region_desc
       ) ;
@@ -202,10 +200,9 @@ MERGE INTO bl_3nf.ce_countries t USING
              country_srcid AS country_id,
              country_desc          
       FROM   bl_3nf.ce_countries
-    ) c ON ( c.country_id = t.country_srcid )
-    WHEN matched THEN
-    UPDATE SET t.region_srcid = c.region_id,
-               t.country_desc = c.country_desc
+    ) c ON ( c.country_id = t.country_srcid
+        AND  c.region_id = t.region_srcid 
+        AND  c.country_desc = t.country_desc)
     WHEN NOT matched THEN
     INSERT
       (
@@ -217,7 +214,7 @@ MERGE INTO bl_3nf.ce_countries t USING
       VALUES
       (
         bl_3nf.ce_countries_seq.NEXTVAL,
-        c.country_ID ,
+        c.country_id,
         c.region_id,
         c.country_desc
       ) ;
@@ -241,22 +238,19 @@ MERGE INTO bl_3nf.ce_cities t USING
              city_srcid AS city_id,
              city_desc          
       FROM   bl_3nf.ce_cities
-    ) c ON ( c.city_id = t.city_srcid )
-    WHEN matched THEN
-    UPDATE SET t.country_srcid = c.country_id,
-               t.city_desc = c.city_desc
+    ) c ON ( c.city_id = t.city_srcid)
     WHEN NOT matched THEN
     INSERT
       (
-        city_ID ,
-        city_SRCID ,
+        city_id,
+        city_srcid,
         country_srcid,
         city_desc
       )
       VALUES
       (
         bl_3nf.ce_cities_seq.NEXTVAL,
-        c.city_ID ,
+        c.city_id,
         c.country_id,
         c.city_desc
       ) ;

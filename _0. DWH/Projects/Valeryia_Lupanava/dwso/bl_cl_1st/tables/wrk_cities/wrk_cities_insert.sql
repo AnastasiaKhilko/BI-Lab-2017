@@ -5,8 +5,7 @@ INSERT INTO wrk_cities (
                         city_desc,
                         country_id                        
                         )
-SELECT        
-       wrk_cities_seq.nextval,
+SELECT country_id || ' ' || SUBSTR(city_desc,1,6) AS city_id,       
        city_desc,
        country_id
 FROM (SELECT DISTINCT city AS city_desc,

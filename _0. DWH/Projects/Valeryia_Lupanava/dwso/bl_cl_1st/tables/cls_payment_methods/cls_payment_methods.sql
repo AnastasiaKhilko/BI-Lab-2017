@@ -5,7 +5,7 @@ END;
 
 CREATE TABLE cls_payment_methods
   (
-    payment_method_id NUMBER ( 38 ) NOT NULL,
+    payment_method_id VARCHAR2 ( 200 CHAR ) NOT NULL,
     payment_method    VARCHAR2 ( 200 CHAR ) NOT NULL,
     bank              VARCHAR2 ( 200 CHAR ) NOT NULL,
     start_dt          DATE DEFAULT '01-JAN-1990',

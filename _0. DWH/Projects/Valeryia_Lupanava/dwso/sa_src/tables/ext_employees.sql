@@ -16,7 +16,7 @@
          month_salary         NUMBER ( 38,3 ),
          credit_card          NUMBER ( 38 ),
          start_date           DATE,
-         end_date             VARCHAR2 ( 100 CHAR ),
+         end_date             DATE,
          is_active            VARCHAR2 ( 100 CHAR )
          )
     ORGANIZATION EXTERNAL

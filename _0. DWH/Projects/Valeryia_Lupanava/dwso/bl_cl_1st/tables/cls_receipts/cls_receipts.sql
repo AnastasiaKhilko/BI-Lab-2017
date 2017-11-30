@@ -6,7 +6,6 @@ END;
 CREATE TABLE cls_receipts
   (
     receipt_id        NUMBER ( 38 ) NOT NULL,
-    receipt_number    NUMBER ( 38 ) NOT NULL,
     receipt_dt        DATE NOT NULL,
     store_id          NUMBER ( 38 ) NOT NULL,
     employee_id       NUMBER ( 38 ) NOT NULL,

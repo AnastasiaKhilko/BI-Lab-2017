@@ -7,7 +7,8 @@
     phone      VARCHAR2 ( 200 BYTE ),
     address    VARCHAR2 ( 200 BYTE ),
     city       VARCHAR2 ( 200 BYTE ),
-    country_id VARCHAR2 ( 200 BYTE )
+    country_id VARCHAR2 ( 200 BYTE ),
+    insert_dt  DATE
   )
     ORGANIZATION EXTERNAL
         (TYPE oracle_loader DEFAULT DIRECTORY external_ext_tables

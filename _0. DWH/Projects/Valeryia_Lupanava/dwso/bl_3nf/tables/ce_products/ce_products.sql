@@ -5,11 +5,10 @@ END;
 CREATE TABLE ce_products
   (
     product_id         NUMBER(10) NOT NULL,
-    product_srcid      NUMBER(10) NOT NULL,
-    product_ein        VARCHAR2 ( 200 CHAR ) NOT NULL,
+    product_srcid      VARCHAR2 ( 200 CHAR ) NOT NULL,
     product_desc       VARCHAR2(60 BYTE) NOT NULL,
-    line_srcid         NUMBER(10) NOT NULL,
-    product_type_srcid NUMBER(10) NOT NULL,
+    line_srcid         VARCHAR2 ( 200 CHAR ) NOT NULL,
+    product_type_srcid VARCHAR2 ( 200 CHAR ) NOT NULL,
     start_dt           DATE DEFAULT '01-JAN-1990',
     end_dt             DATE DEFAULT '31-DEC-9999',
     is_active          VARCHAR2 ( 200 CHAR ) NOT NULL,

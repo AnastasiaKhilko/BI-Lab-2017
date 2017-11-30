@@ -15,15 +15,14 @@ BEGIN
   EXECUTE IMMEDIATE ('TRUNCATE TABLE cls_stores_scd');
 INSERT INTO cls_stores_scd
 SELECT DISTINCT
-        store_srcid AS store_surr_id,
-        store_number AS store_id,
+        store_srcid AS store_id,
         store_desc,
         phone,
         address,
         cs.city_desc AS city,
         cn.country_desc AS country,
         cr.region_desc AS region,
-        start_dt AS insert_dt,
+        insert_dt,
         SYSDATE AS update_dt
 FROM    bl_3nf.ce_stores   cc left join bl_3nf.ce_cities cs
                                      on cc.city_srcid = cs.city_srcid
@@ -44,22 +43,37 @@ IS
 BEGIN
 
 MERGE INTO bl_dm.dim_stores_scd t USING
-    ( SELECT *
+    ( SELECT store_id,
+             store_desc,
+             phone,
+             address,
+             city,
+             country,
+             region,
+             insert_dt,
+             update_dt
       FROM   cls_stores_scd
     MINUS
-      SELECT *          
+      SELECT store_id,
+             store_desc,
+             phone,
+             address,
+             city,
+             country,
+             region,
+             insert_dt,
+             update_dt          
       FROM   bl_dm.dim_stores_scd
-    ) c ON ( c.store_surr_id = t.store_surr_id )
+    ) c ON (t.store_id = c.store_id
+        AND t.store_desc = c.store_desc
+        AND t.phone = c.phone
+        AND t.address = c.address
+        AND t.city = c.city
+        AND t.country = c.country
+        AND t.region = c.region)
     WHEN matched THEN
-    UPDATE SET t.store_id = c.store_id,
-               t.store_desc = c.store_desc,
-               t.phone = c.phone,
-               t.address = c.address,
-               t.city = c.city,
-               t.country = c.country,
-               t.region = c.region,
-               t.insert_dt = c.insert_dt,
-               t.update_dt = c.update_dt
+    UPDATE SET 
+            t.update_dt = c.update_dt
     WHEN NOT matched THEN
     INSERT
       (
@@ -76,7 +90,7 @@ MERGE INTO bl_dm.dim_stores_scd t USING
       )
       VALUES
       (
-        c.store_surr_id,
+        bl_dm.dim_stores_seq.NEXTVAL,
         c.store_id,
         c.store_desc,
         c.phone,

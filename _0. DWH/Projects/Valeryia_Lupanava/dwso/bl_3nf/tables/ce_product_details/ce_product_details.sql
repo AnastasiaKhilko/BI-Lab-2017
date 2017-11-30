@@ -5,8 +5,8 @@ END;
 CREATE TABLE ce_product_details
   (
     product_details_id    NUMBER(10) NOT NULL,
-    product_details_srcid NUMBER(10) NOT NULL,
-    product_srcid         NUMBER(10) NOT NULL,
+    product_details_srcid VARCHAR2 ( 200 CHAR ) NOT NULL,
+    product_srcid         VARCHAR2 ( 200 CHAR ) NOT NULL,
     bra_size_srcid        NUMBER(10) DEFAULT 0,
     panty_size_srcid      NUMBER(10) DEFAULT 0,
     color                 VARCHAR2(40 BYTE) NOT NULL,

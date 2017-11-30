@@ -15,7 +15,6 @@ BEGIN
   EXECUTE IMMEDIATE ('TRUNCATE TABLE cls_customers');
   INSERT INTO cls_customers (
                               customer_id,
-                              customer_number,
                               first_name,
                               last_name,
                               age,
@@ -25,10 +24,10 @@ BEGIN
                               address,
                               city_id,
                               start_dt,
+                              end_dt,
                               is_active
                             )
-SELECT   cls_customers_seq.NEXTVAL AS customer_id,
-         passport_number as customer_number,
+SELECT   passport_number as customer_id,
          first_name,
          last_name,
          age,
@@ -41,9 +40,10 @@ SELECT   cls_customers_seq.NEXTVAL AS customer_id,
          email,
          phone,
          address,
-         city_id,
-         SYSDATE AS start_dt,
-         'TRUE' AS is_active
+         wct.city_id,
+         start_dt,
+         end_dt,
+         is_active
   FROM wrk_customers wst inner join wrk_cities wct on wst.city = wct.city_desc;
 
   COMMIT;
@@ -61,7 +61,6 @@ BEGIN
 
 MERGE INTO bl_3nf.ce_customers t USING
     ( SELECT customer_id,
-             customer_number,
              first_name,
              last_name,
              age,
@@ -76,7 +75,6 @@ MERGE INTO bl_3nf.ce_customers t USING
       FROM   cls_customers
     MINUS
       SELECT customer_srcid AS customer_id,
-             customer_number,
              first_name,
              last_name,
              age,
@@ -89,27 +87,25 @@ MERGE INTO bl_3nf.ce_customers t USING
              end_dt,
              is_active
       FROM   bl_3nf.ce_customers
-    ) c ON ( c.customer_id = t.customer_srcid )
-    WHEN matched THEN
-    UPDATE SET 
-               t.customer_number  = c.customer_number,
-               t.first_name  = c.first_name,
-               t.last_name  = c.last_name,
-               t.age  = c.age,
-               t.age_category_srcid  = c.age_category_id,
-               t.email  = c.email,
-               t.phone  = c.phone,  
-               t.address  = c.address,
-               t.city_srcid  = c.city_id,
-               t.start_dt  = c.start_dt,
-               t.end_dt  = c.end_dt,
-               t.is_active = c.is_active
+    ) c ON ( c.customer_id = t.customer_srcid
+       AND   c.first_name = t.first_name
+       AND   c.last_name = t.last_name
+       AND   c.age = t.age
+       AND   t.age_category_srcid  = c.age_category_id
+       AND   c.email = t.email
+       AND   c.phone = t.phone
+       AND   c.address = t.address
+       AND   t.city_srcid  = c.city_id
+       AND   c.start_dt = t.start_dt)
+    WHEN MATCHED THEN 
+    UPDATE SET
+       t.end_dt  = c.end_dt,
+       t.is_active = c.is_active
     WHEN NOT matched THEN
     INSERT
       (
         customer_id,
         customer_srcid,
-        customer_number,
         first_name,
         last_name,
         age,
@@ -126,7 +122,6 @@ MERGE INTO bl_3nf.ce_customers t USING
       (
         bl_3nf.ce_customers_seq.NEXTVAL,
         c.customer_id,
-        c.customer_number,
         c.first_name,
         c.last_name,
         c.age,
@@ -135,9 +130,9 @@ MERGE INTO bl_3nf.ce_customers t USING
         c.phone,
         c.address,
         c.city_id,
-        c.start_dt,
+        sysdate,
         c.end_dt,
-        c.is_active
+        'TRUE'
       ) ;
     COMMIT;
 EXCEPTION

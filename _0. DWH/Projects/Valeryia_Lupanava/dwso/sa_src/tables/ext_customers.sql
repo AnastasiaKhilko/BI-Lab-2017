@@ -11,6 +11,8 @@
          address         VARCHAR2 ( 200 CHAR ),
          city            VARCHAR2 ( 200 CHAR ),
          country_id      NUMBER ( 38 ),
+         start_dt        DATE,
+         end_dt          DATE,
          is_active       VARCHAR2 ( 200 CHAR )
          )
     ORGANIZATION EXTERNAL

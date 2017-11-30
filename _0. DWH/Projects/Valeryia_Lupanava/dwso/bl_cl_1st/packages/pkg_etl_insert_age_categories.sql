@@ -47,10 +47,10 @@ MERGE INTO bl_3nf.ce_age_categories t USING
       SELECT age_category_srcid AS age_category_id,
              age_category_desc  AS age_category
       FROM   bl_3nf.ce_age_categories
-    ) c ON ( c.age_category_id = t.age_category_srcid )
-    WHEN matched THEN
-    UPDATE SET 
-               t.age_category_desc = c.age_category
+    ) c ON ( t.age_category_desc = c.age_category)
+    WHEN MATCHED THEN
+    UPDATE SET
+             t.age_category_srcid = c.age_category_id
     WHEN NOT matched THEN
     INSERT
       (
