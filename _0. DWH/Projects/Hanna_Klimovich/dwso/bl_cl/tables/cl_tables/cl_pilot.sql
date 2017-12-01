@@ -6,7 +6,9 @@ SELECT pl.pilot_id AS pilot_id,
   pl.surname       AS surname,
   pl.gender        AS gender,
   pl.age           AS age,
-  pl.hours_in_air  AS hours_in_air
+  pl.hours_in_air  AS hours_in_air,
+  pl.begin_date    AS begin_date,
+  pl.end_date      AS end_date 
 FROM
   (SELECT DISTINCT pilot_id,
     national_id,
@@ -14,7 +16,9 @@ FROM
     surname,
     gender,
     age,
-    hours_in_air
+    hours_in_air,
+    begin_date,
+    end_date
   FROM wrk_pilot
   ) pl
 WHERE pilot_id   IS NOT NULL
@@ -23,4 +27,6 @@ AND name         IS NOT NULL
 AND surname      IS NOT NULL
 AND gender       IS NOT NULL
 AND age          IS NOT NULL
-AND hours_in_air IS NOT NULL;
+AND hours_in_air IS NOT NULL
+and begin_date IS NOT NULL
+AND end_date IS NOT NULL;
