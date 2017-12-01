@@ -1,4 +1,4 @@
-CREATE SEQUENCE cls_fct_retail_sales_dd_seq
+CREATE SEQUENCE fct_retail_sales_dd_seq
  START WITH     1
  INCREMENT BY   1
  NOCACHE

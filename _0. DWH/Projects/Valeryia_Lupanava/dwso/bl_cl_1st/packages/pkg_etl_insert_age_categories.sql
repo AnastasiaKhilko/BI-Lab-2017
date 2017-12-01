@@ -13,21 +13,29 @@ PROCEDURE insert_table_age_categories
 IS
 BEGIN
   EXECUTE IMMEDIATE ('TRUNCATE TABLE cls_age_categories');
-  INSERT INTO cls_age_categories (
-                                   age_category_id,
-                                   age_category 
-                                 )
-SELECT DISTINCT age_category_id,
-     (CASE WHEN age_category_id = 1 THEN 'youth'
-           WHEN age_category_id = 2 THEN 'middle youth'
-           WHEN age_category_id = 3 THEN 'middle'
-           WHEN age_category_id = 4 THEN 'adult'
-           WHEN age_category_id = 5 THEN 'old'
-       END)  AS age_category
-  FROM cls_customers;
-
-  COMMIT;
-  
+  DECLARE
+     CURSOR ac_cursor IS
+             SELECT DISTINCT age_category_id,
+            (CASE WHEN age_category_id = 1 THEN 'youth'
+                  WHEN age_category_id = 2 THEN 'middle youth'
+                  WHEN age_category_id = 3 THEN 'middle'
+                  WHEN age_category_id = 4 THEN 'adult'
+                  WHEN age_category_id = 5 THEN 'old'
+             END)  AS age_category
+             FROM cls_customers;
+   BEGIN
+     FOR ac_cursor_val IN ac_cursor LOOP
+       INSERT INTO cls_age_categories (
+                                       age_category_id,
+                                       age_category 
+                                       )
+            VALUES (
+                    ac_cursor_val.age_category_id,
+                    ac_cursor_val.age_category 
+                   );
+      END LOOP;
+   COMMIT;
+  END;  
 EXCEPTION
   WHEN OTHERS THEN
   RAISE;

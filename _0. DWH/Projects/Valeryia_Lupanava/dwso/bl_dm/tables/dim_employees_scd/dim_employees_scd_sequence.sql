@@ -1,4 +1,4 @@
-CREATE SEQUENCE ce_position_grades_seq
+CREATE SEQUENCE dim_employees_seq
  START WITH     1
  INCREMENT BY   1
  NOCACHE

@@ -1,4 +1,5 @@
 CREATE OR REPLACE PROCEDURE implicit_cursor
+IS
 BEGIN   
     DECLARE
      CURSOR my_cursor IS
