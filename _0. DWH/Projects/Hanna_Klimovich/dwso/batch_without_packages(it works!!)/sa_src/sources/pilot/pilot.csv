@@ -1,0 +1,2001 @@
+Pilot_Id,License_ID,Name,Surname,Gender,Age,City,Country,Hours_in_air,begin_date,end_date
+1,311-40-9299,Lawrence,Bishop,male,34,Indianapolis,United States of America,280,2006,9999
+2,479-17-4051,Johnny,Strohl,male,18,Rockwell,United States of America,295,2012,9999
+3,427-66-7749,Milton,Cuevas,male,27,Jackson,United States of America,834,2007,9999
+4,600-68-0086,Pierre,Raymond,male,40,Gilbert,United States of America,816,2006,9999
+5,623-11-5216,Tod,Taylor,male,23,San Carlos,United States of America,776,2005,9999
+6,209-54-4050,Steven,Moore,male,47,Wayne,United States of America,634,2012,9999
+7,611-22-4444,Robin,Shults,male,30,Los Angeles,United States of America,442,2007,9999
+8,763-01-4227,Spencer,Bobbitt,male,18,Union City,United States of America,273,2007,9999
+9,217-24-2559,Wallace,Cheek,male,41,Gaithersburg,United States of America,186,2005,9999
+10,369-90-4866,Zachary,Shaw,male,36,Southfield,United States of America,87,2012,9999
+11,543-48-3278,Carlos,Page,male,35,Bend,United States of America,66,2005,9999
+12,690-01-7776,Wesley,Sanders,male,30,Garner,United States of America,463,2007,9999
+13,626-43-0794,Brent,Young,male,23,San Diego,United States of America,245,2007,9999
+14,535-46-7573,William,Bogdan,male,56,Yakima,United States of America,818,2010,9999
+15,606-39-2490,Larry,Carpenter,male,37,Irvine,United States of America,516,2011,9999
+16,524-29-3812,Joan,Butera,female,37,Hotchkiss,United States of America,143,2006,9999
+17,532-32-7837,John,Nowlin,male,31,Portland,United States of America,377,2005,9999
+18,473-32-2665,Ruth,Kemp,female,51,Saint Paul,United States of America,286,2005,9999
+19,422-62-4056,David,Crews,male,30,Montgomery,United States of America,77,2010,9999
+20,572-03-1230,Ryan,Seibert,male,50,San Diego,United States of America,138,2008,9999
+21,513-08-8990,Todd,Atkins,male,19,Brookville,United States of America,878,2007,9999
+22,024-72-3540,Eli,Chastain,male,35,Worcester,United States of America,926,2006,9999
+23,139-36-6981,Albert,Moya,male,57,Princeton,United States of America,958,2010,9999
+24,254-47-0097,Norman,Magee,male,27,Valdosta,United States of America,292,2010,9999
+25,136-05-9713,Thomas,Butler,male,30,Newark,United States of America,675,2007,9999
+26,437-94-3648,Mary,Harvey,female,23,Lake Charles,United States of America,107,2011,9999
+27,360-40-0893,Danielle,Workman,female,41,South Pekin,United States of America,690,2012,9999
+28,261-68-0780,Charles,Cooper,male,25,Cocoa,United States of America,729,2012,9999
+29,376-98-1860,William,Kipp,male,20,Westland,United States of America,278,2009,9999
+30,629-88-8354,Brian,Foster,male,57,Dallas,United States of America,185,2009,9999
+31,769-26-6235,Andrew,Suarez,male,57,Jupiter,United States of America,686,2007,9999
+32,212-29-0012,Jose,Toner,male,25,Baltimore,United States of America,343,2010,9999
+33,199-68-8511,Charles,Navarro,male,30,Newark,United States of America,64,2005,9999
+34,512-52-4721,Ruben,Stewart,male,31,Kansas City,United States of America,678,2009,9999
+35,372-04-7011,Leonard,Mercer,male,29,Detroit,United States of America,825,2012,9999
+36,398-56-5839,William,Martin,male,24,Milwaukee,United States of America,80,2007,9999
+37,452-14-7991,Anna,Schoenfeld,female,60,San Antonio,United States of America,27,2008,9999
+38,371-03-2003,Florence,Murphy,female,51,Southfield,United States of America,23,2007,9999
+39,696-01-3074,Brian,Mullins,male,51,Lynchburg,United States of America,487,2005,9999
+40,670-18-1502,Joan,Riley,female,25,Atlanta,United States of America,990,2012,9999
+41,349-38-5872,John,Jansen,male,44,Schaumburg,United States of America,44,2010,9999
+42,260-76-9004,Chris,Burris,male,32,Pineview,United States of America,227,2010,9999
+43,292-06-6077,Debbie,McDuffie,female,34,Beaverdam,United States of America,134,2012,9999
+44,676-05-6374,Roger,Oaks,male,54,Little Rock,United States of America,936,2008,9999
+45,591-11-8162,Andrew,Beck,male,37,Fort Myers,United States of America,408,2009,9999
+46,552-88-8818,Scott,Peterson,male,48,San Mateo,United States of America,18,2009,9999
+47,667-26-8457,George,Gonzales,male,21,Newnan,United States of America,851,2006,9999
+48,475-74-1128,Alan,Price,male,48,Golden Valley,United States of America,277,2010,9999
+49,485-23-8819,Wayne,Fisher,male,22,Des Moines,United States of America,115,2006,9999
+50,027-58-4765,Frederick,Richards,male,21,Taunton,United States of America,907,2009,9999
+51,457-57-5464,Vivian,Woods,female,39,Vidor,United States of America,318,2008,9999
+52,415-47-1326,Devin,Moore,male,57,Nashville,United States of America,339,2009,9999
+53,258-31-2749,Ronald,Lovelace,male,47,Norcross,United States of America,965,2012,9999
+54,015-34-6723,Russell,Wick,male,50,Cambridge,United States of America,969,2010,9999
+55,093-01-7543,Samuel,Cox,male,52,Bronx,United States of America,476,2007,9999
+56,247-41-7240,Angela,Bailey,female,30,Columbia,United States of America,468,2008,9999
+57,346-56-1957,Gary,Carter,male,33,Collinsville,United States of America,348,2008,9999
+58,214-45-1375,Oscar,Sanborn,male,49,Salisbury,United States of America,926,2006,9999
+59,368-64-0427,Lillian,Thomas,female,24,Marquette,United States of America,260,2009,9999
+60,699-03-1105,Michael,Hernandez,male,44,Arlington,United States of America,179,2006,9999
+61,038-09-3308,Eddie,Stewart,male,19,Providence,United States of America,886,2011,9999
+62,665-09-2136,Ed,Gonzales,male,56,Baton Rouge,United States of America,659,2008,9999
+63,306-40-2313,Christian,Chase,male,46,Georgetown,United States of America,716,2008,9999
+64,765-60-2175,Archie,Reynolds,male,35,Phoenix,United States of America,764,2007,9999
+65,244-60-0972,Louis,Pigott,male,32,Greensboro,United States of America,451,2011,9999
+66,571-17-3101,Kenneth,Bravo,male,24,Los Angeles,United States of America,264,2010,9999
+67,610-92-7879,Vicky,Robinson,female,40,Sunnyvale,United States of America,995,2011,9999
+68,507-19-7630,Saul,Kling,male,28,Norfolk,United States of America,247,2011,9999
+69,530-70-9845,David,Homes,male,39,Reno,United States of America,626,2007,9999
+70,121-50-1715,Arlen,McKee,male,36,East Rochester,United States of America,996,2012,9999
+71,317-76-1617,Tony,Parker,male,26,South Bend,United States of America,629,2012,9999
+72,453-74-1252,Alice,Rios,female,59,Garland,United States of America,276,2011,9999
+73,257-25-7758,Loren,Lopez,female,27,Brunswick,United States of America,612,2010,9999
+74,318-54-2332,James,Robinson,male,34,Jerseyville,United States of America,649,2012,9999
+75,028-60-9658,Charles,Pittman,male,35,Waltham,United States of America,514,2005,9999
+76,554-59-1904,David,Robinson,male,43,Concord,United States of America,414,2008,9999
+77,265-83-4467,Seth,Sontag,male,29,Jupiter,United States of America,347,2008,9999
+78,629-70-5404,James,Pinkston,male,50,Houston,United States of America,188,2010,9999
+79,492-08-2278,Patricia,Roberts,female,56,Kansas City,United States of America,680,2011,9999
+80,526-72-9553,Tamra,Timberlake,female,31,Chandler,United States of America,157,2009,9999
+81,418-22-9129,Valerie,Loughlin,female,39,Cahaba Heights,United States of America,793,2007,9999
+82,196-48-1581,Samuel,Stutes,male,26,Mars,United States of America,813,2009,9999
+83,190-78-8138,Donna,Burks,female,34,Philadelphia,United States of America,261,2012,9999
+84,405-94-7658,Lisa,Castro,female,30,Cincinnati,United States of America,959,2005,9999
+85,098-92-9162,Hattie,Moran,female,32,Albany,United States of America,857,2010,9999
+86,526-75-8686,Susan,Whitt,female,42,Gilbert,United States of America,384,2012,9999
+87,646-54-7839,David,Lathan,male,29,West Valley City,United States of America,118,2012,9999
+88,355-44-5171,Sheron,Cohen,female,37,Chicago,United States of America,156,2011,9999
+89,016-01-5647,Francis,Velez,male,51,Rochester,United States of America,242,2005,9999
+90,535-98-2134,Kim,Simmons,female,57,Aberdeen,United States of America,247,2005,9999
+91,698-01-0314,Warren,Pacheco,male,55,Dublin,United States of America,368,2005,9999
+92,470-08-3381,Hugh,Green,male,42,Lamberton,United States of America,253,2008,9999
+93,663-09-0754,Chuck,Johnson,male,49,New Orleans,United States of America,362,2010,9999
+94,529-63-0239,Amber,Blake,female,48,Salt Lake City,United States of America,225,2009,9999
+95,764-58-6179,Jon,Mayfield,male,50,Phoenix,United States of America,638,2011,9999
+96,369-10-9545,Jerry,Markle,male,19,Saginaw,United States of America,466,2012,9999
+97,023-70-5997,Phyllis,Dougherty,female,46,Cataumet,United States of America,767,2008,9999
+98,514-96-0333,Carole,Clarke,female,46,Russell,United States of America,806,2007,9999
+99,626-10-5331,Frank,Correia,male,58,Stockton,United States of America,502,2012,9999
+100,512-24-2711,Stanley,Letcher,male,60,Wichita,United States of America,499,2008,9999
+101,384-16-2943,Emily,Grey,female,21,Southfield,United States of America,870,2012,9999
+102,501-22-5292,Eric,Mastropietro,male,51,Hazen,United States of America,942,2012,9999
+103,118-84-6029,Michael,White,male,47,Brooklyn,United States of America,895,2007,9999
+104,237-20-6977,Brian,Young,male,27,Wallace,United States of America,978,2009,9999
+105,674-01-2886,Dennis,Wheeler,male,27,Atlanta,United States of America,563,2011,9999
+106,552-24-3695,Michael,Cruz,male,38,Burney,United States of America,683,2005,9999
+107,474-82-2835,George,Burke,male,48,Minneapolis,United States of America,159,2008,9999
+108,526-37-7704,Kay,Cullen,female,32,Tucson,United States of America,818,2012,9999
+109,624-23-3620,Frank,Scott,male,52,San Diego,United States of America,547,2012,9999
+110,249-12-8700,Anthony,Wade,male,34,Wampee,United States of America,204,2010,9999
+111,187-74-0125,Antonio,Jung,male,56,Lancaster,United States of America,468,2009,9999
+112,501-16-0032,Jorge,Frederick,male,30,Rocklake,United States of America,896,2005,9999
+113,154-28-5306,Paul,Lott,male,43,Piscataway,United States of America,463,2012,9999
+114,421-57-2866,Lena,Lafollette,female,57,Pell City,United States of America,649,2007,9999
+115,407-02-1577,William,Marshall,male,54,Louisville,United States of America,373,2007,9999
+116,121-12-6450,Larry,Alba,male,50,New York,United States of America,102,2006,9999
+117,288-50-4596,Victor,Webb,male,43,Dayton,United States of America,865,2012,9999
+118,144-92-5482,Robert,Marsh,male,19,Newark,United States of America,184,2009,9999
+119,151-36-6138,Jennifer,Graham,female,52,River Edge,United States of America,778,2005,9999
+120,555-62-1999,Nelson,Fidler,male,55,San Jacinto,United States of America,490,2011,9999
+121,056-76-0778,Michael,Baker,male,52,New York,United States of America,596,2009,9999
+122,004-03-6398,Paul,Rippy,male,22,Canton,United States of America,603,2005,9999
+123,280-82-4220,Joel,Brown,male,50,Toledo,United States of America,368,2008,9999
+124,546-37-8917,Thomas,Fulton,male,37,Burbank,United States of America,841,2006,9999
+125,014-24-3169,Stephanie,Ferrell,female,56,Cambridge,United States of America,163,2007,9999
+126,085-56-7050,Karen,Jamerson,female,23,Queens,United States of America,786,2010,9999
+127,462-17-7721,Jessica,Scanlon,female,24,Midland,United States of America,446,2012,9999
+128,183-46-0051,James,Shedd,male,51,Pittston,United States of America,352,2007,9999
+129,530-90-5378,John,Arney,male,34,Reno,United States of America,443,2006,9999
+130,759-01-0911,Fred,Sigler,male,60,Knoxville,United States of America,25,2008,9999
+131,267-77-5588,Robert,Meekins,male,51,Miramar,United States of America,544,2007,9999
+132,066-01-9064,George,Falcone,male,55,Elmhurst,United States of America,441,2011,9999
+133,328-34-2222,James,Martinez,male,19,Hickory Hills,United States of America,842,2007,9999
+134,563-43-5197,Larry,Coleman,male,23,Irvine,United States of America,61,2005,9999
+135,304-32-5293,James,Crandall,male,41,Mishawaka,United States of America,73,2007,9999
+136,353-92-3108,Steven,Batt,male,24,Chicago,United States of America,108,2005,9999
+137,495-32-3222,Michael,Bravo,male,52,Saint Louis,United States of America,993,2008,9999
+138,325-01-6132,Annette,Ring,female,38,Chicago,United States of America,155,2009,9999
+139,664-01-5862,Edward,Fennell,male,22,Houma,United States of America,711,2012,9999
+140,132-34-3208,Shane,Dean,male,57,South Salem,United States of America,738,2005,9999
+141,388-38-4804,Norman,Kowalski,male,26,Yuba,United States of America,552,2011,9999
+142,420-92-5212,Walter,Woods,male,58,New Market,United States of America,392,2009,9999
+143,430-34-4219,Danny,Speidel,male,56,Malvern,United States of America,95,2007,9999
+144,371-84-3649,James,Utt,male,36,Corunna,United States of America,310,2012,9999
+145,647-32-8576,Richard,Hickman,male,19,Mountain View,United States of America,96,2011,9999
+146,619-37-2781,Joseph,Moore,male,31,Chico,United States of America,37,2011,9999
+147,249-10-9486,Richard,Clark,male,26,Florence,United States of America,753,2007,9999
+148,658-10-7630,Lois,Gunn,female,33,Saluda,United States of America,592,2008,9999
+149,608-55-7029,Allison,Goehring,female,52,Anaheim,United States of America,510,2011,9999
+150,567-34-9379,Adolph,Lawless,male,28,Palo Alto,United States of America,5,2006,9999
+151,630-90-0874,Joshua,Willis,male,51,Joplin,United States of America,597,2010,9999
+152,284-40-0926,Johnny,Myers,male,58,Brecksville,United States of America,654,2006,9999
+153,453-39-0682,Donna,Hafley,female,60,San Antonio,United States of America,700,2012,9999
+154,696-01-5786,Jason,Johnson,male,42,Fieldale,United States of America,656,2009,9999
+155,529-88-7202,Mark,Pippin,male,58,Farmington,United States of America,885,2009,9999
+156,645-36-1022,Josephine,Aldrich,female,54,Houston,United States of America,267,2005,9999
+157,522-33-9778,Rose,Greene,female,47,Denver,United States of America,232,2005,9999
+158,171-03-1948,Mark,Riley,male,37,Monroeville,United States of America,789,2006,9999
+159,290-82-8447,Wayne,Ferguson,male,42,Toledo,United States of America,227,2012,9999
+160,231-41-4703,Vern,Jewell,male,24,Leesburg,United States of America,726,2006,9999
+161,589-71-4478,Ethan,Lashley,male,39,Deerfield Beach,United States of America,693,2010,9999
+162,624-64-9674,Walter,Schrack,male,58,Newport Beach,United States of America,173,2007,9999
+163,485-09-3088,Aisha,Jackson,female,20,Arnolds Park,United States of America,364,2012,9999
+164,504-26-6393,Jesse,Robles,male,50,Wentworth,United States of America,86,2012,9999
+165,561-75-8836,Matthew,Gauna,male,24,San Diego,United States of America,756,2006,9999
+166,010-86-4696,Vicki,Tsan,female,60,Braintree,United States of America,563,2006,9999
+167,476-18-7860,Henry,Johnson,male,57,Wadena,United States of America,755,2008,9999
+168,548-34-1447,Oscar,Rasmussen,male,24,Los Angeles,United States of America,168,2006,9999
+169,261-59-9537,Juan,Wing,male,51,Miramar,United States of America,689,2008,9999
+170,561-63-5343,Joe,Fleisher,male,23,Fairfield,United States of America,211,2011,9999
+171,471-78-4895,Frank,Fisher,male,23,Gary,United States of America,999,2008,9999
+172,568-61-1479,Jacob,Loomis,male,41,Los Angeles,United States of America,998,2009,9999
+173,261-64-3842,Glenn,Dickerson,male,28,Jacksonville,United States of America,679,2008,9999
+174,519-25-9886,Roderick,Brewer,male,57,Kellogg,United States of America,976,2005,9999
+175,200-70-7666,Robert,Rogalski,male,31,Philadelphia,United States of America,566,2005,9999
+176,611-58-6653,Titus,Middleton,male,44,Los Angeles,United States of America,505,2006,9999
+177,332-60-3110,Michael,Brantley,male,41,Naperville,United States of America,132,2011,9999
+178,082-32-3905,Sabrina,Vargas,female,50,Elmsford,United States of America,497,2008,9999
+179,389-10-4205,Robert,Mendez,male,57,Milwaukee,United States of America,710,2012,9999
+180,642-30-1926,Darlene,Kirsch,female,22,Needville,United States of America,509,2006,9999
+181,605-98-1340,William,Tomlin,male,41,Hermosa Beach,United States of America,51,2012,9999
+182,230-27-7298,Glenn,Garland,male,20,Arlington,United States of America,309,2005,9999
+183,262-85-2802,Andrea,Cloud,female,49,Tampa,United States of America,23,2006,9999
+184,036-20-3807,Bruce,Gaston,male,58,Providence,United States of America,485,2010,9999
+185,645-18-0986,Ryan,Corriveau,male,21,San Antonio,United States of America,79,2010,9999
+186,211-78-0281,Richard,Kite,male,55,Fort Washington,United States of America,270,2012,9999
+187,546-51-3708,Valerie,Grayson,female,26,San Francisco,United States of America,817,2006,9999
+188,631-26-3651,Kenneth,Kilgore,male,47,San Antonio,United States of America,953,2006,9999
+189,486-17-7489,Vincent,Ashcraft,male,19,Brazito,United States of America,670,2007,9999
+190,010-34-4787,Thomas,Tussey,male,35,Gilbertville,United States of America,789,2007,9999
+191,307-68-8428,Cecil,Reyes,male,28,Fort Wayne,United States of America,934,2005,9999
+192,534-29-3675,Henry,Summerville,male,54,Republic,United States of America,440,2009,9999
+193,462-45-3432,Joseph,Vansant,male,54,Corpus Christi,United States of America,545,2008,9999
+194,526-07-3689,Kenny,Rivera,male,58,Payson,United States of America,346,2008,9999
+195,218-06-8417,Marilyn,Garcia,female,53,Cumberland,United States of America,378,2011,9999
+196,508-80-3012,Jesus,Tabor,male,28,Lincoln,United States of America,359,2011,9999
+197,289-78-0931,Spencer,Steel,male,47,Cincinnati,United States of America,219,2009,9999
+198,209-10-1131,Donald,Wright,male,44,Philadelphia,United States of America,583,2010,9999
+199,534-35-2376,Josephine,Ramos,female,40,Millwood,United States of America,294,2005,9999
+200,265-26-1106,Dwight,Gonzales,male,60,North Miami,United States of America,990,2007,9999
+201,168-12-6762,Erin,Bolden,female,30,Portland,United States of America,606,2007,9999
+202,198-74-7875,Ryan,Arrowood,male,31,Pittston,United States of America,255,2012,9999
+203,212-25-9671,Ray,Broman,male,18,Hanover,United States of America,558,2007,9999
+204,505-68-8778,Jack,Moeller,male,47,Omaha,United States of America,718,2008,9999
+205,441-96-2620,Joshua,Herdon,male,41,Guymon,United States of America,875,2011,9999
+206,321-76-8532,Jason,Kernan,male,59,Chicago,United States of America,12,2007,9999
+207,633-44-0676,Eric,Beery,male,24,Dallas,United States of America,679,2010,9999
+208,681-05-7578,Patricia,Blanton,female,31,Garner,United States of America,732,2009,9999
+209,594-26-4580,Darren,Bruce,male,31,Fort Walton Beach,United States of America,869,2012,9999
+210,277-60-0542,Bennett,Twedt,male,47,Worthington,United States of America,138,2007,9999
+211,009-14-4549,Calvin,Nelson,male,48,Middletown Springs,United States of America,418,2012,9999
+212,388-78-8859,Antonio,Heil,male,53,Salem,United States of America,516,2010,9999
+213,325-18-4636,William,Mason,male,48,Elk Grove Village,United States of America,930,2008,9999
+214,514-94-7753,Chris,McDonald,male,47,Concordia,United States of America,57,2009,9999
+215,522-79-5818,Philip,Blakeley,male,51,Monument,United States of America,416,2009,9999
+216,420-54-8780,Aaron,Cooper,male,56,Birmingham,United States of America,674,2009,9999
+217,417-86-2479,Garrett,Mullens,male,28,Eclectic,United States of America,108,2008,9999
+218,523-10-6601,Daryl,Shah,male,55,Centennial,United States of America,488,2010,9999
+219,263-31-4733,Floyd,Edwards,male,26,Orlando,United States of America,97,2011,9999
+220,016-80-3661,Peter,Morant,male,43,Cambridge,United States of America,364,2012,9999
+221,380-76-6947,Ronald,Felt,male,41,Southfield,United States of America,828,2007,9999
+222,478-13-3582,Daniel,Neece,male,58,Belle Plaine,United States of America,859,2008,9999
+223,689-07-8046,Eloy,Nedd,male,34,Charlotte,United States of America,521,2011,9999
+224,620-76-3701,Alan,Cornelius,male,32,Oakland,United States of America,543,2007,9999
+225,015-14-8902,Devin,Lundy,male,44,West Roxbury,United States of America,645,2009,9999
+226,486-86-2751,David,Crawford,male,37,Lenexa,United States of America,727,2006,9999
+227,638-88-4137,Steven,Harrison,male,44,Farmers Branch,United States of America,728,2005,9999
+228,602-35-0356,Paul,Dick,male,50,Long Beach,United States of America,299,2006,9999
+229,618-82-6528,Joseph,Sanchez,male,49,Berkeley,United States of America,236,2009,9999
+230,661-01-7015,Shaun,Emmert,male,38,Ponchatoula,United States of America,767,2010,9999
+231,771-01-1209,Theron,Oleson,male,59,Jacksonville,United States of America,786,2010,9999
+232,565-34-7150,Catherine,Stanley,female,41,City Of Commerce,United States of America,139,2008,9999
+233,634-68-1491,Geri,Blevins,female,41,Dallas,United States of America,710,2010,9999
+234,617-28-2630,Lowell,Coleman,male,20,Downey,United States of America,109,2007,9999
+235,379-42-8244,Jared,Hutcheson,male,52,Detroit,United States of America,274,2011,9999
+236,534-13-8065,Regenia,Ek,female,32,Seattle,United States of America,897,2008,9999
+237,034-03-2566,Maurice,Vitagliano,male,50,Boston,United States of America,966,2012,9999
+238,760-01-6066,Juan,Brown,male,35,Vonore,United States of America,981,2005,9999
+239,102-76-8170,John,Reed,male,50,Albany,United States of America,165,2009,9999
+240,618-50-4099,Vanessa,Brantley,female,52,Camarillo,United States of America,207,2007,9999
+241,563-38-0273,Mark,Patrick,male,34,Los Angeles,United States of America,936,2009,9999
+242,155-68-4613,Willie,Gagnon,male,23,Glassboro,United States of America,359,2007,9999
+243,374-05-9757,Jeffrey,Spangler,male,51,Long Lake,United States of America,887,2012,9999
+244,261-39-4062,Katherine,Stone,female,56,Fort Lauderdale,United States of America,525,2007,9999
+245,595-80-0059,Dario,Chadwell,male,47,Miami,United States of America,481,2005,9999
+246,693-01-6404,Matthew,Rocha,male,47,Falls Church,United States of America,402,2005,9999
+247,425-14-7239,Tracy,Peters,male,35,Myrtle,United States of America,503,2006,9999
+248,271-20-7410,Joe,Salls,male,39,Continental,United States of America,471,2011,9999
+249,652-14-3143,Lori,Scruggs,female,50,Denver,United States of America,647,2012,9999
+250,290-48-1567,Shirley,Bodden,female,18,Saint Clairsville,United States of America,701,2005,9999
+251,681-01-9483,Jonathan,Dow,male,48,Rocky Mount,United States of America,112,2007,9999
+252,197-01-7957,Michael,Ogawa,male,18,Mcmurray,United States of America,392,2010,9999
+253,215-03-9795,Brandon,Park,male,52,Hyattsville,United States of America,162,2006,9999
+254,356-60-6773,Rita,Williams,female,46,Burr Ridge,United States of America,100,2007,9999
+255,476-90-8784,Albert,Dunn,male,23,Minneapolis,United States of America,266,2006,9999
+256,491-07-2026,David,Lewin,male,58,Springfield,United States of America,633,2009,9999
+257,428-40-3029,Rudy,Gonzalez,male,44,Biloxi,United States of America,250,2011,9999
+258,208-44-7612,Micheal,Quigley,male,42,Middleburg (Snyder),United States of America,88,2007,9999
+259,210-32-6918,Ferdinand,Schutte,male,29,Timblin,United States of America,287,2010,9999
+260,585-68-5803,Matthew,Johnson,male,33,Tse Bonito,United States of America,35,2006,9999
+261,768-05-4169,Justin,Brannan,male,55,Tampa,United States of America,311,2007,9999
+262,645-74-4666,Robert,Solis,male,41,Frisco,United States of America,492,2006,9999
+263,123-66-5681,Georgia,Johnson,female,59,Rochester,United States of America,133,2008,9999
+264,370-46-3143,Michael,Novack,male,22,Hulbert,United States of America,700,2011,9999
+265,467-80-7194,George,Woods,male,33,Dallas,United States of America,859,2005,9999
+266,020-82-5645,Christopher,Childress,male,45,Waltham,United States of America,901,2008,9999
+267,593-86-4323,George,Albert,male,44,Miami,United States of America,691,2008,9999
+268,600-62-2276,Kara,Herbert,female,28,Tucson,United States of America,241,2009,9999
+269,225-64-4771,Lois,Boon,female,56,Richmond,United States of America,39,2009,9999
+270,604-08-1451,Robert,Cross,male,27,Fresno,United States of America,360,2010,9999
+271,662-03-5026,Ronald,Madden,male,31,Metairie,United States of America,795,2005,9999
+272,403-14-5126,Mary,Altman,female,50,Cincinnati,United States of America,924,2011,9999
+273,246-48-3518,David,Day,male,47,Gastonia,United States of America,784,2008,9999
+274,080-72-7781,Calvin,Poe,male,36,Bath,United States of America,515,2011,9999
+275,080-10-6151,Hiram,Smith,male,25,Staten Island,United States of America,676,2010,9999
+276,534-68-8580,Deborah,Everitt,female,47,Seattle,United States of America,311,2007,9999
+277,215-11-7485,James,Gibbs,male,44,Elkridge,United States of America,564,2005,9999
+278,463-97-2514,Stephen,Campbell,male,28,Austin,United States of America,301,2005,9999
+279,383-50-7326,Jonathan,Hofmann,male,26,Taylor,United States of America,541,2005,9999
+280,688-01-6661,Eric,Larsen,male,30,Gastonia,United States of America,809,2007,9999
+281,683-05-9480,Mark,Miller,male,55,Hickory,United States of America,513,2008,9999
+282,010-46-1100,Jeffry,Campbell,male,29,Cambridge,United States of America,768,2005,9999
+283,574-90-8420,Greg,Tweed,male,31,Juneau,United States of America,525,2007,9999
+284,412-70-7985,Jose,Joseph,male,28,Memphis,United States of America,896,2010,9999
+285,183-60-3617,Donald,Davis,male,22,York,United States of America,151,2006,9999
+286,455-16-7998,Connie,McIntosh,female,34,Longview,United States of America,424,2006,9999
+287,457-14-7945,Michael,Thomas,male,37,Houston,United States of America,213,2012,9999
+288,492-56-6713,Matthew,Fields,male,34,Kansas City,United States of America,211,2011,9999
+289,393-11-4410,Randy,Risk,male,52,Fitchburg,United States of America,308,2009,9999
+290,363-20-5465,Daniel,Auyeung,male,42,Mulliken,United States of America,322,2005,9999
+291,457-36-5836,Brian,Figueroa,male,52,Spring,United States of America,534,2009,9999
+292,537-56-3552,James,Garrett,male,38,Seattle,United States of America,872,2012,9999
+293,255-46-4891,Edward,Love,male,58,Valdosta,United States of America,925,2008,9999
+294,478-05-4648,Joel,Lamb,male,47,Cedar Rapids,United States of America,877,2011,9999
+295,072-07-3104,Warren,Koerner,male,57,Brooklyn,United States of America,48,2009,9999
+296,569-80-2702,Janet,Dysart,female,35,San Juan Capistrano,United States of America,865,2007,9999
+297,437-03-1271,Bruce,Shirley,male,55,Cheneyville,United States of America,768,2006,9999
+298,305-54-9201,Sherman,Copenhaver,male,24,Fort Wayne,United States of America,382,2008,9999
+299,387-26-9000,Brian,Grant,male,33,Milwaukee,United States of America,993,2005,9999
+300,578-11-0417,Wanda,Brown,female,54,Washington,United States of America,901,2007,9999
+301,561-88-9437,Allen,McCoy,male,44,Redding,United States of America,790,2005,9999
+302,274-16-7689,Rose,Sorrels,female,44,Warren,United States of America,880,2007,9999
+303,180-64-2733,Daniel,Burleson,male,50,Corry,United States of America,513,2012,9999
+304,550-51-5644,Wayne,Brooks,male,56,Santa Fe Springs,United States of America,654,2008,9999
+305,233-68-6844,John,Barr,male,35,Huntington,United States of America,257,2007,9999
+306,562-17-9236,Lazaro,Morales,male,36,Sacramento,United States of America,561,2011,9999
+307,311-40-6423,Steven,Comstock,male,24,Portage,United States of America,259,2010,9999
+308,554-30-5516,Jesus,Johnson,male,43,Los Angeles,United States of America,63,2007,9999
+309,055-60-6355,Clyde,Thompson,male,26,Middletown,United States of America,555,2007,9999
+310,169-09-2837,Sylvia,Mallory,female,26,Gibsonia,United States of America,647,2012,9999
+311,518-30-5233,Scotty,Simpson,male,26,Boise,United States of America,963,2007,9999
+312,036-14-7416,Gary,Myles,male,25,Providence,United States of America,947,2008,9999
+313,016-56-6175,Jean,Royce,female,52,North Billerica,United States of America,23,2005,9999
+314,173-32-4065,Joel,Schwab,male,58,Hatboro,United States of America,914,2008,9999
+315,530-75-3884,Robert,Kornegay,male,27,Las Vegas,United States of America,964,2007,9999
+316,462-20-7282,Wayne,Daniels,male,50,Bulverde,United States of America,260,2005,9999
+317,623-56-3379,Richard,Bridges,male,55,Huntington Beach,United States of America,152,2007,9999
+318,365-64-4783,Mary,Hartley,female,43,Three Rivers,United States of America,225,2009,9999
+319,766-38-6771,Daniel,Hibbert,male,58,Plantation,United States of America,695,2011,9999
+320,193-76-0913,Gillian,Oquendo,female,57,Scranton,United States of America,107,2012,9999
+321,472-94-6443,Jennifer,Harrison,female,38,Maplewood,United States of America,409,2008,9999
+322,409-84-2697,Robert,Louis,male,35,Memphis,United States of America,668,2011,9999
+323,767-32-0657,Michael,Welch,male,47,Lakeland,United States of America,506,2012,9999
+324,766-03-7849,Wilson,Lobb,male,49,Miami Springs,United States of America,178,2006,9999
+325,527-04-4416,Cristie,Graham,female,51,Sedona,United States of America,689,2005,9999
+326,637-82-7195,Amy,Yates,female,42,Frisco,United States of America,179,2011,9999
+327,138-80-4382,Richard,Stacy,male,50,Camden,United States of America,833,2005,9999
+328,519-73-9935,Kelly,Small,female,58,Boise,United States of America,380,2006,9999
+329,156-24-4078,Joann,Wilson,female,49,Union City,United States of America,481,2010,9999
+330,009-78-9969,Penny,Sin,female,27,Windsor,United States of America,779,2006,9999
+331,697-01-7668,Isaac,Scott,male,28,Washington,United States of America,537,2010,9999
+332,690-01-3075,Sandra,Guerrero,female,42,Charlotte,United States of America,887,2008,9999
+333,008-26-7352,Ethel,Gurley,female,44,Brattleboro,United States of America,983,2005,9999
+334,188-80-9796,Jason,Shepard,male,51,Eagleville,United States of America,246,2007,9999
+335,484-84-7338,Patricia,Kennedy,female,40,Iowa City,United States of America,565,2008,9999
+336,148-06-0545,Donald,Vang,male,58,Merchantville,United States of America,93,2005,9999
+337,253-05-5622,Edward,Evans,male,27,Forest Park,United States of America,909,2005,9999
+338,220-68-4950,Josephine,Pinheiro,female,43,Frederick,United States of America,634,2008,9999
+339,160-56-6649,Francis,Keeton,male,45,Harrisburg,United States of America,78,2008,9999
+340,171-10-4213,Aldo,Baines,male,22,Bath,United States of America,961,2005,9999
+341,557-56-5686,Derek,Hendrix,male,40,Fullerton,United States of America,944,2011,9999
+342,530-70-7600,Richard,Wheeler,male,52,Las Vegas,United States of America,641,2012,9999
+343,533-41-2034,William,Townsend,male,30,Seattle,United States of America,283,2005,9999
+344,467-95-9779,Kenneth,Bollinger,male,40,Beaumont,United States of America,132,2012,9999
+345,247-11-8811,Marvin,Murr,male,31,Charlotte,United States of America,995,2005,9999
+346,577-10-8398,Thomas,Hudgins,male,19,Washington,United States of America,713,2006,9999
+347,604-24-4820,Brian,Chow,male,37,City Of Commerce,United States of America,26,2007,9999
+348,677-01-8474,Gary,Alexander,male,35,Little Rock,United States of America,219,2006,9999
+349,048-32-4586,Rick,Greene,male,32,Hartford,United States of America,127,2005,9999
+350,431-16-5206,Don,Jacoby,male,48,Fort Smith,United States of America,342,2010,9999
+351,006-80-8953,Michael,Brownlee,male,58,Bath,United States of America,449,2012,9999
+352,771-07-1562,Ernest,Weber,male,47,Boynton Beach,United States of America,511,2009,9999
+353,517-92-3617,George,Miller,male,31,Culbertson,United States of America,111,2008,9999
+354,017-54-5510,Dorothy,Ellis,female,44,Walpole,United States of America,114,2007,9999
+355,496-03-0514,Robert,George,male,36,Fayette,United States of America,648,2009,9999
+356,418-41-1842,Wilma,Smith,female,19,Birmingham,United States of America,916,2012,9999
+357,032-26-0525,Scott,Killebrew,male,44,Braintree,United States of America,955,2005,9999
+358,527-22-8657,Karen,Goldberg,female,34,Phoenix,United States of America,84,2010,9999
+359,150-18-2975,James,Norman,male,59,Rochelle Park,United States of America,996,2009,9999
+360,590-38-8338,Martin,Wilkins,male,47,Orlando,United States of America,929,2010,9999
+361,423-56-9065,David,Moreland,male,57,Montgomery,United States of America,200,2009,9999
+362,240-96-9536,Hugh,Gardner,male,34,Charlotte,United States of America,952,2006,9999
+363,765-56-5750,Armando,Timmerman,male,39,Phoenix,United States of America,855,2006,9999
+364,548-32-1734,Kevin,Myles,male,60,San Jose,United States of America,945,2008,9999
+365,177-18-6044,Dewey,Young,male,55,Shellsville,United States of America,362,2012,9999
+366,076-46-9621,Christopher,Gentry,male,34,Wappingers Falls,United States of America,634,2006,9999
+367,420-62-2685,Ruby,Trainer,female,39,Birmingham,United States of America,165,2012,9999
+368,191-80-3877,Adam,Thompson,male,31,Boyertown,United States of America,18,2012,9999
+369,312-40-6213,Joseph,Hughes,male,40,Evansville,United States of America,155,2011,9999
+370,116-82-2954,Cecil,Hurley,male,35,New York,United States of America,151,2009,9999
+371,069-44-1889,Frederick,Gram,male,51,Albany,United States of America,106,2010,9999
+372,225-75-9259,Mary,Talbot,female,36,Herndon,United States of America,911,2011,9999
+373,527-83-9695,Karen,Ruck,female,33,Scottsdale,United States of America,447,2007,9999
+374,506-54-1356,Carl,Plourde,male,40,La Vista,United States of America,762,2012,9999
+375,567-85-4323,Ted,Lara,male,60,Santa Clara,United States of America,463,2006,9999
+376,283-11-6981,Harold,Dean,male,50,Dayton,United States of America,927,2007,9999
+377,564-62-5296,Julio,Doran,male,53,Irvine,United States of America,666,2007,9999
+378,257-03-2237,Clyde,Burroughs,male,49,Atlanta,United States of America,679,2011,9999
+379,296-72-0029,Andrew,Steffen,male,45,Wooster,United States of America,232,2012,9999
+380,233-38-5306,Ryan,Sanders,male,41,Salem,United States of America,484,2009,9999
+381,244-95-2259,Pedro,Eubanks,male,26,Glen Alpine,United States of America,472,2006,9999
+382,561-48-8753,Elliot,Stout,male,18,San Jose,United States of America,844,2010,9999
+383,130-44-5562,Robert,Dixon,male,24,New York,United States of America,728,2007,9999
+384,448-82-4395,Dale,Roper,male,37,Oklahoma City,United States of America,678,2011,9999
+385,545-53-9036,Marco,Anderson,male,60,Covina,United States of America,964,2007,9999
+386,227-63-6281,Gabriel,Carpenter,male,31,Salem,United States of America,198,2009,9999
+387,504-62-7366,Jeffrey,McDonald,male,33,Wolsey,United States of America,326,2007,9999
+388,017-54-1837,Neil,Brown,male,20,South Boston,United States of America,237,2010,9999
+389,028-14-4378,Issac,Hart,male,29,Ludlow,United States of America,841,2011,9999
+390,512-80-4519,Juanita,Franks,female,20,Moundridge,United States of America,648,2005,9999
+391,229-38-2748,Mike,Gray,male,41,Ashburn,United States of America,321,2010,9999
+392,271-07-0272,Katrina,Najera,female,35,Ney,United States of America,366,2012,9999
+393,574-33-4495,Miguel,Durant,male,35,Anchorage,United States of America,166,2008,9999
+394,557-38-9388,Ann,Pitts,female,47,Gardena,United States of America,125,2005,9999
+395,615-68-9673,Jason,Moultrie,male,47,Santa Fe Springs,United States of America,23,2010,9999
+396,614-76-5394,Alfred,Ingraham,male,47,Fullerton,United States of America,665,2009,9999
+397,485-82-0524,Mary,Garza,female,22,Rudd,United States of America,87,2007,9999
+398,375-22-5697,Richard,Shelton,male,36,Southfield,United States of America,960,2009,9999
+399,366-11-4339,Tony,Wilson,male,52,Southfield,United States of America,467,2009,9999
+400,621-34-9059,Ruth,Esquibel,female,56,Paramount,United States of America,999,2011,9999
+401,045-84-7287,Lawrence,Rosa,male,49,Hartford,United States of America,826,2007,9999
+402,446-30-0178,Billy,Bradburn,male,31,Caddo,United States of America,30,2006,9999
+403,560-20-8871,James,Tesch,male,42,Van Nuys,United States of America,250,2005,9999
+404,627-34-2447,Donald,Duffy,male,49,Farmers Branch,United States of America,242,2005,9999
+405,674-16-5152,Margaret,Fletcher,female,45,Savannah,United States of America,79,2008,9999
+406,631-74-5114,David,Carter,male,55,Plano,United States of America,985,2007,9999
+407,396-06-3661,Louis,Funk,male,36,Marshfield,United States of America,279,2009,9999
+408,082-66-4416,Roger,Askew,male,20,Binghamton,United States of America,141,2005,9999
+409,213-17-3681,Christopher,Cox,male,49,Lexington Park,United States of America,338,2010,9999
+410,414-32-6270,Carlton,Pichardo,male,53,Monterey,United States of America,776,2006,9999
+411,162-44-0094,Norris,Pomeroy,male,38,Butler,United States of America,672,2010,9999
+412,520-37-8915,Diana,Zuehlke,female,48,Cody,United States of America,620,2011,9999
+413,338-98-5838,Helen,Gerena,female,31,Wheeling,United States of America,727,2008,9999
+414,387-48-0802,Thelma,Collier,female,26,Brookfield,United States of America,704,2009,9999
+415,448-30-7561,Bridget,Turner,female,41,Tulsa,United States of America,854,2010,9999
+416,373-54-5421,Earl,Baker,male,23,Three Rivers,United States of America,662,2010,9999
+417,225-25-5757,Chris,Parker,male,31,Norfolk,United States of America,853,2010,9999
+418,288-56-9097,Reynaldo,Wilson,male,47,Jefferson,United States of America,816,2008,9999
+419,531-92-0450,Jermaine,Bloomfield,male,52,Tacoma,United States of America,550,2006,9999
+420,759-01-6975,Troy,Crawford,male,56,Watertown,United States of America,679,2009,9999
+421,240-24-1466,Earl,Jacobo,male,18,High Point,United States of America,6,2008,9999
+422,184-16-2142,Eddie,Oller,male,51,York,United States of America,490,2008,9999
+423,277-90-2690,Cesar,Gunn,male,18,Dublin,United States of America,577,2007,9999
+424,696-01-6562,Rosemary,Baker,female,41,Konnarock,United States of America,147,2009,9999
+425,264-78-1363,Huey,Wheeler,male,24,Miami,United States of America,204,2006,9999
+426,282-56-7349,Daniel,Bassett,male,58,Dayton,United States of America,953,2009,9999
+427,221-94-4326,Ernest,Breland,male,53,Philadelphia,United States of America,141,2007,9999
+428,432-92-6806,Donald,Hodges,male,39,Fairfield Bay,United States of America,465,2011,9999
+429,005-66-5177,Christopher,Lopez,male,40,Westbrook,United States of America,245,2009,9999
+430,005-28-6913,Steven,Johnson,male,21,Sedgwick,United States of America,775,2005,9999
+431,511-70-4515,Bette,John,female,27,Fort Riley,United States of America,563,2007,9999
+432,605-23-3695,Kenneth,Leboeuf,male,41,San Diego,United States of America,130,2009,9999
+433,456-15-6799,Randy,Koehn,male,50,Dallas,United States of America,979,2010,9999
+434,031-46-6577,Gerald,Mota,male,56,Hamilton,United States of America,319,2006,9999
+435,541-94-3346,Thomas,Guyette,male,30,Portland,United States of America,182,2010,9999
+436,574-42-5955,Carol,McMillian,female,40,Anchorage,United States of America,542,2006,9999
+437,555-09-8507,Gwendolyn,Specht,female,57,San Diego,United States of America,703,2005,9999
+438,066-34-6572,Susan,Smith,female,54,New York,United States of America,726,2008,9999
+439,373-08-6759,Tara,James,female,40,Detroit,United States of America,214,2006,9999
+440,623-04-3800,William,Spencer,male,43,Stockton,United States of America,759,2007,9999
+441,131-12-7856,Jacob,Alston,male,31,New York,United States of America,803,2009,9999
+442,326-72-7928,Pearl,Thurston,female,41,Henning,United States of America,937,2005,9999
+443,052-52-8040,James,Atkins,male,37,New York,United States of America,439,2006,9999
+444,313-08-5875,James,McMahan,male,38,Kokomo,United States of America,89,2012,9999
+445,607-09-5990,Jon,Frey,male,40,Carlsbad,United States of America,954,2009,9999
+446,572-59-4581,Frederick,Rowe,male,60,Los Angeles,United States of America,54,2010,9999
+447,697-01-6959,Michael,Phelps,male,58,Richmond,United States of America,690,2007,9999
+448,431-16-3366,Helene,Lee,female,18,Little Rock,United States of America,749,2012,9999
+449,176-60-5080,George,Griffin,male,27,Johnstown,United States of America,312,2010,9999
+450,521-84-3359,Zachary,Wilson,male,38,Littleton,United States of America,266,2005,9999
+451,322-70-7752,Jessie,Pham,male,42,Bensenville,United States of America,985,2009,9999
+452,215-23-6931,Jerry,Crockett,male,20,Ocean Pines,United States of America,279,2006,9999
+453,392-54-7788,Joseph,Matthews,male,40,West Allis,United States of America,20,2011,9999
+454,309-96-9108,Charles,Dickerson,male,27,Indianapolis,United States of America,37,2011,9999
+455,281-80-8807,June,Johnson,female,30,Tallmadge,United States of America,615,2006,9999
+456,397-18-8385,William,Tiffany,male,28,Beloit,United States of America,319,2008,9999
+457,040-90-8114,Ricardo,Rogalski,male,36,Windsor Locks,United States of America,206,2011,9999
+458,234-40-7117,Wendell,Couture,male,33,Clendenin,United States of America,761,2005,9999
+459,538-48-8798,Gloria,Campbell,female,50,Seattle,United States of America,621,2005,9999
+460,301-76-5041,Richard,McAdoo,male,44,Akron,United States of America,520,2010,9999
+461,574-15-4112,Guy,Guyton,male,60,Dot Lake,United States of America,599,2007,9999
+462,081-48-8545,Danielle,Samuel,female,35,New York,United States of America,621,2009,9999
+463,251-44-1814,Sandra,Woods,female,39,Hilton Head,United States of America,140,2012,9999
+464,552-67-6285,Tony,McKinney,male,41,Chico,United States of America,213,2010,9999
+465,306-68-3309,Frank,McElhannon,male,46,Anderson,United States of America,649,2011,9999
+466,602-72-7225,Glenn,Christensen,male,43,Riverside,United States of America,16,2008,9999
+467,003-50-2626,Clifton,Wolfe,male,49,Nashua,United States of America,647,2009,9999
+468,117-82-3329,Jessie,Erickson,female,55,Lakewood,United States of America,346,2009,9999
+469,423-84-5457,Alice,Brundage,female,52,Birmingham,United States of America,719,2009,9999
+470,321-36-9171,Patrick,Wright,male,49,Batavia,United States of America,130,2008,9999
+471,262-33-5235,Keith,Barker,male,59,Pensacola,United States of America,717,2005,9999
+472,047-40-1603,Barb,Lacefield,female,54,Meriden,United States of America,718,2005,9999
+473,613-66-1354,Ben,Larocque,male,43,Oakland,United States of America,960,2012,9999
+474,482-29-3591,Kent,Williams,male,35,Cedar Falls,United States of America,305,2005,9999
+475,259-17-1013,David,Brown,male,34,Smyrna,United States of America,688,2008,9999
+476,672-01-6860,Jack,Magallanes,male,31,Atlanta,United States of America,18,2005,9999
+477,643-02-8894,Brent,Murray,male,50,Rosenberg,United States of America,86,2007,9999
+478,114-46-4733,James,Harris,male,37,Groton,United States of America,391,2005,9999
+479,254-79-3175,Andre,McDonald,male,53,Alma,United States of America,478,2006,9999
+480,630-36-3519,Robert,Plummer,male,26,Dallas,United States of America,913,2008,9999
+481,686-05-0737,Patti,Brennan,female,33,Raleigh,United States of America,436,2007,9999
+482,454-72-8078,Patricia,Heinrich,female,35,Cotulla,United States of America,49,2005,9999
+483,394-80-5444,Robert,McCain,male,53,Monroe,United States of America,960,2008,9999
+484,543-72-9850,Wendell,Najera,male,18,Eugene,United States of America,507,2006,9999
+485,065-36-5349,Beverly,Titus,female,28,New York,United States of America,8,2012,9999
+486,120-64-5746,Joshua,Geisler,male,24,Garden City,United States of America,383,2007,9999
+487,030-60-3186,Jonathan,Mills,male,43,Winchester,United States of America,623,2009,9999
+488,544-33-5425,Anthony,Young,male,41,Powers,United States of America,931,2007,9999
+489,768-46-3780,Gerald,Levay,male,35,Umatilla,United States of America,550,2012,9999
+490,534-84-9761,Michael,Lewis,male,44,Redmond,United States of America,393,2007,9999
+491,351-22-3968,Charles,Carrillo,male,28,Dunlap,United States of America,319,2012,9999
+492,500-50-3757,Gregory,Pulliam,male,39,Maryland Heights,United States of America,875,2005,9999
+493,533-21-8674,John,Leblanc,male,60,Tukwila,United States of America,560,2006,9999
+494,265-56-2158,David,Patterson,male,39,Stuart,United States of America,419,2010,9999
+495,049-02-3116,Marlene,Cardenas,female,56,Meriden,United States of America,913,2008,9999
+496,482-08-5860,Danny,Chavez,male,42,Cedar Rapids,United States of America,863,2006,9999
+497,617-94-2113,Micheal,Camper,male,41,North Highlands,United States of America,768,2012,9999
+498,335-74-2674,Melissa,Godfrey,female,50,Arlington Heights,United States of America,187,2005,9999
+499,268-54-6966,Paul,Leblanc,male,19,Cincinnati,United States of America,386,2010,9999
+500,433-44-8186,George,Lutz,male,55,Farmerville,United States of America,20,2012,9999
+501,292-76-6176,Roy,Waymire,male,25,Dublin,United States of America,786,2012,9999
+502,293-38-6247,Eugene,McCollum,male,33,Willoughby,United States of America,673,2009,9999
+503,147-34-4778,Brian,Parker,male,19,Teterboro,United States of America,240,2012,9999
+504,026-36-7843,Matthew,Milliman,male,39,Wilmington,United States of America,164,2008,9999
+505,404-50-7878,Kenneth,Mullins,male,26,Cincinnati,United States of America,794,2012,9999
+506,507-17-2913,Calvin,Tipton,male,31,Lincoln,United States of America,651,2010,9999
+507,590-57-9094,Walter,Summer,male,40,Altamonte Springs,United States of America,17,2006,9999
+508,528-72-0010,Lisa,Kim,female,54,West Valley City,United States of America,449,2007,9999
+509,223-18-6340,David,Davenport,male,23,Arlington,United States of America,971,2006,9999
+510,359-26-3672,Frederick,Schmidt,male,50,Springfield,United States of America,131,2008,9999
+511,551-16-3951,Mark,Morales,male,53,Walnut,United States of America,214,2006,9999
+512,031-01-3538,Corey,Thatcher,male,43,Boston,United States of America,853,2008,9999
+513,514-19-5822,Teresa,Gibson,female,51,Home,United States of America,6,2010,9999
+514,002-72-7278,Joshua,Truesdell,male,60,Manchester,United States of America,17,2011,9999
+515,525-19-1233,Tony,July,male,20,Albuquerque,United States of America,752,2005,9999
+516,633-88-1164,Ronald,Crouse,male,45,Irving,United States of America,34,2008,9999
+517,486-13-3322,Susan,Larsen,female,30,Skidmore,United States of America,314,2006,9999
+518,142-24-8967,Terry,Vargas,male,31,Lyndhurst,United States of America,659,2011,9999
+519,561-06-6254,Mary,Solorzano,female,40,San Jose,United States of America,435,2005,9999
+520,484-32-0572,James,Justus,male,45,Lost Nation,United States of America,856,2007,9999
+521,750-01-9212,Maurice,Overton,male,31,Honolulu,United States of America,670,2006,9999
+522,674-28-8780,Vernon,Miramontes,male,48,Roswell,United States of America,406,2008,9999
+523,457-73-0555,Robert,Sheaffer,male,21,Windthorst,United States of America,448,2009,9999
+524,119-64-3383,Todd,Smith,male,58,Savannah,United States of America,257,2009,9999
+525,009-64-6964,Raul,Waldrep,male,23,South Burlington,United States of America,915,2007,9999
+526,603-48-3910,Brian,Myers,male,53,Los Angeles,United States of America,170,2007,9999
+527,306-64-2398,Deborah,Swenson,female,21,South Bend,United States of America,281,2005,9999
+528,568-86-6516,Robert,Peterson,male,18,Loma Linda,United States of America,474,2007,9999
+529,751-05-6654,Fred,Brownlow,male,28,Wailuku,United States of America,435,2006,9999
+530,296-64-3916,Spencer,Gray,male,19,Shelby,United States of America,350,2008,9999
+531,337-32-6411,Briana,Gallardo,female,32,Chicago,United States of America,746,2006,9999
+532,459-30-4935,Thomas,Garrison,male,58,San Antonio,United States of America,882,2005,9999
+533,398-26-4474,Marco,Peters,male,35,Dodgeville,United States of America,444,2005,9999
+534,431-26-3061,David,Cady,male,29,Little Rock,United States of America,504,2007,9999
+535,532-43-6614,Shawn,Meneses,male,28,Orchards,United States of America,392,2010,9999
+536,136-18-5756,Megan,Horst,female,54,Newark,United States of America,95,2009,9999
+537,314-19-3573,Bradley,Arroyo,male,48,Newburgh,United States of America,526,2005,9999
+538,126-60-8927,Scott,Vernon,male,45,New York,United States of America,468,2006,9999
+539,619-14-0223,Robert,Twitty,male,40,Santa Clara,United States of America,787,2010,9999
+540,658-16-7826,Harold,Wright,male,47,Greenville,United States of America,598,2005,9999
+541,224-54-8605,Erica,Hester,female,50,Richmond,United States of America,404,2011,9999
+542,458-61-8090,Stephen,Lawrence,male,50,Fort Worth,United States of America,73,2011,9999
+543,220-98-8397,Jessica,Robinson,female,42,Baltimore,United States of America,706,2006,9999
+544,552-62-8879,James,Webb,male,24,Mountain View,United States of America,33,2008,9999
+545,262-17-0022,Gilbert,Stewart,male,34,Jacksonville,United States of America,594,2012,9999
+546,493-46-0691,Cynthia,Chapman,female,39,Kansas City,United States of America,206,2005,9999
+547,490-17-8414,Duncan,Bell,male,30,Springfield,United States of America,693,2007,9999
+548,612-05-8221,Gerardo,Garcia,male,57,Los Angeles,United States of America,427,2008,9999
+549,425-17-9017,Robert,Johnson,male,52,Jackson,United States of America,384,2006,9999
+550,541-24-4009,Pat,Williams,male,20,Tigard,United States of America,366,2012,9999
+551,305-90-4101,Armando,Frantz,male,55,Crawfordsville,United States of America,53,2011,9999
+552,308-03-0630,George,Orth,male,57,Fairland,United States of America,689,2007,9999
+553,657-07-0334,Edwin,Pearce,male,58,Blackville,United States of America,396,2009,9999
+554,412-91-5815,Marcelo,Agnew,male,18,Yorkville,United States of America,329,2012,9999
+555,657-22-9554,Micheal,Ridley,male,58,Charleston,United States of America,489,2007,9999
+556,121-60-4207,Cecil,Obrien,male,22,New York,United States of America,589,2009,9999
+557,422-16-0730,John,Davidson,male,22,Birmingham,United States of America,670,2012,9999
+558,515-62-0997,Harry,Gendron,male,53,Moundridge,United States of America,420,2010,9999
+559,022-34-1177,James,Dunneback,male,47,Bedford,United States of America,819,2012,9999
+560,175-56-2152,Harry,Soler,male,58,Plymouth Meeting,United States of America,430,2011,9999
+561,324-46-4047,Donald,Hess,male,41,Moline,United States of America,769,2008,9999
+562,592-92-3093,Thomas,McCormick,male,25,Miami,United States of America,984,2005,9999
+563,466-51-2086,Linda,Bickel,female,38,Dallas,United States of America,563,2008,9999
+564,482-82-3574,Maurice,Cissell,male,21,Dickens,United States of America,622,2008,9999
+565,077-80-8794,Leonard,Huskey,male,60,New York,United States of America,15,2006,9999
+566,460-55-5352,Patricia,Miller,female,24,Houston,United States of America,778,2010,9999
+567,667-12-9410,Charles,Ferrell,male,20,Atlanta,United States of America,30,2006,9999
+568,466-36-2380,Reggie,Wilson,male,23,Houston,United States of America,805,2012,9999
+569,021-52-6933,Aubrey,Crittendon,male,39,Milford,United States of America,864,2010,9999
+570,519-23-5585,Whitney,Hick,male,55,Pocatello,United States of America,883,2005,9999
+571,511-28-9738,Lupe,Wright,female,20,Hope,United States of America,829,2007,9999
+572,527-78-7023,Gary,Carpenter,male,37,Tucson,United States of America,78,2012,9999
+573,063-20-4092,Scotty,Leggett,male,49,Brooklyn,United States of America,765,2007,9999
+574,225-47-5668,Edward,Merrill,male,41,Roanoke,United States of America,122,2012,9999
+575,182-07-6108,Clyde,Poythress,male,48,Fort Washington,United States of America,168,2009,9999
+576,191-22-1417,Steven,Gregory,male,39,Bethlehem,United States of America,896,2011,9999
+577,210-03-9825,John,Westlund,male,51,Philadelphia,United States of America,238,2007,9999
+578,560-86-7792,Michael,Sherman,male,50,Woodland Hills,United States of America,837,2011,9999
+579,353-05-3960,Dolores,Williams,female,31,Wheeling,United States of America,718,2011,9999
+580,428-24-3210,Hugh,Boucher,male,26,Jackson,United States of America,897,2005,9999
+581,534-19-2027,Karl,Christensen,male,53,Redmond,United States of America,711,2005,9999
+582,604-92-4083,Samuel,Patton,male,43,Salinas,United States of America,587,2006,9999
+583,680-54-3000,Alexander,Swann,male,51,Carson City,United States of America,235,2011,9999
+584,501-68-5475,Casey,Smith,female,41,Arnegard,United States of America,945,2007,9999
+585,190-76-6127,James,Stubbs,male,44,Philadelphia,United States of America,733,2011,9999
+586,624-90-6486,Kayla,Luke,female,37,Concord,United States of America,436,2012,9999
+587,171-58-0594,Nicholas,Stephen,male,54,Portland,United States of America,392,2011,9999
+588,688-03-8375,Michael,Gaskins,male,20,Greenville,United States of America,151,2007,9999
+589,073-34-9746,Roberto,Martinez,male,47,New York,United States of America,89,2010,9999
+590,534-45-6174,James,Harrington,male,38,Seattle,United States of America,731,2009,9999
+591,530-98-4198,Don,Walden,male,51,Henderson,United States of America,85,2011,9999
+592,579-07-2087,Alicia,Bunn,female,26,Washington,United States of America,409,2010,9999
+593,399-08-3534,Kevin,Lester,male,54,Madison,United States of America,269,2006,9999
+594,545-37-2817,Michael,Berry,male,29,Irvine,United States of America,289,2012,9999
+595,187-18-0897,Harold,Holman,male,23,Harrisburg,United States of America,848,2007,9999
+596,524-52-4498,Ricky,Yi,male,47,Aurora,United States of America,946,2005,9999
+597,222-78-4709,Robert,Lyman,male,21,Holly Oak,United States of America,61,2008,9999
+598,017-62-5875,Jeremy,Armstrong,male,30,Springfield,United States of America,272,2009,9999
+599,439-35-7311,Alexander,Rivers,male,51,Metairie,United States of America,653,2012,9999
+600,681-07-6954,Edward,Hall,male,60,Asheville,United States of America,889,2012,9999
+601,214-67-6897,Barbara,Simmons,female,32,Ellicott City,United States of America,47,2012,9999
+602,156-72-7230,Eric,Heilig,male,18,Camden,United States of America,789,2009,9999
+603,630-38-7344,Mark,Stevenson,male,20,Dallas,United States of America,195,2010,9999
+604,397-09-7133,William,Clark,male,18,New Berlin,United States of America,802,2010,9999
+605,763-01-2012,Joseph,Gallegos,male,53,Knoxville,United States of America,525,2006,9999
+606,344-40-9476,Ira,Byrd,male,40,Chicago,United States of America,656,2009,9999
+607,071-05-0675,John,Gonzales,male,22,White Plains,United States of America,308,2007,9999
+608,153-58-2965,Alyssa,Kent,female,51,Jersey City,United States of America,302,2007,9999
+609,557-15-1066,Phyllis,Hansen,female,21,Burbank,United States of America,724,2010,9999
+610,589-50-7665,Alvin,Cohen,male,38,Miramar,United States of America,593,2007,9999
+611,540-62-2533,Marcos,Owens,male,18,Portland,United States of America,387,2010,9999
+612,772-18-9286,Duncan,Schmidt,male,25,Coral Gables,United States of America,577,2006,9999
+613,525-20-5583,Jacqueline,Moon,female,43,Albuquerque,United States of America,466,2009,9999
+614,410-06-3997,Donald,Dupont,male,20,Covington,United States of America,683,2007,9999
+615,250-86-5427,Julia,Putnam,female,26,Turbeville,United States of America,339,2010,9999
+616,500-78-5789,Ronald,Fernandez,male,31,Kansas City,United States of America,119,2007,9999
+617,135-03-1610,Dean,Bogart,male,26,Newark,United States of America,32,2009,9999
+618,378-15-8082,Tony,Lucier,male,58,Dutton,United States of America,182,2008,9999
+619,389-18-4662,Robert,Souder,male,53,Kenosha,United States of America,632,2008,9999
+620,264-75-0786,James,Ray,male,50,Tampa,United States of America,279,2012,9999
+621,431-29-6961,Ray,Ferguson,male,49,Belleville,United States of America,249,2010,9999
+622,311-18-3276,Todd,Joseph,male,50,Rushville,United States of America,655,2009,9999
+623,397-19-6071,Richard,McCann,male,31,Burlington,United States of America,632,2009,9999
+624,242-66-9820,Michael,Hughes,male,45,Hickory,United States of America,973,2007,9999
+625,262-80-9305,Michael,Morgan,male,18,Miami,United States of America,746,2011,9999
+626,476-01-9581,Robert,Herrera,male,31,Saint Cloud,United States of America,180,2007,9999
+627,478-16-1045,Mark,Cecil,male,50,Clinton,United States of America,146,2009,9999
+628,655-09-7165,Charles,Braswell,male,60,Greenville,United States of America,98,2012,9999
+629,427-41-9635,Timothy,Lucas,male,30,Hattiesburg,United States of America,191,2005,9999
+630,301-78-6074,Douglas,Jones,male,51,Westerville,United States of America,778,2006,9999
+631,462-40-3937,Carrie,Johnson,female,28,Oglesby,United States of America,219,2012,9999
+632,521-99-8394,Joe,Collins,male,49,Pueblo,United States of America,723,2009,9999
+633,245-79-8644,Larry,Dominick,male,43,Albemarle,United States of America,793,2011,9999
+634,685-01-5047,Albert,Abbott,male,29,Four Oaks,United States of America,428,2005,9999
+635,658-16-9920,Mark,Proctor,male,21,Johns Island,United States of America,780,2008,9999
+636,688-01-6736,James,Rubin,male,20,Greensboro,United States of America,925,2011,9999
+637,317-36-3409,Francisco,Ward,male,30,Prairie Creek,United States of America,829,2009,9999
+638,668-20-1398,Terry,Smith,male,60,Atlanta,United States of America,169,2008,9999
+639,016-26-3123,William,Remington,male,32,Wakefield,United States of America,739,2005,9999
+640,358-36-9577,Eric,Walton,male,40,Rockford,United States of America,643,2009,9999
+641,516-96-4226,Susan,Bailey,female,33,Helena,United States of America,7,2012,9999
+642,693-03-5638,Russell,Akers,male,57,Roanoke,United States of America,608,2006,9999
+643,343-32-3516,Curtis,Lecuyer,male,53,Chicago,United States of America,123,2006,9999
+644,509-26-9985,Robert,Green,male,43,Neodesha,United States of America,496,2005,9999
+645,569-67-7555,Lynn,Travis,female,45,La Puente,United States of America,441,2007,9999
+646,756-01-3782,Della,Barr,female,35,Nashville,United States of America,149,2012,9999
+647,591-45-4354,Steve,Williamson,male,22,Miami,United States of America,452,2009,9999
+648,141-30-1687,Carlton,Wylie,male,44,Camden,United States of America,398,2012,9999
+649,443-66-6248,Stuart,Clark,male,36,Poteau,United States of America,464,2009,9999
+650,428-05-7970,Troy,McDaniels,male,33,Batesville,United States of America,541,2009,9999
+651,499-98-5164,Bruce,King,male,48,Saint Charles,United States of America,729,2006,9999
+652,685-01-1117,Deborah,Rodriguez,female,40,Charlotte,United States of America,822,2012,9999
+653,497-04-9161,Stella,Gulbranson,female,39,Blue Springs,United States of America,778,2011,9999
+654,443-04-2607,Alex,Grant,male,41,Enid,United States of America,292,2008,9999
+655,611-24-3393,Jeremiah,Oneil,male,41,Los Angeles,United States of America,653,2010,9999
+656,201-32-6435,Kelly,Tatum,male,47,Philadelphia,United States of America,531,2012,9999
+657,181-36-3908,Jeremy,Morejon,male,49,Boyertown,United States of America,364,2012,9999
+658,529-99-3675,Patsy,Wilson,female,49,Murray,United States of America,914,2007,9999
+659,238-18-3272,Dorothy,Fraser,female,36,Seaside,United States of America,375,2011,9999
+660,675-12-0680,Florence,Roberts,female,47,Albany,United States of America,84,2011,9999
+661,484-14-9449,Philip,Mendez,male,52,Kanawha,United States of America,902,2007,9999
+662,231-48-7372,Steven,Williams,male,50,Dale City,United States of America,774,2009,9999
+663,489-90-8556,Sue,Baker,female,18,Kansas City,United States of America,914,2012,9999
+664,306-60-3432,Diane,Fulmore,female,33,Salamonia,United States of America,452,2005,9999
+665,641-28-6513,Richard,Graves,male,50,Houston,United States of America,428,2005,9999
+666,166-09-2969,Michelle,Henson,female,27,Philadelphia,United States of America,324,2009,9999
+667,296-08-2579,John,Hewitt,male,43,Garfield Heights,United States of America,150,2011,9999
+668,268-50-7295,Joseph,Patton,male,51,Delaware,United States of America,169,2010,9999
+669,081-56-8449,Gilbert,Klima,male,53,Brooklyn,United States of America,87,2005,9999
+670,348-10-1354,Latoya,Overby,female,37,Sterling,United States of America,873,2012,9999
+671,168-38-6984,Matthew,Ragusa,male,40,Northampton,United States of America,62,2009,9999
+672,041-80-7625,Mei,Hopper,female,42,Wallingford,United States of America,138,2006,9999
+673,536-08-9010,Jerry,Solomon,male,45,Kennewick,United States of America,780,2010,9999
+674,764-32-4995,Nathan,Robicheaux,male,22,Tucson,United States of America,214,2005,9999
+675,344-12-3041,Elizabeth,Smith,female,56,Morton Grove,United States of America,821,2007,9999
+676,042-06-6541,Kim,Hedges,male,37,Norwalk,United States of America,553,2009,9999
+677,623-50-9262,Kevin,Morales,male,29,Irvine,United States of America,757,2009,9999
+678,194-05-7252,Paul,Jernigan,male,24,Fort Washington,United States of America,769,2010,9999
+679,528-75-7536,Melissa,Damico,female,59,Salt Lake City,United States of America,62,2012,9999
+680,567-89-8176,Leonard,Atkinson,male,32,Sacramento,United States of America,158,2005,9999
+681,362-11-4705,Kenneth,McAndrew,male,50,Conklin,United States of America,109,2007,9999
+682,515-04-4176,Albert,Harris,male,33,Osawatomie,United States of America,710,2009,9999
+683,398-80-8777,John,Bernard,male,31,Eau Claire,United States of America,94,2010,9999
+684,209-62-9728,Cecilia,Hummel,female,19,Eagleville,United States of America,833,2009,9999
+685,033-44-4122,Anne,Gill,female,22,Springfield,United States of America,416,2005,9999
+686,145-44-7952,Jenny,Sullivan,female,54,Newark,United States of America,193,2011,9999
+687,578-72-9962,John,Feliciano,male,47,Washington,United States of America,723,2011,9999
+688,237-26-3299,Gilbert,Ormond,male,22,Fayetteville,United States of America,157,2005,9999
+689,495-26-2761,Brian,Johnson,male,18,Springfield,United States of America,617,2011,9999
+690,649-24-1264,Carrie,Lofton,female,54,Las Cruces,United States of America,863,2009,9999
+691,603-55-8236,Jesse,Pfeifer,male,56,Monterey,United States of America,74,2008,9999
+692,482-48-6073,Dorothy,Richmond,female,19,Cedar Rapids,United States of America,179,2009,9999
+693,595-84-2982,Henry,Woods,male,34,Orlando,United States of America,436,2007,9999
+694,518-57-2749,Terry,Carlson,male,32,Pocatello,United States of America,878,2009,9999
+695,129-24-0112,Allen,Erickson,male,41,Huntington,United States of America,584,2007,9999
+696,266-06-6303,Renee,Guzman,female,59,Cantonment,United States of America,154,2012,9999
+697,285-70-1793,Craig,Hughes,male,49,Cincinnati,United States of America,77,2009,9999
+698,569-90-9620,Ruben,Vasquez,male,49,San Luis Obispo,United States of America,665,2012,9999
+699,378-44-2808,Edgardo,Tate,male,34,Detroit,United States of America,119,2009,9999
+700,043-92-0990,Charles,Richardson,male,18,East Hartford,United States of America,272,2008,9999
+701,396-05-4030,Alexander,Wagner,male,41,Appleton,United States of America,70,2010,9999
+702,398-07-8242,William,Green,male,45,Brookfield,United States of America,547,2009,9999
+703,652-28-5637,Shawn,Scott,male,58,Longmont,United States of America,889,2009,9999
+704,564-32-9020,John,Shipe,male,54,San Diego,United States of America,532,2010,9999
+705,045-44-9951,Robert,Copas,male,21,Cheshire,United States of America,831,2009,9999
+706,313-40-5078,Richard,Cook,male,31,Indianapolis,United States of America,123,2008,9999
+707,503-84-9643,Travis,Eastwood,male,45,Spencer,United States of America,842,2011,9999
+708,366-31-8604,Paul,Diehl,male,60,Mount Clemens,United States of America,540,2011,9999
+709,391-36-3517,John,Hale,male,47,Madison,United States of America,10,2006,9999
+710,550-10-6045,Richard,Duncan,male,41,San Mateo,United States of America,13,2006,9999
+711,101-22-6166,George,Moore,male,42,Binghamton,United States of America,866,2005,9999
+712,373-28-0802,Joshua,Anderson,male,39,Ravenna,United States of America,252,2009,9999
+713,397-78-2381,Steven,Evans,male,51,Madison,United States of America,258,2006,9999
+714,443-22-3373,Christopher,Poole,male,41,Tulsa,United States of America,347,2009,9999
+715,537-05-9367,Cynthia,Corner,female,20,Seattle,United States of America,932,2010,9999
+716,118-26-5588,Louis,Rash,male,24,Endicott,United States of America,783,2006,9999
+717,629-72-1693,Juan,Oliveri,male,40,Victoria,United States of America,803,2008,9999
+718,544-68-4313,Virgil,Craig,male,47,Athena,United States of America,266,2009,9999
+719,641-62-7414,Carmen,Moore,female,59,Corpus Christi,United States of America,107,2006,9999
+720,401-01-5904,Harold,Quintal,male,34,Russellville,United States of America,410,2010,9999
+721,494-32-4613,Julia,Nesbitt,female,19,Rolla,United States of America,298,2006,9999
+722,466-56-6342,Brent,Navarro,male,30,Dallas,United States of America,479,2007,9999
+723,492-22-6480,Joe,Baxter,male,25,Metz,United States of America,280,2008,9999
+724,492-06-5418,Donna,Ross,female,56,Kansas City,United States of America,66,2005,9999
+725,219-57-9053,Mario,Robins,male,26,Salisbury,United States of America,789,2011,9999
+726,007-72-8761,Modesta,Weber,female,58,Fort Fairfield,United States of America,969,2010,9999
+727,280-28-4259,Todd,Adams,male,57,Mansfield,United States of America,709,2007,9999
+728,183-07-1262,Leif,Grant,male,42,Pittsburgh,United States of America,106,2012,9999
+729,653-09-4343,Donald,Billingsley,male,48,Denver,United States of America,125,2010,9999
+730,612-32-6056,Wilber,Vasquez,male,24,Fresno,United States of America,928,2005,9999
+731,172-07-2430,Billy,Morrissette,male,32,Pittsburgh,United States of America,922,2005,9999
+732,517-16-7222,Duane,Conover,male,24,Wise River,United States of America,895,2011,9999
+733,354-48-3726,Samuel,Stevens,male,40,Glen Ellyn,United States of America,317,2006,9999
+734,152-36-3173,Nick,Andrews,male,39,Freehold,United States of America,251,2012,9999
+735,213-78-5496,Dominique,Catchings,male,24,Bethesda,United States of America,738,2010,9999
+736,254-85-3137,Peggy,Cardenas,female,25,Atlanta,United States of America,872,2011,9999
+737,567-67-1644,Jennifer,Burke,female,44,Yorba Linda,United States of America,808,2007,9999
+738,521-45-0470,Anthony,Rojas,male,56,Westminster,United States of America,10,2007,9999
+739,238-31-1985,Felicia,Wooten,female,52,Greenville,United States of America,778,2012,9999
+740,469-25-2050,Thomas,McDonald,male,43,Badger,United States of America,652,2011,9999
+741,675-10-8175,Thomas,Kilpatrick,male,20,Decatur,United States of America,450,2010,9999
+742,092-38-3314,Sean,Watts,male,60,New York,United States of America,413,2006,9999
+743,449-17-1301,Louis,Brock,male,32,Houston,United States of America,282,2006,9999
+744,577-06-8635,Cheryle,Campana,female,47,Washington,United States of America,678,2006,9999
+745,642-32-2508,William,Chase,male,51,Houston,United States of America,779,2010,9999
+746,284-03-0343,Claudia,Haynie,female,49,Toledo,United States of America,215,2005,9999
+747,386-20-8335,Billy,Hopkins,male,44,Southfield,United States of America,965,2011,9999
+748,344-34-4219,Brian,Brown,male,54,Oak Brook,United States of America,41,2010,9999
+749,182-01-6638,Michael,Taylor,male,29,Philadelphia,United States of America,213,2008,9999
+750,320-88-8514,Cathryn,Boston,female,27,Chicago,United States of America,112,2007,9999
+751,447-62-0146,Edward,Tarver,male,41,Tulsa,United States of America,649,2009,9999
+752,102-10-4098,Carmen,Brown,female,33,New York,United States of America,326,2009,9999
+753,315-90-1247,James,Jones,male,47,Carmel,United States of America,911,2009,9999
+754,306-20-4919,David,Kelsey,male,32,Indianapolis,United States of America,881,2007,9999
+755,425-85-7051,Anne,Smith,female,19,Jackson,United States of America,7,2005,9999
+756,669-05-1758,Robert,Jarman,male,26,Atlanta,United States of America,373,2012,9999
+757,643-28-0875,Samuel,Anderson,male,51,San Antonio,United States of America,760,2011,9999
+758,665-05-7596,Robert,McVeigh,male,57,New Orleans,United States of America,878,2009,9999
+759,263-60-6607,Brian,Rodriguez,male,60,Port Charlotte,United States of America,356,2010,9999
+760,033-01-2186,Henry,Parent,male,36,Boston,United States of America,169,2009,9999
+761,571-40-4345,Jackie,Hollins,male,52,San Diego,United States of America,13,2009,9999
+762,092-40-0386,Thomas,Brown,male,39,New York,United States of America,758,2012,9999
+763,644-94-7134,Bernard,Roth,male,37,El Paso,United States of America,779,2006,9999
+764,334-94-2386,Michael,Hickson,male,49,Chicago,United States of America,484,2012,9999
+765,318-01-7466,Dolores,Pool,female,30,Northbrook,United States of America,970,2009,9999
+766,766-10-7485,John,Walker,male,60,Cypress Lake,United States of America,839,2008,9999
+767,277-70-1070,Dennis,Smith,male,34,Peebles,United States of America,694,2008,9999
+768,425-07-5027,Nicholas,White,male,32,Biloxi,United States of America,266,2011,9999
+769,270-06-1135,Louis,Grimm,male,43,Lima,United States of America,803,2006,9999
+770,219-80-2108,Megan,Smith,female,54,Bowie,United States of America,436,2007,9999
+771,455-99-3115,Dorothy,Spriggs,female,59,Harlingen,United States of America,782,2009,9999
+772,191-24-9747,Roy,Jennings,male,53,Philadelphia,United States of America,850,2007,9999
+773,762-01-2913,Thomas,Smith,male,51,Chattanooga,United States of America,118,2012,9999
+774,640-03-4744,Armando,Dillon,male,41,Corpus Christi,United States of America,809,2012,9999
+775,096-42-5484,Paul,Morgan,male,56,Syracuse,United States of America,760,2011,9999
+776,304-17-7298,Charles,Oneal,male,29,Indianapolis,United States of America,325,2005,9999
+777,489-70-1105,Lonnie,Bergeron,male,33,Saint Louis,United States of America,735,2010,9999
+778,430-61-3667,Robert,Benton,male,49,Paris,United States of America,311,2007,9999
+779,548-11-4449,Troy,Thornton,male,45,Los Angeles,United States of America,84,2008,9999
+780,007-70-3060,Albert,Gomez,male,46,Pittsfield,United States of America,305,2006,9999
+781,609-64-1796,John,Dugan,male,23,Sacramento,United States of America,195,2010,9999
+782,043-70-8194,Ryan,Hollins,male,37,Hartford,United States of America,826,2006,9999
+783,482-01-5997,Caroline,Patterson,female,52,Mount Pleasant,United States of America,701,2006,9999
+784,454-33-8225,Edward,Salyer,male,20,Frisco,United States of America,239,2012,9999
+785,091-48-7008,Mary,Lavery,female,47,Syracuse,United States of America,756,2008,9999
+786,356-70-4703,Matthew,Gould,male,20,Chicago,United States of America,214,2011,9999
+787,550-24-0353,Robert,Padron,male,49,San Jose,United States of America,336,2008,9999
+788,012-26-4452,Brenda,Keys,female,51,Boston,United States of America,657,2008,9999
+789,421-41-5077,Bruce,Pike,male,40,Birmingham,United States of America,746,2011,9999
+790,415-41-9843,David,Cook,male,27,Knoxville,United States of America,831,2006,9999
+791,245-70-2764,John,Oneil,male,53,Gastonia,United States of America,232,2010,9999
+792,346-34-9517,Sandra,Ball,female,35,Chicago,United States of America,597,2007,9999
+793,163-40-0974,Donna,Harden,female,26,Harleysville,United States of America,138,2006,9999
+794,680-42-8557,Darla,Carrigan,female,19,Reno,United States of America,675,2012,9999
+795,128-34-4316,Walter,Shoemaker,male,32,Albany,United States of America,231,2012,9999
+796,015-64-5060,Mary,Kelly,female,24,Woburn,United States of America,900,2008,9999
+797,472-44-9176,Mary,Tyler,female,39,Echo,United States of America,12,2010,9999
+798,640-12-9110,Craig,Brown,male,30,Weimar,United States of America,81,2008,9999
+799,401-34-8519,Anthony,Blanchard,male,24,Louisville,United States of America,452,2005,9999
+800,689-03-4407,Christopher,Kincer,male,35,Robersonville,United States of America,81,2007,9999
+801,615-12-9370,Hector,Schiffer,male,36,Sacramento,United States of America,424,2010,9999
+802,587-59-6181,Lucille,Rivera,female,19,Tylertown,United States of America,840,2011,9999
+803,236-03-5932,Mark,Anderson,male,57,Beckley,United States of America,614,2009,9999
+804,114-26-6552,Jeffery,Katzer,male,25,Garden City,United States of America,665,2010,9999
+805,771-10-5517,Robert,Garcia,male,24,Lake Buena Vista,United States of America,496,2009,9999
+806,424-10-0325,Anthony,Cantrell,male,51,Oneonta,United States of America,957,2005,9999
+807,460-21-5020,Pearlene,Bell,female,60,Covington,United States of America,788,2005,9999
+808,419-45-8090,Marian,Roy,female,27,Albertville,United States of America,357,2010,9999
+809,490-40-9561,Edward,Starkey,male,20,Archie,United States of America,306,2008,9999
+810,499-68-2123,Keith,Allen,male,55,Galena,United States of America,602,2012,9999
+811,551-30-7903,Henry,Mercedes,male,48,San Francisco,United States of America,871,2010,9999
+812,089-42-0321,Frederick,Allen,male,40,New York,United States of America,447,2010,9999
+813,519-98-3260,Loriann,Anthony,female,49,Lenore,United States of America,899,2009,9999
+814,602-14-8863,Isaias,Welch,male,28,Lodi,United States of America,279,2007,9999
+815,489-34-5221,Dennis,German,male,32,Maryland Heights,United States of America,183,2006,9999
+816,630-16-3512,Jeff,Johnson,male,34,Kingsville,United States of America,284,2007,9999
+817,161-40-7779,Kevin,Sippel,male,39,Philadelphia,United States of America,851,2011,9999
+818,578-28-8876,Jaime,Griffin,male,35,Washington,United States of America,966,2011,9999
+819,259-17-8692,Tamara,Cornelius,female,20,Gray,United States of America,611,2005,9999
+820,541-23-9510,Raphael,Strickland,male,44,Tigard,United States of America,87,2012,9999
+821,175-10-6085,Mariano,Stewart,male,26,Altoona,United States of America,336,2010,9999
+822,524-34-1974,Timothy,Harris,male,31,Greenwood Village,United States of America,432,2010,9999
+823,556-96-0933,Joshua,Robinson,male,33,Palmdale,United States of America,832,2005,9999
+824,627-78-4358,Floyd,Lopez,male,27,Corpus Christi,United States of America,581,2010,9999
+825,055-70-4687,Jay,Smith,male,54,Rego Park Queens,United States of America,680,2009,9999
+826,457-85-7402,Sean,Ford,male,22,Midland,United States of America,615,2005,9999
+827,504-38-3240,Adam,Higgins,male,47,Miller,United States of America,55,2011,9999
+828,344-42-8997,Terry,West,male,52,Arcola,United States of America,513,2005,9999
+829,343-26-4917,Gabriel,Malik,male,23,Golden,United States of America,249,2009,9999
+830,428-89-4460,Melissa,Lucero,female,47,Ridgeland,United States of America,736,2009,9999
+831,263-82-1979,Robert,Guerra,male,39,Tallahassee,United States of America,281,2007,9999
+832,544-08-5650,Michael,Prime,male,29,Springfield,United States of America,536,2011,9999
+833,290-90-6548,Luther,Davis,male,44,Cleveland,United States of America,438,2007,9999
+834,431-71-0773,William,Brass,male,56,Little Rock,United States of America,492,2008,9999
+835,611-08-5695,Mason,Carr,male,29,Stockton,United States of America,48,2009,9999
+836,315-46-6860,Qiana,Hoose,female,35,Indianapolis,United States of America,601,2008,9999
+837,602-23-9368,Vincent,Carter,male,23,Los Angeles,United States of America,159,2009,9999
+838,491-32-2284,Matthew,Covington,male,47,Gilliam,United States of America,993,2006,9999
+839,571-24-2412,Edward,Richardson,male,35,Gardena,United States of America,89,2006,9999
+840,220-40-0832,Joshua,Carman,male,44,Hanover,United States of America,510,2007,9999
+841,176-28-5721,James,Wark,male,38,Philadelphia,United States of America,432,2008,9999
+842,606-43-9429,Rodger,Newman,male,40,San Francisco,United States of America,49,2009,9999
+843,373-15-0028,William,Mattox,male,27,East Lansing,United States of America,190,2007,9999
+844,600-14-6336,Diane,Becker,female,59,Tucson,United States of America,667,2007,9999
+845,690-09-9060,Douglas,Ortiz,male,49,Asheville,United States of America,643,2007,9999
+846,222-74-4886,James,Jones,male,18,Philadelphia,United States of America,153,2008,9999
+847,549-41-8660,Roger,Clark,male,52,San Francisco,United States of America,637,2007,9999
+848,556-54-0774,Christopher,Leblanc,male,37,Sacramento,United States of America,209,2007,9999
+849,519-11-5477,John,Goodman,male,30,Riggins,United States of America,151,2008,9999
+850,441-14-1737,Dennis,Ruiz,male,47,Tulsa,United States of America,250,2007,9999
+851,537-51-3836,Luis,Rivera,male,45,Portland,United States of America,253,2012,9999
+852,425-01-7339,Carlton,Smelser,male,35,Gulfport,United States of America,213,2011,9999
+853,484-70-7937,Arthur,Archer,male,51,Sioux City,United States of America,856,2009,9999
+854,390-42-9894,John,Palmer,male,20,Milwaukee,United States of America,176,2012,9999
+855,322-54-6876,Jorge,Downs,male,19,Chicago,United States of America,792,2007,9999
+856,574-17-3571,Cory,Edmond,male,34,Kasigluk,United States of America,945,2006,9999
+857,293-70-3100,Reginald,Lovell,male,59,Gallipolis,United States of America,395,2012,9999
+858,654-09-8398,Scott,Manning,male,44,Moncks Corner,United States of America,349,2012,9999
+859,229-78-4086,Christian,Miller,male,32,Chesapeake,United States of America,119,2010,9999
+860,552-41-8069,James,Hurley,male,20,Goleta,United States of America,283,2007,9999
+861,560-50-8044,Marco,Shumpert,male,50,Gualala,United States of America,811,2012,9999
+862,471-09-6979,Kyle,Wood,male,19,Luverne,United States of America,369,2006,9999
+863,242-26-8013,Tommy,Wiegand,male,50,Waynesville,United States of America,793,2007,9999
+864,545-57-2692,Maria,Parra,female,32,Fresno,United States of America,90,2008,9999
+865,408-44-3754,Michael,Youmans,male,28,Memphis,United States of America,753,2008,9999
+866,677-10-9603,David,Whalen,male,30,Hot Springs,United States of America,369,2005,9999
+867,008-84-8955,Edith,Dyer,female,24,Brattleboro,United States of America,277,2010,9999
+868,307-06-0314,Bobby,Fullerton,male,43,Richmond,United States of America,10,2010,9999
+869,506-44-5499,Roy,Tirado,male,26,Omaha,United States of America,850,2010,9999
+870,277-10-7579,William,Coughlin,male,34,Akron,United States of America,823,2008,9999
+871,642-92-3063,Roy,Pressley,male,45,Dallas,United States of America,488,2005,9999
+872,314-64-9343,Henry,Tinoco,male,34,Richmond,United States of America,433,2010,9999
+873,173-74-9779,Leland,Hogan,male,57,Fort Washington,United States of America,256,2005,9999
+874,263-51-0920,Marcus,Smith,male,31,Walnut Hill,United States of America,636,2011,9999
+875,526-61-8063,Michael,Poe,male,38,San Manuel,United States of America,222,2009,9999
+876,571-51-9335,Cecil,Carden,male,33,Fair Oaks,United States of America,688,2012,9999
+877,325-82-7873,Chery,Hart,female,57,Chicago,United States of America,13,2011,9999
+878,138-98-2207,Mark,Ross,male,40,Lyndhurst,United States of America,857,2005,9999
+879,184-03-7952,Nicholas,Leblanc,male,20,Philadelphia,United States of America,417,2009,9999
+880,501-92-9662,Leigh,Payne,female,39,St Thomas,United States of America,326,2007,9999
+881,548-22-7936,James,Kang,male,36,Petaluma,United States of America,53,2010,9999
+882,641-42-7260,John,Camp,male,45,Seadrift,United States of America,835,2012,9999
+883,633-38-8575,Jordan,Holland,male,20,Dallas,United States of America,740,2005,9999
+884,542-01-7951,Bernadette,Miller,female,44,Beaverton,United States of America,462,2010,9999
+885,675-26-0561,Anthony,Jones,male,42,Springfield,United States of America,859,2005,9999
+886,612-50-1351,Jay,McKinstry,male,41,Los Angeles,United States of America,458,2011,9999
+887,307-20-3006,Latanya,Kogan,female,53,Indianapolis,United States of America,545,2012,9999
+888,372-20-8657,Jerry,Hampton,male,29,Detroit,United States of America,846,2009,9999
+889,617-58-9105,John,Ellis,male,49,Oakland,United States of America,884,2011,9999
+890,267-64-3079,Francis,Lambert,male,28,Orlando,United States of America,602,2007,9999
+891,255-19-9890,John,Spells,male,53,Atlanta,United States of America,596,2006,9999
+892,532-50-6387,John,Moore,male,49,Everett,United States of America,218,2010,9999
+893,019-40-1279,Michael,Herring,male,32,Woburn,United States of America,447,2010,9999
+894,457-38-4816,Joseph,Ellis,male,58,Corpus Christi,United States of America,428,2009,9999
+895,668-10-1992,Daniel,Butner,male,45,Atlanta,United States of America,729,2007,9999
+896,463-15-7757,Curtis,Winkfield,male,25,Longview,United States of America,456,2009,9999
+897,384-22-7705,Robert,Simmons,male,19,Marquette,United States of America,879,2012,9999
+898,670-26-1192,John,Patton,male,35,Macon,United States of America,883,2012,9999
+899,313-05-1736,Werner,Testa,male,41,Indianapolis,United States of America,462,2012,9999
+900,085-60-2146,Robert,Leblanc,male,57,Albany,United States of America,819,2009,9999
+901,481-42-1287,Elizabeth,Dunn,female,27,Kanawha,United States of America,339,2005,9999
+902,620-40-0380,Mark,Delarosa,male,58,Oakland,United States of America,920,2005,9999
+903,276-26-6363,John,Viveros,male,46,Grand Rapids,United States of America,962,2007,9999
+904,767-10-1107,Fred,Conover,male,26,Winter Park,United States of America,516,2010,9999
+905,083-52-9812,Michael,Hunter,male,58,Bronx,United States of America,480,2006,9999
+906,434-57-6438,Raymond,Jenkins,male,26,Baton Rouge,United States of America,184,2011,9999
+907,485-10-6170,John,Szabo,male,31,Sibley,United States of America,582,2005,9999
+908,260-09-7581,Brian,Alexander,male,56,Norcross,United States of America,177,2009,9999
+909,561-21-7394,James,Barrow,male,60,Riverside,United States of America,647,2008,9999
+910,317-90-8394,Allen,Benito,male,22,Marion,United States of America,927,2009,9999
+911,400-70-0144,Stephanie,Eastham,female,23,Louisville,United States of America,777,2011,9999
+912,392-98-0734,William,Patterson,male,22,Madison,United States of America,905,2007,9999
+913,684-09-1759,Gerald,Salinas,male,38,Winston Salem,United States of America,316,2005,9999
+914,455-21-0050,Christopher,Childs,male,46,Harlingen,United States of America,880,2005,9999
+915,549-68-7738,Annette,Ortiz,female,48,Los Angeles,United States of America,671,2011,9999
+916,258-72-5231,Andrew,Durham,male,28,Dalton,United States of America,854,2011,9999
+917,311-44-1672,William,Rees,male,25,Georgetown,United States of America,596,2007,9999
+918,201-74-4011,Edward,Harris,male,38,Punxsutawney,United States of America,289,2011,9999
+919,434-24-0538,Larry,Goss,male,50,Shreveport,United States of America,302,2007,9999
+920,417-72-6094,Dennis,Saunders,male,29,Dothan,United States of America,130,2007,9999
+921,682-10-1587,Sergio,Williams,male,46,Hendersonville,United States of America,476,2008,9999
+922,024-01-4203,Walter,Joslyn,male,42,West Roxbury,United States of America,335,2009,9999
+923,513-58-6768,Justin,Negron,male,33,Olathe,United States of America,264,2007,9999
+924,175-58-2039,Joseph,Bedell,male,34,Northampton,United States of America,94,2006,9999
+925,416-37-2609,Cruz,Vanegas,female,48,Birmingham,United States of America,562,2011,9999
+926,356-58-0771,Alice,Roberts,female,36,Waukegan,United States of America,739,2009,9999
+927,212-30-1511,Paul,McIntyre,male,20,Woodlawn,United States of America,978,2009,9999
+928,362-10-6333,Richard,Palmer,male,40,Plymouth,United States of America,755,2011,9999
+929,386-92-7486,Daniel,Harris,male,28,Detroit,United States of America,995,2012,9999
+930,284-80-8010,Jimmy,Martin,male,20,Columbus,United States of America,392,2012,9999
+931,234-14-6427,Jasper,Carr,male,60,Logan,United States of America,766,2010,9999
+932,757-01-8699,Ilene,Hatten,female,22,Knoxville,United States of America,718,2006,9999
+933,262-33-2270,Laurie,Hanson,female,45,Fort Lauderdale,United States of America,433,2008,9999
+934,205-56-0118,Jamel,Schultz,male,33,Fort Washington,United States of America,20,2009,9999
+935,392-17-1009,Robert,Cooley,male,19,New Berlin,United States of America,603,2008,9999
+936,240-96-6720,Eva,Faust,female,55,Belmont,United States of America,794,2005,9999
+937,630-01-5739,Raul,Gonzalez,male,20,Keller,United States of America,140,2012,9999
+938,469-30-8952,Roy,Torres,male,35,Minneapolis,United States of America,643,2011,9999
+939,515-52-9199,Alex,Hancock,male,25,Topeka,United States of America,524,2012,9999
+940,680-16-8426,Francis,Lueck,male,42,Las Vegas,United States of America,687,2006,9999
+941,285-28-2697,Frank,Owens,male,60,Dayton,United States of America,443,2010,9999
+942,043-02-7145,Kirk,Taylor,male,58,Prospect,United States of America,494,2005,9999
+943,261-35-7062,Robert,Bowman,male,22,Orlando,United States of America,811,2006,9999
+944,094-66-3508,Gregg,Bise,male,33,New York,United States of America,152,2005,9999
+945,117-32-4997,Irene,Yarnell,female,51,Rochester,United States of America,788,2005,9999
+946,144-90-8228,Ray,Rosenberg,male,37,Mercerville,United States of America,122,2006,9999
+947,399-17-5993,Edward,Sankey,male,51,Green Bay,United States of America,912,2009,9999
+948,055-90-0228,Matthew,McQuiston,male,53,Bay Shore,United States of America,754,2008,9999
+949,463-07-7784,Robert,Porter,male,27,Beaumont,United States of America,777,2009,9999
+950,613-33-3859,Vernon,Predmore,male,50,Alhambra,United States of America,565,2010,9999
+951,509-11-5631,Mark,Wright,male,33,Home,United States of America,942,2005,9999
+952,181-40-5830,Edward,Grant,male,46,Plymouth Meeting,United States of America,75,2010,9999
+953,354-36-0223,Maynard,Sepulveda,male,23,Chicago,United States of America,674,2006,9999
+954,495-22-8693,Joshua,Balfour,male,44,Stlouis,United States of America,559,2005,9999
+955,605-52-3197,Karl,Johnson,male,19,Concord,United States of America,493,2005,9999
+956,012-20-7592,William,Wright,male,42,Cambridge,United States of America,62,2007,9999
+957,540-54-1449,Rachel,Moore,female,26,Myrtle Creek,United States of America,281,2012,9999
+958,246-26-2104,Ross,Aponte,male,19,Rocky Mount,United States of America,804,2005,9999
+959,436-14-7785,Granville,Long,male,56,Metairie,United States of America,227,2005,9999
+960,355-82-5929,Dominick,Spann,male,52,Chicago,United States of America,571,2005,9999
+961,681-05-2454,Carol,McColl,female,52,Winston Salem,United States of America,268,2006,9999
+962,355-10-3148,Bradford,Schubert,male,39,Clifton,United States of America,773,2005,9999
+963,349-50-3576,Roy,Jennings,male,45,Goreville,United States of America,705,2005,9999
+964,592-68-0564,Debbie,Francis,female,34,Ocala,United States of America,272,2011,9999
+965,490-94-1386,Julian,Burgess,male,25,Kansas City,United States of America,170,2006,9999
+966,610-21-2183,Gary,Green,male,28,Stockton,United States of America,776,2011,9999
+967,174-54-8206,Maureen,Blessing,female,26,Plains,United States of America,673,2006,9999
+968,191-09-9892,David,Connolly,male,22,Lititz,United States of America,970,2010,9999
+969,502-98-7255,Andrew,Radford,male,22,Jud,United States of America,460,2009,9999
+970,364-88-9626,Steven,Houck,male,30,Hulbert,United States of America,417,2012,9999
+971,037-18-3466,Michael,Elliott,male,20,Providence,United States of America,55,2005,9999
+972,281-84-8808,Helene,Olsen,female,19,Cleveland,United States of America,984,2010,9999
+973,307-12-6119,John,Prince,male,24,Vincennes,United States of America,403,2006,9999
+974,508-01-4989,Paul,King,male,37,Haigler,United States of America,941,2010,9999
+975,241-86-6524,Kerry,Choi,male,25,Level Cross,United States of America,24,2007,9999
+976,687-05-1045,Donna,Folsom,female,18,Raleigh,United States of America,867,2006,9999
+977,369-04-6515,Lynette,Lemen,female,38,Lansing,United States of America,298,2009,9999
+978,762-01-1725,William,Murphy,male,58,Memphis,United States of America,296,2012,9999
+979,108-34-7624,Marshall,Fletcher,male,21,New York,United States of America,549,2006,9999
+980,429-83-9695,David,Nakano,male,21,Parkin,United States of America,545,2005,9999
+981,515-66-0086,Joann,Weidner,female,56,Minneapolis,United States of America,662,2006,9999
+982,509-64-6478,Levi,Willett,male,57,Home,United States of America,214,2011,9999
+983,333-52-9900,John,Word,male,56,Danville,United States of America,81,2012,9999
+984,256-21-3914,Hector,Kim,male,57,Roswell,United States of America,837,2011,9999
+985,484-86-2464,Nancy,Baranowski,female,39,Jefferson,United States of America,369,2006,9999
+986,480-03-3000,Austin,Roberts,male,51,Ossian,United States of America,311,2012,9999
+987,602-38-5750,Jason,Kam,male,28,Santa Cruz,United States of America,847,2005,9999
+988,368-38-5452,Roy,Wallace,male,24,Tecumseh,United States of America,526,2009,9999
+989,219-01-5606,Kenneth,Miller,male,32,Bel Air,United States of America,990,2010,9999
+990,625-94-7341,Jessica,Paredes,female,41,San Diego,United States of America,963,2005,9999
+991,532-20-5586,John,Jacobs,male,27,Bellingham,United States of America,125,2010,9999
+992,468-11-7043,Walter,Tucker,male,47,Northome,United States of America,980,2005,9999
+993,436-73-8545,Robert,Rodriguez,male,50,Lake Charles,United States of America,776,2005,9999
+994,390-36-9317,Antonio,Bass,male,59,Milwaukee,United States of America,322,2006,9999
+995,444-94-0077,John,Collins,male,33,Oklahoma City,United States of America,926,2007,9999
+996,563-90-1800,Dennis,Perrin,male,31,Los Angeles,United States of America,769,2009,9999
+997,351-74-0501,Bradley,Ranney,male,60,Sterling,United States of America,563,2011,9999
+998,378-38-1501,Sean,Stanley,male,43,Saginaw,United States of America,758,2007,9999
+999,064-68-4300,John,Turner,male,52,Huntington,United States of America,120,2007,9999
+1000,508-94-3615,Frederick,King,male,24,Schuyler,United States of America,890,2005,9999
+1001,176-76-3604,Billy,Johnston,male,51,Du Bois,United States of America,19,2005,9999
+1002,334-92-4948,Glenn,Bird,male,46,Bensenville,United States of America,268,2011,9999
+1003,321-88-2647,Burl,Frederick,male,54,Chicago,United States of America,844,2006,9999
+1004,212-92-9045,James,Gobin,male,30,Dorrs Corner,United States of America,585,2012,9999
+1005,255-98-6896,Larry,Moore,male,19,Macon,United States of America,520,2008,9999
+1006,549-76-9645,John,Bradley,male,19,San Jose,United States of America,450,2009,9999
+1007,470-56-0678,Douglas,Griffen,male,38,Hawley,United States of America,576,2012,9999
+1008,567-53-6660,Todd,George,male,50,Oakland,United States of America,757,2007,9999
+1009,472-13-9671,Thomas,Thomas,male,34,New Ulm,United States of America,941,2011,9999
+1010,362-03-8498,Kenneth,Bradford,male,45,Southfield,United States of America,247,2009,9999
+1011,119-56-9161,Robert,Kelley,male,24,Garden City,United States of America,505,2010,9999
+1012,018-54-9190,Kim,Gilyard,male,47,Cambridge,United States of America,915,2012,9999
+1013,231-81-5310,Pinkie,George,female,31,Staunton,United States of America,366,2006,9999
+1014,569-93-0963,Billy,Thompson,male,37,Antioch,United States of America,573,2006,9999
+1015,108-38-2291,Sylvia,Tapia,female,53,New York,United States of America,495,2012,9999
+1016,087-84-3498,Laurie,Berry,female,43,Little Falls,United States of America,135,2011,9999
+1017,514-82-2154,James,Page,male,39,Rolla,United States of America,147,2006,9999
+1018,465-41-6022,Eric,Bautista,male,57,Fort Worth,United States of America,207,2008,9999
+1019,587-86-6822,David,Paul,male,24,Jackson,United States of America,712,2007,9999
+1020,420-49-5524,Callie,Starnes,female,47,Huntsville,United States of America,924,2005,9999
+1021,253-76-0457,Alice,Reynolds,female,59,Cordele,United States of America,91,2010,9999
+1022,293-86-2511,Dorothy,Liska,female,20,Garfield Heights,United States of America,253,2007,9999
+1023,572-13-4304,Raymond,Nelson,male,37,San Jose,United States of America,762,2007,9999
+1024,198-24-9340,Edward,Slone,male,56,Middletown,United States of America,680,2009,9999
+1025,604-41-4257,Donnie,Frisby,male,30,Sacramento,United States of America,867,2011,9999
+1026,460-28-2824,Joel,Pratt,male,36,Seymour,United States of America,248,2007,9999
+1027,517-13-6981,Clarence,Scott,male,18,Billings,United States of America,905,2012,9999
+1028,463-02-5427,Tracy,Clement,female,21,Austin,United States of America,759,2007,9999
+1029,477-98-1658,Richard,Wise,male,29,Minneapolis,United States of America,827,2005,9999
+1030,301-54-2949,James,Gower,male,51,Westerville,United States of America,202,2012,9999
+1031,246-74-5551,William,Loera,male,28,Hamlet,United States of America,591,2012,9999
+1032,387-26-3342,Richard,Payton,male,48,Weyerhauser,United States of America,315,2010,9999
+1033,618-16-6344,Walter,Donegan,male,56,Los Angeles,United States of America,507,2009,9999
+1034,324-05-5125,Robert,Hendon,male,55,Loves Park,United States of America,690,2010,9999
+1035,363-46-6507,Hiram,Leary,male,58,Wolverine,United States of America,515,2012,9999
+1036,458-82-1980,Joseph,Joy,male,18,Nacogdoches,United States of America,35,2006,9999
+1037,268-04-0303,Juan,Lopez,male,40,Akron,United States of America,15,2012,9999
+1038,011-01-8828,Renee,Andersen,female,34,Foxboro,United States of America,929,2008,9999
+1039,556-44-2257,Max,Gray,male,19,Los Angeles,United States of America,196,2009,9999
+1040,031-76-4501,Laurie,Lindley,female,35,Springfield,United States of America,891,2007,9999
+1041,532-33-7202,Steven,Foster,male,55,Quincy,United States of America,464,2008,9999
+1042,566-21-5875,Aron,Field,male,51,San Diego,United States of America,919,2009,9999
+1043,194-12-3144,Dale,Eudy,male,19,Scranton,United States of America,83,2009,9999
+1044,650-20-2815,Blake,Smith,male,51,Guffey,United States of America,397,2006,9999
+1045,251-69-6645,Joseph,Anderson,male,37,Charleston,United States of America,361,2006,9999
+1046,585-27-3644,Louise,Gibson,female,36,Las Cruces,United States of America,221,2010,9999
+1047,201-40-2901,Kenneth,Siebert,male,26,Reading,United States of America,383,2007,9999
+1048,511-07-2704,Candy,Thomas,female,26,Wichita,United States of America,426,2006,9999
+1049,664-10-7545,Holly,Greene,female,32,Monroe,United States of America,560,2006,9999
+1050,185-60-0037,Patricia,Barrett,female,35,Northampton,United States of America,227,2005,9999
+1051,422-35-1766,Lorraine,Ruth,female,26,Albertville,United States of America,246,2010,9999
+1052,451-43-5533,Erick,Cobb,male,19,Guymon,United States of America,209,2007,9999
+1053,437-55-8295,Joey,Williams,male,30,New Orleans,United States of America,667,2012,9999
+1054,249-76-5054,Michael,June,male,39,Orangeburg,United States of America,569,2009,9999
+1055,615-28-2156,Robert,West,male,37,Los Angeles,United States of America,691,2007,9999
+1056,624-04-2470,Bennie,Guess,male,23,Irvine,United States of America,416,2006,9999
+1057,363-88-0506,Dawn,Parrish,female,58,Detroit,United States of America,185,2008,9999
+1058,476-02-7824,Samantha,Sessions,female,40,Glenwood,United States of America,423,2011,9999
+1059,436-04-7856,Jesus,Smith,male,49,Baton Rouge,United States of America,35,2008,9999
+1060,766-12-3437,Michael,Green,male,33,Tamarac,United States of America,476,2008,9999
+1061,294-04-7836,Rebecca,Bain,female,29,Warrensville Heights,United States of America,170,2009,9999
+1062,556-63-3582,Christopher,Thomas,male,38,Walnut Creek,United States of America,731,2009,9999
+1063,152-90-8217,Anthony,Weaver,male,41,Camden,United States of America,782,2011,9999
+1064,261-45-8409,Robert,Jackson,male,26,Saint Petersburg,United States of America,13,2011,9999
+1065,382-30-5595,Marcos,Estes,male,33,Traverse City,United States of America,112,2006,9999
+1066,699-01-1733,David,Upshaw,male,43,Richmond,United States of America,67,2010,9999
+1067,485-86-8846,John,Le,male,36,Wyoming,United States of America,901,2011,9999
+1068,591-28-7574,Ferdinand,Bardsley,male,19,Fort Lauderdale,United States of America,61,2010,9999
+1069,556-06-7813,Doyle,Figueroa,male,58,West Sacramento,United States of America,896,2009,9999
+1070,116-76-8654,Christine,Christy,female,51,Albany,United States of America,162,2007,9999
+1071,361-09-3206,David,McCorkle,male,41,Chicago,United States of America,91,2011,9999
+1072,652-20-7256,Harry,Lynch,male,34,Boulder,United States of America,403,2008,9999
+1073,478-27-0126,Lamar,Anthony,male,41,Woolstock,United States of America,705,2010,9999
+1074,551-09-6254,Alberta,Heldt,female,36,Alameda,United States of America,432,2007,9999
+1075,277-28-6288,Jame,Spooner,male,18,Columbus,United States of America,990,2011,9999
+1076,026-40-8634,Charles,Hayes,male,43,Springfield,United States of America,670,2010,9999
+1077,129-94-0515,Cary,Garcia,male,24,East Aurora,United States of America,256,2011,9999
+1078,138-66-6863,Henry,Garibay,male,21,New Brunswick,United States of America,751,2008,9999
+1079,590-24-1866,David,Schumacher,male,39,Miami,United States of America,864,2005,9999
+1080,618-56-7409,Paul,Gries,male,58,Garden Grove,United States of America,885,2007,9999
+1081,571-58-4898,Richard,Reynolds,male,55,Artesia,United States of America,29,2012,9999
+1082,214-65-9682,Joseph,Mahone,male,27,Upper Marlboro,United States of America,818,2007,9999
+1083,262-89-6222,Gary,Perkins,male,20,Ft Lauderdale,United States of America,994,2009,9999
+1084,608-40-7207,George,Patchell,male,43,Santa Fe Springs,United States of America,41,2006,9999
+1085,324-98-0843,Marvin,Gutierrez,male,34,Champaign,United States of America,380,2006,9999
+1086,673-05-4963,Joseph,Tuck,male,46,Augusta,United States of America,520,2008,9999
+1087,356-74-0163,Edward,Dickey,male,54,Burr Ridge,United States of America,380,2011,9999
+1088,443-42-7417,Benny,Hamm,male,49,Edmond,United States of America,425,2011,9999
+1089,217-25-1017,Gilbert,McKay,male,42,Baltimore,United States of America,466,2006,9999
+1090,134-82-3203,Donald,Hagan,male,29,Syracuse,United States of America,508,2012,9999
+1091,362-04-6070,Brandon,Kean,male,19,Bloomfield Township,United States of America,523,2007,9999
+1092,484-22-7795,Maria,Daniels,female,38,Urbandale,United States of America,311,2007,9999
+1093,451-64-5858,Kenny,Edmunds,male,32,Houston,United States of America,522,2006,9999
+1094,354-52-0321,Kenneth,Campbell,male,22,Elgin,United States of America,394,2007,9999
+1095,641-24-2391,Albert,Russell,male,54,Dallas,United States of America,394,2006,9999
+1096,540-35-1854,Elaine,Short,female,25,Sheridan,United States of America,987,2011,9999
+1097,425-26-3644,James,Harris,male,25,Wiggins,United States of America,583,2007,9999
+1098,678-01-6847,Patrick,Sweeney,male,25,Gamaliel,United States of America,68,2011,9999
+1099,526-15-5228,David,Buchanan,male,38,Phoenix,United States of America,578,2008,9999
+1100,532-72-6765,Conrad,Wade,male,27,Seattle,United States of America,531,2006,9999
+1101,251-43-6820,Chester,Langham,male,37,Florence,United States of America,751,2008,9999
+1102,220-44-1345,William,Rea,male,39,Annapolis,United States of America,582,2009,9999
+1103,630-02-4578,Cecil,Madewell,male,48,Corpus Christi,United States of America,872,2007,9999
+1104,538-33-1822,Gregory,Vannote,male,43,Spokane,United States of America,558,2010,9999
+1105,618-62-6845,Milo,Garcia,male,21,San Francisco,United States of America,644,2006,9999
+1106,047-12-0887,Elizabeth,Flippen,female,31,New London,United States of America,692,2007,9999
+1107,021-70-1320,Shawn,Robinson,male,34,Framingham,United States of America,641,2005,9999
+1108,646-70-6609,Thomas,Naylor,male,27,Salt Lake City,United States of America,51,2006,9999
+1109,472-10-9740,James,Haskins,male,29,Rochester,United States of America,185,2009,9999
+1110,443-09-0901,Christopher,Smith,male,49,Tulsa,United States of America,154,2009,9999
+1111,452-67-0666,Marcus,Roberts,male,44,Austin,United States of America,813,2006,9999
+1112,372-19-2003,Eric,Henderson,male,39,Southfield,United States of America,152,2008,9999
+1113,770-44-2540,Danny,Jessen,male,44,Jacksonville,United States of America,546,2008,9999
+1114,274-01-8509,Erik,Caufield,male,58,Ironton,United States of America,900,2006,9999
+1115,501-78-3276,Katherine,Hintz,female,46,Carrington,United States of America,756,2007,9999
+1116,359-64-5653,William,Wright,male,29,Carbondale,United States of America,375,2010,9999
+1117,009-09-3083,Douglas,Bennett,male,26,Swanton,United States of America,130,2008,9999
+1118,102-36-9457,Kenneth,Johnson,male,49,Whitestone,United States of America,514,2007,9999
+1119,589-23-5249,Jose,Whaley,male,48,Lake Worth,United States of America,303,2011,9999
+1120,548-60-9259,Richard,Dockins,male,28,San Jose,United States of America,206,2006,9999
+1121,314-68-7098,George,Jones,male,32,Crawfordsville,United States of America,225,2011,9999
+1122,569-49-5333,John,Pulley,male,25,Santa Barbara,United States of America,259,2008,9999
+1123,620-58-6231,Evie,Hoskins,female,54,Yucca Valley,United States of America,849,2007,9999
+1124,300-84-6489,Arthur,Fernald,male,55,Cleveland,United States of America,891,2011,9999
+1125,608-06-0317,Robert,Thurlow,male,56,San Francisco,United States of America,992,2007,9999
+1126,674-26-9548,Billy,Garcia,male,34,Atlanta,United States of America,34,2006,9999
+1127,377-74-6344,Steven,Clements,male,54,Bloomfield Township,United States of America,702,2009,9999
+1128,298-10-0544,Hope,Packer,female,29,Saint Clairsville,United States of America,227,2010,9999
+1129,521-85-8758,Thomas,Altman,male,23,Denver,United States of America,873,2008,9999
+1130,680-01-6574,Alvin,Liverman,male,44,Las Vegas,United States of America,529,2009,9999
+1131,075-38-3410,Lizzie,Wilson,female,22,New York,United States of America,3,2012,9999
+1132,325-48-5696,Thomas,Dunlap,male,50,Sheffield,United States of America,725,2005,9999
+1133,656-07-3538,Orville,Perkins,male,44,Gaffney,United States of America,311,2011,9999
+1134,572-76-6989,Annie,Moreno,female,28,Los Angeles,United States of America,509,2008,9999
+1135,414-15-8533,Gene,Land,male,60,Memphis,United States of America,821,2012,9999
+1136,601-36-5256,Walter,Flynn,male,29,Scottsdale,United States of America,454,2009,9999
+1137,529-18-5910,Grace,Graham,female,25,Riverton,United States of America,697,2009,9999
+1138,476-50-0526,Floyd,Holt,male,37,Fergus Falls,United States of America,100,2008,9999
+1139,536-52-8149,Precious,Fugate,female,52,Seattle,United States of America,396,2010,9999
+1140,571-03-3630,Kristy,McCoy,female,22,Seal Beach,United States of America,548,2005,9999
+1141,685-03-2408,Mark,Schnell,male,35,Morrisville,United States of America,439,2009,9999
+1142,543-96-6503,Lonnie,West,male,52,Antelope,United States of America,887,2010,9999
+1143,663-10-8870,Cody,Snyder,male,37,New Orleans,United States of America,182,2009,9999
+1144,212-48-2003,Diane,Frisina,female,54,Beltsville,United States of America,538,2010,9999
+1145,362-17-7043,James,Ingle,male,50,Zeeland,United States of America,418,2009,9999
+1146,560-07-8358,Rena,Hope,female,37,Pasadena,United States of America,235,2009,9999
+1147,154-11-1495,William,Rosenow,male,55,Haledon,United States of America,336,2011,9999
+1148,057-94-6879,Cesar,Galloway,male,22,New York,United States of America,653,2005,9999
+1149,627-42-5837,Victor,Alexander,male,31,Houston,United States of America,332,2012,9999
+1150,047-24-8139,Zula,Anderson,female,42,Bridgeport,United States of America,545,2010,9999
+1151,475-84-7252,Mai,Pires,female,29,Warba,United States of America,764,2008,9999
+1152,419-86-2764,Raul,Neill,male,41,Hamilton,United States of America,181,2010,9999
+1153,771-16-2347,Eric,Mercado,male,20,Coral Springs,United States of America,203,2006,9999
+1154,628-82-9585,Mark,Brann,male,47,Beaumont,United States of America,74,2011,9999
+1155,246-08-0012,Naomi,Starks,female,31,Charlotte,United States of America,207,2010,9999
+1156,770-05-9242,Dale,Barnes,male,43,Jacksonville,United States of America,467,2008,9999
+1157,078-56-7326,Samuel,Donovan,male,52,East Northport,United States of America,974,2006,9999
+1158,224-63-1177,Daniel,Pam,male,58,Ashburn,United States of America,359,2005,9999
+1159,426-52-9273,Tara,Lewis,female,51,Jackson,United States of America,358,2011,9999
+1160,204-50-9622,Justin,Duggan,male,20,Austin,United States of America,243,2007,9999
+1161,235-64-8699,Michael,Jewell,male,44,Point Pleasant,United States of America,772,2012,9999
+1162,388-70-1355,Jennifer,Chambers,female,51,Plymouth,United States of America,993,2005,9999
+1163,526-79-1427,Harold,Outlaw,male,29,Phoenix,United States of America,679,2005,9999
+1164,592-25-7263,Earl,Marshall,male,41,Tallahassee,United States of America,878,2009,9999
+1165,059-30-2296,Salvador,Wendt,male,35,Huntington,United States of America,904,2007,9999
+1166,521-13-8586,Timothy,Gordon,male,18,Englewood,United States of America,509,2006,9999
+1167,602-15-7165,Edward,Morris,male,35,Stockton,United States of America,266,2011,9999
+1168,615-78-9063,Jimmy,Hiatt,male,38,Fremont,United States of America,177,2012,9999
+1169,466-46-5150,Mark,Hearns,male,33,Gilmer,United States of America,308,2009,9999
+1170,622-55-5458,Winston,Moon,male,27,Simi Valley,United States of America,187,2012,9999
+1171,030-14-0519,Troy,Zamora,male,54,Springfield,United States of America,647,2007,9999
+1172,766-28-7740,Sara,Jones,female,39,Opa Locka,United States of America,588,2005,9999
+1173,396-09-1110,Erik,Robertson,male,41,Jefferson,United States of America,904,2011,9999
+1174,148-78-3903,Kevin,Alvarez,male,20,Somerville,United States of America,72,2012,9999
+1175,238-32-4394,Raymond,Whitley,male,57,Charlotte,United States of America,246,2010,9999
+1176,520-31-1158,Richard,Murphy,male,60,Casper,United States of America,423,2005,9999
+1177,138-38-4261,Blake,Rodrigues,male,45,Pleasantville,United States of America,91,2007,9999
+1178,652-24-6821,Lisa,Johnson,female,48,Westminster,United States of America,429,2012,9999
+1179,687-09-3678,Graciela,Mitchell,female,19,Wilmington,United States of America,998,2006,9999
+1180,680-42-5054,Paul,Smith,male,60,Henderson,United States of America,825,2005,9999
+1181,367-32-9312,Jim,Bowen,male,54,Southfield,United States of America,975,2010,9999
+1182,203-64-3633,Pedro,Wilson,male,42,Bridgeville,United States of America,161,2011,9999
+1183,110-46-4149,Ronald,Rentschler,male,49,New York,United States of America,931,2005,9999
+1184,109-88-0798,Caleb,Simpson,male,25,Liverpool,United States of America,910,2011,9999
+1185,085-36-8505,George,Wilson,male,30,Albany,United States of America,511,2006,9999
+1186,222-22-6299,Charles,Culver,male,34,New Castle,United States of America,187,2009,9999
+1187,433-32-1598,Oscar,Cordell,male,24,Lake Charles,United States of America,504,2009,9999
+1188,014-28-3082,Lucas,Webb,male,49,Springfield,United States of America,949,2009,9999
+1189,135-50-4330,Aurea,Gomez,female,35,Lyndhurst,United States of America,314,2007,9999
+1190,575-59-4057,Jose,Denning,male,29,Honolulu,United States of America,998,2010,9999
+1191,169-72-6125,Matthew,Derr,male,23,Wellsboro,United States of America,962,2009,9999
+1192,639-46-2185,Edgar,Thomas,male,45,Austin,United States of America,104,2010,9999
+1193,591-26-3598,Larry,Berry,male,37,Miami,United States of America,256,2008,9999
+1194,630-74-1078,Francisco,Copeland,male,47,Lubbock,United States of America,444,2008,9999
+1195,566-94-4562,Eddie,Randall,male,26,El Segundo,United States of America,433,2011,9999
+1196,361-18-2099,Billie,Allen,female,22,Westchester,United States of America,449,2005,9999
+1197,214-98-5196,Eric,Mitchell,male,45,Baltimore,United States of America,890,2006,9999
+1198,429-14-0733,Tanya,Sheffield,female,33,Little Rock,United States of America,62,2009,9999
+1199,405-76-8995,Branden,Stroud,male,36,Louisville,United States of America,917,2012,9999
+1200,178-56-1251,Anthony,Matthews,male,52,Philadelphia,United States of America,923,2006,9999
+1201,518-26-1824,Sandra,Petrick,female,53,Boise,United States of America,8,2008,9999
+1202,621-50-4164,George,Christopher,male,21,Livermore,United States of America,924,2010,9999
+1203,437-48-6524,Milton,Camacho,male,20,Lafayette,United States of America,210,2009,9999
+1204,769-26-5556,Greg,White,male,37,Saint Petersburg,United States of America,222,2009,9999
+1205,760-01-9252,Marian,Mellor,female,53,Nashville,United States of America,511,2005,9999
+1206,030-54-0121,Katharine,Stokes,female,22,Springfield,United States of America,313,2012,9999
+1207,167-30-7671,William,Peterson,male,20,Erie,United States of America,170,2012,9999
+1208,406-41-8654,Guadalupe,Burress,female,20,Lexington,United States of America,990,2011,9999
+1209,462-01-2383,Shannon,Holdsworth,female,51,Lubbock,United States of America,273,2012,9999
+1210,647-46-6887,Mark,Mack,male,29,Monticello,United States of America,349,2008,9999
+1211,458-85-4915,Darrell,Rivera,male,40,Sugar Land,United States of America,775,2008,9999
+1212,112-20-0759,Rudolph,Graves,male,52,Albany,United States of America,411,2011,9999
+1213,380-66-3664,Damon,Alvarado,male,60,Southfield,United States of America,591,2009,9999
+1214,261-75-4468,Veronica,Elder,female,55,Sarasota,United States of America,453,2010,9999
+1215,619-98-9495,Eric,Levine,male,19,Salinas,United States of America,819,2006,9999
+1216,311-07-1736,Tommie,Brown,male,22,Indianapolis,United States of America,334,2007,9999
+1217,600-07-3500,David,Contreras,male,59,Mesquite,United States of America,921,2009,9999
+1218,481-38-7804,Douglas,Chitwood,male,47,Red Oak,United States of America,891,2010,9999
+1219,656-09-8980,Jack,Hafer,male,40,Hampton,United States of America,642,2012,9999
+1220,614-88-2780,Robert,Horton,male,35,Reseda,United States of America,781,2010,9999
+1221,235-16-7288,Robert,Hamilton,male,33,Morgantown,United States of America,291,2009,9999
+1222,223-02-7781,Cecil,Paz,male,57,Laurel,United States of America,555,2005,9999
+1223,277-02-7868,Patrice,Riley,female,32,Toledo,United States of America,734,2009,9999
+1224,550-53-1069,Nicholas,Benally,male,47,Susanville,United States of America,389,2009,9999
+1225,421-26-1409,James,Sanders,male,52,Athens,United States of America,258,2011,9999
+1226,547-28-9406,Michael,Truesdell,male,51,Woodland,United States of America,629,2011,9999
+1227,548-11-3545,George,King,male,21,Palm Springs,United States of America,351,2007,9999
+1228,566-67-4891,Joseph,Goldman,male,49,Westminster,United States of America,233,2010,9999
+1229,291-84-5976,Gary,Cameron,male,58,Cleveland,United States of America,77,2007,9999
+1230,062-60-8982,Ruth,Pennington,female,55,Yonkers,United States of America,64,2006,9999
+1231,541-92-5574,Albert,Cole,male,25,Tigard,United States of America,605,2012,9999
+1232,627-58-5871,Frank,Hawkins,male,18,Irving,United States of America,638,2009,9999
+1233,561-71-3776,Jesus,Alvarez,male,33,Fullerton,United States of America,246,2012,9999
+1234,652-36-7174,Burton,Clayton,male,51,Carbondale,United States of America,480,2008,9999
+1235,578-78-9038,Eric,Dennis,male,40,Washington,United States of America,66,2005,9999
+1236,418-31-5283,Dave,Herb,male,45,Birmingham,United States of America,553,2007,9999
+1237,209-50-2506,Eric,Adams,male,37,Scranton,United States of America,656,2012,9999
+1238,294-48-9546,Ross,Dupuis,male,49,Worthington,United States of America,547,2009,9999
+1239,609-72-1920,Jaime,Harder,male,19,Torrance,United States of America,997,2009,9999
+1240,421-80-4957,Timothy,Whitehurst,male,42,Montgomery,United States of America,17,2006,9999
+1241,677-01-0010,Karl,Williams,male,56,Little Rock,United States of America,13,2006,9999
+1242,515-60-3584,Armando,McDonald,male,22,Lancaster,United States of America,554,2009,9999
+1243,527-40-4642,David,Pascal,male,41,Tucson,United States of America,420,2010,9999
+1244,213-09-1405,Reynaldo,Ford,male,51,Reston,United States of America,21,2011,9999
+1245,761-01-5868,Robert,Adkins,male,43,Memphis,United States of America,893,2011,9999
+1246,631-02-3397,Christopher,Mooneyham,male,36,Hutto,United States of America,705,2012,9999
+1247,653-03-2689,Thomas,Deleon,male,27,Westminster,United States of America,648,2006,9999
+1248,651-01-3000,John,Demby,male,23,Denver,United States of America,435,2007,9999
+1249,260-75-7085,Fred,Russell,male,57,Montgomery,United States of America,25,2008,9999
+1250,554-95-1321,Simon,House,male,52,Los Angeles,United States of America,977,2008,9999
+1251,610-25-6790,Henry,Harkins,male,28,Los Angeles,United States of America,758,2011,9999
+1252,026-03-3794,Evan,Bowen,male,42,Brockton,United States of America,859,2006,9999
+1253,608-57-7019,Francesco,Hughes,male,50,Sepulveda,United States of America,750,2011,9999
+1254,605-43-0969,Roberto,Martin,male,57,Pomona,United States of America,341,2008,9999
+1255,593-96-4127,Mark,Ries,male,42,Fort Lauderdale,United States of America,244,2007,9999
+1256,242-86-8255,William,Amador,male,50,Roanoke Rapids,United States of America,865,2012,9999
+1257,027-50-3730,William,Cunniff,male,48,Boston,United States of America,96,2010,9999
+1258,084-03-5240,Andrew,White,male,30,New York,United States of America,978,2005,9999
+1259,320-16-5054,Richard,Dunn,male,45,Burr Ridge,United States of America,108,2006,9999
+1260,011-48-3574,Dennis,Nelson,male,21,Cambridge,United States of America,253,2011,9999
+1261,222-58-5042,Teresa,Mong,female,32,Bensalem,United States of America,400,2010,9999
+1262,688-05-4768,Robert,Vallejos,male,32,Charlotte,United States of America,444,2005,9999
+1263,448-80-8244,Thomas,Decker,male,22,Chickasha,United States of America,946,2012,9999
+1264,115-56-8890,Timothy,Cudjoe,male,18,Albany,United States of America,392,2007,9999
+1265,674-10-2323,Clarence,Givens,male,35,Atlanta,United States of America,224,2010,9999
+1266,529-80-9347,Anthony,Stevens,male,27,Salt Lake City,United States of America,501,2006,9999
+1267,131-92-0432,Iris,Witcher,female,48,White Plains,United States of America,416,2006,9999
+1268,229-31-3910,Gloria,Maloney,female,48,Crozet,United States of America,100,2009,9999
+1269,651-26-1829,James,Urquhart,male,22,Centennial,United States of America,156,2008,9999
+1270,644-20-2876,Daniel,McNeil,male,45,Frisco,United States of America,236,2009,9999
+1271,436-46-9014,Lynne,Gullett,female,32,Lafayette,United States of America,543,2012,9999
+1272,318-64-0489,William,Carpenter,male,55,River Grove,United States of America,848,2006,9999
+1273,404-74-7625,Antonia,Wilson,female,44,Lexington,United States of America,799,2010,9999
+1274,070-86-9725,Fred,Mass,male,42,Garden City,United States of America,167,2005,9999
+1275,690-05-8915,Richard,Spinks,male,18,Greensboro,United States of America,740,2012,9999
+1276,403-31-1109,John,Valentin,male,27,Louisville,United States of America,983,2011,9999
+1277,424-05-6903,Ryan,Teixeira,male,25,Gardendale,United States of America,791,2011,9999
+1278,378-25-5451,Michael,Powers,male,30,Mount Pleasant,United States of America,984,2008,9999
+1279,677-10-1082,Lewis,Borges,male,18,Little Rock,United States of America,279,2012,9999
+1280,219-34-7527,Harold,Neal,male,42,Baltimore,United States of America,428,2012,9999
+1281,388-86-3859,Scott,Reed,male,46,Sheboygan Falls,United States of America,554,2005,9999
+1282,594-36-3109,Daniel,Roark,male,44,Jacksonville,United States of America,567,2006,9999
+1283,278-48-0399,Andrew,Pennington,male,35,Mansfield,United States of America,117,2006,9999
+1284,438-48-5048,Eric,Aquino,male,58,Baton Rouge,United States of America,518,2010,9999
+1285,771-24-9596,Arthur,Alvarez,male,39,Destin,United States of America,238,2007,9999
+1286,574-13-2650,Mary,Redmond,female,50,Port Moller,United States of America,662,2005,9999
+1287,587-11-2541,Robert,Campbell,male,28,Jackson,United States of America,980,2008,9999
+1288,498-04-5382,Reginald,James,male,32,Rolla,United States of America,77,2008,9999
+1289,114-42-6545,Travis,Baum,male,49,Schuylerville,United States of America,206,2007,9999
+1290,590-50-9399,Robert,Williams,male,48,Hollywood,United States of America,873,2006,9999
+1291,270-80-6075,Daniel,Johnson,male,43,Bellaire,United States of America,955,2005,9999
+1292,409-02-2074,Micheal,Nida,male,26,Memphis,United States of America,917,2005,9999
+1293,124-10-3356,Robert,Powell,male,40,Brooklyn,United States of America,910,2008,9999
+1294,466-25-5317,Philip,Russo,male,38,Austin,United States of America,233,2007,9999
+1295,540-90-1741,Kim,Foster,female,52,Rogue River,United States of America,810,2011,9999
+1296,497-34-6192,Franklin,Cameron,male,20,Watson,United States of America,327,2010,9999
+1297,402-86-6419,Bennie,Smith,female,46,Bardstown,United States of America,46,2005,9999
+1298,483-12-6935,Robert,Cruz,male,31,Milford,United States of America,603,2006,9999
+1299,665-03-2194,Franklin,Sauls,male,57,Baton Rouge,United States of America,905,2005,9999
+1300,406-14-2991,Kelsey,Cardinal,female,28,Bowling Green,United States of America,134,2011,9999
+1301,633-26-8050,Mary,Sparks,female,53,Houston,United States of America,16,2012,9999
+1302,090-07-9960,Brian,Lang,male,49,Hempstead,United States of America,88,2010,9999
+1303,317-21-1981,Paul,Cawthon,male,20,Arcola,United States of America,897,2005,9999
+1304,516-14-0806,Tim,Bailey,male,38,Hobson,United States of America,209,2009,9999
+1305,768-05-4323,Calvin,Gibson,male,22,Plant City,United States of America,764,2011,9999
+1306,636-05-5094,John,Severs,male,58,Victoria,United States of America,934,2007,9999
+1307,372-11-8116,Larry,Wilson,male,51,Adrian,United States of America,181,2010,9999
+1308,386-27-8403,Monserrate,Turner,female,33,Westland,United States of America,84,2009,9999
+1309,057-58-5740,Leo,Gunn,male,19,Syracuse,United States of America,878,2007,9999
+1310,667-03-2849,Gladys,Wong,female,54,Ellijay,United States of America,878,2009,9999
+1311,113-84-8930,Theron,Willis,male,19,Troy,United States of America,94,2007,9999
+1312,509-56-4110,Enrique,Andreas,male,50,Kansas City,United States of America,401,2006,9999
+1313,575-38-8731,Martha,Walton,female,41,Honolulu,United States of America,159,2008,9999
+1314,765-46-2174,Michael,Thomas,male,51,Phoenix,United States of America,601,2011,9999
+1315,273-10-7550,Marvin,Wells,male,51,Athens,United States of America,633,2007,9999
+1316,518-63-8627,Beau,Ramage,male,58,Fairfield,United States of America,71,2010,9999
+1317,574-33-4845,Karen,Zimmermann,female,49,Anaktuvuk Pass,United States of America,150,2005,9999
+1318,681-01-3692,Richard,Kraemer,male,26,Wilson,United States of America,269,2007,9999
+1319,197-07-7129,Donald,Booker,male,36,Pittsburgh,United States of America,14,2007,9999
+1320,658-07-6785,Clifford,Wagner,male,59,Myrtle Beach,United States of America,764,2005,9999
+1321,146-90-5134,Dan,Vega,male,36,Wayne,United States of America,918,2010,9999
+1322,617-29-2346,Russell,Garza,male,53,Los Angeles,United States of America,719,2011,9999
+1323,390-54-7656,Trisha,Sturgill,female,19,Sheboygan Falls,United States of America,198,2006,9999
+1324,623-66-3915,John,Brown,male,32,Escondido,United States of America,710,2005,9999
+1325,672-07-6927,Mary,Anderson,female,43,Centerville,United States of America,228,2011,9999
+1326,612-92-1108,Nancy,Phillips,female,42,Sacramento,United States of America,976,2006,9999
+1327,228-13-6148,Louis,Collie,male,59,Mclean,United States of America,614,2005,9999
+1328,156-58-4015,William,Maldonado,male,23,New Brunswick,United States of America,799,2007,9999
+1329,387-07-4664,Delores,Lopez,female,32,Green Bay,United States of America,924,2010,9999
+1330,063-01-4623,Edgar,Fiske,male,27,Great Neck,United States of America,615,2005,9999
+1331,360-98-2720,Brian,Randall,male,40,Troy,United States of America,375,2009,9999
+1332,136-22-9307,Quincy,Frost,male,39,Camden,United States of America,265,2012,9999
+1333,494-56-1388,Edith,Thomsen,female,48,Kansas City,United States of America,543,2010,9999
+1334,617-27-7530,Mohamed,Plasencia,male,25,Los Angeles,United States of America,262,2012,9999
+1335,389-17-0724,Marcella,Vincent,female,34,Mondovi,United States of America,65,2009,9999
+1336,531-36-8652,Gloria,Evans,female,19,Tumwater,United States of America,272,2009,9999
+1337,546-95-8787,Lynn,Jarvis,female,40,Sacramento,United States of America,76,2005,9999
+1338,388-70-5117,Miguel,Cannon,male,46,Milwaukee,United States of America,407,2011,9999
+1339,543-84-6049,Michael,Beall,male,52,Tigard,United States of America,954,2005,9999
+1340,220-02-3813,Joseph,Manske,male,44,Hanover,United States of America,622,2012,9999
+1341,620-24-3314,Deshawn,Davila,male,34,Berkeley,United States of America,469,2006,9999
+1342,087-60-0966,Bradley,Perry,male,23,New York,United States of America,302,2009,9999
+1343,390-30-3170,Gregory,West,male,49,Menomonee Falls,United States of America,571,2012,9999
+1344,320-72-9803,Floyd,Castiglione,male,37,Chicago,United States of America,217,2006,9999
+1345,686-01-1569,Josh,Johnson,male,29,Asheville,United States of America,927,2010,9999
+1346,534-08-1957,Billy,Green,male,44,Mercer Island,United States of America,108,2009,9999
+1347,074-14-2227,Eddie,Scott,male,33,Buffalo,United States of America,220,2009,9999
+1348,448-62-0937,Troy,Moser,male,27,Allen,United States of America,574,2005,9999
+1349,081-18-5917,Thomas,Williams,male,41,Syracuse,United States of America,997,2008,9999
+1350,220-80-5170,Carl,Zabel,male,53,Damascus,United States of America,311,2009,9999
+1351,060-70-2594,Jeffrey,Willis,male,29,East Rochester,United States of America,235,2011,9999
+1352,424-03-5877,John,Floyd,male,58,West Blocton,United States of America,774,2010,9999
+1353,219-14-0270,Robert,Best,male,41,Baltimore,United States of America,947,2005,9999
+1354,312-30-6381,Joseph,Bailey,male,49,Galena,United States of America,409,2008,9999
+1355,199-56-3521,Clarence,Frey,male,54,Crafton,United States of America,875,2011,9999
+1356,249-22-2487,Brian,Stevens,male,58,Myrtle Beach,United States of America,683,2012,9999
+1357,514-01-6652,Dennis,Wilson,male,34,Healy,United States of America,697,2012,9999
+1358,121-01-3696,Marc,Garner,male,23,New York,United States of America,384,2006,9999
+1359,042-96-2126,Alan,Borrego,male,55,Stamford,United States of America,83,2011,9999
+1360,640-54-1417,Helen,Jones,female,23,Dallas,United States of America,887,2010,9999
+1361,689-07-6125,Kendrick,Large,male,45,Holden Beach,United States of America,735,2005,9999
+1362,640-72-5690,Kirk,Benny,male,58,Oakhurst,United States of America,164,2010,9999
+1363,684-03-6907,Jessica,Walker,female,40,Charlotte,United States of America,883,2011,9999
+1364,575-91-7920,Troy,Schaffer,male,40,Honolulu,United States of America,252,2011,9999
+1365,602-45-1618,Murray,Lopez,male,40,Santa Clara,United States of America,572,2011,9999
+1366,437-65-8479,Jeffrey,Bartelt,male,49,Baton Rouge,United States of America,750,2007,9999
+1367,609-09-6736,Leland,Turner,male,22,Fresno,United States of America,958,2006,9999
+1368,275-82-4490,Charles,Wise,male,48,Cincinnati,United States of America,798,2011,9999
+1369,194-58-5401,Archie,McIntyre,male,18,Doylestown,United States of America,612,2007,9999
+1370,210-36-0432,Tommy,Myles,male,48,Philadelphia,United States of America,777,2007,9999
+1371,765-05-2046,Floyd,Alonso,male,35,Casa Grande,United States of America,199,2008,9999
+1372,049-92-4431,David,Serrato,male,49,Wallingford,United States of America,911,2007,9999
+1373,028-03-8248,George,Bernhardt,male,46,Cambridge,United States of America,997,2006,9999
+1374,424-19-9966,James,James,male,18,Montgomery,United States of America,884,2010,9999
+1375,002-20-1982,William,McCann,male,58,Salem,United States of America,844,2011,9999
+1376,163-74-4497,Robert,Thomas,male,54,Philadelphia,United States of America,629,2007,9999
+1377,467-38-7423,Matthew,Naquin,male,19,Mcallen,United States of America,536,2009,9999
+1378,385-76-2830,Brian,Adkinson,male,38,Pontiac,United States of America,530,2009,9999
+1379,618-68-3155,Robert,May,male,21,Long Beach,United States of America,230,2005,9999
+1380,623-26-1559,Howard,Robinson,male,58,Pismo Beach,United States of America,786,2005,9999
+1381,413-52-9970,David,Cammarata,male,34,Nashville,United States of America,956,2007,9999
+1382,238-48-1501,Johnnie,Frye,male,37,Charlotte,United States of America,277,2006,9999
+1383,632-36-3221,Thomas,Farmer,male,26,Sugar Land,United States of America,563,2009,9999
+1384,609-53-5517,Sara,Camacho,female,34,Waterford,United States of America,777,2009,9999
+1385,490-12-1363,Liz,Fuentes,female,48,Carthage,United States of America,614,2005,9999
+1386,466-02-4191,Ronald,Crowder,male,41,Houston,United States of America,45,2011,9999
+1387,654-09-9620,Edwin,Carroll,male,49,North Myrtle Beach,United States of America,814,2007,9999
+1388,274-14-4826,Michael,Cannon,male,39,Toledo,United States of America,687,2007,9999
+1389,559-94-0816,Katherine,Mack,female,28,Los Angeles,United States of America,746,2009,9999
+1390,442-74-5391,Nicholas,Jones,male,56,Hastings,United States of America,560,2011,9999
+1391,426-47-8804,Bella,Elliott,female,33,Jackson,United States of America,117,2006,9999
+1392,192-01-8595,Rocco,Marcum,male,55,Scranton,United States of America,791,2012,9999
+1393,522-29-1555,Debra,Whitaker,female,32,Centennial,United States of America,184,2008,9999
+1394,223-08-7351,Neil,Johnson,male,45,Harrisonburg,United States of America,520,2006,9999
+1395,079-32-8573,Joseph,Alford,male,48,Farmingdale,United States of America,871,2005,9999
+1396,594-93-6433,Todd,McCullough,male,52,Casselberry,United States of America,33,2010,9999
+1397,393-04-3818,Eric,Sparks,male,55,Hillsboro,United States of America,132,2011,9999
+1398,033-82-3489,Clara,Derrickson,female,55,Cambridge,United States of America,144,2011,9999
+1399,021-22-6712,Lawrence,Kirts,male,21,West Roxbury,United States of America,65,2005,9999
+1400,164-03-4967,Trena,Givens,female,40,Philadelphia,United States of America,374,2012,9999
+1401,460-31-0235,Kathryn,Taylor,female,55,Murchison,United States of America,829,2008,9999
+1402,645-40-7230,Andrew,Thompson,male,54,Irving,United States of America,453,2006,9999
+1403,509-06-7167,Nick,Reuter,male,18,Salina,United States of America,609,2011,9999
+1404,550-78-2210,Robert,Massengill,male,33,Irvine,United States of America,79,2010,9999
+1405,633-96-7921,John,Riles,male,55,Sherman,United States of America,339,2006,9999
+1406,566-70-0290,Jerome,Rolen,male,45,Salinas,United States of America,572,2006,9999
+1407,767-22-5467,David,Martinez,male,30,Longwood,United States of America,120,2009,9999
+1408,265-27-4426,Christian,Jeanbaptiste,male,59,Doral,United States of America,303,2009,9999
+1409,768-28-9891,Peter,Harrison,male,49,Longwood,United States of America,410,2005,9999
+1410,145-52-9646,Lloyd,Laroche,male,18,Jersey City,United States of America,864,2012,9999
+1411,013-32-6713,Ryan,Wells,male,32,Newton,United States of America,233,2006,9999
+1412,262-28-8626,Kenneth,Smith,male,34,Miami,United States of America,893,2011,9999
+1413,009-84-8873,Reginald,Francis,male,55,South Burlington,United States of America,67,2006,9999
+1414,612-82-8253,Stephen,Lazar,male,26,Riverside,United States of America,986,2010,9999
+1415,408-71-9294,Buddy,Muller,male,45,Blountville,United States of America,886,2011,9999
+1416,477-07-8257,Luis,Calvin,male,44,Minneapolis,United States of America,950,2006,9999
+1417,629-20-8303,William,Downing,male,36,Sugar Land,United States of America,140,2010,9999
+1418,406-04-0685,Marc,Miceli,male,18,Scottsville,United States of America,789,2006,9999
+1419,651-34-9268,Dana,Bocanegra,female,43,Denver,United States of America,339,2011,9999
+1420,530-07-4034,Richard,Markland,male,56,Reno,United States of America,888,2005,9999
+1421,362-07-6049,David,Mason,male,30,Kalamazoo,United States of America,797,2006,9999
+1422,564-43-5127,Patrick,Atkins,male,45,Los Angeles,United States of America,297,2011,9999
+1423,548-56-2812,Craig,Potts,male,58,Norwalk,United States of America,129,2012,9999
+1424,457-59-5709,Margaret,Clark,female,41,Junction,United States of America,508,2006,9999
+1425,446-60-7764,Mike,Hernandez,male,53,Avant,United States of America,634,2008,9999
+1426,751-03-6173,Margaret,Johnson,female,43,Honolulu,United States of America,434,2008,9999
+1427,062-72-6721,Lisa,Collins,female,19,New York,United States of America,622,2005,9999
+1428,198-62-8777,William,Burns,male,38,Coraopolis,United States of America,124,2010,9999
+1429,265-01-4425,Derek,Foley,male,47,Jacksonville,United States of America,479,2007,9999
+1430,412-54-6093,Larry,Rodriguez,male,58,Memphis,United States of America,838,2005,9999
+1431,045-92-3520,Brett,Nunez,male,32,Fairfield,United States of America,946,2005,9999
+1432,493-96-1319,Matthew,Catron,male,44,Moberly,United States of America,328,2008,9999
+1433,656-05-3758,Nancy,Smith,female,23,Conway,United States of America,79,2012,9999
+1434,269-20-0702,Arthur,Nguyen,male,51,Defiance,United States of America,479,2005,9999
+1435,399-01-8128,Joseph,Hubler,male,27,Amherst,United States of America,596,2009,9999
+1436,043-02-5469,Tommy,Owens,male,41,New Haven,United States of America,725,2006,9999
+1437,403-56-2166,Michael,Singleton,male,59,Russellville,United States of America,250,2006,9999
+1438,303-64-0859,Keith,Belknap,male,36,Clarksville,United States of America,172,2005,9999
+1439,399-96-5059,Casey,Pace,male,57,Milwaukee,United States of America,774,2011,9999
+1440,368-19-9646,Daniel,Guerra,male,37,Barryton,United States of America,653,2012,9999
+1441,520-08-5938,Patrick,Smith,male,26,Gillette,United States of America,606,2009,9999
+1442,467-24-5631,Harold,Howard,male,54,Farmers Branch,United States of America,768,2005,9999
+1443,655-12-1600,Eric,Stallings,male,45,Greenville,United States of America,447,2010,9999
+1444,174-64-5478,Stephanie,McCullough,female,40,Fort Washington,United States of America,812,2011,9999
+1445,380-11-1367,Alice,Moore,female,35,Bloomfield Township,United States of America,574,2010,9999
+1446,345-40-7146,David,Hunter,male,52,Aurora,United States of America,639,2012,9999
+1447,424-90-4202,Eugene,Finn,male,51,Oxford,United States of America,243,2008,9999
+1448,462-87-8932,John,Linehan,male,28,Wellington,United States of America,897,2010,9999
+1449,242-80-0226,Michael,McQueen,male,36,Charlotte,United States of America,548,2010,9999
+1450,644-09-2915,Lupe,Mallett,male,18,Austin,United States of America,842,2005,9999
+1451,118-32-8283,Catherine,Lewis,female,41,New York,United States of America,192,2012,9999
+1452,334-30-7659,Tanner,Davis,male,21,Palestine,United States of America,983,2006,9999
+1453,507-56-9309,Joseph,Best,male,20,Trenton,United States of America,34,2007,9999
+1454,038-10-4254,Fred,Miller,male,40,Coventry,United States of America,100,2007,9999
+1455,621-23-6282,Latonia,Blanks,female,55,Riverside,United States of America,446,2012,9999
+1456,316-30-0590,James,Clark,male,46,Morton,United States of America,945,2010,9999
+1457,120-56-8096,Michelle,Collins,female,42,Brooklyn,United States of America,643,2010,9999
+1458,315-40-7839,Mark,Rachel,male,53,Indianapolis,United States of America,304,2009,9999
+1459,633-58-0731,David,Olson,male,42,Dallas,United States of America,613,2008,9999
+1460,344-50-8712,Jack,Abreu,male,50,Hickory Hills,United States of America,19,2005,9999
+1461,637-58-5400,Eric,Fredericks,male,42,Van Alstyne,United States of America,858,2009,9999
+1462,520-56-7129,Bruce,Dickerson,male,51,Story,United States of America,607,2012,9999
+1463,680-68-8338,James,McGuire,male,37,Las Vegas,United States of America,816,2009,9999
+1464,457-25-4790,Matthew,Wright,male,31,Victoria,United States of America,283,2009,9999
+1465,225-59-4086,Wendell,Givens,male,50,Chantilly,United States of America,783,2012,9999
+1466,351-80-0772,James,Doucet,male,46,Chicago,United States of America,470,2005,9999
+1467,179-46-5614,Michael,Blakes,male,19,Clarion,United States of America,461,2006,9999
+1468,627-88-6335,Brad,Dickerson,male,27,Porter Heights,United States of America,685,2005,9999
+1469,221-76-3403,Garth,Johnson,male,32,Wilmington,United States of America,19,2011,9999
+1470,074-36-0147,Scott,Bonelli,male,54,Westbury,United States of America,427,2006,9999
+1471,643-66-6818,James,Mason,male,18,Grand Prairie,United States of America,521,2010,9999
+1472,360-01-3775,Marvin,Storch,male,42,Bloomington,United States of America,420,2010,9999
+1473,680-12-2388,Ernest,Finley,male,31,Las Vegas,United States of America,397,2012,9999
+1474,461-55-9951,Michael,Ulibarri,male,36,Smiley,United States of America,570,2009,9999
+1475,373-88-0403,Paul,Hinojosa,male,18,Stephenson,United States of America,994,2011,9999
+1476,662-01-2873,Ramiro,Martinez,male,33,Baton Rouge,United States of America,782,2005,9999
+1477,150-06-7711,Jason,Baer,male,21,Pleasantville,United States of America,266,2009,9999
+1478,566-12-4395,Colleen,Hazeltine,female,19,Santa Cruz,United States of America,330,2007,9999
+1479,635-62-4798,Andrew,Harris,male,32,Sugar Land,United States of America,892,2006,9999
+1480,590-62-0339,Byron,Medina,male,53,Miami,United States of America,346,2009,9999
+1481,563-44-0992,William,Pauling,male,41,San Diego,United States of America,622,2011,9999
+1482,179-22-8567,Patrick,Vecchio,male,56,Plains,United States of America,181,2006,9999
+1483,403-30-4946,Diane,Dennis,female,35,Slaughters,United States of America,457,2006,9999
+1484,561-67-9451,Donald,Apgar,male,27,Whittier,United States of America,29,2012,9999
+1485,024-76-4177,Wayne,Drinkard,male,39,Boston,United States of America,575,2011,9999
+1486,641-07-1077,Edward,Han,male,31,Houston,United States of America,580,2012,9999
+1487,113-72-8059,Pamela,Arendt,female,22,Keene Valley,United States of America,538,2010,9999
+1488,423-58-6526,Jessie,Behne,female,52,Anniston,United States of America,134,2006,9999
+1489,275-46-1988,Jennifer,Ansari,female,57,Dayton,United States of America,955,2011,9999
+1490,176-50-8582,Angel,Martinez,male,49,East Petersburg,United States of America,280,2008,9999
+1491,179-78-8885,Jerry,Alexander,male,25,Pittsburgh,United States of America,611,2009,9999
+1492,388-78-9572,Ryan,Culbertson,male,46,New Berlin,United States of America,257,2006,9999
+1493,314-17-1076,Linda,Moran,female,43,Evansville,United States of America,807,2009,9999
+1494,115-80-9129,John,Fox,male,36,Syracuse,United States of America,722,2005,9999
+1495,126-52-7347,Pasquale,Anderson,male,47,Dalton,United States of America,294,2012,9999
+1496,507-84-3640,Gabriel,Grant,male,56,Laurel,United States of America,436,2008,9999
+1497,576-72-5271,Malcolm,Gerrish,male,36,Waipahu,United States of America,9,2007,9999
+1498,574-76-1054,Florinda,Williams,female,53,Kwigillingok,United States of America,194,2010,9999
+1499,518-13-1927,Elaine,Gruber,female,20,Farmington,United States of America,923,2005,9999
+1500,661-03-9817,Richard,Montgomery,male,48,Metairie,United States of America,452,2009,9999
+1501,433-17-8453,Milton,Irwin,male,20,Baton Rouge,United States of America,25,2009,9999
+1502,534-24-2022,Jose,Click,male,44,Bellingham,United States of America,721,2008,9999
+1503,605-41-4986,Robert,Cassidy,male,22,Milpitas,United States of America,229,2006,9999
+1504,520-90-9510,Edward,Vasquez,male,41,Rawlins,United States of America,895,2006,9999
+1505,658-20-5626,Richard,Weldon,male,45,Charleston,United States of America,664,2005,9999
+1506,281-46-1553,Robert,Hadfield,male,25,Cincinnati,United States of America,583,2008,9999
+1507,522-43-3234,Christopher,Burke,male,56,Greeley,United States of America,293,2012,9999
+1508,636-56-7868,Andrea,Schrom,female,39,Amarillo,United States of America,623,2008,9999
+1509,607-09-2763,Cordell,Bartholomew,male,48,San Diego,United States of America,341,2009,9999
+1510,274-88-4014,Richard,Smith,male,18,Toledo,United States of America,900,2005,9999
+1511,384-13-8614,Robert,Powell,male,54,Southfield,United States of America,138,2008,9999
+1512,678-03-8030,Sidney,Hardy,male,27,Paragould,United States of America,846,2006,9999
+1513,357-14-5335,Sabrina,Mayweather,female,29,Elk Grove Village,United States of America,884,2006,9999
+1514,578-82-8007,Louis,Scott,male,27,Washington,United States of America,515,2009,9999
+1515,772-42-6446,Sean,Ball,male,31,Fort Walton Beach,United States of America,387,2005,9999
+1516,117-10-0034,Bruce,Ryan,male,56,Watertown,United States of America,385,2010,9999
+1517,542-11-1924,Eric,Howard,male,46,Portland,United States of America,152,2005,9999
+1518,065-90-9812,James,Sweat,male,36,New York,United States of America,873,2005,9999
+1519,371-10-0312,Kevin,Mintz,male,51,Southfield,United States of America,366,2005,9999
+1520,486-16-2665,Steven,Lassiter,male,31,Springfield,United States of America,49,2006,9999
+1521,106-62-6311,Kyle,Kellar,male,41,New York,United States of America,585,2007,9999
+1522,292-74-8076,Robert,Hubbard,male,52,Cleveland,United States of America,487,2012,9999
+1523,669-03-6441,Garfield,Caskey,male,39,Cairo,United States of America,802,2012,9999
+1524,294-54-1311,Javier,Johnston,male,48,Brook Park,United States of America,545,2011,9999
+1525,601-52-0679,Elaine,Tate,female,24,Phoenix,United States of America,888,2006,9999
+1526,589-85-6254,William,Walters,male,53,Tampa,United States of America,378,2010,9999
+1527,768-16-4295,Mark,Garcia,male,18,Miami,United States of America,490,2011,9999
+1528,047-36-1853,William,Pettis,male,54,Norwalk,United States of America,771,2005,9999
+1529,154-92-9858,Johnny,Barrett,male,23,Jersey City,United States of America,554,2010,9999
+1530,347-16-1108,Mark,McAllister,male,37,Chicago,United States of America,858,2011,9999
+1531,512-20-7904,Peggy,Bronstein,female,53,Salina,United States of America,791,2007,9999
+1532,050-56-9523,Arthur,Grillo,male,55,New York,United States of America,586,2009,9999
+1533,609-38-4546,Glen,Madsen,male,18,Los Angeles,United States of America,318,2011,9999
+1534,662-07-5877,Consuelo,Greenlee,female,58,Lake Charles,United States of America,742,2011,9999
+1535,020-84-9570,Anthony,Seaberg,male,38,Boston,United States of America,715,2006,9999
+1536,628-78-0715,Travis,Willett,male,59,San Antonio,United States of America,115,2011,9999
+1537,482-34-4334,Joseph,Williams,male,39,Cedar Rapids,United States of America,976,2008,9999
+1538,182-50-6108,Thomas,Williams,male,57,Philadelphia,United States of America,85,2009,9999
+1539,140-72-6831,Foster,Cannon,male,40,Newark,United States of America,857,2007,9999
+1540,467-90-5053,Julia,Petrone,female,31,Orange,United States of America,2,2006,9999
+1541,189-18-2851,Phyllis,Hudson,female,58,Newark,United States of America,374,2006,9999
+1542,104-12-6736,Fernando,Sherrod,male,60,New York,United States of America,52,2012,9999
+1543,194-68-3954,Robert,Ballou,male,43,Philadelphia,United States of America,53,2008,9999
+1544,486-72-9242,Jamal,Menard,male,22,Saint Louis,United States of America,16,2009,9999
+1545,653-10-5069,Laura,Holland,female,27,Denver,United States of America,327,2009,9999
+1546,334-16-6061,Don,Jones,male,41,Des Plaines,United States of America,378,2007,9999
+1547,231-17-9926,Newton,Larson,male,31,Herndon,United States of America,75,2005,9999
+1548,367-18-2517,Joseph,Johnson,male,22,Southfield,United States of America,484,2007,9999
+1549,253-03-8394,Everett,Moreno,male,54,Atlanta,United States of America,134,2008,9999
+1550,130-86-1083,Bobby,Johnson,male,60,Albany,United States of America,406,2012,9999
+1551,629-82-9442,Dick,Ward,male,28,Pinehurst,United States of America,377,2007,9999
+1552,532-52-2358,Betty,Yancey,female,35,Kirkland,United States of America,464,2005,9999
+1553,137-56-4290,John,Otero,male,44,Atlantic City,United States of America,16,2008,9999
+1554,515-48-0828,Arthur,Morris,male,58,Baldwin,United States of America,398,2005,9999
+1555,643-78-2119,Lucille,Parra,female,56,Fort Worth,United States of America,491,2012,9999
+1556,306-19-7437,Ronald,Carrillo,male,27,Indianapolis,United States of America,407,2011,9999
+1557,009-74-5485,Kenneth,Heide,male,39,Montpelier,United States of America,222,2008,9999
+1558,587-51-9958,Stanley,Barnard,male,56,Southaven,United States of America,865,2010,9999
+1559,283-60-9603,Kia,Gibson,female,36,Cincinnati,United States of America,294,2011,9999
+1560,622-30-0700,Larry,Collins,male,24,Costa Mesa,United States of America,63,2012,9999
+1561,546-19-1278,David,Fagan,male,30,Ventura,United States of America,147,2005,9999
+1562,694-03-3279,Robert,Webb,male,56,Washington,United States of America,87,2005,9999
+1563,531-45-5922,Karen,Lee,female,18,Seattle,United States of America,427,2009,9999
+1564,566-81-5098,Chong,Drennan,male,24,Rancho Santa Margarita,United States of America,61,2008,9999
+1565,006-26-3057,Juanita,Metz,female,38,Peaks Island,United States of America,874,2009,9999
+1566,203-64-9586,Steven,Sanchez,male,47,Pittsburgh,United States of America,386,2006,9999
+1567,417-29-4385,Eleanor,McQueen,female,31,Birmingham,United States of America,276,2011,9999
+1568,407-14-0484,Robbie,White,female,46,Mt Sterling,United States of America,249,2011,9999
+1569,527-24-8556,John,Koehler,male,36,Phoenix,United States of America,663,2011,9999
+1570,556-75-8444,Timmy,Ramos,male,55,Live Oak,United States of America,74,2007,9999
+1571,520-21-5886,Rodney,Dunn,male,41,Mountain View,United States of America,762,2011,9999
+1572,056-36-3874,Terry,Turner,male,32,Long Island City,United States of America,534,2009,9999
+1573,461-21-7191,Gregory,Adams,male,55,El Paso,United States of America,90,2009,9999
+1574,634-84-4506,Bruce,Miller,male,20,Houston,United States of America,234,2006,9999
+1575,398-13-3649,Hal,Kadlec,male,35,Madison,United States of America,717,2005,9999
+1576,533-12-1145,Brian,Brenner,male,52,Tacoma,United States of America,350,2008,9999
+1577,228-50-1380,Jesse,Suarez,male,36,Harrisonburg,United States of America,466,2009,9999
+1578,331-74-6032,Francis,Verduzco,female,50,Manchester,United States of America,384,2012,9999
+1579,676-01-4052,Thomas,Ash,male,60,Bluffton,United States of America,475,2009,9999
+1580,592-88-1489,Charles,Carpenter,male,51,Orlando,United States of America,967,2012,9999
+1581,350-16-7230,Ronald,Hall,male,20,Chicago,United States of America,87,2010,9999
+1582,635-38-8876,Alfonso,Watson,male,38,Fort Worth,United States of America,754,2009,9999
+1583,541-38-4113,Troy,Belton,male,48,Pendleton,United States of America,324,2011,9999
+1584,767-30-9340,Robert,Core,male,35,West Palm Beach,United States of America,801,2006,9999
+1585,231-14-6760,Emilio,Hart,male,25,Arlington,United States of America,740,2011,9999
+1586,245-37-2321,Dennis,Miller,male,56,Morrisville,United States of America,755,2009,9999
+1587,651-07-2523,Thelma,Hauck,female,37,Colorado Springs,United States of America,114,2007,9999
+1588,407-59-1401,Adam,Ginsburg,male,46,Louisville,United States of America,453,2008,9999
+1589,445-60-3145,Nicholas,Champagne,male,40,Marlow,United States of America,881,2008,9999
+1590,426-77-4830,Nathan,Swan,male,45,Pontotoc,United States of America,323,2009,9999
+1591,543-19-2123,Walter,Alexander,male,49,Portland,United States of America,905,2009,9999
+1592,569-64-4710,Matthew,Archer,male,55,Fresno,United States of America,51,2010,9999
+1593,168-42-5225,Daniel,Woods,male,39,Springfield,United States of America,511,2009,9999
+1594,402-05-8861,Brian,Fountain,male,47,Danville,United States of America,447,2005,9999
+1595,203-60-3625,Jack,Kurtz,male,29,Philadelphia,United States of America,856,2008,9999
+1596,514-82-5793,Luis,Peterson,male,49,Kansas City,United States of America,734,2007,9999
+1597,686-09-6195,Gary,Brandenburg,male,25,Boomer,United States of America,347,2009,9999
+1598,351-56-2278,Ryan,Soto,male,45,Chicago,United States of America,793,2012,9999
+1599,453-51-4894,Barbara,Lagarde,female,18,Karnes City,United States of America,532,2009,9999
+1600,611-03-6091,Keith,Hague,male,57,Santa Monica,United States of America,640,2011,9999
+1601,084-40-5499,David,McMurtry,male,22,Rochester,United States of America,486,2007,9999
+1602,218-20-1566,Marcos,Pearce,male,50,Annapolis Junction,United States of America,361,2011,9999
+1603,366-52-3081,James,Evans,male,24,Traverse City,United States of America,73,2007,9999
+1604,454-27-6349,Edward,Stewart,male,46,Smithsons Valley,United States of America,140,2010,9999
+1605,546-86-9878,Harold,Wood,male,51,Los Angeles,United States of America,607,2008,9999
+1606,537-49-9572,Eugene,Humphries,male,25,Coulee City,United States of America,760,2006,9999
+1607,555-91-6190,Mark,Ingram,male,21,San Mateo,United States of America,92,2006,9999
+1608,379-86-5179,Harold,Hawkins,male,44,Southfield,United States of America,900,2005,9999
+1609,630-80-3636,Charles,Zakrzewski,male,42,Harlingen,United States of America,371,2010,9999
+1610,427-28-8699,Judy,Kyler,female,45,Jackson,United States of America,253,2011,9999
+1611,554-85-8129,Marvin,Smith,male,20,Los Angeles,United States of America,158,2011,9999
+1612,382-24-5063,James,Teems,male,32,Dutton,United States of America,571,2010,9999
+1613,030-56-2873,Harold,Locke,male,27,Cambridge,United States of America,6,2009,9999
+1614,151-74-6898,Laura,Harmon,female,28,Teterboro,United States of America,785,2006,9999
+1615,076-32-3341,Jamal,Davis,male,21,Evans Mills,United States of America,294,2010,9999
+1616,302-22-8666,Larry,Nettles,male,32,Akron,United States of America,445,2008,9999
+1617,158-05-3977,Ronald,Castillo,male,45,Newark,United States of America,563,2006,9999
+1618,525-37-5052,Dorothy,Oconnell,female,22,Santa Fe,United States of America,964,2009,9999
+1619,545-11-9775,Arthur,Groth,male,36,Redding,United States of America,130,2009,9999
+1620,625-41-6813,Doyle,Gill,male,27,Santa Ana,United States of America,243,2010,9999
+1621,575-73-9279,Mary,Holdsworth,female,47,Honolulu,United States of America,591,2006,9999
+1622,501-09-2459,Jonathan,Oconner,male,19,Wilton,United States of America,905,2006,9999
+1623,772-07-6192,Timothy,Wells,male,19,Fort Lauderdale,United States of America,706,2005,9999
+1624,684-03-2587,Matthew,Kimble,male,32,Union Grove,United States of America,641,2010,9999
+1625,529-93-6899,Dustin,Hardin,male,47,Salt Lake City,United States of America,79,2005,9999
+1626,593-31-6201,Sharon,Santana,female,32,Miami,United States of America,443,2006,9999
+1627,680-50-2047,Ronald,Orenstein,male,54,Glenbrook,United States of America,552,2009,9999
+1628,450-66-2906,Brandon,Harris,male,51,Levelland,United States of America,156,2012,9999
+1629,273-70-3443,Clifford,Newsome,male,45,Barberton,United States of America,268,2011,9999
+1630,053-82-2796,William,Fields,male,27,New York,United States of America,925,2009,9999
+1631,313-25-3562,Daniel,Chandler,male,30,South Bend,United States of America,555,2008,9999
+1632,608-80-7684,Anita,Sthilaire,female,42,Anaheim,United States of America,344,2012,9999
+1633,184-60-9391,Robert,Cash,male,30,Plymouth Meeting,United States of America,70,2012,9999
+1634,624-21-0090,Harold,Cohen,male,18,Avila Beach,United States of America,132,2005,9999
+1635,389-42-1687,Michael,Bilski,male,52,Iron Mountain,United States of America,755,2005,9999
+1636,235-90-2778,David,Timberlake,male,60,Winfield,United States of America,292,2010,9999
+1637,003-88-7233,Max,Perham,male,30,Salem,United States of America,578,2010,9999
+1638,139-60-8155,Steven,Irons,male,18,Camden,United States of America,754,2006,9999
+1639,268-58-8278,Ronald,Sterns,male,27,Cleveland,United States of America,565,2009,9999
+1640,696-03-4821,Henry,Brown,male,35,Clincho,United States of America,278,2006,9999
+1641,520-10-3319,Timothy,Kaster,male,41,Mountain View,United States of America,755,2008,9999
+1642,442-62-4640,James,Secrist,male,34,Stillwater,United States of America,531,2008,9999
+1643,068-03-8503,Shanna,Cohen,female,59,Binghamton,United States of America,745,2010,9999
+1644,608-17-0192,Benjamin,Morrison,male,45,Salinas,United States of America,208,2007,9999
+1645,656-10-6599,Manuel,Martin,male,31,Florence,United States of America,89,2012,9999
+1646,698-01-2713,John,Witherspoon,male,21,Laurel Fork,United States of America,990,2012,9999
+1647,605-25-4525,Eric,Levy,male,43,San Francisco,United States of America,489,2005,9999
+1648,531-42-7748,David,Luckett,male,43,Spokane,United States of America,160,2012,9999
+1649,691-01-7716,Glenn,Aldridge,male,32,Danville,United States of America,498,2007,9999
+1650,024-03-1953,Michael,Worth,male,49,Cambridge,United States of America,131,2009,9999
+1651,473-90-8831,Naomi,Barwick,female,23,Minneapolis,United States of America,803,2010,9999
+1652,139-01-8227,Robert,Creed,male,43,Edison,United States of America,913,2005,9999
+1653,573-73-1674,Gary,Madden,male,47,Long Beach,United States of America,206,2007,9999
+1654,104-72-9915,Adam,Campbell,male,19,East Syracuse,United States of America,666,2009,9999
+1655,469-46-4156,Andrew,Austin,male,53,Brainerd,United States of America,332,2012,9999
+1656,617-98-1209,Lenny,Jones,male,37,Sacramento,United States of America,936,2012,9999
+1657,654-01-5472,Timothy,Long,male,26,Greenwood,United States of America,324,2008,9999
+1658,508-16-6777,Patrick,McNaughton,male,51,Scribner,United States of America,576,2006,9999
+1659,332-10-9723,Ulysses,McWilliams,male,55,Schaumburg,United States of America,190,2006,9999
+1660,569-18-2593,Timothy,Jackson,male,54,San Jose,United States of America,534,2009,9999
+1661,241-83-6873,Samuel,Hall,male,52,Greensboro,United States of America,596,2008,9999
+1662,646-62-1254,Charles,Blanco,male,59,Payson,United States of America,739,2010,9999
+1663,392-03-7764,Sebastian,Killian,male,53,Waukesha,United States of America,567,2011,9999
+1664,305-24-1669,Stanley,Walsh,male,51,Corunna,United States of America,522,2011,9999
+1665,770-14-0687,Steven,Wicker,male,37,West Palm Beach,United States of America,844,2011,9999
+1666,639-54-5242,David,Arpin,male,44,Lubbock,United States of America,591,2010,9999
+1667,063-46-5231,Jorge,Morgan,male,31,Albany,United States of America,803,2005,9999
+1668,418-20-3884,Michael,McGinnis,male,23,Birmingham,United States of America,976,2005,9999
+1669,449-69-3151,Ted,Larocca,male,34,Grand Prairie,United States of America,334,2006,9999
+1670,530-23-3188,Adam,Young,male,35,Paradise Valley,United States of America,548,2007,9999
+1671,265-41-5322,Charles,Augustine,male,47,Indian Rocks (Beach),United States of America,366,2011,9999
+1672,336-82-9938,Arthur,Pires,male,50,Elmhurst,United States of America,383,2006,9999
+1673,578-17-2977,Stuart,Martinez,male,59,Washington,United States of America,539,2010,9999
+1674,390-74-2278,Larry,Sanchez,male,51,Sheboygan Falls,United States of America,230,2006,9999
+1675,546-23-2951,Todd,Burke,male,34,San Diego,United States of America,28,2008,9999
+1676,625-12-7386,Stuart,Kilgore,male,41,San Luis Obispo,United States of America,408,2005,9999
+1677,336-76-9492,Genaro,McCumber,male,20,Springfield,United States of America,900,2010,9999
+1678,156-68-8888,Anthony,Dotson,male,33,Jersey City,United States of America,702,2008,9999
+1679,558-06-6621,Scott,Wilson,male,19,North Highlands,United States of America,747,2008,9999
+1680,757-01-0105,Gerardo,Beach,male,31,Johnson City,United States of America,752,2012,9999
+1681,209-70-7856,Dwayne,Lynn,male,51,Philadelphia,United States of America,347,2009,9999
+1682,193-20-5974,David,Thomas,male,26,Newark,United States of America,195,2005,9999
+1683,562-79-7303,Mary,King,female,30,City Of Commerce,United States of America,80,2007,9999
+1684,168-74-5620,Jonathan,Torres,male,54,Erie,United States of America,191,2008,9999
+1685,125-09-8543,Thomas,Nehls,male,35,New York,United States of America,84,2005,9999
+1686,144-30-3401,Vickie,Dew,female,23,Atlantic Highlands,United States of America,704,2012,9999
+1687,612-02-7480,Jesse,Peterson,male,51,Chico,United States of America,462,2006,9999
+1688,408-98-8328,William,Chastain,male,39,Columbia,United States of America,720,2006,9999
+1689,272-80-9122,William,Jones,male,24,Lima,United States of America,93,2011,9999
+1690,453-76-7309,Anthony,Brown,male,18,Irving,United States of America,864,2012,9999
+1691,180-54-7180,Michael,Roberts,male,28,Pittsburgh,United States of America,418,2007,9999
+1692,401-27-7390,Richard,Travers,male,53,Irvington,United States of America,842,2007,9999
+1693,325-52-9069,Hassan,Russell,male,37,Chicago,United States of America,548,2012,9999
+1694,772-44-6770,Suzanne,Johnson,female,45,Ocala,United States of America,567,2006,9999
+1695,251-32-2967,Carlos,Rollins,male,20,Woodruff,United States of America,739,2011,9999
+1696,362-54-4889,Anthony,Borders,male,33,Southfield,United States of America,179,2008,9999
+1697,676-09-3695,William,Herbert,male,50,St Charles,United States of America,356,2012,9999
+1698,528-75-5726,Albert,Mayhew,male,23,Farmington,United States of America,41,2009,9999
+1699,095-84-9101,Martin,Poirier,male,28,New York,United States of America,367,2008,9999
+1700,200-48-6522,Minnie,Lacombe,female,24,Fort Washington,United States of America,897,2010,9999
+1701,425-66-7023,Maria,French,female,35,Taylorsville,United States of America,125,2008,9999
+1702,361-94-1486,Christopher,Moses,male,58,Peoria,United States of America,868,2006,9999
+1703,451-09-6068,Joseph,Johnston,male,45,Houston,United States of America,219,2009,9999
+1704,149-90-2229,Robert,McMasters,male,44,Newark,United States of America,427,2008,9999
+1705,616-15-1423,Ryan,Diaz,male,38,Baldwin Park,United States of America,206,2009,9999
+1706,475-70-8366,Neal,Rupert,male,38,Mankato,United States of America,781,2006,9999
+1707,404-51-8363,Lane,Taylor,male,25,Corbin,United States of America,367,2007,9999
+1708,069-42-0044,Eric,Prosser,male,41,Grand Island,United States of America,667,2005,9999
+1709,667-14-8066,Richard,Simmons,male,52,Marietta,United States of America,461,2012,9999
+1710,537-46-0304,Charles,McCurry,male,19,Tacoma,United States of America,961,2010,9999
+1711,367-15-4912,Nora,Guadalupe,female,34,Bloomfield Township,United States of America,609,2006,9999
+1712,395-18-2492,Richard,Drake,male,23,Wausau,United States of America,296,2011,9999
+1713,761-01-6922,Philip,Chico,male,22,Collierville,United States of America,993,2010,9999
+1714,209-54-1429,Frank,Boyd,male,53,Braddock,United States of America,820,2009,9999
+1715,227-50-3230,Richard,Fulcher,male,55,Washington,United States of America,693,2010,9999
+1716,070-12-1338,Bryan,Nicholson,male,39,South Ozone Park,United States of America,588,2011,9999
+1717,201-44-6490,Michael,Headrick,male,24,Morrisville,United States of America,754,2005,9999
+1718,592-35-7967,Wendell,Oquendo,male,42,St Petersburg,United States of America,130,2011,9999
+1719,332-01-2392,Henry,Lindsey,male,28,Chicago,United States of America,29,2005,9999
+1720,424-82-6015,Marvin,Vega,male,35,Huntsville,United States of America,421,2008,9999
+1721,361-14-6205,Marco,Allen,male,46,Burr Ridge,United States of America,837,2006,9999
+1722,591-35-3454,Jeffery,Hall,male,38,Miami Springs,United States of America,975,2010,9999
+1723,638-92-4468,Norman,Waddell,male,20,Humble,United States of America,16,2009,9999
+1724,563-44-0292,Brian,Lee,male,48,Los Angeles,United States of America,130,2008,9999
+1725,646-56-1945,James,Welch,male,54,Salt Lake City,United States of America,454,2007,9999
+1726,593-12-9611,William,Engleman,male,44,Orlando,United States of America,443,2009,9999
+1727,212-76-5384,Jerome,Houston,male,27,Columbia,United States of America,763,2010,9999
+1728,485-23-1203,Matthew,Alvarez,male,37,Des Moines,United States of America,680,2012,9999
+1729,267-41-1801,Robert,Jones,male,36,Miami,United States of America,169,2008,9999
+1730,520-80-5187,Marjorie,King,female,55,Casper,United States of America,27,2007,9999
+1731,539-82-4606,Carol,Dandrea,female,37,Bremerton,United States of America,523,2009,9999
+1732,484-38-8924,Carl,Pendleton,male,32,Mediapolis,United States of America,816,2008,9999
+1733,477-24-6806,Galen,Richardson,male,20,Saint Cloud,United States of America,315,2010,9999
+1734,107-38-3083,Nola,Martinek,female,20,Albany,United States of America,273,2007,9999
+1735,459-30-6881,Darrell,Flanagan,male,29,Sugar Land,United States of America,853,2006,9999
+1736,629-76-6339,Thomas,Mackey,male,54,Beaumont,United States of America,295,2006,9999
+1737,652-05-6456,Cody,Kardos,male,54,Lakewood,United States of America,952,2006,9999
+1738,618-80-9075,Michael,Rivera,male,43,Los Angeles,United States of America,635,2012,9999
+1739,651-36-1231,Michael,Gomez,male,43,Boulder,United States of America,316,2010,9999
+1740,770-09-5323,Arthur,Watkins,male,25,Tampa,United States of America,134,2012,9999
+1741,215-52-2537,Alan,Edmondson,male,55,Baltimore,United States of America,814,2008,9999
+1742,263-02-9856,Jose,Henry,male,21,West Palm Beach,United States of America,954,2006,9999
+1743,696-03-7695,Charles,Mason,male,46,Annapolis Junction,United States of America,850,2011,9999
+1744,536-36-4206,Vanessa,Rodriguez,female,47,Redmond,United States of America,479,2009,9999
+1745,509-58-7147,Jonathan,Calderon,male,34,Red Cloud,United States of America,560,2009,9999
+1746,563-06-6338,Fred,Spillman,male,29,Pomona,United States of America,209,2006,9999
+1747,398-64-5849,Joseph,Estevez,male,58,Racine,United States of America,513,2008,9999
+1748,086-54-6108,Kevin,Francis,male,51,New York,United States of America,510,2012,9999
+1749,519-60-9450,Thomas,Wright,male,18,Eagle,United States of America,382,2005,9999
+1750,546-57-3938,Susan,Smith,female,57,San Jose,United States of America,332,2008,9999
+1751,600-07-6609,Hollis,Fletcher,male,32,Phoenix,United States of America,208,2007,9999
+1752,589-81-9163,Carolyn,Mitchell,female,18,Pompano Beach,United States of America,330,2006,9999
+1753,359-42-9216,Karen,Keffer,female,46,Chicago,United States of America,988,2009,9999
+1754,348-50-4211,Adam,Beck,male,45,Chicago,United States of America,795,2008,9999
+1755,513-56-6232,Dale,Rucker,male,21,Burrton,United States of America,10,2010,9999
+1756,354-60-2537,Christopher,Yates,male,37,Franklin Grove,United States of America,853,2010,9999
+1757,209-09-9997,Joni,Freeman,female,57,Horsham,United States of America,679,2007,9999
+1758,284-88-5450,Harold,Hendon,male,60,Cleveland,United States of America,152,2010,9999
+1759,375-34-0672,James,Porter,male,50,Farmington Hills,United States of America,9,2007,9999
+1760,566-97-5071,Bernard,Bolden,male,23,Mira Loma,United States of America,273,2005,9999
+1761,454-81-5467,John,Palmer,male,32,Abilene,United States of America,331,2010,9999
+1762,399-11-2113,Russell,Olson,male,32,Madison,United States of America,426,2009,9999
+1763,771-34-9472,James,Rosa,male,30,Hallandale Beach,United States of America,723,2008,9999
+1764,362-03-2109,Rudolph,Stevenson,male,27,Marquette,United States of America,171,2009,9999
+1765,480-98-6899,Brian,Anderson,male,19,Osceola,United States of America,805,2007,9999
+1766,310-86-8960,Lorrie,Patterson,female,29,New Albany,United States of America,673,2007,9999
+1767,036-09-1498,Micah,Bixby,male,32,North Kingstown,United States of America,322,2010,9999
+1768,473-31-7704,Carl,McMorris,male,44,Golden Valley,United States of America,836,2006,9999
+1769,530-89-1747,Louis,Lucas,male,21,Las Vegas,United States of America,117,2012,9999
+1770,399-25-1914,Otis,Valliere,male,42,Milwaukee,United States of America,304,2012,9999
+1771,483-76-9356,James,Yanez,male,27,Garner,United States of America,685,2012,9999
+1772,620-76-0818,Hector,Mayberry,male,19,Sacramento,United States of America,511,2006,9999
+1773,636-68-4875,Myrtle,English,female,40,Amarillo,United States of America,664,2010,9999
+1774,517-64-6335,Michael,Lamberton,male,36,Helena,United States of America,440,2010,9999
+1775,308-28-6712,Jared,Tiernan,male,39,Ridgeville,United States of America,285,2010,9999
+1776,621-46-4041,Edward,Schultz,male,20,Oakland,United States of America,604,2009,9999
+1777,263-69-8520,David,Underwood,male,20,Sunrise,United States of America,837,2011,9999
+1778,608-12-6976,Steven,Bruhn,male,40,Palm Springs,United States of America,253,2007,9999
+1779,237-32-3119,Chris,Powell,male,28,Elon College,United States of America,333,2009,9999
+1780,417-55-3893,Daniel,Pickett,male,51,Brundidge,United States of America,906,2010,9999
+1781,276-58-0309,Rudolph,Sun,male,28,Cleveland,United States of America,852,2008,9999
+1782,462-34-4306,Melissa,Flynn,female,18,Austin,United States of America,547,2008,9999
+1783,216-55-7720,Bonnie,Givens,female,27,Columbia,United States of America,831,2006,9999
+1784,587-05-5934,Daryl,Whitmer,male,50,Greenwood,United States of America,830,2008,9999
+1785,068-30-3769,Michael,Mallett,male,35,Grand Gorge,United States of America,265,2010,9999
+1786,387-20-5174,Myron,Nunez,male,24,Menomonee Falls,United States of America,996,2007,9999
+1787,548-46-9117,Miguel,Bishop,male,45,Oakland,United States of America,902,2009,9999
+1788,569-56-7727,Anthony,Perez,male,25,Oakland,United States of America,427,2012,9999
+1789,410-49-3529,Larry,Melvin,male,29,Paris,United States of America,661,2012,9999
+1790,246-42-2695,Johnnie,Hoehne,male,38,Rocky Mount,United States of America,896,2005,9999
+1791,536-14-6400,Thomas,Fegley,male,47,Bothell,United States of America,593,2012,9999
+1792,381-64-4765,Randall,Wiley,male,46,Bay City,United States of America,39,2005,9999
+1793,253-78-2447,John,Dukes,male,24,Norcross,United States of America,566,2009,9999
+1794,048-22-8813,Gregory,Graves,male,60,Norwalk,United States of America,84,2006,9999
+1795,578-88-7609,Nicky,Savage,male,27,Washington,United States of America,57,2010,9999
+1796,051-16-2226,Ben,Chitwood,male,29,Lafarqeville,United States of America,745,2010,9999
+1797,095-54-4010,Jaime,White,female,51,Brooklyn,United States of America,370,2009,9999
+1798,243-25-1130,Allan,Cohen,male,31,Rocky Mount,United States of America,689,2007,9999
+1799,392-78-3422,Adriana,Hervey,female,19,Eau Claire,United States of America,902,2008,9999
+1800,264-16-5436,Jeffery,Johnson,male,47,Port Charlotte,United States of America,104,2011,9999
+1801,772-26-6539,William,Dobbs,male,55,Fort Myers,United States of America,584,2009,9999
+1802,223-43-6071,Christine,Ricker,female,19,Chesapeake,United States of America,977,2007,9999
+1803,151-52-9137,Kevin,Butler,male,41,Englewood,United States of America,456,2007,9999
+1804,365-88-9919,Ralph,Steere,male,35,Grand Rapids,United States of America,310,2005,9999
+1805,344-54-4684,Ella,White,female,36,New Athens,United States of America,195,2009,9999
+1806,350-12-4488,Kenneth,Jackson,male,39,Chicago,United States of America,168,2010,9999
+1807,495-86-9223,Andrew,Castro,male,48,Stlouis,United States of America,773,2010,9999
+1808,570-92-0331,Derek,Werner,male,27,Los Angeles,United States of America,316,2005,9999
+1809,658-18-9582,Eric,Kollman,male,22,Columbia,United States of America,213,2012,9999
+1810,520-25-8556,Lawrence,Lee,male,37,Rawlins,United States of America,740,2005,9999
+1811,368-68-7766,Joseph,Roberts,male,54,Detroit,United States of America,734,2005,9999
+1812,515-18-6327,Eric,Bass,male,51,Topeka,United States of America,962,2008,9999
+1813,532-53-8953,Victor,Diederich,male,35,Seattle,United States of America,264,2011,9999
+1814,593-21-2671,Michael,Morgan,male,41,Cape Coral,United States of America,69,2012,9999
+1815,771-48-1659,David,Deckard,male,46,Ocala,United States of America,4,2008,9999
+1816,033-30-7607,John,Bourque,male,23,Boston,United States of America,444,2010,9999
+1817,257-32-1891,Kerry,Claypool,male,33,Brunswick,United States of America,128,2006,9999
+1818,373-72-0653,Martha,Tubbs,female,25,Grand Rapids,United States of America,662,2007,9999
+1819,524-53-2504,Michael,Cosby,male,21,Table Mesa,United States of America,803,2010,9999
+1820,501-54-4067,Marcel,McGray,male,23,Wahpeton,United States of America,39,2008,9999
+1821,079-70-5530,Jason,Miller,male,32,Solvay,United States of America,4,2006,9999
+1822,438-33-0217,Glen,Stein,male,41,Lafayette,United States of America,105,2012,9999
+1823,253-03-1549,Adrian,Dixon,male,59,Cornelia,United States of America,700,2012,9999
+1824,489-28-7158,Raymond,Dodson,male,32,Stlouis,United States of America,406,2012,9999
+1825,507-74-0883,Linda,Guzman,female,44,Martinsburg,United States of America,914,2009,9999
+1826,758-01-4539,Charles,Degroat,male,56,Chattanooga,United States of America,946,2008,9999
+1827,684-01-2640,Alicia,Baisley,female,34,Rocky Mount,United States of America,465,2010,9999
+1828,579-56-2482,Ernest,Wagner,male,54,Washington,United States of America,967,2010,9999
+1829,215-09-7034,Lawrence,Guillen,male,52,Washington,United States of America,599,2006,9999
+1830,399-58-8630,Logan,Levine,male,29,Green Bay,United States of America,766,2010,9999
+1831,452-09-9498,Bobby,Harrison,male,40,Houston,United States of America,482,2011,9999
+1832,461-43-5605,Patrick,Sawyer,male,38,San Antonio,United States of America,20,2005,9999
+1833,170-22-8053,Matthew,Moore,male,54,Allentown,United States of America,591,2006,9999
+1834,565-31-8560,Mark,Cripps,male,54,Oakland,United States of America,738,2010,9999
+1835,565-98-8480,Merrill,Foote,male,37,Los Angeles,United States of America,665,2008,9999
+1836,576-41-6901,Cleora,Marble,female,30,Mililani,United States of America,400,2012,9999
+1837,430-19-0663,William,Dall,male,55,Little Rock,United States of America,975,2009,9999
+1838,472-20-3594,Arnold,Sosa,male,52,Alborn,United States of America,457,2007,9999
+1839,472-70-7988,David,Gardner,male,41,Montgomery,United States of America,886,2011,9999
+1840,771-34-0569,Donald,Najera,male,31,Delray Beach,United States of America,445,2008,9999
+1841,347-76-9194,Thomas,Marshall,male,27,Arlington Heights,United States of America,578,2009,9999
+1842,664-09-1838,Daniel,Moralez,male,35,Oakdale,United States of America,539,2012,9999
+1843,033-44-5400,Larry,Thompson,male,44,Cambridge,United States of America,723,2006,9999
+1844,563-04-5221,Richard,Lopez,male,18,Victorville,United States of America,739,2009,9999
+1845,372-86-7573,Lester,Parke,male,46,Detroit,United States of America,992,2008,9999
+1846,549-52-9052,Stanley,Rivers,male,38,Pomona,United States of America,665,2007,9999
+1847,604-11-0261,Marvin,Ward,male,53,Concord,United States of America,751,2010,9999
+1848,618-66-6371,Paul,Leonard,male,39,Daly City,United States of America,427,2010,9999
+1849,477-28-2964,James,Castrejon,male,52,Minneapolis,United States of America,742,2009,9999
+1850,427-06-2990,Sandra,Parks,female,35,Jackson,United States of America,87,2010,9999
+1851,762-01-9134,Floyd,Ryan,male,27,Johnson City,United States of America,826,2009,9999
+1852,764-26-2479,Mike,Dawkins,male,55,Phoenix,United States of America,678,2011,9999
+1853,549-50-2243,Barbara,Schendel,female,28,Sacramento,United States of America,434,2010,9999
+1854,642-26-1802,Pamela,Day,female,28,Abilene,United States of America,802,2008,9999
+1855,120-70-3586,David,Kehoe,male,24,New York,United States of America,942,2011,9999
+1856,563-70-9455,Eric,Barton,male,25,Riverside,United States of America,141,2009,9999
+1857,621-51-8576,Eric,Smith,male,42,Fresno,United States of America,232,2010,9999
+1858,242-47-8418,George,Amerson,male,56,Greenville,United States of America,484,2006,9999
+1859,529-62-4616,Clayton,Master,male,52,Orem,United States of America,781,2007,9999
+1860,096-01-8399,Kathryn,Muniz,female,32,New York,United States of America,545,2006,9999
+1861,375-12-0942,Philip,Nguyen,male,19,Grand Rapids,United States of America,731,2010,9999
+1862,641-88-2207,Fernando,Rivero,male,58,Spring,United States of America,298,2010,9999
+1863,118-26-9870,Oscar,Lopez,male,32,Buffalo,United States of America,835,2010,9999
+1864,369-05-6647,Robert,Mathews,male,30,Rogers City,United States of America,701,2010,9999
+1865,771-14-9096,Janet,Luff,female,58,Port Orange,United States of America,415,2007,9999
+1866,462-71-9539,Owen,Alexander,male,31,Pleasanton,United States of America,70,2005,9999
+1867,636-44-6649,Robert,Fink,male,30,Frisco,United States of America,877,2012,9999
+1868,547-88-0789,Florida,Padula,female,38,Bakersfield,United States of America,933,2006,9999
+1869,113-12-4931,Raymond,Keller,male,42,New York,United States of America,898,2012,9999
+1870,472-09-0809,Michael,Clark,male,26,Leota,United States of America,574,2011,9999
+1871,595-05-1965,Benjamin,Sparks,male,54,Port St Lucie,United States of America,560,2009,9999
+1872,677-03-6900,Arthur,Boatright,male,54,Little Rock,United States of America,155,2012,9999
+1873,103-66-4326,Kevin,Cooper,male,60,Liverpool,United States of America,589,2010,9999
+1874,528-86-9919,Bobby,Donegan,male,36,Hyrum,United States of America,216,2011,9999
+1875,465-49-6316,Thelma,Little,female,50,Houston,United States of America,93,2010,9999
+1876,127-50-0581,Alexandra,Poore,female,44,Castleton,United States of America,855,2009,9999
+1877,610-17-1881,Robert,Lopez,male,53,Los Angeles,United States of America,3,2008,9999
+1878,182-70-9995,Jerrod,Elkins,male,25,Phoenixville,United States of America,258,2005,9999
+1879,240-46-7250,Jose,Geiser,male,19,Raleigh,United States of America,800,2012,9999
+1880,675-26-6940,Kimberly,Martin,female,25,Brunswick,United States of America,516,2009,9999
+1881,452-98-0360,Randall,Gorton,male,51,Lubbock,United States of America,874,2007,9999
+1882,401-32-9372,Otto,Thompson,male,36,Louisville,United States of America,666,2006,9999
+1883,449-38-7799,Kenneth,Morales,male,37,Fort Worth,United States of America,572,2005,9999
+1884,196-18-7232,Jason,Jamison,male,34,Newark,United States of America,656,2007,9999
+1885,289-24-1689,Larry,Hunsinger,male,29,Cincinnati,United States of America,311,2007,9999
+1886,637-46-7592,Fred,Owen,male,50,Dallas,United States of America,995,2011,9999
+1887,053-48-5147,Gary,Wymore,male,23,New York,United States of America,511,2010,9999
+1888,431-89-6312,David,Garcia,male,48,Little Rock,United States of America,24,2009,9999
+1889,563-04-2825,Esther,Grogan,female,33,Oceanside,United States of America,122,2007,9999
+1890,203-72-0599,Judith,Sutton,female,20,Altoona,United States of America,857,2007,9999
+1891,102-46-3755,Margarita,Bacon,female,55,Massapequa,United States of America,7,2012,9999
+1892,310-18-3503,Richard,Reese,male,43,Knightstown,United States of America,87,2012,9999
+1893,691-05-9091,Kenneth,Brooks,male,22,Alexandria,United States of America,783,2011,9999
+1894,156-02-2429,John,Charles,male,56,Newark,United States of America,970,2008,9999
+1895,676-07-2803,Jimmy,Gillis,male,23,Little Rock,United States of America,79,2010,9999
+1896,649-01-7952,Leslie,Housel,male,53,Santa Fe,United States of America,466,2010,9999
+1897,630-68-6327,Lance,Park,male,48,Denton,United States of America,988,2012,9999
+1898,539-25-1196,Adam,Hartman,male,20,Seattle,United States of America,387,2011,9999
+1899,568-24-0107,Willard,Newport,male,50,Ontario,United States of America,400,2006,9999
+1900,496-13-3531,George,Catania,male,60,Kansas City,United States of America,898,2009,9999
+1901,025-88-7752,Arturo,Blubaugh,male,59,Lexington,United States of America,646,2012,9999
+1902,560-11-8552,Edward,Costa,male,31,Dublin,United States of America,246,2010,9999
+1903,772-32-4926,Ann,Morris,female,42,Miami,United States of America,245,2008,9999
+1904,070-52-5077,Terri,Johnson,female,55,Mount Kisco,United States of America,998,2005,9999
+1905,603-72-3965,Bonnie,Slaughter,female,46,Los Angeles,United States of America,160,2008,9999
+1906,457-49-4354,Alexis,Thompson,male,28,Houston,United States of America,928,2007,9999
+1907,458-18-7593,Christopher,Lollar,male,22,Houston,United States of America,93,2005,9999
+1908,138-38-4947,Louis,Phillips,male,21,Camden,United States of America,371,2007,9999
+1909,262-04-8847,Olga,McDougall,female,38,Jacksonville,United States of America,205,2010,9999
+1910,505-04-6531,Travis,Anson,male,48,Pleasanton,United States of America,649,2006,9999
+1911,298-42-3168,Vernetta,McLeod,female,21,Cincinnati,United States of America,932,2008,9999
+1912,329-26-8005,Jeffrey,Dion,male,51,Princeville,United States of America,924,2010,9999
+1913,574-50-1309,Frank,Gill,male,32,Jim River Camp,United States of America,683,2010,9999
+1914,567-79-3241,Benjamin,Collins,male,48,Westminster,United States of America,510,2005,9999
+1915,380-11-1168,James,Dorman,male,43,Troy,United States of America,374,2010,9999
+1916,600-14-6145,Eugene,Marsh,male,46,New River,United States of America,268,2007,9999
+1917,219-44-1804,Paul,Singh,male,60,Baltimore,United States of America,287,2006,9999
+1918,271-70-1699,Brian,Dillard,male,52,Columbus,United States of America,337,2005,9999
+1919,667-20-6441,Joseph,Frank,male,29,Athens,United States of America,473,2009,9999
+1920,066-78-1121,Cesar,Ferguson,male,53,Syracuse,United States of America,15,2012,9999
+1921,237-01-4484,Laticia,Underwood,female,33,Greensboro,United States of America,282,2010,9999
+1922,641-52-4273,Johnathan,Morillo,male,37,Vidor,United States of America,329,2009,9999
+1923,329-64-2262,Paul,Wren,male,51,Olney,United States of America,16,2005,9999
+1924,494-90-1113,Regina,Fox,female,57,Saint Louis,United States of America,469,2011,9999
+1925,075-24-4047,David,Jimenez,male,57,Bethpage,United States of America,346,2006,9999
+1926,057-46-5784,James,Perez,male,26,New York,United States of America,327,2010,9999
+1927,119-64-4633,Edwin,Garcia,male,56,New York,United States of America,966,2012,9999
+1928,044-42-2902,Rafael,Deas,male,21,Hartford,United States of America,148,2005,9999
+1929,520-13-4227,Richard,Reddick,male,22,Casper,United States of America,739,2007,9999
+1930,195-56-9816,Earl,Cicero,male,39,Boyertown,United States of America,538,2010,9999
+1931,354-96-2287,Chase,Kane,male,42,Chicago,United States of America,533,2011,9999
+1932,641-32-0039,Timothy,Peoples,male,35,Dallas,United States of America,918,2008,9999
+1933,458-67-3662,John,Everette,male,60,Farmers Branch,United States of America,542,2006,9999
+1934,639-36-6705,Michael,Armstrong,male,53,Elkins,United States of America,500,2007,9999
+1935,241-11-6449,Richard,Garrett,male,54,Dobson,United States of America,251,2011,9999
+1936,331-14-2032,Adam,Burmeister,male,57,Chicago,United States of America,870,2012,9999
+1937,208-42-4451,Matthew,Bogan,male,34,Yardley,United States of America,744,2010,9999
+1938,380-23-3784,Jeffery,McIlvain,male,24,Traverse City,United States of America,953,2010,9999
+1939,321-04-2799,Scott,Johnson,male,29,Granite City,United States of America,290,2008,9999
+1940,150-09-7533,Andy,Miner,male,21,Newark,United States of America,376,2012,9999
+1941,656-22-7492,Richard,Hoover,male,20,Orangeburg,United States of America,745,2007,9999
+1942,102-34-0772,Jason,Ray,male,19,New York,United States of America,555,2009,9999
+1943,672-12-9868,Dale,Fair,male,24,Jakin,United States of America,79,2012,9999
+1944,549-51-9407,Dorothy,Hibbler,female,50,Pasadena,United States of America,834,2012,9999
+1945,563-71-5678,Juan,Nicholson,male,46,Fresno,United States of America,166,2007,9999
+1946,647-46-1378,Michael,Velasquez,male,59,Ogden,United States of America,769,2007,9999
+1947,064-44-9390,Kerry,Lambert,male,58,New York,United States of America,199,2007,9999
+1948,643-38-6883,Sha,Francis,female,39,Houston,United States of America,633,2011,9999
+1949,028-66-6952,Frederick,Kramer,male,60,Boston,United States of America,808,2012,9999
+1950,473-18-3520,Michael,Hoffman,male,60,Golden Valley,United States of America,30,2011,9999
+1951,671-22-4632,Paul,Cox,male,22,Smyrna,United States of America,662,2006,9999
+1952,765-64-4890,Homer,Givens,male,59,Somerton,United States of America,168,2006,9999
+1953,591-89-8539,Ronald,Norris,male,31,Miami,United States of America,947,2006,9999
+1954,289-06-3310,Linda,Page,female,36,Ashland,United States of America,736,2010,9999
+1955,009-72-1474,Catherine,Hardt,female,55,Brattleboro,United States of America,175,2011,9999
+1956,493-74-6222,Thomas,Johnson,male,40,Independence,United States of America,425,2006,9999
+1957,304-26-6984,Edward,Martin,male,50,Richmond,United States of America,407,2010,9999
+1958,312-24-0561,George,Hannan,male,55,Otterbein,United States of America,479,2006,9999
+1959,662-12-0990,Charles,Roach,male,23,New Orleans,United States of America,332,2010,9999
+1960,184-70-0065,Gary,Wiseman,male,45,Bedford,United States of America,604,2005,9999
+1961,463-51-3488,Bennie,Stroud,male,22,Mineral Wells,United States of America,776,2005,9999
+1962,481-21-4108,Carla,Bell,female,46,Stacyville,United States of America,475,2007,9999
+1963,648-01-7211,Tyler,Ormsby,male,37,Albuquerque,United States of America,747,2008,9999
+1964,476-70-4697,Robert,Conley,male,50,Duluth,United States of America,447,2012,9999
+1965,325-54-5379,Harry,Abrego,male,19,Highland Park,United States of America,512,2010,9999
+1966,005-14-2155,Cesar,Porter,male,43,Standish,United States of America,590,2005,9999
+1967,327-04-3054,Ricardo,Scott,male,29,Chicago,United States of America,449,2005,9999
+1968,433-53-5775,Emmanuel,Ivy,male,36,Shreveport,United States of America,85,2007,9999
+1969,515-32-8759,Michael,Schultz,male,24,Thayer,United States of America,157,2005,9999
+1970,694-01-0484,Donald,Rogers,male,44,Virginia Beach,United States of America,898,2011,9999
+1971,767-26-3841,Louis,Green,male,22,Fort Myers,United States of America,67,2006,9999
+1972,699-03-8845,Paul,Ditullio,male,26,Savage,United States of America,190,2011,9999
+1973,144-74-7189,Nathanial,Payne,male,49,Metuchen,United States of America,313,2011,9999
+1974,766-36-6700,Alex,Gage,male,37,Miami,United States of America,762,2009,9999
+1975,115-07-6160,Gilbert,Conway,male,33,Hampton Bays,United States of America,349,2011,9999
+1976,272-44-0246,Jared,Ward,male,46,Garfield Heights,United States of America,954,2010,9999
+1977,037-28-2730,Robert,Heinz,male,44,Providence,United States of America,259,2010,9999
+1978,076-62-9529,Albert,Garcia,male,44,Rochester,United States of America,285,2012,9999
+1979,451-27-0367,Chris,Khan,male,40,Houston,United States of America,760,2008,9999
+1980,413-93-5952,James,Champion,male,60,Nashville,United States of America,182,2009,9999
+1981,497-98-6555,Gregory,Gibb,male,21,Kansas City,United States of America,633,2009,9999
+1982,548-68-1593,Joseph,Vogt,male,43,San Francisco,United States of America,170,2010,9999
+1983,534-24-6790,Frederick,Fink,male,29,Tacoma,United States of America,621,2012,9999
+1984,012-76-6043,Debbie,Rhymer,female,48,Marlboro,United States of America,347,2006,9999
+1985,574-98-3926,Jonathan,Loeffler,male,19,Fairbanks,United States of America,9,2006,9999
+1986,510-13-2464,Edward,Dean,male,41,Paola,United States of America,690,2012,9999
+1987,418-70-4218,Michael,Carman,male,29,Auburn,United States of America,673,2007,9999
+1988,627-24-2284,Ruth,Allen,female,35,Midland,United States of America,52,2006,9999
+1989,285-36-6152,Leroy,Terrones,male,47,Warrensville Heights,United States of America,68,2008,9999
+1990,181-26-8801,James,Hanson,male,26,Eagleville,United States of America,77,2007,9999
+1991,444-30-3721,Wayne,Gibson,male,20,Durant,United States of America,345,2006,9999
+1992,328-02-4323,Christopher,Rosenberg,male,45,Chicago,United States of America,575,2012,9999
+1993,274-82-4930,Jeffrey,Price,male,39,Cincinnati,United States of America,805,2009,9999
+1994,451-66-4868,Nelson,Davis,male,54,Roger Mills,United States of America,858,2012,9999
+1995,579-68-7723,Robert,Casey,male,20,Washington,United States of America,449,2005,9999
+1996,265-29-9540,Jose,Kelly,male,42,Tampa,United States of America,421,2008,9999
+1997,299-56-9171,Trina,Scholl,female,51,Cincinnati,United States of America,672,2006,9999
+1998,297-22-7056,John,Barrett,male,44,Cuyahoga Falls,United States of America,991,2008,9999
+1999,417-34-6608,Robert,Baker,male,18,Gadsden,United States of America,587,2005,9999
+2000,335-03-3197,Thomas,Geyer,male,57,Lincoln,United States of America,454,2007,9999
