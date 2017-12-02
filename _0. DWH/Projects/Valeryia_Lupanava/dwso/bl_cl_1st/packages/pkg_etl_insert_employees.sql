@@ -4,7 +4,8 @@ AS
   PROCEDURE insert_table_employees;
   PROCEDURE insert_table_position_grade;
   PROCEDURE merge_table_ce_position_grades;
-  PROCEDURE merge_table_ce_employees;
+  PROCEDURE merge_table_employees_first;
+  PROCEDURE merge_table_employees_second;
 						
 END pkg_etl_insert_employees;
 
@@ -121,7 +122,93 @@ WHEN OTHERS THEN
     RAISE;
 END merge_table_ce_position_grades;
 ---------------------------------------------------
-PROCEDURE merge_table_ce_employees
+PROCEDURE merge_table_employees_first
+IS
+BEGIN
+
+MERGE INTO bl_3nf.ce_employees t USING
+    ( SELECT employee_id,
+             first_name,
+             last_name,
+             store_id,
+             position_name,
+             position_grade_id,
+             work_experience,
+             email,
+             phone,
+             start_dt,
+             end_dt,
+             is_active
+      FROM   cls_employees
+    MINUS
+      SELECT 
+             employee_srcid AS employee_id,
+             first_name,
+             last_name,
+             store_srcid AS store_id,
+             position_name,
+             position_grade_srcid AS position_grade_id,
+             work_experience,
+             email,
+             phone,
+             start_dt,
+             end_dt,
+             is_active
+      FROM   bl_3nf.ce_employees
+    ) c ON ( c.employee_id = t.employee_srcid
+       AND   c.first_name = t.first_name
+       AND   c.last_name = t.last_name
+       AND   c.position_name = t.position_name
+       AND   t.position_grade_srcid = c.position_grade_id
+       AND   c.work_experience = t.work_experience
+       AND   t.store_srcid = c.store_id
+       AND   c.email = t.email
+       AND   c.phone = t.phone
+       )
+    WHEN MATCHED THEN
+    UPDATE SET 
+               t.end_dt  = c.end_dt,
+               t.is_active = c.is_active
+    WHEN NOT matched THEN
+    INSERT
+      (
+        employee_id,
+        employee_srcid,
+        first_name,
+        last_name,
+        store_srcid,
+        position_name,
+        position_grade_srcid,
+        work_experience,
+        email,
+        phone,
+        start_dt,
+        end_dt,
+        is_active
+      )
+      VALUES
+      (
+        bl_3nf.ce_employees_seq.NEXTVAL,
+        c.employee_id,
+        c.first_name,
+        c.last_name,
+        c.store_id,
+        c.position_name,
+        c.position_grade_id,
+        c.work_experience,
+        c.email,
+        c.phone,
+        c.start_dt,
+        c.end_dt,
+        c.is_active
+      ) ;
+    COMMIT;
+EXCEPTION
+WHEN OTHERS THEN
+    RAISE;
+END merge_table_employees_first;
+---------------------------------------------------
+PROCEDURE merge_table_employees_second
 IS
 BEGIN
 
@@ -205,6 +292,6 @@ MERGE INTO bl_3nf.ce_employees t USING
 EXCEPTION
 WHEN OTHERS THEN
     RAISE;
-END merge_table_ce_employees;
+END merge_table_employees_second;
 ---------------------------------------------------
 END pkg_etl_insert_employees;
