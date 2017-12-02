@@ -1,0 +1,52 @@
+/*select * from SRC.SRC_GEO;
+select * from SRC.SRC_AZS;
+select * from SRC.SRC_ORG;
+select * from SRC.SRC_INDIVIDUALS;
+*/
+
+ show user;
+ exec  FRAMEWORK.pkg_utl_drop.proc_drop_obj ('wrk_AZS', 'TABLE');
+ CREATE TABLE wrk_AZS 
+( No NUMBER(4),
+  Country VARCHAR2(3),
+  Location VARCHAR2(256),
+  Latitude NUMBER(10, 6),
+  Longitude VARCHAR2(26),
+  ROAD1 VARCHAR2(26),
+  ROAD2 VARCHAR2(5),
+  DT NUMBER(1),
+  DT2 NUMBER(1),
+  AI92 NUMBER(1),
+  BN92 NUMBER(1),
+  AI95 NUMBER(1),
+  LPG NUMBER(1),
+  AI98 NUMBER(1));
+  
+ exec  FRAMEWORK.pkg_utl_drop.proc_drop_obj ('wrk_GEO', 'TABLE');
+ CREATE TABLE wrk_GEO 
+( SOATO NUMBER(12) ,
+  t1 NUMBER(1),
+  t2 NUMBER(3),
+  t3 NUMBER(3),
+  t4 NUMBER(3),
+  NAME VARCHAR2(100) ,
+  OBL VARCHAR2(50),
+  RAION VARCHAR2(50),
+  SOVET VARCHAR2(128),
+  TIP VARCHAR2(26),
+  GNI NUMBER(5),
+  DATAV DATE ,
+  SOATON VARCHAR2(26),
+  DATEL DATE ,
+  MAL NUMBER(3));
+  
+exec  FRAMEWORK.pkg_utl_drop.proc_drop_obj ('CL_MAP_AZS_ADDRESS', 'TABLE');
+CREATE TABLE BL_CL.CL_MAP_AZS_ADDRESS 
+   (	LONGITUDE NUMBER(10,6), 
+	LATITUDE NUMBER(10,6), 
+	C1 VARCHAR2(100 BYTE), 
+	C2 VARCHAR2(100 BYTE), 
+	C3 VARCHAR2(128 BYTE), 
+	ID_DISTRICT NUMBER(10,0), 
+	DISTRICT_NAME VARCHAR2(100 BYTE)
+   )

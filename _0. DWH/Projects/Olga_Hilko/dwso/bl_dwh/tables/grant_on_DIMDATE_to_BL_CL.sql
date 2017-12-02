@@ -1,0 +1,1 @@
+exec FRAMEWORK.pkg_utl_grants_mgmt.proc_grant (' SELECT, INSERT, UPDATE, DELETE', 'BL_DM','DIMDate','BL_CL');

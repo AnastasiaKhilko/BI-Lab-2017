@@ -1,0 +1,1 @@
+CREATE PUBLIC SYNONYM ce_airlines FOR bl_3nf.ce_airlines;

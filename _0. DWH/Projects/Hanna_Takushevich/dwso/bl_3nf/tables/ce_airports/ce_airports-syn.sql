@@ -1,0 +1,1 @@
+CREATE PUBLIC SYNONYM ce_airports FOR bl_3nf.ce_airports;

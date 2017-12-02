@@ -1,18 +1,21 @@
-CREATE TABLE CE_DATE (
-        "Date_srcid" DATE ,
-        "Day_of_week" NUMBER(2),
-        "Day_name_of_week" VARCHAR2(25),
-        "Day_of_month" NUMBER(8),
-        "Day_of_year" NUMBER(8),
-        "Week_of_month" NUMBER(8),
-        "Week_of_year" NUMBER(8),
-        "Month_number" NUMBER(8),
-        "Month_name" VARCHAR2(20),
-        "Quarter" NUMBER(2),
-        "First_day_of_month" DATE,
-        "Last_day_of_month" DATE,
-        "Year" NUMBER(8),
-        "Year-Quater" VARCHAR2(25),
-        CONSTRAINT "PK_Date_srcid" 
-           PRIMARY KEY ("Date_srcid")
+DROP TABLE ce_date cascade constraints;
+
+ALTER SESSION SET NLS_DATE_LANGUAGE = 'RUSSIAN' ;
+CREATE TABLE ce_date 
+(
+         date_dt              DATE            NOT NULL,
+         week_name            VARCHAR2( 25 )  NOT NULL,
+         week_number_of_month NUMBER  ( 10 )  NOT NULL,
+         week_number_of_year  NUMBER  ( 10 )  NOT NULL,
+         day_number_of_week   NUMBER  ( 10 )  NOT NULL,
+         day_number_of_month  NUMBER  ( 10 )  NOT NULL,
+         day_number_of_year   NUMBER  ( 10 )  NOT NULL,
+         month_year           VARCHAR2( 25 )  NOT NULL,
+         month_number         NUMBER  ( 10 )  NOT NULL,
+         month_name           VARCHAR2( 25 )  NOT NULL,
+         quarter              NUMBER  ( 10 )  NOT NULL,         
+         year_quater          VARCHAR2( 25 )  NOT NULL,
+         year                 NUMBER   ( 10 ) NOT NULL,
+       
+        CONSTRAINT  PK_date_dt  PRIMARY KEY ( date_dt )
         );

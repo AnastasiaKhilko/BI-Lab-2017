@@ -1,11 +1,16 @@
-CREATE TABLE CE_REGIONS (
-        "Region_srcid" NUMBER(4) NOT NULL,
-        "Region_name" VARCHAR2(40),
-        "Country_srcid" NUMBER(10),
-        CONSTRAINT "PK_Region_srcid"
-          PRIMARY KEY ("Region_srcid"),
-        CONSTRAINT "FK_Country_srcid"
-          FOREIGN KEY ("Country_srcid")
-            REFERENCES CE_COUNTRIES("Country_srcid")
-         );
+DROP TABLE ce_regions cascade constraints;
+
+ALTER SESSION SET NLS_DATE_LANGUAGE = 'RUSSIAN' ;
+CREATE TABLE ce_regions
+    (
+        region_surr_id NUMBER ( 10 )         NOT NULL,
+        region_id      VARCHAR2 ( 100 )      NOT NULL,
+        region_name    VARCHAR2 ( 200 CHAR ) NOT NULL,
+        insert_dt      DATE     DEFAULT '01-ßÍÂ-1990',
+        update_dt      DATE     DEFAULT '31-ÄÅÊ-9999',
         
+        CONSTRAINT PK_region_id_3nf  PRIMARY KEY ( region_surr_id )
+        );
+        
+        
+ 

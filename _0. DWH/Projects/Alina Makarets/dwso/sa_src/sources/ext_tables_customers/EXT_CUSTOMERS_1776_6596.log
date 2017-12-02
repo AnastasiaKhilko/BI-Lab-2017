@@ -1,0 +1,44 @@
+
+
+ LOG file opened at 11/26/17 23:42:51
+
+Field Definitions for table EXT_CUSTOMERS
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    LAST_NAME                       CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    FIRST_NAME                      CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    MIDDLE_NAME                     CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    PHONE                           CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    EMAIL                           CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    AGE                             CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    DISCOUNT                        CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    GENDER                          CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    PASSPORT                        CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    CITY                            CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    REGION                          CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader

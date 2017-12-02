@@ -1,0 +1,457 @@
+
+
+ LOG file opened at 11/26/17 23:30:24
+
+Field Definitions for table EXT_SHOPS
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    SHOP_CODE                       CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    CITY                            CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    SHOP_NAME                       CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    ADDRESS                         CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    ADDRESS_NUMBER                  CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    PHONE                           CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    REGION                          CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    MANAGER_CODE                    CHAR (400)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+error processing column ADDRESS_NUMBER in row 1 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 5 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 6 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 7 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 11 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 13 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 14 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 16 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 19 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 22 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 24 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 25 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 27 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 30 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 32 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 34 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 36 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 40 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 44 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 51 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 52 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 53 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 54 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 66 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 68 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 70 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 74 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 76 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 82 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 85 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 90 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 91 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 94 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 95 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 103 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 104 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 105 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 107 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 109 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 112 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 119 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 122 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 126 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 128 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 130 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 131 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 132 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 135 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 142 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 145 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 151 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 152 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 153 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 156 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 159 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 161 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 164 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 165 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 168 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 170 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 173 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 174 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 175 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 176 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 179 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 181 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 183 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 185 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 188 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 189 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 190 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 191 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 192 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 193 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 194 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 197 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 199 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 204 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 205 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 206 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 207 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 209 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 221 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 223 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 226 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 227 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 228 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 234 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 237 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 240 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 241 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 242 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 248 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 251 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 252 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 263 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 266 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 270 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 272 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 276 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 290 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 293 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 300 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 306 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 307 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 308 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 309 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 310 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 328 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 330 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 332 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 335 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 337 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 339 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 343 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 345 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 348 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 353 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 356 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 363 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 364 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 367 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 371 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 374 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 377 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 378 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 379 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 386 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 389 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 394 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 401 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 402 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 405 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 409 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 412 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 415 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 416 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 417 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 424 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 427 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 429 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 432 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 435 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 437 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 439 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 445 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 446 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 454 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 455 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 457 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 459 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 461 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 466 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 467 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 468 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 469 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 473 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 474 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 481 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 483 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 484 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 485 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 487 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 488 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 489 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 490 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 491 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 492 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 493 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 496 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 498 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 501 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 504 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 505 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 509 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 510 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 512 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 513 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 514 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 517 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 519 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 522 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 524 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 530 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 531 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 532 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 535 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 536 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 539 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 540 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 545 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 550 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 552 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 555 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 557 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 561 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 568 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 569 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 573 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 574 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 575 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 578 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 579 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 581 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 584 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 585 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 586 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 587 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 588 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 589 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number
+error processing column ADDRESS_NUMBER in row 593 for datafile D:\dwh\sa_src\sources\ext_tables_shops\shops.csv
+ORA-01722: invalid number

@@ -1,0 +1,43 @@
+
+
+ LOG file opened at 11/27/17 01:07:36
+
+Field Definitions for table EXT_PRODUCTS
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CATEGORY_NAME                   CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    SUBCATEGORY_NAME                CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    PRODUCT_NAME                    CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    PRODUCT_DESC                    CHAR (1200)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    PRODUCT_CODE                    CHAR (1200)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    COLOR                           CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    COLOR_NAME                      CHAR (1200)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    COLLECTION_NAME                 CHAR (1200)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    PRICE                           CHAR (400)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    START_DATE                      CHAR (400)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+error processing column COLOR in row 1 for datafile D:\dwh\sa_src\sources\ext_tables_products\products.csv
+ORA-01722: invalid number

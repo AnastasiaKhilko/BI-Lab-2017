@@ -52,7 +52,7 @@ WHEN MATCHED THEN
       city_seq.nextval ,
       (select country_id from ce_countries where ce_countries.cc_fips=cls.cc_fips),
       cls.cc_fips,
-      cls.city_name
+      trim(leading chr(39) from trim(both chr(13) from cls.city_name))
     );
   COMMIT;
 EXCEPTION
