@@ -1,0 +1,16 @@
+#1 Firstly you need to use "first load.sql" file.
+It helps you to understand load steps.
+Also this file contains calling packages.
+But DDL objects, packages bodies etc. you should create on your own.
+All scripts are located in related folders. 
+
+#2 Secondly you need to use "reload data.sql" file.
+It helps you to reload data in the DB.
+Also this file contains calling packages.
+Additionally, there are new procedures what you need to reload data, especially for SCD2 type dimension.
+By the way, it includes extra procedures to update data into CE tables of 3NF layer.
+
+Good luck :)
+
+You can contact (almost, but not completely) 24/7 support specialist for any issues related with load and reload data
+via skype.
