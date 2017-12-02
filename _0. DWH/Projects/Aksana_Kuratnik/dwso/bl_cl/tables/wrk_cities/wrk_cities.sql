@@ -1,0 +1,8 @@
+-- WRK_CITIES.
+DROP TABLE wrk_cities;
+CREATE TABLE wrk_cities
+(
+ city_id     VARCHAR2 ( 200 BYTE ),
+ city_name   VARCHAR2 ( 200 BYTE ),
+ country_id  NUMBER ( 10 )
+);
