@@ -1,19 +1,20 @@
-CREATE TABLE dim_airports (
-    airport_id       NUMBER,
-    city_id          NUMBER,
-    country_id       NUMBER,
-    subregion_id     NUMBER,
-    region_id        NUMBER,
-    airport_name     VARCHAR2(100),
-    airport_iata     VARCHAR2(3),
-    airport_icao     VARCHAR2(4),
-    airport_faa      VARCHAR2(4),
-    city_name        VARCHAR2(50),
-    country_name     VARCHAR2(50),
-    subregion_name   VARCHAR2(50),
-    region_name      VARCHAR2(50),
-    start_dt         DATE,
-    end_dt           DATE,
-    is_active        VARCHAR2(1),
-    CONSTRAINT dim_airport_pk PRIMARY KEY ( airport_id )
-);
+--==============================================================
+-- Table: t_dim_airports
+--==============================================================
+EXECUTE system.pkg_drop_object.drop_proc(Object_Name=>'dim_airports', Object_Type=>'TABLE');
+CREATE TABLE dim_airports
+  (
+    airport_surr_id number primary key,
+    airport_id number, 
+    city_id number, 
+    airport_name varchar2(150), 
+    airport_iata varchar2(3), 
+    airport_icao varchar2(4), 
+    airport_faa varchar2(5), 
+    city_name varchar2(200), 
+    country_name varchar2(200), 
+    subregion_name varchar2(200), 
+    region_name varchar2(25),
+    insert_dt date default sysdate,
+    update_dt date default sysdate
+  );

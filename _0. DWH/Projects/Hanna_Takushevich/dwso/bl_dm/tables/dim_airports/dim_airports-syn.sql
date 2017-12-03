@@ -1,0 +1,1 @@
+CREATE PUBLIC SYNONYM dim_airports FOR bl_dm.dim_airports;

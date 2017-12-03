@@ -1,19 +1,20 @@
-CREATE TABLE dim_passengers (
-    passenger_id     NUMBER,
-    city_id          NUMBER,
-    country_id       NUMBER,
-    subregion_id     NUMBER,
-    region_id        NUMBER,
-    first_name       VARCHAR2(255),
-    middle_name      VARCHAR2(255),
-    family_name      VARCHAR2(255),
-    passport         VARCHAR2(50),
-    birthday         DATE,
-    phone            VARCHAR2(25),
-    email            VARCHAR2(100),
-    city_name        VARCHAR2(50),
-    country_name     VARCHAR2(50),
-    subregion_name   VARCHAR2(50),
-    region_name      VARCHAR2(50),
-    CONSTRAINT dim_passengers_pk PRIMARY KEY ( passenger_id )
-);
+--==============================================================
+-- Table: t_dim_passengers
+--==============================================================
+EXECUTE system.pkg_drop_object.drop_proc(Object_Name=>'dim_passengers', Object_Type=>'TABLE');
+CREATE TABLE dim_passengers
+  (
+    passenger_surr_id NUMBER PRIMARY KEY,
+    passenger_id      NUMBER NOT NULL,
+    passenger_code    NUMBER NOT NULL,
+    given_name        VARCHAR2(100),
+    middle_name       VARCHAR2(30),
+    last_name         VARCHAR2(100),
+    city              VARCHAR2(100),
+    country_abbr      VARCHAR2(2),
+    email             VARCHAR2(150),
+    phone             VARCHAR2(50),
+    birthday          DATE,
+    insert_dt         DATE,
+    update_dt         DATE
+  );

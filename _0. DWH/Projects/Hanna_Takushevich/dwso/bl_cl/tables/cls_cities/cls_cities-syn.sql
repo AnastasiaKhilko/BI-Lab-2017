@@ -1,1 +1,0 @@
-CREATE OR REPLACE PUBLIC SYNONYM cls_cities FOR bl_cl.cls_cities;

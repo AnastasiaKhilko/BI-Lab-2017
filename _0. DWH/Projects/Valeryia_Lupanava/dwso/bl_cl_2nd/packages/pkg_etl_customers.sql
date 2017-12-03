@@ -15,8 +15,10 @@ BEGIN
   EXECUTE IMMEDIATE ('TRUNCATE TABLE cls_customers_scd');
   BEGIN
     INSERT INTO cls_customers_scd
-    SELECT DISTINCT
-           customer_id,
+    SELECT --+PARALLEL(4)
+           DISTINCT
+           customer_id AS customer_surr_id,
+           customer_srcid AS customer_surr_id,
            first_name,
            last_name,
            age,
@@ -52,7 +54,7 @@ PROCEDURE merge_table_customers
 IS
 BEGIN
   MERGE INTO bl_dm.dim_customers_scd t USING
-    ( SELECT customer_id,
+    ( SELECT customer_surr_id,
              first_name,
              last_name,
              age,
@@ -68,7 +70,7 @@ BEGIN
              is_active 
       FROM   cls_customers_scd
     MINUS
-      SELECT customer_id,
+      SELECT customer_id AS customer_surr_id,
              first_name,
              last_name,
              age,
@@ -83,8 +85,8 @@ BEGIN
              end_dt,
              is_active           
       FROM   bl_dm.dim_customers_scd
-    ) c ON ( c.customer_id = t.customer_id 
-       AND   t.first_name = c.first_name
+    ) c ON (  
+             t.first_name = c.first_name
        AND   t.last_name = c.last_name
        AND   t.age = c.age
        AND   t.age_category = c.age_category
@@ -97,6 +99,7 @@ BEGIN
        AND   t.start_dt = c.start_dt)
     WHEN matched THEN
     UPDATE SET 
+               t.customer_id = c.customer_surr_id,
                t.end_dt = c.end_dt,
                t.is_active = c.is_active
     WHEN NOT matched THEN
@@ -121,7 +124,7 @@ BEGIN
       VALUES
       (
        bl_dm.dim_customers_seq.NEXTVAL,
-       c.customer_id,
+       c.customer_surr_id,
        c.first_name,
        c.last_name,
        c.age,

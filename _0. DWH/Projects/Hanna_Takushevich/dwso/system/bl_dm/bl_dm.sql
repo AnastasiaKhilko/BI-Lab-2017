@@ -15,3 +15,12 @@ CREATE USER BL_DM IDENTIFIED BY BL_DM
     QUOTA UNLIMITED ON users
     TEMPORARY TABLESPACE temp
     PROFILE default;
+	
+/**
+* Grants
+*/
+GRANT connect TO bl_dm;
+GRANT CREATE ANY TABLE to bl_dm;
+GRANT CREATE ANY SEQUENCE to bl_dm;
+GRANT EXECUTE ON  pkg_drop_object TO bl_dm;
+GRANT CREATE PUBLIC SYNONYM TO bl_dm;

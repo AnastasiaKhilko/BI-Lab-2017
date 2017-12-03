@@ -1,0 +1,1 @@
+CREATE PUBLIC SYNONYM dim_passengers FOR bl_dm.dim_passengers;

@@ -1,0 +1,105 @@
+
+
+ LOG file opened at 11/30/17 19:56:59
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table EXT_PRODUCTS
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    PRODUCT_ID                      CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PRODUCT_NAME                    CHAR (300)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    CATEGORY_NAME                   CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PRODUCT_TYPE                    CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PRICE                           CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    BALANCE                         CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    START_DT                        CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    END_DT                          CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    IS_ACTIVE                       CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+error processing column START_DT in row 44 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 50 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+
+Date Cache Statistics for table EXT_PRODUCTS
+  Max Size:      1000
+  Entries :        60
+  Hits    :        68
+  Misses  :         0
+
+
+
+ LOG file opened at 12/01/17 05:24:31
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table EXT_PRODUCTS
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    PRODUCT_ID                      CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PRODUCT_NAME                    CHAR (300)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    CATEGORY_NAME                   CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PRODUCT_TYPE                    CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PRICE                           CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    RAITING                         CHAR (800)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    BALANCE                         CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    START_DT                        CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    END_DT                          CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    IS_ACTIVE                       CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+error processing column START_DT in row 44 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 50 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+
+Date Cache Statistics for table EXT_PRODUCTS
+  Max Size:      1000
+  Entries :        55
+  Hits    :        61
+  Misses  :         0
+

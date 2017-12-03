@@ -9,7 +9,8 @@ AS
   PROCEDURE merge_table_ce_collections;
   PROCEDURE merge_table_ce_lines;
   PROCEDURE merge_table_ce_product_types;
-  PROCEDURE merge_table_ce_products;
+  PROCEDURE merge_table_ce_products_first;
+  PROCEDURE merge_table_ce_products_second;
   PROCEDURE merge_table_ce_product_details;
   
 END pkg_etl_insert_products;
@@ -311,7 +312,68 @@ WHEN OTHERS THEN
     RAISE;
 END merge_table_ce_product_types;
 ---------------------------------------------------
-PROCEDURE merge_table_ce_products
+PROCEDURE merge_table_ce_products_first
+IS
+BEGIN
+
+MERGE INTO bl_3nf.ce_products t USING
+    ( SELECT product_id,
+             product_name,
+             line_id,
+             product_type_id,
+             start_dt,
+             end_dt,
+             is_active
+      FROM   cls_products
+    MINUS
+      SELECT product_srcid AS product_id,
+             product_desc  AS product_name,
+             line_srcid AS line_id,
+             product_type_srcid AS product_type_id,            
+             start_dt,
+             end_dt,
+             is_active
+      FROM   bl_3nf.ce_products
+    ) c ON ( t.product_srcid = c.product_id
+        AND  c.product_name = t.product_desc 
+        AND  t.line_srcid = c.line_id
+        AND  t.product_type_srcid = c.product_type_id
+        AND  c.start_dt = t.start_dt
+)
+    WHEN MATCHED THEN
+    UPDATE SET 
+           t.end_dt = c.end_dt,
+           t.is_active = c.is_active
+    WHEN NOT matched THEN
+    INSERT
+      (
+        product_id,
+        product_srcid,
+        product_desc,
+        line_srcid,
+        product_type_srcid,
+        start_dt,
+        end_dt,
+        is_active
+      )
+      VALUES
+      (
+        bl_3nf.ce_products_seq.NEXTVAL,
+        c.product_id,
+        c.product_name,
+        c.line_id,
+        c.product_type_id,
+        c.start_dt,
+        c.end_dt,
+        c.is_active
+      ) ;
+    COMMIT;
+EXCEPTION
+WHEN OTHERS THEN
+    RAISE;
+END merge_table_ce_products_first;
+---------------------------------------------------
+PROCEDURE merge_table_ce_products_second
 IS
 BEGIN
 
@@ -370,7 +432,7 @@ MERGE INTO bl_3nf.ce_products t USING
 EXCEPTION
 WHEN OTHERS THEN
     RAISE;
-END merge_table_ce_products;
+END merge_table_ce_products_second;
 ---------------------------------------------------
 PROCEDURE merge_table_ce_product_details
 IS

@@ -1,6 +1,10 @@
-CREATE TABLE Categories
+--CE_CATEGOIES.
+DROP TABLE ce_categories;
+CREATE TABLE ce_categories
   (
-    Category_id   VARCHAR2(8) PRIMARY KEY,
-    Category_name VARCHAR2(35) NOT NULL,
-    Category_description VARCHAR2(250) NOT NULL
+    category_id    NUMBER ( 38 ) NOT NULL,
+    category_srcid VARCHAR2 ( 200 CHAR ) NOT NULL,
+    category_name  VARCHAR2 ( 200 CHAR ),
+    update_dt        DATE DEFAULT SYSDATE,
+    CONSTRAINT category_id_pk PRIMARY KEY ( category_id )
   );

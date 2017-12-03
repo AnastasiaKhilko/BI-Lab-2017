@@ -1,0 +1,13 @@
+AirlineID,Name,Alias,IATA,ICAO,Callsign,Country,Active
+24,AmericanAirlines,\N,AA,AAL,AMERICAN,United States of America,Y
+439,AlaskaAirlines,\N,AS,ASA,Inc.,United States of America,Y
+2009,DeltaAirLines,\N,DL,DAL,DELTA,United States of America,Y
+2688,HawaiianAirlines,\N,HA,HAL,HAWAIIAN,United States of America,Y
+4687,SpiritAirlines,\N,NK,NKS,SPIRITWINGS,United States of America,Y
+3029,JetBlueAirways,\N,B6,JBU,JETBLUE,United States of America,Y
+4547,SouthwestAirlines,\N,WN,SWA,SOUTHWEST,United States of America,Y
+5331,VirginAmerica,\N,VX,VRD,REDWOOD,United States of America,Y
+5209,UnitedAirlines,\N,UA,UAL,UNITED,United States of America,Y
+2468,FrontierAirlines,\N,F9,FFT,FRONTIERFLIGHT,United States of America,Y
+4738,SkyWest,\N,OO,SKW,SKYWEST,United States of America,Y
+452,AtlanticSoutheastAirlines,\N,EV,ASQ,ACEY,UnitedStatesofAmerica,Y

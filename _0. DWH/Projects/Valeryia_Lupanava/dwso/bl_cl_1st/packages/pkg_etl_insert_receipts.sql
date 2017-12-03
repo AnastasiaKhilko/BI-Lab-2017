@@ -15,13 +15,6 @@ BEGIN
   EXECUTE IMMEDIATE ('TRUNCATE TABLE cls_receipts');
   BEGIN
   
-    FOR i IN 1..1000000
-    LOOP
-      dbms_random.seed
-      (
-        i * 5
-      )
-      ;
     INSERT INTO cls_receipts (
                                 receipt_id,
                                 receipt_dt,
@@ -60,10 +53,8 @@ BEGIN
                                                                                   ON a.product_srcid = b.product_srcid               
                                                                                   WHERE UPPER(SUBSTR(TRIM(is_active),1,4))='TRUE') ) ) AS product_detail_id,
                ROUND ( dbms_random.value( 100, 99999), 2) AS receipt_sum 
-         FROM dual
+         FROM (SELECT * FROM dual connect by level <1000000)
         );
-  
-    END LOOP;
   
   END;
 
