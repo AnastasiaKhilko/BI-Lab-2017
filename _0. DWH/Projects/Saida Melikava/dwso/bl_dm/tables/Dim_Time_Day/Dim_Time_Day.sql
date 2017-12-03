@@ -1,4 +1,4 @@
-EXECUTE pckg_drop.drop_proc(object_name=>'Dim_Time_Day',object_type=>'table');
+DROP TABLE Dim_Time_Day CASCADE CONSTRAINTS;
 CREATE TABLE Dim_Time_Day
   (
     FULL_DATE_DT                DATE NOT NULL,
