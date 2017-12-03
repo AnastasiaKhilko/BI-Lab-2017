@@ -1,0 +1,99 @@
+
+
+ LOG file opened at 12/03/17 23:21:12
+
+Field Definitions for table EXT_GORODA
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    GEO_ID                          CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    CITY_NAME                       CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    REGION_NAME                     CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    DISTRICT_NAME                   CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    POPULATION                      CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    YEARS                           CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+error processing column YEARS in row 618 for datafile E:\MIF\sa_scr\src_files\goroda.csv
+ORA-12899: value too large for column YEARS (actual: 14, maximum: 10)
+error processing column YEARS in row 953 for datafile E:\MIF\sa_scr\src_files\goroda.csv
+ORA-12899: value too large for column YEARS (actual: 13, maximum: 10)
+
+
+ LOG file opened at 12/03/17 23:55:07
+
+Field Definitions for table EXT_GORODA
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    GEO_ID                          CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    CITY_NAME                       CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    REGION_NAME                     CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    DISTRICT_NAME                   CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    POPULATION                      CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    YEARS                           CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+error processing column YEARS in row 618 for datafile E:\MIF\sa_scr\src_files\goroda.csv
+ORA-12899: value too large for column YEARS (actual: 14, maximum: 10)
+error processing column YEARS in row 953 for datafile E:\MIF\sa_scr\src_files\goroda.csv
+ORA-12899: value too large for column YEARS (actual: 13, maximum: 10)
+
+
+ LOG file opened at 12/04/17 00:00:58
+
+Field Definitions for table EXT_GORODA
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    GEO_ID                          CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    CITY_NAME                       CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    REGION_NAME                     CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    DISTRICT_NAME                   CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    POPULATION                      CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    YEARS                           CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+error processing column YEARS in row 618 for datafile E:\MIF\sa_scr\src_files\goroda.csv
+ORA-12899: value too large for column YEARS (actual: 14, maximum: 10)
+error processing column YEARS in row 953 for datafile E:\MIF\sa_scr\src_files\goroda.csv
+ORA-12899: value too large for column YEARS (actual: 13, maximum: 10)

@@ -4,7 +4,7 @@ CREATE TABLE Dim_Products
     Product_sur_id        NUMBER(8) PRIMARY KEY,
     Product_3nf_id        NUMBER(8) NOT NULL,
     Product_code          VARCHAR2(25) NOT NULL,
-    Product_category_name VARCHAR2(60) NOT NULL,
+    Product_category_name VARCHAR2(70) NOT NULL,
     Product_name          VARCHAR2(150) NOT NULL,
     Product_author_id     NUMBER(8) NOT NULL,
     Product_author        VARCHAR2(160) NOT NULL,

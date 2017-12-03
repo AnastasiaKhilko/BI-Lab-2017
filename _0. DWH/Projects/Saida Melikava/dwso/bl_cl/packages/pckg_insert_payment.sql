@@ -12,6 +12,7 @@ AS
   type       VARCHAR2 ( 200 CHAR ),
   descr      VARCHAR2 ( 200 CHAR ),
   prepayment VARCHAR2 ( 200 CHAR ));
+  /
 CREATE OR REPLACE TYPE Paym_func
 IS
   TABLE OF Paym_type;

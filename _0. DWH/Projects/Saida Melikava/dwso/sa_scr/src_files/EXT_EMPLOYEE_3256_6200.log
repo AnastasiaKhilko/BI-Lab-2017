@@ -1,0 +1,46 @@
+
+
+ LOG file opened at 12/03/17 23:28:59
+
+Field Definitions for table EXT_EMPLOYEE
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CODE                            CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    SURNAME                         CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    NAME                            CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    PATRONYMIC                      CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    SEX                             CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    PHONE                           CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    EMAI                            CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    CITY                            CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    BORN                            CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    N_PASSPORT                      CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    WHEN_PAS                        CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+error processing column CODE in row 1 for datafile E:\MIF\sa_scr\src_files\zaym1.csv
+ORA-01722: invalid number

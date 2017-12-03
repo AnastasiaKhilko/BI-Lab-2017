@@ -18,11 +18,11 @@ CREATE TABLE Dim_Stores_SCD
     Store_address_id      NUMBER(8) NOT NULL,
     Store_address_street  VARCHAR2(70) NOT NULL,
     Store_address_house   VARCHAR2(60) NOT NULL,
-    start_DT              DATE DEFAULT(to_date('01-JAN-1900')) NOT NULL,
-    end_DT                DATE DEFAULT(to_date('31-DEC-9999')) NOT NULL,
+    start_DT              DATE DEFAULT(to_date('01-JAN-1900','dd-mon-yyyy')) NOT NULL,
+    end_DT                DATE DEFAULT(to_date('31-DEC-9999','dd-mon-yyyy')) NOT NULL,
     is_active AS (
     CASE
-      WHEN end_dt=to_date('31-DEC-9999')
+      WHEN end_dt=to_date('31-DEC-9999','dd-mon-yyyy')
       THEN 'Y'
       ELSE 'N'
     END) ,

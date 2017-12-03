@@ -1,0 +1,165 @@
+
+
+ LOG file opened at 12/04/17 00:04:19
+
+Field Definitions for table EXT_CATALOG
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CODE                            CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    QUANTITY                        CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    BOOK_NAME                       CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    AUTHOR_NAME                     CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    ISBN                            CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    WEIGHT                          CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    DESCRIPTION                     CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    GENRE                           CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    LINKS                           CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    PRICE                           CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    DISC_PRICE                      CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    CORP_DISC_PRICE                 CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    FINAL_DISC_PRICE                CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    PRICE_AMOUNT                    CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+error processing column CODE in row 1 for datafile E:\MIF\sa_scr\src_files\price_full.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 12/04/17 00:04:19
+
+Field Definitions for table EXT_CATALOG
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CODE                            CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    QUANTITY                        CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    BOOK_NAME                       CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    AUTHOR_NAME                     CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    ISBN                            CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    WEIGHT                          CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    DESCRIPTION                     CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    GENRE                           CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    LINKS                           CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    PRICE                           CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    DISC_PRICE                      CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    CORP_DISC_PRICE                 CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    FINAL_DISC_PRICE                CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    PRICE_AMOUNT                    CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+error processing column CODE in row 1 for datafile E:\MIF\sa_scr\src_files\price_full.csv
+ORA-01722: invalid number
+
+
+ LOG file opened at 12/04/17 00:04:20
+
+Field Definitions for table EXT_CATALOG
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CODE                            CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    QUANTITY                        CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    BOOK_NAME                       CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    AUTHOR_NAME                     CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    ISBN                            CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    WEIGHT                          CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    DESCRIPTION                     CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    GENRE                           CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    LINKS                           CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    PRICE                           CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    DISC_PRICE                      CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    CORP_DISC_PRICE                 CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    FINAL_DISC_PRICE                CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    PRICE_AMOUNT                    CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+error processing column CODE in row 1 for datafile E:\MIF\sa_scr\src_files\price_full.csv
+ORA-01722: invalid number

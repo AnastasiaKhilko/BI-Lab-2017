@@ -1,0 +1,17 @@
+
+
+ LOG file opened at 12/03/17 23:18:29
+
+Field Definitions for table EXT_DEPARTMENTS
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    DEP_CODE                        CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    DEP__NAME                       CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader

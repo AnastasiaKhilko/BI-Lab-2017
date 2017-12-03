@@ -56,3 +56,4 @@ WHEN OTHERS THEN
 END;
 END pckg_drop;
 /
+create or replace public synonym pckg_drop for system.pckg_drop;

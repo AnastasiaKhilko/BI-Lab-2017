@@ -89,18 +89,18 @@ BEGIN
   sql_stmt_select:=q'< 
 SELECT 
 to_date('01/01/2005','dd-MM-yyyy')+dbms_random.value(1,4380) AS event_dt,
-randomize_max('bl_3nf.ce_customers', 'customer_id') AS customer_id,
-randomize_max('bl_3nf.ce_employees', 'employee_id') AS employee_id,
-randomize_max('bl_3nf.ce_stores', 'store_id')  AS store_id,
-randomize_max('bl_3nf.ce_catalog', 'prod_id') AS product_id,
+pckg_insert_fact.randomize_max('bl_3nf.ce_customers', 'customer_id') AS customer_id,
+pckg_insert_fact.randomize_max('bl_3nf.ce_employees', 'employee_id') AS employee_id,
+pckg_insert_fact.randomize_max('bl_3nf.ce_stores', 'store_id')  AS store_id,
+pckg_insert_fact.randomize_max('bl_3nf.ce_catalog', 'prod_id') AS product_id,
 abs(round(dbms_random.normal()*400000)) as check_id,
-randomize(1,5,8,11,12) AS paym_id ,
-randomize(1,4,10,20,50)  as quantity,
-ROUND((randomize(1,10,25,35,50))/100,2)  as disc,
-randomize(5,20,35,45,100) as price,
-ROUND((randomize(160,175,180,190,200))/100,2) as byn_usd
+pckg_insert_fact.randomize(1,5,8,11,12) AS paym_id ,
+pckg_insert_fact.randomize(1,4,10,20,50)  as quantity,
+ROUND((pckg_insert_fact.randomize(1,10,25,35,50))/100,2)  as disc,
+pckg_insert_fact.randomize(5,20,35,45,100) as price,
+ROUND((pckg_insert_fact.randomize(160,175,180,190,200))/100,2) as byn_usd
 FROM  
-( SELECT level n FROM dual CONNECT BY level <= 1000000
+( SELECT level n FROM dual CONNECT BY level <= 100
 )
 
 >';
@@ -165,3 +165,4 @@ WHEN OTHERS THEN
 END;
 END pckg_insert_fact;
 /
+

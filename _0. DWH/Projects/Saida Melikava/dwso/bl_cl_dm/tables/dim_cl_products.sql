@@ -3,7 +3,7 @@ CREATE TABLE Dim_Cl_Products
   (
     Product_3nf_id        NUMBER(8) ,
     Product_code          VARCHAR2(50) ,
-    Product_category_name VARCHAR2(56) ,
+    Product_category_name VARCHAR2(70) ,
     Product_name          VARCHAR2(150) ,
     Product_author_id     NUMBER(8) ,
     Product_author        VARCHAR2(160) ,

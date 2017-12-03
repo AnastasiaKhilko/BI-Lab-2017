@@ -1,4 +1,4 @@
-EXECUTE pckg_drop.drop_proc(object_name=>'bl_3NF',object_type=>'user');
+DROP USER BL_3NF CASCADE;
 
   CREATE USER BL_3NF
   IDENTIFIED BY 123456

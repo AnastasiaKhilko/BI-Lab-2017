@@ -2,7 +2,7 @@ DROP TABLE Dim_Time_Day CASCADE CONSTRAINTS;
 CREATE TABLE Dim_Time_Day
   (
     FULL_DATE_DT                DATE NOT NULL,
-    FULL_DATE_DESCR             VARCHAR2(20) NOT NULL,
+    FULL_DATE_DESCR             VARCHAR2(25) NOT NULL,
     DAY_OF_WEEK                 NUMBER(1) NOT NULL,
     DAY_OF_MONTH                NUMBER(2) NOT NULL,
     DAY_OF_YEAR                 NUMBER(3) NOT NULL,

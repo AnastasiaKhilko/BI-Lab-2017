@@ -1,4 +1,4 @@
-EXECUTE pckg_drop.drop_proc(object_name=>'bl_cl_dm',object_type=>'user');
+DROP USER BL_CL_DM CASCADE;
 
   CREATE USER BL_CL_DM
   IDENTIFIED BY 123456
