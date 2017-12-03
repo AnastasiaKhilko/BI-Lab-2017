@@ -1,0 +1,32 @@
+
+
+ LOG file opened at 11/30/17 22:01:24
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table EXT_PAYMENT_METHODS
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    PAYMENT_METHOD_NAME             CHAR (800)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    START_DT                        CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    END_DT                          CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    IS_ACTIVE                       CHAR (800)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+
+Date Cache Statistics for table EXT_PAYMENT_METHODS
+  Max Size:      1000
+  Entries :         2
+  Hits    :         2
+  Misses  :         0
+

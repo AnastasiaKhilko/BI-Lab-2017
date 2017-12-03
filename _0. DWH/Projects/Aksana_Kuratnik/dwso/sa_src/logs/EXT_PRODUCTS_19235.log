@@ -1,0 +1,2634 @@
+
+
+ LOG file opened at 12/01/17 11:13:25
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table EXT_PRODUCTS
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    PRODUCT_ID                      CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PRODUCT_NAME                    CHAR (300)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    CATEGORY_NAME                   CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PRODUCT_TYPE                    CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PRICE                           CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    RAITING                         CHAR (800)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    BALANCE                         CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    START_DT                        CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    END_DT                          CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    IS_ACTIVE                       CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+error processing column START_DT in row 44 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 50 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 110 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 163 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 243 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 265 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 271 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 288 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 310 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 328 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 338 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 349 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 350 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 359 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 374 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 401 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 411 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 413 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 416 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 420 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 428 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 430 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 441 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 442 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 445 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 453 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 459 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 490 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 491 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 504 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 505 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 508 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 513 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 535 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 540 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 542 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 560 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 565 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 568 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 579 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 583 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 585 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 586 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 588 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 597 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 620 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 624 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 632 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 637 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 643 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 644 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 693 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 715 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 716 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 722 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 733 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+
+Date Cache Statistics for table EXT_PRODUCTS
+  Max Size:      1000
+  Entries :       577
+  Hits    :       791
+  Misses  :         0
+
+
+
+ LOG file opened at 12/01/17 11:14:40
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table EXT_PRODUCTS
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    PRODUCT_ID                      CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PRODUCT_NAME                    CHAR (300)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    CATEGORY_NAME                   CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PRODUCT_TYPE                    CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PRICE                           CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    RAITING                         CHAR (800)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    BALANCE                         CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    START_DT                        CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    END_DT                          CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    IS_ACTIVE                       CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+error processing column START_DT in row 44 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 50 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 110 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 163 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 243 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 265 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 271 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 288 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 310 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 328 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 338 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 349 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 350 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 359 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 374 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 401 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 411 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 413 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 416 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 420 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 428 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 430 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 441 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 442 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 445 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 453 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 459 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 490 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 491 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 504 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 505 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 508 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 513 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 535 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 540 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 542 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 560 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 565 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 568 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 579 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 583 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 585 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 586 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 588 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 597 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 620 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 624 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 632 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 637 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 643 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 644 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 693 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 715 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 716 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 722 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 733 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 743 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 765 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 777 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 810 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 813 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 818 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 822 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 838 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 846 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 850 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 851 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 852 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 856 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 865 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 871 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 883 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 893 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 894 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 899 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 906 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 917 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 935 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 957 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 958 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 961 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 969 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 972 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 975 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 978 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 981 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 986 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 989 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1005 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1044 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1071 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1130 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1137 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1160 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1191 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1208 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1214 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1218 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 1227 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1231 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1238 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1245 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1246 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1256 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1257 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1260 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1262 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 1276 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1280 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1302 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1305 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1315 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1317 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1343 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1347 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1356 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1371 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1375 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1382 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 1385 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1397 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+KUP-04021: field formatting error for field PRODUCT_NAME
+KUP-04026: field too long for datatype
+KUP-04101: record 1405 rejected in file /media/sf_Aksana_Kuratnik/products.csv
+error processing column START_DT in row 1401 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1407 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1408 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1416 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1418 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1419 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1420 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1421 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1422 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1427 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1444 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1449 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1451 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1452 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1460 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1465 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1468 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1470 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1476 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1494 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 1509 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1515 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 1516 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+KUP-04021: field formatting error for field PRODUCT_NAME
+KUP-04026: field too long for datatype
+KUP-04101: record 1528 rejected in file /media/sf_Aksana_Kuratnik/products.csv
+error processing column START_DT in row 1539 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1555 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1557 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1560 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1563 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1571 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1576 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1582 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1588 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1590 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1595 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1604 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1642 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1643 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1666 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1670 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1677 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1701 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1702 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1703 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1710 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1711 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1752 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1758 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1765 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1788 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1793 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1794 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1795 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1811 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1814 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column END_DT in row 1819 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1828 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1829 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1831 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1832 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1833 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1836 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1837 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1839 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1841 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1842 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1843 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1846 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1847 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1848 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1849 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1850 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1851 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1852 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1853 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1854 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1855 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1856 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1857 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1859 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1860 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1861 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1862 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1863 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1864 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1865 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1866 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1867 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1868 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1869 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1870 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1871 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1872 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1873 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1875 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1877 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1878 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1879 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1880 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1881 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1882 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1883 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1884 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1885 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1886 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1887 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1888 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1889 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1890 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1891 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1892 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 1893 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1894 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1895 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1896 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1897 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1898 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1899 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1900 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1901 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1902 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1903 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1904 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1905 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1906 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1907 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1908 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1909 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1910 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1911 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1912 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1913 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1914 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1915 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1916 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1917 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1918 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1919 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1920 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1921 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1922 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1923 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1924 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1925 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1926 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1927 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1928 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1929 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1930 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1931 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1932 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1933 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1934 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1935 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1936 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1937 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1938 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1939 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1940 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1941 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1942 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1943 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1944 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1945 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1946 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1947 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1948 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1949 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1950 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1952 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1953 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1954 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1955 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1956 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1957 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1958 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1959 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1960 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1961 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1962 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1963 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1964 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1965 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1966 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1967 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1969 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1970 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1971 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1972 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1973 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1974 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1975 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1976 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1977 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1978 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1979 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1980 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1981 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1982 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1983 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 1984 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1985 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 1986 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1987 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1988 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1989 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1991 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1992 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1993 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1994 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1995 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1996 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1997 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1998 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 1999 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2000 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2001 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2002 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2003 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2004 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2005 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2006 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2007 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2008 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2009 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 2011 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 2012 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 2013 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2014 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2015 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2016 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 2017 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2018 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2019 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 2020 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2023 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 2110 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2112 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 2160 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 2183 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2199 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 2214 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2241 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 2290 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2304 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 2316 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2317 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2338 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 2364 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2380 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 2392 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 2397 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 2415 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2419 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 2424 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 2457 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 2483 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 2484 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2509 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 2510 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2518 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2545 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2585 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2608 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2648 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2649 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2662 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2668 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 2723 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 2739 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 2744 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2747 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2764 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2769 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2770 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 2783 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 2799 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 2801 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2805 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 2820 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 2823 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2824 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 2836 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 2841 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2870 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 2877 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 2881 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 2887 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2914 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 2916 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 2929 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 2932 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 2937 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 2938 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 2951 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2952 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2956 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2963 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2980 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 2983 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 2984 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 3030 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 3031 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 3032 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3074 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3090 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3105 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3122 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3130 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3135 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3137 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 3147 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3174 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 3181 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3186 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 3202 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3203 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3213 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3217 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3228 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 3245 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3282 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3291 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3299 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 3302 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 3334 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3336 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3345 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 3355 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 3368 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 3374 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 3380 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3387 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 3401 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 3416 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 3424 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 3427 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 3431 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 3437 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 3443 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 3448 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 3456 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 3459 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 3461 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 3477 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3492 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 3496 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 3525 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 3531 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 3543 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 3544 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 3546 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 3552 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 3554 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3556 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3558 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 3579 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 3580 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 3604 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 3611 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3664 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3682 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3724 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3792 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3796 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3805 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3821 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3827 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3832 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3846 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 3852 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3890 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 3899 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3930 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 3940 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3941 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 3949 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 3952 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 3968 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 4005 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4063 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4073 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 4105 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4128 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4217 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4227 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4266 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4311 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 4324 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4347 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4394 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4470 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 4497 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4513 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 4552 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 4564 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 4584 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 4586 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4591 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4595 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4608 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4627 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4628 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4635 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 4643 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4652 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4654 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 4656 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4672 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4673 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4675 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4679 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4682 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4684 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 4701 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4711 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4713 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4726 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4729 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4730 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4731 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4732 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4733 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4735 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4736 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4737 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4738 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 4739 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4741 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4742 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 4743 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4744 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4745 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4746 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4747 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4748 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4749 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4750 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4751 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4753 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 4754 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4755 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4756 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4757 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4758 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4760 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4762 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4763 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4764 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4765 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4767 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 4768 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4769 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4770 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4771 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4773 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4775 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4776 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4777 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4778 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 4779 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4780 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 4781 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4782 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4783 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4784 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4785 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4786 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 4787 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4789 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4791 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4792 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4793 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4794 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4795 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4796 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4797 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4798 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4799 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4800 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4801 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4802 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4803 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4804 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4805 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4806 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4808 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4809 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4810 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4811 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 4812 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 4813 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4814 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4815 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4816 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4817 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4818 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4819 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4820 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4821 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4823 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4824 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4825 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 4826 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4827 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4828 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 4829 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4830 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 4831 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 4832 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4833 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4834 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4835 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4836 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4837 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4838 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4839 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4840 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4841 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4842 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4843 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4844 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4845 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4846 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4847 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4848 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4849 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4850 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4851 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4852 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4853 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 4854 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4855 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4856 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4857 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4858 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4859 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4862 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4864 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4865 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4866 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4868 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4869 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4870 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 4871 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4872 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4873 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4874 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4875 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4876 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4877 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4878 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4879 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4880 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4881 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4882 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 4884 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4885 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 4886 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4887 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4888 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4889 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4891 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4892 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 4893 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4894 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4895 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4896 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4898 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4899 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4900 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4901 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4902 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4903 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4904 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4905 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4906 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4907 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4908 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4909 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4910 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4911 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4912 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4913 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4914 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4915 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4916 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4917 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4918 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4919 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4920 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4921 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4924 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4925 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 4926 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 4927 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5024 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5036 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5039 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 5076 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5092 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 5096 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5108 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 5137 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 5147 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 5149 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 5155 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 5164 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 5175 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5206 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5215 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 5226 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 5237 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5284 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 5295 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5338 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5356 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5360 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 5361 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 5378 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5392 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5407 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5411 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 5412 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 5435 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5466 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 5485 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5493 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5500 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 5505 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 5509 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5520 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5531 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5532 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5533 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 5539 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 5560 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5584 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 5598 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5604 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5621 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5637 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5679 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5693 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5703 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5723 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 5748 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5768 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5789 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5817 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 5820 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5821 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 5825 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 5835 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 5839 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 5853 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 5854 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 5857 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 5858 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 5860 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 5861 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5870 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 5882 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 5890 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5896 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 5906 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 5907 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5919 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 5923 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 5926 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5935 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 5948 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 5949 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 5967 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5968 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5969 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5970 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 5971 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5972 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 5973 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5974 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5975 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5977 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5978 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5979 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5980 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 5981 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 5982 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5983 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5985 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5986 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5987 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5988 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5989 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5990 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5992 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 5993 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5994 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 5995 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 5996 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 5998 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 5999 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6000 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6001 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6002 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6003 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6004 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6005 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6006 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6007 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6008 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6009 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6010 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6012 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6013 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6014 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6015 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6016 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6017 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6018 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6019 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6020 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6021 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6022 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6023 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6024 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6025 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6026 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6029 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6030 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6031 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6032 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6033 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6034 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6035 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6037 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6038 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6039 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6040 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6041 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6042 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6043 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6045 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6046 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6049 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6050 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6051 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6052 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6053 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6054 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6055 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6056 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6057 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6059 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6060 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6061 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6062 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6063 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6064 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6065 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6066 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6067 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6068 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6069 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6071 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6072 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6073 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6074 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6075 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6076 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6077 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6078 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6079 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6080 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6082 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6083 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6084 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6085 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6086 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6087 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6088 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6089 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6090 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6091 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6093 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6094 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6095 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6096 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6097 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6098 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6099 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6100 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6101 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6102 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6103 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6104 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6105 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6106 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6107 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6108 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6109 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6110 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6111 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6112 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6113 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6114 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6115 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6117 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6118 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6119 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6120 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6121 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6122 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6123 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6124 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6125 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6126 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6127 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6128 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6129 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6130 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6131 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6132 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6133 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6134 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6135 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6136 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6137 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6255 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6257 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 6258 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6273 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6277 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6355 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6361 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6366 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6383 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 6391 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6395 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6419 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6435 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6438 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6477 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6498 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6533 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6534 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6539 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 6550 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6551 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6552 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6553 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6557 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6567 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6574 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6575 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 6576 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6580 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6581 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6585 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6587 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 6591 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6594 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6595 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6596 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6597 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6598 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 6604 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6605 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6606 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6612 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6616 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6617 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6622 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6624 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6626 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6628 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6633 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6635 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6636 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6641 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6651 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6661 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 6683 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6744 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6746 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6751 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6753 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6757 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 6798 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6804 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 6810 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6816 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 6828 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6864 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6874 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6884 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 6948 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 6984 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 6988 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 7028 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 7045 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 7058 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 7068 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 7093 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 7121 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 7124 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 7188 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 7189 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 7223 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 7232 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 7240 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 7246 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 7267 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 7276 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 7300 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 7301 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 7320 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 7357 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 7358 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 7359 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 7387 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 7398 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 7423 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 7433 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 7437 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 7441 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 7443 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 7453 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 7476 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 7480 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 7485 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 7489 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 7502 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 7507 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 7524 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 7542 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 7550 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 7554 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 7561 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 7579 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 7586 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 7596 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 7606 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 7614 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 7621 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 7632 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 7636 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 7666 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 7670 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 7674 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 7677 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 7686 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 7708 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 7710 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 7716 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 7719 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 7811 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 7886 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 7903 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 7950 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 7996 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 8027 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 8029 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 8040 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 8056 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 8070 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 8091 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 8097 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 8260 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 8283 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 8287 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 8293 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 8324 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 8351 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 8370 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 8391 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 8395 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 8401 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 8407 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 8411 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 8413 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 8420 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 8437 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 8448 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 8465 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 8476 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 8484 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 8501 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 8516 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 8525 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 8540 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 8544 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 8546 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 8553 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 8564 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 8567 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 8568 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 8579 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 8653 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 8718 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 8778 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 8816 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 8825 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 8826 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 8941 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 8973 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9017 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9146 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9152 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 9153 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9175 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9183 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9187 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9192 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 9223 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 9244 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9264 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9271 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 9284 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 9295 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 9309 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 9410 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9441 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 9494 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9511 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 9514 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9520 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9532 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9608 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 9612 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 9624 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 9651 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9669 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9673 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 9733 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9759 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 9765 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 9794 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9804 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 9805 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9812 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9823 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 9832 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9838 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 9842 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01858: a non-numeric character was found where a numeric was expected
+error processing column START_DT in row 9849 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 9855 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9868 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 9869 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9878 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9879 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01843: not a valid month
+error processing column START_DT in row 9881 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 9884 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9885 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9892 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9909 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9913 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+error processing column START_DT in row 9959 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 9961 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column END_DT in row 9989 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 10008 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+
+Date Cache Statistics for table EXT_PRODUCTS
+  Max Size:      1000
+  Entries :       802
+  Hits    :     16846
+  Misses  :         0
+
+
+
+ LOG file opened at 12/01/17 11:14:49
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table EXT_PRODUCTS
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    PRODUCT_ID                      CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PRODUCT_NAME                    CHAR (300)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    CATEGORY_NAME                   CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PRODUCT_TYPE                    CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PRICE                           CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    RAITING                         CHAR (800)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    BALANCE                         CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    START_DT                        CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    END_DT                          CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    IS_ACTIVE                       CHAR (1200)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+error processing column START_DT in row 44 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column START_DT in row 50 for datafile /media/sf_Aksana_Kuratnik/products.csv
+ORA-01861: literal does not match format string
+
+Date Cache Statistics for table EXT_PRODUCTS
+  Max Size:      1000
+  Entries :        55
+  Hits    :        61
+  Misses  :         0
+

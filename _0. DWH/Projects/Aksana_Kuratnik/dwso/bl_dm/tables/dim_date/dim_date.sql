@@ -1,19 +1,19 @@
-DROP TABLE dim_date;
-CREATE TABLE dim_date (
-    date_dt                  DATE NOT NULL,
-    week_day_full_name       VARCHAR2(10) NOT NULL,
-    week_day_short_name      VARCHAR2(10) NOT NULL,
-    day_number_of_week       NUMBER(10) NOT NULL,
-    day_number_of_month      NUMBER(10) NOT NULL,
-    day_number_of_year       NUMBER(10) NOT NULL,
-    month_year               VARCHAR2(10) NOT NULL,
-    month_full_name          VARCHAR2(10) NOT NULL,
-    month_short_name         VARCHAR2(10) NOT NULL,
-    month_number_of_year     NUMBER(10) NOT NULL,
-    quarter_year             VARCHAR2(10) NOT NULL,
-    quarter_number_of_year   VARCHAR2(10) NOT NULL,
-    half_year_number         VARCHAR2(10) NOT NULL,
-    half_year                VARCHAR2(10) NOT NULL,
-    year                     VARCHAR2(10) NOT NULL,
-    CONSTRAINT date_dt_pk PRIMARY KEY (date_dt)
-);
+DROP TABLE DIM_DATE;
+CREATE TABLE DIM_DATE
+  (
+    date_id                  DATE PRIMARY KEY,
+    Day_of_Month             NUMBER,
+    Day_of_Year              NUMBER,
+    Day_Of_Week_Name      VARCHAR2(25),
+    Week_of_Month            NUMBER,
+    Week_of_Year             NUMBER,
+    Month_of_Year                NUMBER,
+    Month_Name          VARCHAR2(25),
+    Month_Name_Short     VARCHAR2(25),
+    Quarter_of_Year          NUMBER,
+    Quarter_Name       VARCHAR2(25),
+    Semester_of_Year         NUMBER,
+    Semester_Of_Year_Name VARCHAR2(25),
+    Year                 NUMBER,
+    Month_Year        VARCHAR2(25)
+  );
