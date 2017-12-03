@@ -10,8 +10,8 @@ CREATE TABLE dim_date (
     Month_name VARCHAR2(200),
     Year NUMBER(8),
     Day_Month VARCHAR2(200),
-    Year_Month VARCHAR2(200),
-    CONSTRAINT event_dt PRIMARY KEY (event_dt));
+    Year_Month VARCHAR2(200));
+   ALTER TABLE dim_date ADD CONSTRAINT event_dt PRIMARY KEY (event_dt);
 	
   GRANT SELECT, INSERT, DELETE, UPDATE ON dim_date TO bl_cl_dm;
   
