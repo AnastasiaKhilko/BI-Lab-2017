@@ -1,0 +1,67 @@
+CREATE OR REPLACE PACKAGE BODY pkg_etl_insert_wrk AS
+  PROCEDURE insert_wrk_countries
+    IS
+  BEGIN
+    EXECUTE IMMEDIATE 'TRUNCATE TABLE WRK_COUNTRIES';
+    INSERT INTO WRK_COUNTRIES 
+      SELECT * 
+      FROM SA_SRC.EXT_GEO_COUNTRIES;
+    COMMIT;
+  EXCEPTION 
+    WHEN OTHERS THEN 
+      RAISE;
+  END insert_wrk_countries;
+---  
+  PROCEDURE insert_wrk_cities
+    IS
+  BEGIN
+    EXECUTE IMMEDIATE 'TRUNCATE TABLE WRK_CITIES';
+    INSERT INTO WRK_CITIES 
+      SELECT * 
+      FROM SA_SRC.EXT_GEO_CITIES;
+    COMMIT;
+  EXCEPTION 
+    WHEN OTHERS THEN 
+      RAISE;
+  END insert_wrk_cities;
+---
+  PROCEDURE insert_wrk_customers
+    IS
+  BEGIN
+    EXECUTE IMMEDIATE 'TRUNCATE TABLE WRK_CUSTOMERS';
+    INSERT INTO WRK_CUSTOMERS 
+      SELECT * 
+      FROM SA_SRC.EXT_CUSTOMERS;
+    COMMIT;
+  EXCEPTION 
+    WHEN OTHERS THEN 
+      RAISE;
+  END insert_wrk_customers;
+---
+  PROCEDURE insert_wrk_products
+    IS
+  BEGIN
+    EXECUTE IMMEDIATE 'TRUNCATE TABLE WRK_PRODUCTS';
+    INSERT INTO WRK_PRODUCTS 
+      SELECT * 
+      FROM SA_SRC.EXT_PRODUCTS;
+    COMMIT;
+  EXCEPTION 
+    WHEN OTHERS THEN 
+      RAISE;
+  END insert_wrk_products;
+---
+	 PROCEDURE insert_wrk_suppliers
+    IS
+  BEGIN
+    EXECUTE IMMEDIATE 'TRUNCATE TABLE WRK_SUPPLIERS';
+    INSERT INTO WRK_SUPPLIERS 
+      SELECT * 
+      FROM SA_SRC.EXT_SUPPLIERS;
+    COMMIT;
+  EXCEPTION 
+    WHEN OTHERS THEN 
+      RAISE;
+  END insert_wrk_suppliers;
+END pkg_etl_insert_wrk;
+/

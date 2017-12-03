@@ -1,0 +1,5 @@
+BEGIN
+PKG_ETL_INSERT_address.INSERT_TABLE_address;
+PKG_ETL_INSERT_address.MERGE_TABLE_address;
+END;
+/
