@@ -1,1 +1,0 @@
-CREATE OR REPLACE PUBLIC SYNONYM cls_flights FOR bl_cl.cls_flights;

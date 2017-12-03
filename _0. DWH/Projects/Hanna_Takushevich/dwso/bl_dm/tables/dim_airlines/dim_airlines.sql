@@ -1,11 +1,15 @@
-CREATE TABLE dim_airlines (
-    airline_id        NUMBER,
-    airline_name      VARCHAR2(60),
-    iata_code         VARCHAR2(2),
-    icao_code         VARCHAR2(3),
-    airline_counrty   VARCHAR2(50),
-    start_dt         DATE,
-    end_dt           DATE,
-    is_active        VARCHAR2(1),
-    CONSTRAINT dim_airlines_pk PRIMARY KEY ( airline_id )
-);
+--==============================================================
+-- Table: t_dim_airlines
+--==============================================================
+EXECUTE system.pkg_drop_object.drop_proc(Object_Name=>'dim_airlines', Object_Type=>'TABLE');
+CREATE TABLE dim_airlines
+  (
+    airline_surr_id NUMBER PRIMARY KEY,
+    airline_id      NUMBER,
+    airline_name    VARCHAR2(60),
+    airline_iata    VARCHAR2(2),
+    airline_icao    VARCHAR2(3),
+    airline_country VARCHAR2(60),
+    insert_dt       DATE DEFAULT sysdate,
+    update_dt       DATE DEFAULT sysdate
+  );

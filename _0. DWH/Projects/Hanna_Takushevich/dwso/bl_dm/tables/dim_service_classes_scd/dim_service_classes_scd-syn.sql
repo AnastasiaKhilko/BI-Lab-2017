@@ -1,0 +1,1 @@
+CREATE PUBLIC SYNONYM dim_service_classes_scd FOR bl_dm.dim_service_classes_scd;
