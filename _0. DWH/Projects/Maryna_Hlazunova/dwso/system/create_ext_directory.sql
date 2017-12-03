@@ -2,8 +2,7 @@
 /*==============================================================*/
 /* Directories: ext_references                                  */
 /*==============================================================*/
---CREATE OR REPLACE DIRECTORY ext_sources_dwh AS 'd:\exit_task_dwh';
-CREATE OR REPLACE DIRECTORY ext_sources_dwh AS '/media/sf_shared_dwh/exit_task_dwh';
+CREATE OR REPLACE DIRECTORY ext_sources_dwh AS 'd:\exit_task_dwh';
 
 --==============================================================
 -- Grants
