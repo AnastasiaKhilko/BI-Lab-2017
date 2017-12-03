@@ -1,0 +1,11 @@
+EXEC pkg_etl_load_wrk_tables.load_wrk_cars;
+EXEC pkg_etl_load_wrk_tables.load_wrk_customers;
+EXEC pkg_etl_load_wrk_tables.load_wrk_seller;
+EXEC pkg_etl_load_wrk_tables.load_wrk_shops;
+EXEC pkg_etl_load_wrk_tables.load_wrk_fact;
+SELECT COUNT(*) FROM wrk_cars;
+SELECT COUNT(*) FROM wrk_customers;
+SELECT COUNT(*) FROM wrk_seller;
+SELECT COUNT(*) FROM wrk_shops;
+SELECT COUNT(*) FROM wrk_fact;
+COMMIT;
