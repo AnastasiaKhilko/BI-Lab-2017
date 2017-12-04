@@ -1,5 +1,6 @@
-CREATE TABLE emp AS
-SELECT * FROM employees CONNECT BY level < 500;
+SELECT count(*) FROM employees,
+(select * from dual connect by level <= 500);
+
 CREATE OR REPLACE PROCEDURE raise3(
     department_p VARCHAR2)
 IS
@@ -9,6 +10,7 @@ BEGIN
   SET salary          =salary + salary*0.3
   WHERE department_id = department_p;
 END;
+COMMIT;
 /
 EXECUTE raise3(20);
 SELECT * FROM employees WHERE department_id = 20;
@@ -22,10 +24,11 @@ BEGIN
   IF ROUND(DBMS_RANDOM.value(low => 1, high => 20))>12 THEN
     raise_flag                                    :='FALSE';
   ELSE
-    raise_flag:= 'TRUE';
+    raise_flag;
   END IF;
   RETURN raise_flag;
 END;
+COMMIT;
 /
 SELECT raise_true(5) FROM dual;
 CREATE OR REPLACE PROCEDURE raise5(
@@ -39,5 +42,6 @@ BEGIN
     WHERE department_id = department_p;
   END IF;
 END;
+COMMIT;
 /
 EXECUTE raise5(20);
