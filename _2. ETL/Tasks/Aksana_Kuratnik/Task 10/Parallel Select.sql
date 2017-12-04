@@ -1,0 +1,8 @@
+--PARALLEL SELECT.
+EXPLAIN PLAN FOR 
+SELECT --+ PARALLEL(cust, 2)
+CUST_CITY, COUNT(*)AS Number_Of_Customers 
+FROM SH.CUSTOMERS cust
+GROUP BY CUST_CITY;
+  
+  SELECT * FROM TABLE (dbms_xplan.display);
