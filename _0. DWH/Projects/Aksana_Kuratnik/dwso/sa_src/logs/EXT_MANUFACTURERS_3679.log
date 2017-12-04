@@ -1,0 +1,47 @@
+
+
+ LOG file opened at 11/30/17 19:30:45
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table EXT_MANUFACTURERS
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    MANUFACTURER_CODE               CHAR (800)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    MANUFACTURER_NAME               CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PHONE                           CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    ADDRESS                         CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    CITY                            CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    COUNTRY_ID                      CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    INSERT_DT                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+error processing column INSERT_DT in row 291 for datafile /media/sf_Aksana_Kuratnik/manufacturers.csv
+ORA-01847: day of month must be between 1 and last day of month
+error processing column INSERT_DT in row 406 for datafile /media/sf_Aksana_Kuratnik/manufacturers.csv
+ORA-01840: input value not long enough for date format
+error processing column INSERT_DT in row 1028 for datafile /media/sf_Aksana_Kuratnik/manufacturers.csv
+ORA-01847: day of month must be between 1 and last day of month
+
+Date Cache Statistics for table EXT_MANUFACTURERS
+  Max Size:      1000
+  Entries :       748
+  Hits    :      1050
+  Misses  :         0
+

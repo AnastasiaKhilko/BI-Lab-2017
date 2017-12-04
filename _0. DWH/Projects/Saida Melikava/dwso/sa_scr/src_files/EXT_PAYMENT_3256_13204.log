@@ -1,0 +1,23 @@
+
+
+ LOG file opened at 12/04/17 00:04:42
+
+Field Definitions for table EXT_PAYMENT
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CODE                            CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    TYPE                            CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    DESCR                           CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    PREPAYMENT                      CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader

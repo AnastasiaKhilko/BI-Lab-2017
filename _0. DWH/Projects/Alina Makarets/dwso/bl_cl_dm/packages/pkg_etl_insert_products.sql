@@ -11,10 +11,11 @@ AS
 ----------------------------------------------------
     PROCEDURE insert_table_products
     IS 
-        BEGIN
-            EXECUTE IMMEDIATE ('TRUNCATE TABLE cls_dim_products');
-            INSERT INTO cls_dim_products
-                       SELECT DISTINCT product_surr_id as product_id,
+    BEGIN
+    DECLARE
+    CURSOR c_data
+    IS 
+                    SELECT DISTINCT product_surr_id as product_id,
                                 product_name,
                                 product_desc,
                                 price,
@@ -33,12 +34,42 @@ AS
                         LEFT JOIN ce_collections coll ON prod.collection_surr_id=coll.collection_surr_id
                         LEFT JOIN ce_subcategories subcat ON prod.subcategory_surr_id=subcat.subcategory_surr_id
                         LEFT JOIN ce_categories cat ON subcat.category_surr_id=cat.category_surr_id;
-
-            COMMIT;
-            EXCEPTION
-                WHEN OTHERS 
-            THEN RAISE;  
-    END insert_table_products;
+       type t__data
+                IS
+                  TABLE OF c_data%rowtype;
+                  t_data t__data; 
+        BEGIN
+            EXECUTE IMMEDIATE ('TRUNCATE TABLE cls_dim_products');
+            OPEN c_data;
+            LOOP
+                    FETCH c_data bulk collect INTO t_data;
+                    EXIT WHEN t_data.count = 0;
+                    FOR i IN t_data.first .. t_data.last
+                    LOOP
+                         INSERT INTO cls_dim_products
+                         VALUES
+                         (
+                            t_data(i).product_id,
+                            t_data(i).product_name,
+                            t_data(i).product_desc,
+                            t_data(i).price,
+                            t_data(i).color_surr_id,
+                            t_data(i).color_name,
+                            t_data(i).collection_surr_id,
+                            t_data(i).collection_name,
+                            t_data(i).category_surr_id,
+                            t_data(i).category_name,
+                            t_data(i).subcategory_surr_id,
+                            t_data(i).subcategory_name,
+                            t_data(i).start_dt,
+                            t_data(i).end_dt,
+                            t_data(i).is_active
+                            );                         
+                      END LOOP;
+                END LOOP;
+                CLOSE c_data;                   
+            END;
+END insert_table_products;
 ----------------------------------------------------
 PROCEDURE merge_table_dim_products
     IS 

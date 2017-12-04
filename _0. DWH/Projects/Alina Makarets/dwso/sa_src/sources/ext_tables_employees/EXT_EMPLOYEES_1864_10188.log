@@ -1,0 +1,47 @@
+
+
+ LOG file opened at 12/01/17 20:53:37
+
+Field Definitions for table EXT_EMPLOYEES
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    EMPLOYEE_CODE                   CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    FIRST_NAME                      CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    LAST_NAME                       CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    MIDDLE_NAME                     CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    PHONE                           CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    EMAIL                           CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    AGE                             CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    PASSPORT_CODE                   CHAR (400)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    ACTIVE                          CHAR (255)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    START_DATE                      CHAR (400)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    END_DATE                        CHAR (400)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    PASSPORT_LETTER                 CHAR (400)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader

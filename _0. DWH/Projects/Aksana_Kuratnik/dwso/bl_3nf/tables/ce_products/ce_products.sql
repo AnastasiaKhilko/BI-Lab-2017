@@ -1,16 +1,19 @@
-CREATE TABLE products
+--CE_PRODUCTS
+DROP TABLE ce_products;
+CREATE TABLE ce_products
   (
-    Product_id          VARCHAR2(25) PRIMARY KEY,
-    Product_name        VARCHAR2(150) NOT NULL,
-    Product_description VARCHAR2(250) NOT NULL,
-    Category_id         VARCHAR2(8) NOT NULL,
-    Product_type_id     NUMBER(8)NOT NULL,
-    Price               NUMBER(5,2) NOT NULL,
-    Number_in_stock     NUMBER(30),
-    Stock_id            NUMBER(8),
-    Manufacturer_id      NUMBER(8),
-    CONSTRAINT fk_prod_cat FOREIGN KEY ( Category_id) REFERENCES categories(Category_id),
-    CONSTRAINT fk_prod_ptype FOREIGN KEY ( Product_type_id) REFERENCES product_types(Product_type_id),
-    CONSTRAINT fk_prod_stock FOREIGN KEY (stock_id) REFERENCES stocks(stock_id),
-    CONSTRAINT fk_prod_manuf FOREIGN KEY (manufacturer_id) REFERENCES manufacturers(manufacturer_id)
+    product_id         NUMBER(10) NOT NULL,
+    product_srcid      VARCHAR2 ( 200 CHAR ) NOT NULL,
+    product_name       VARCHAR2(60 BYTE) NOT NULL,
+    product_type_srcid VARCHAR2 ( 200 CHAR ) NOT NULL,
+    manufacturer_srcid VARCHAR2 ( 100 BYTE),
+    start_dt           DATE DEFAULT '01-JAN-1990',
+    end_dt             DATE DEFAULT '31-DEC-9999',
+    is_active          VARCHAR2 ( 200 CHAR ) NOT NULL,
+    CONSTRAINT product_id_pk PRIMARY KEY ( product_id ),
+    CONSTRAINT product_srcid_unq UNIQUE ( product_srcid ),
+    CONSTRAINT product_type_srcid_fk FOREIGN KEY ( product_type_srcid ) 
+    REFERENCES ce_product_types ( product_type_srcid ),
+    CONSTRAINT product_manuf_srcid_fk FOREIGN KEY ( manufacturer_srcid ) 
+    REFERENCES ce_manufacturers ( manufacturer_srcid )
   );

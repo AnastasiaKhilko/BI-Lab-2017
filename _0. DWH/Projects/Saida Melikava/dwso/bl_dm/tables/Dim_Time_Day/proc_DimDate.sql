@@ -2,7 +2,7 @@ CREATE OR REPLACE PROCEDURE sp_DATE_DIMENSION(
     v_START_YEAR IN NUMBER,
     v_END_YEAR   IN NUMBER)
 AS
-  --Declare two variables as DATE datatypes
+
   v_CURRENT_DATE DATE;
   v_END_DATE     DATE;
 BEGIN
@@ -14,7 +14,7 @@ BEGIN
   --Check the condition to see if the start year is less than the end year (Input Parameters)
   WHILE v_CURRENT_DATE <= v_END_DATE
   LOOP
-    --DATE_DIMENSION Table
+ 
     INSERT
     INTO Dim_Time_Day
       (
@@ -39,8 +39,8 @@ BEGIN
       )
       VALUES
       (
-        --DATE_KEY
-        to_date(v_CURRENT_DATE), --FULL_DATE
+
+        to_date(v_CURRENT_DATE, 'dd-MM-yyyy'), --FULL_DATE
         TO_CHAR(v_CURRENT_DATE,'DD')
         ||' '
         ||TO_CHAR(v_CURRENT_DATE,'Month')

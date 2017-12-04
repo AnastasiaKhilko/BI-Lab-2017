@@ -1,28 +1,26 @@
-EXECUTE pckg_drop.drop_proc(object_name=>'Dim_Products',object_type=>'table');
+DROP TABLE Dim_Products CASCADE CONSTRAINTS;
 CREATE TABLE Dim_Products
   (
-    Product_id             NUMBER(8) PRIMARY KEY,
-    Product_code           VARCHAR2(25) NOT NULL,
-    Product_category_name  VARCHAR2(35) NOT NULL,
-    Category_description   VARCHAR2(150) NOT NULL,
-    Product_name           VARCHAR2(150) NOT NULL,
-    Product_description    VARCHAR2(150) NOT NULL,
-    Product_author         VARCHAR2(150) NOT NULL,
-    Product_genre          VARCHAR2(65) NOT NULL,
-    Product_weight_kg      NUMBER(3,3) NOT NULL,
-    Product_weight_MB      NUMBER(5,3) NOT NULL,
-    Product_symb_num       NUMBER(8) NOT NULL,
-    Product_durability     NUMBER(8) NOT NULL,
-    Product_reader         VARCHAR2(65) NOT NULL,
-    Insert_DT              DATE NOT NULL,
-    Update_DT              DATE NOT NULL
+    Product_sur_id        NUMBER(8) PRIMARY KEY,
+    Product_3nf_id        NUMBER(8) NOT NULL,
+    Product_code          VARCHAR2(25) NOT NULL,
+    Product_category_name VARCHAR2(70) NOT NULL,
+    Product_name          VARCHAR2(150) NOT NULL,
+    Product_author_id     NUMBER(8) NOT NULL,
+    Product_author        VARCHAR2(160) NOT NULL,
+    Product_description   VARCHAR2(500) NOT NULL,
+    Product_genre_id      NUMBER(8) NOT NULL,
+    Product_genre         VARCHAR2(65) NOT NULL,
+    Product_weight_kg     NUMBER(8,5) NOT NULL,
+    insert_DT             DATE DEFAULT(sysdate) NOT NULL ,
+    update_DT             DATE DEFAULT(sysdate) NOT NULL
   );
 COMMENT ON TABLE Dim_Products
 IS
   'Table Content: All information about products.   
 Refresh Cycle/Window: Data is loaded often and for a long period of time.  
 ';
-  COMMENT ON column Dim_Products.Product_id
+  COMMENT ON column Dim_Products.Product_sur_id
 IS
   'Dimension surrogate key';
   COMMENT ON column Dim_Products.Product_code
@@ -34,23 +32,9 @@ IS
   COMMENT ON column Dim_Products.Product_weight_kg
 IS
   'Weight in kg for printed books';
-  COMMENT ON column Dim_Products.Product_weight_MB
-IS
-  'Weight in MB for e-books';
-  COMMENT ON column Dim_Products.Product_symb_num
-IS
-  'Number of symbols for e-book';
-  COMMENT ON column Dim_Products.Product_durability
-IS
-  'Durability in minutes for audiobooks';
-  COMMENT ON column Dim_Products.Product_reader
-IS
-  'Reader. For audiobooks';
   COMMENT ON column Dim_Products.Insert_DT
 IS
   'When data was loaded';
   COMMENT ON column Dim_Products.Update_DT
 IS
-  'When data was updated';
-  /*
-  GRANT SELECT ON dim_template TO some_user;*/
+  'When data was updated'; 

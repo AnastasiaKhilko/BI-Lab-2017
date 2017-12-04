@@ -1,0 +1,398 @@
+
+
+ LOG file opened at 12/01/17 11:40:01
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table EXT_CUSTOMERS
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CC_NUMBER                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    FIRST_NAME                      CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    LAST_NAME                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    GENDER                          CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    AGE                             CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    EMAIL                           CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PHONE                           CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    ADDRESS                         CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    CITY                            CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    START_DT                        CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    END_DT                          CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    IS_ACTIVE                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+
+Date Cache Statistics for table EXT_CUSTOMERS
+  Max Size:      1000
+  Entries :       811
+  Hits    :      1189
+  Misses  :         0
+
+
+
+ LOG file opened at 12/01/17 11:47:01
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table EXT_CUSTOMERS
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CC_NUMBER                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    FIRST_NAME                      CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    LAST_NAME                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    GENDER                          CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    AGE                             CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    EMAIL                           CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PHONE                           CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    ADDRESS                         CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    CITY                            CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    START_DT                        CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    END_DT                          CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    IS_ACTIVE                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+
+Date Cache Statistics for table EXT_CUSTOMERS
+  Max Size:      1000
+  Entries :       811
+  Hits    :      1189
+  Misses  :         0
+
+
+
+ LOG file opened at 12/01/17 11:47:48
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table EXT_CUSTOMERS
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CC_NUMBER                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    FIRST_NAME                      CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    LAST_NAME                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    GENDER                          CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    AGE                             CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    EMAIL                           CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PHONE                           CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    ADDRESS                         CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    CITY                            CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    START_DT                        CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    END_DT                          CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    IS_ACTIVE                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+
+Date Cache Statistics for table EXT_CUSTOMERS
+  Max Size:      1000
+  Entries :       811
+  Hits    :      1189
+  Misses  :         0
+
+
+
+ LOG file opened at 12/01/17 11:48:19
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table EXT_CUSTOMERS
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CC_NUMBER                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    FIRST_NAME                      CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    LAST_NAME                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    GENDER                          CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    AGE                             CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    EMAIL                           CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PHONE                           CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    ADDRESS                         CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    CITY                            CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    START_DT                        CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    END_DT                          CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    IS_ACTIVE                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+
+Date Cache Statistics for table EXT_CUSTOMERS
+  Max Size:      1000
+  Entries :       811
+  Hits    :      1189
+  Misses  :         0
+
+
+
+ LOG file opened at 12/01/17 12:08:54
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table EXT_CUSTOMERS
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CC_NUMBER                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    FIRST_NAME                      CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    LAST_NAME                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    GENDER                          CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    AGE                             CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    EMAIL                           CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PHONE                           CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    ADDRESS                         CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    CITY                            CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    START_DT                        CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    END_DT                          CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    IS_ACTIVE                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+
+Date Cache Statistics for table EXT_CUSTOMERS
+  Max Size:      1000
+  Entries :       811
+  Hits    :      1189
+  Misses  :         0
+
+
+
+ LOG file opened at 12/01/17 13:06:29
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table EXT_CUSTOMERS
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CC_NUMBER                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    FIRST_NAME                      CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    LAST_NAME                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    GENDER                          CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    AGE                             CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    EMAIL                           CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PHONE                           CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    ADDRESS                         CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    CITY                            CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    COUNTRY_ID                      CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    START_DT                        CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    END_DT                          CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    IS_ACTIVE                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+
+Date Cache Statistics for table EXT_CUSTOMERS
+  Max Size:      1000
+  Entries :       100
+  Hits    :     68902
+  Misses  :         0
+
+
+
+ LOG file opened at 12/01/17 13:08:28
+
+KUP-05004:   Warning: Intra source concurrency disabled because parallel select was not requested.
+
+Field Definitions for table EXT_CUSTOMERS
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CC_NUMBER                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    FIRST_NAME                      CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    LAST_NAME                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    GENDER                          CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    AGE                             CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    EMAIL                           CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    PHONE                           CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    ADDRESS                         CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    CITY                            CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    COUNTRY_ID                      CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    START_DT                        CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    END_DT                          CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+    IS_ACTIVE                       CHAR (255)
+      Terminated by ","
+      Trim whitespace same as SQL Loader
+
+Date Cache Statistics for table EXT_CUSTOMERS
+  Max Size:      1000
+  Entries :       100
+  Hits    :     68902
+  Misses  :         0
+

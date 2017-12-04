@@ -1,0 +1,10 @@
+EXECUTE pckg_drop.drop_proc(object_name=>'seq_cust_dim', object_type=>'sequence');
+CREATE SEQUENCE SEQ_CUST_DIM INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE;
+EXECUTE pckg_drop.drop_proc(object_name=>'seq_prod_dim', object_type=>'sequence');
+CREATE SEQUENCE SEQ_PROD_DIM INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE;
+EXECUTE pckg_drop.drop_proc(object_name=>'seq_pay_dim', object_type=>'sequence');
+CREATE SEQUENCE SEQ_PAY_DIM INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE;
+EXECUTE pckg_drop.drop_proc(object_name=>'seq_store_dim', object_type=>'sequence');
+CREATE SEQUENCE SEQ_STORE_DIM INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE;
+EXECUTE pckg_drop.drop_proc(object_name=>'seq_emp_dim', object_type=>'sequence');
+CREATE SEQUENCE SEQ_EMP_DIM INCREMENT BY 1 START WITH 1 MINVALUE 1 NOCYCLE;

@@ -1,5 +1,5 @@
-DROP TABLE fct_sales;
-
+DROP TABLE fct_sales CASCADE CONSTRAINTS;
+ALTER SESSION SET nls_date_format = 'DD-MON-YYYY';
 ALTER SESSION SET NLS_DATE_LANGUAGE = 'RUSSIAN' ;
 CREATE TABLE fct_sales
     (
@@ -25,7 +25,19 @@ CREATE TABLE fct_sales
                     REFERENCES dim_customers ( customer_id ),   
         CONSTRAINT FK_store_id_dm      FOREIGN KEY ( shop_id )
                     REFERENCES dim_shops ( shop_id )          
-        );
-        
-        
- 
+        )
+
+
+/*   PARTITION BY RANGE (event_dt)
+   SUBPARTITION BY LIST (payment_method)
+   SUBPARTITION TEMPLATE 
+      (SUBPARTITION cash        VALUES ('Наличные деньги') TABLESPACE tbs_cash,
+       SUBPARTITION credit_card VALUES ('Кредитная карта') TABLESPACE tbs_card
+      )
+  (PARTITION year_10_13 VALUES LESS THAN ( TO_DATE('01-ЯНВ-2014','DD-MON-YYYY')),
+   PARTITION year_14_16 VALUES LESS THAN ( TO_DATE('01-ЯНВ-2017','DD-MON-YYYY')),
+   PARTITION q1_2017 VALUES LESS THAN ( TO_DATE('01-АПР-2017','DD-MON-YYYY')),
+   PARTITION q2_2017 VALUES LESS THAN ( TO_DATE('1-ИЮЛ-2017','DD-MON-YYYY')),
+   PARTITION q3_2017 VALUES LESS THAN ( TO_DATE('1-ОКТ-2017','DD-MON-YYYY')),
+   PARTITION q4_2017 VALUES LESS THAN ( TO_DATE('1-ЯНВ-2018','DD-MON-YYYY'))
+  )*/;

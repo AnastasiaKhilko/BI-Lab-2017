@@ -1,0 +1,29 @@
+
+
+ LOG file opened at 12/03/17 23:18:30
+
+Field Definitions for table EXT_SHOP_CHIT_GOROD
+  Record format DELIMITED BY NEWLINE
+  Data in file has same endianness as the platform
+  Rows with all null fields are accepted
+
+  Fields in Data Source: 
+
+    CODE                            CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    NAMES                           CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    CITY                            CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    STREET                          CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    NUMBER_HOUSE                    CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader
+    PHONE                           CHAR (800)
+      Terminated by ";"
+      Trim whitespace same as SQL Loader

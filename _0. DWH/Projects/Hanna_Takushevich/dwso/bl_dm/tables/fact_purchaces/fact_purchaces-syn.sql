@@ -1,0 +1,1 @@
+CREATE PUBLIC SYNONYM fact_purchaces FOR bl_dm.fact_purchaces;

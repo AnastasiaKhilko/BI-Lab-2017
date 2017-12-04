@@ -1,1 +1,0 @@
-CREATE OR REPLACE PUBLIC SYNONYM cls_airports FOR bl_cl.cls_airports;

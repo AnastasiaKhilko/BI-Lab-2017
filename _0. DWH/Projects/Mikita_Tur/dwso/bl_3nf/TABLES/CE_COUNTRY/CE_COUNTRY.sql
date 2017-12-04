@@ -1,0 +1,6 @@
+CREATE TABLE CE_COUNTRY
+  (
+    COUNTRY_SRCID     NUMBER(8) NOT NULL primary key ,
+    COUNTRY_NAME      VARCHAR2 (100)      NOT NULL,
+    COUNTRY_CODE      VARCHAR2 (100)         NOT NULL
+  );

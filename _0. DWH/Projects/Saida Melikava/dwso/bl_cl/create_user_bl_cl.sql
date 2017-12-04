@@ -1,4 +1,4 @@
-EXECUTE pckg_drop.drop_proc(object_name=>'bl_cl',object_type=>'user');
+DROP USER BL_CL CASCADE;
 
   CREATE USER BL_CL
   IDENTIFIED BY 123456
@@ -14,10 +14,6 @@ EXEC system.pckg_grant.grant_proc(grant_name=>'READ,WRITE ON DIRECTORY ETL', use
 EXEC system.pckg_grant.grant_proc(grant_name=>'CREATE ANY PROCEDURE', user_name=>'BL_CL');
 EXEC system.pckg_grant.grant_proc(grant_name=>'CREATE ANY SEQUENCE', user_name=>'BL_CL');
 EXEC system.pckg_grant.grant_proc(grant_name=>'CREATE ANY TYPE', user_name=>'BL_CL');
-
-EXEC system.pckg_grant.grant_proc(grant_name=>'INSERT', schema_name=>'BL_3NF', object_name=>'CE_DISTRICTS',user_name=>'BL_CL');
-EXEC system.pckg_grant.grant_proc(grant_name=>'UPDATE', schema_name=>'BL_3NF', object_name=>'CE_DISTRICTS',user_name=>'BL_CL');
-
-EXEC system.pckg_grant.grant_proc(grant_name=>'INSERT', schema_name=>'BL_3NF', object_name=>'CE_REGIONS',user_name=>'BL_CL');
-EXEC system.pckg_grant.grant_proc(grant_name=>'UPDATE', schema_name=>'BL_3NF', object_name=>'CE_REGIONS',user_name=>'BL_CL');
-grant create any synonym to bl_cl;
+EXEC system.pckg_grant.grant_proc(grant_name=>'INSERT ANY TABLE', user_name=>'BL_CL');
+EXEC system.pckg_grant.grant_proc(grant_name=>'UPDATE ANY TABLE', user_name=>'BL_CL');
+EXEC system.pckg_grant.grant_proc(grant_name=>'CREATE ANY SYNONYM', user_name=>'BL_CL');
