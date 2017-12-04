@@ -64,6 +64,7 @@ and ce.end_dt > TRUNC(sysdate)
 and ce.store_code = wrk.code)
 WHERE DECODE(wrk.name,ce.store_name,0,1)+DECODE(wrk.phone,ce.store_phone,0,1)
 +DECODE(addr_id,ce.store_address_id,0,1)>0
+and wrk.code is not null
 union all
 select ce.store_code, ce.store_name,ce.store_phone, ce.store_address_id,ce.store_manager_id,ce.start_dt, TRUNC(sysdate) end_dt
 from wrk_stores wrk
@@ -76,7 +77,8 @@ ON (ce.start_dt<= TRUNC(sysdate)
 and ce.end_dt > TRUNC(sysdate)
 and ce.store_code = wrk.code)
 where DECODE(wrk.name,ce.store_name,0,1)+DECODE(wrk.phone,ce.store_phone,0,1)
-+DECODE(addr_id,ce.store_address_id,0,1)>0;
++DECODE(addr_id,ce.store_address_id,0,1)>0
+and wrk.code is not null;
   dbms_output.put_line('Data in the table '||target_table_cls||' is successfully loaded: '||SQL%ROWCOUNT|| ' rows were inserted.');
   COMMIT;
 EXCEPTION
