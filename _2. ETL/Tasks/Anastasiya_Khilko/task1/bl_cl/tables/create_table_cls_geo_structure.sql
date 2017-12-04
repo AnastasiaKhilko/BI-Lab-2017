@@ -1,4 +1,5 @@
-execute pckg_drop.DROP_Proc('TABLE', 'cls_geo_structure');     
+--execute pckg_drop.DROP_Proc('TABLE', 'cls_geo_structure');    
+--drop table cls_geo_structure;
 create table cls_geo_structure
           (child_code           NUMBER(10,0),
            parent_code          NUMBER(10,0),

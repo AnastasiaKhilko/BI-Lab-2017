@@ -6,7 +6,7 @@ union all
 select parameter, value from nls_database_parameters where parameter like '%characterset';
 
 
-ALTER TABLESPACE test_data READ ONLY;
+ALTER TABLESPACE test_data READ WRITE;
 
 CREATE OR REPLACE DIRECTORY temp_dir AS '/tmp/';
 GRANT READ, WRITE ON DIRECTORY temp_dir TO system;

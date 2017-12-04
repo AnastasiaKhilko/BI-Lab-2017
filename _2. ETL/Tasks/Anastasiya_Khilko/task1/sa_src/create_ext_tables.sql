@@ -1,6 +1,7 @@
 --==============================================================
 -- Table: t_ext_geo_countries_iso3166
 --==============================================================
+--drop table ext_geo_countries_iso3166;
     CREATE TABLE ext_geo_countries_iso3166
         (country_id     NUMBER ( 10 ),
          country_desc   VARCHAR2 ( 200 CHAR ),
@@ -24,6 +25,7 @@
 --==============================================================
 -- Table: t_ext_geo_structure_iso3166                           
 --==============================================================
+--drop table ext_geo_structure_iso3166;
     create table ext_geo_structure_iso3166  
           (child_code           NUMBER(10,0),
            parent_code          NUMBER(10,0),
@@ -49,6 +51,7 @@
 --==============================================================
 -- Table: t_ext_cntr2structure_iso3166
 --==============================================================
+--drop table ext_cntr2structure_iso3166;
     create table ext_cntr2structure_iso3166
           (country_id           NUMBER(10,0),
            county_desc          VARCHAR2(200 CHAR),

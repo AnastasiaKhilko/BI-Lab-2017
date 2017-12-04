@@ -1,0 +1,1 @@
+GRANT SELECT ON ext_stores TO BL_CL;

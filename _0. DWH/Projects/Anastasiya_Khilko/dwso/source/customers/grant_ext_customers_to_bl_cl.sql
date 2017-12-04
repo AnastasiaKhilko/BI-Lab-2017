@@ -1,0 +1,1 @@
+GRANT SELECT ON ext_customers TO BL_CL;

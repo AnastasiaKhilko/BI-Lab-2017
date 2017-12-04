@@ -1,0 +1,1 @@
+GRANT SELECT ON ext_products TO BL_CL;

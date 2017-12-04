@@ -1,0 +1,1 @@
+GRANT SELECT ON ext_employees TO BL_CL;

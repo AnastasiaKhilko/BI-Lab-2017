@@ -1,0 +1,3 @@
+GRANT SELECT ON ce_products TO BL_CL;
+GRANT INSERT ON ce_products TO BL_CL;
+GRANT UPDATE ON ce_products TO BL_CL;
