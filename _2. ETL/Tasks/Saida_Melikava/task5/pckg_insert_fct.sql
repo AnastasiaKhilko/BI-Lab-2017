@@ -100,7 +100,7 @@ ROUND((pckg_insert_fact.randomize(1,10,25,35,50))/100,2)  as disc,
 pckg_insert_fact.randomize(5,20,35,45,100) as price,
 ROUND((pckg_insert_fact.randomize(160,175,180,190,200))/100,2) as byn_usd
 FROM  
-( SELECT level n FROM dual CONNECT BY level <= 100
+( SELECT level n FROM dual CONNECT BY level <= 1000000
 )
 
 >';
