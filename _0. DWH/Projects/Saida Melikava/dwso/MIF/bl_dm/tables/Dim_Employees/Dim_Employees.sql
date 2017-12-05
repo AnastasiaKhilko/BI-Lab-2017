@@ -14,7 +14,7 @@ CREATE TABLE Dim_Employees
     Employee_manager_name         VARCHAR2(70) NOT NULL,
     Employee_store_name           VARCHAR2(30) NOT NULL,
     Employee_store_city_id        NUMBER(8) NOT NULL,
-    Employee_store_city           VARCHAR2(50) NOT NULL,
+    Employee_store_city           VARCHAR2(70) NOT NULL,
     Employee_store_address_id     NUMBER(8) NOT NULL,
     Employee_store_address_street VARCHAR2(80) NOT NULL,
     Employee_store_address_house  VARCHAR2(50) NOT NULL,
