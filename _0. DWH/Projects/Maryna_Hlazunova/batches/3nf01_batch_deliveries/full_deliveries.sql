@@ -13,7 +13,7 @@
 -- bl_cl - full load
 
 -- ! Execute full_deliveries start with sys or system
-CONNECT sa_src / sa_src;
+CONNECT sa_src/sa_src;
 
 SHOW USER;
 
