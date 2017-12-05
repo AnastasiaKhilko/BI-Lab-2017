@@ -13,8 +13,8 @@ CREATE OR REPLACE PACKAGE BODY pkg_load_fct_salesitems AS
             SELECT
                 o.order_id,
                 o.order_date,
-                i.product_id,
                 o.cust_id,
+                i.product_id,
                 o.pay_id,
                 o.del_id,
                 o.point_id,
@@ -37,19 +37,21 @@ CREATE OR REPLACE PACKAGE BODY pkg_load_fct_salesitems AS
         TYPE fetch_array IS
             TABLE OF c_items%rowtype;
         items_array   fetch_array;
+        
+    rec_it   cls2_fct_salesitems%rowtype;
     BEGIN
         EXECUTE IMMEDIATE 'truncate table cls2_fct_salesitems';
         OPEN c_items;
-        LOOP
+--        LOOP
             FETCH c_items BULK COLLECT INTO items_array;
             FORALL i IN 1..items_array.count
                 INSERT INTO cls2_fct_salesitems VALUES items_array ( i );
 
-            EXIT WHEN c_items%notfound;
-        END LOOP;
-
-        CLOSE c_items;
+         --   EXIT WHEN c_items%notfound;
+--        END LOOP;
+       
         COMMIT;
+        CLOSE c_items;
         dbms_output.put_line('The data in the table CLS2_FCT_SALESITEMS is loaded successfully!');
     EXCEPTION
         WHEN OTHERS THEN
