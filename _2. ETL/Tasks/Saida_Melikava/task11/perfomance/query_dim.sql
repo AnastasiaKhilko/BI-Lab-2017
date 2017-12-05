@@ -1,27 +1,27 @@
 EXPLAIN PLAN FOR 
 SELECT
   CASE
-    WHEN GROUPING_id(s.store_district,p.product_genre)=2
+    WHEN GROUPING_id(s.customer_district,p.product_genre)=2
     THEN 'Total by all Stores'
-    WHEN GROUPING_id(s.store_district,p.product_genre)=3
+    WHEN GROUPING_id(s.customer_district,p.product_genre)=3
     THEN 'GRAND TOTAL'
-    ELSE s.store_district
-  END AS store_district,
+    ELSE s.customer_district
+  END AS customer_district,
   CASE
-    WHEN GROUPING_id(s.store_district,p.product_genre)=1
+    WHEN GROUPING_id(s.customer_district,p.product_genre)=1
     THEN 'Total by all Products'
-    WHEN GROUPING_id(s.store_district,p.product_genre)=3
+    WHEN GROUPING_id(s.customer_district,p.product_genre)=3
     THEN ' '
     ELSE p.product_genre
   END           AS product_genre,
   SUM(fct_sales_amount_byn)    AS price,
   SUM(fct_quantity) AS quantity
 FROM fct_sales f
-INNER JOIN dim_stores_scd s
-ON f.fct_store_id=s.store_sur_id
-INNER JOIN dim_products p
+LEFT JOIN dim_customers s
+ON f.fct_customer_id=s.customer_sur_id
+LEFT JOIN dim_products p
 ON f.fct_product_id=p.product_sur_id
-  --group by rollup(store_name, product_name)
-GROUP BY cube(store_district, product_genre);
+--group by rollup(customer_district, product_genre)
+GROUP BY cube(customer_district, product_genre);
 
 SELECT * FROM TABLE(dbms_xplan.display);

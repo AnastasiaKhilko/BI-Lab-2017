@@ -1,5 +1,6 @@
 EXPLAIN PLAN FOR
-SELECT CASE
+SELECT 
+case
     WHEN GROUPING_id(dis.district_desc,g.genre_name)=2
     THEN 'Total by all Stores'
     WHEN GROUPING_id(dis.district_desc,g.genre_name)=3
@@ -16,19 +17,17 @@ SELECT CASE
   SUM(fct_sales_amount_byn)    AS price,
   SUM(fct_quantity) AS quantity
 FROM ce_fct_sales f
-INNER JOIN ce_stores s
-ON f.fct_store_id=s.store_id
-INNER JOIN ce_addr ad
-ON ad.addr_city_id=s.store_address_id
-INNER JOIN ce_cities cit
-ON cit.city_id=ad.addr_city_id
-INNER JOIN ce_regions reg
+LEFT JOIN ce_customers s
+ON f.fct_customer_id=s.customer_id
+LEFT  JOIN ce_cities cit
+ON cit.city_id=s.customer_city_id
+LEFT  JOIN ce_regions reg
 ON reg.region_id=cit.region_id
-INNER JOIN ce_districts dis
+LEFT JOIN ce_districts dis
 ON dis.district_id=reg.district_id
-INNER JOIN ce_catalog p
+LEFT  JOIN ce_catalog p
 ON f.fct_product_id=p.prod_id
-INNER JOIN ce_genres g
+LEFT  JOIN ce_genres g
 on g.genre_id=p.prod_genre_id
 GROUP BY cube(district_desc, genre_name);
 SELECT * FROM TABLE(dbms_xplan.display);
