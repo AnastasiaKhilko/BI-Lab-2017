@@ -42,4 +42,4 @@ create table ext_products
     )
    reject limit unlimited ;
 
---select * from ext_products;
+select * from ext_products;

@@ -1,6 +1,6 @@
 connect SA_SRC/123123;
 show user;
-@D:\epam\dwh\source\employees\ext_providers.sql
+@D:\epam\dwh\source\employees\ext_employees.sql
 @D:\epam\dwh\source\employees\grant_ext_emp_to_bl_cl.sql
 
 

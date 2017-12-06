@@ -1,5 +1,6 @@
+drop directory source_table;
 create directory source_table
-as 'D:\epam\dwh\source';
+as 'D:\Anastasiya_Khilko\shared_dwh\';
 
 grant read on directory source_table to sa_src;
 grant write on directory source_table to sa_src;
