@@ -1,0 +1,26 @@
+@USER_[bl_cl].sql
+
+CONNECT bl_cl/123456;
+show user;
+
+@DROP_proc(updated).sql;
+@bl_cl_[DDL-DROP].sql;
+@bl_cl_[DDL-WRK-SYNONYMS].sql;
+@CLS_SALES.sql;
+@CLS_PROMOTIONS.sql;
+@CLS_CONSUMERS.sql;
+@CLS_DEPARTMENTS.sql;
+@CLS_ADDRESSES.sql;
+@CLS_CITIES.sql;
+@CLS_COUNTRIES.sql;
+@CLS_SUBREGIONS.sql;
+@CLS_REGIONS.sql;
+@CLS_CONSUMER_RATE.sql;
+@CLS_RESPONSIBLE.sql;
+@CLS_OCCUPATION.sql;
+@CLS_LOCALIZATION.sql;
+@CLS_PRODUCTS.sql;
+@CLS_PRODUCT_SUBCATEGORY.sql;
+@CLS_PRODUCT_CATEGORY.sql;
+
+@bl_cl_[DML].sql

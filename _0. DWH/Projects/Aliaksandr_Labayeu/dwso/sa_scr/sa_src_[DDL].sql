@@ -1,17 +1,9 @@
 CREATE OR REPLACE DIRECTORY ext_tables AS '/media/sf_shared';
-/* Tables:
-ext_products
-ext_consumers
-ext_departments
-ext_geo_countries_iso3166
-ext_geo_structure_iso3166
-ext_cntr2structure_iso3166
-*/
 
 --==============================================================
 -- Table: ext_products
 --==============================================================
-
+-- DROP SYNONYMS
 DROP TABLE ext_products;
 CREATE TABLE ext_products
     (
@@ -39,8 +31,6 @@ ORGANIZATION EXTERNAL
 )
 reject LIMIT unlimited;
 
--- SELECT * FROM ext_products ORDER BY 2;
-
 --==============================================================
 -- Table: ext_consumers
 --==============================================================
@@ -54,26 +44,26 @@ CREATE TABLE ext_consumers
      Responsible_CODE VARCHAR2(20),
      StreetAddress VARCHAR2(255),
      StreetCode VARCHAR2(20),
-     City	VARCHAR2(50),
-     City_code VARCHAR2(20),
+     City	VARCHAR2(255),
+     City_code VARCHAR2(30),
      State VARCHAR2(50),
-     StateFull VARCHAR2(50),
-     ZipCode VARCHAR(10),
-     Country_CODE	VARCHAR2(2),
-     Country	VARCHAR2(20),
-     EmailAddress VARCHAR2(50),
+     StateFull VARCHAR2(100),
+     ZipCode VARCHAR(50),
+     Country_CODE	VARCHAR2(3),
+     Country	VARCHAR2(100),
+     EmailAddress VARCHAR2(255),
      TelephoneNumber	VARCHAR2(50),
-     TelephoneCountryCode	NUMBER(4),
+     TelephoneCountryCode	NUMBER(10),
      Birthday VARCHAR2(20),
      Age	NUMBER(3),
      CCType	VARCHAR2(20),
      CCExpires	VARCHAR2(20),
-     WesternUnion	NUMBER(10),
-     Color	VARCHAR2(10),
-     Occupation	VARCHAR2(20),
-     Occupation_code VARCHAR2(20),
-     Company	VARCHAR2(30),
-     Consumer_rate NUMBER(5),
+     WesternUnion	NUMBER(30),
+     Color	VARCHAR2(30),
+     Occupation	VARCHAR2(255),
+     Occupation_code VARCHAR2(60),
+     Company	VARCHAR2(255),
+     Consumer_rate NUMBER(3),
      Rate_Description VARCHAR(10)
      )
 ORGANIZATION EXTERNAL
@@ -89,8 +79,6 @@ ORGANIZATION EXTERNAL
 )
 reject LIMIT unlimited;
 
--- SELECT * FROM ext_consumers;
-
 --==============================================================
 -- Table: ext_departments
 --==============================================================
@@ -102,6 +90,7 @@ CREATE TABLE ext_departments
      department VARCHAR(100),
      Country VARCHAR2(50),
      City VARCHAR2(50),
+     City_code VARCHAR2(10),
      StreetAddress VARCHAR2(255),
      StateFull	VARCHAR2(50),
      State_CODE VARCHAR2(2),
@@ -123,7 +112,9 @@ ORGANIZATION EXTERNAL
 )
 reject LIMIT unlimited;
 
--- SELECT * FROM ext_departments ORDER BY 2;
+--==============================================================
+-- Table: ext_locations
+--==============================================================
 
 DROP TABLE ext_locations;
 create table ext_locations
@@ -148,86 +139,3 @@ ORGANIZATION EXTERNAL
      LOCATION ('country_list.csv')
 )
 reject LIMIT unlimited;
-
--- SELECT * FROM ext_locations;
---SELECT DISTINCT subcategory FROM ext_products;
-
-/*
---==============================================================
--- Table: ext_geo_countries_iso3166
---==============================================================
-DROP TABLE ext_geo_countries_iso3166;
-CREATE TABLE ext_geo_countries_iso3166
-    (country_id     NUMBER ( 10 ),
-     country_desc   VARCHAR2 ( 200 CHAR ),
-     country_code   VARCHAR2 ( 3 )
-     )
-ORGANIZATION EXTERNAL
-    (TYPE ORACLE_LOADER
-     DEFAULT DIRECTORY ext_tables
-     ACCESS PARAMETERS
-        (RECORDS DELIMITED BY 0x'0D0A'
-         nobadfile nodiscardfile nologfile fields terminated by ';'
-         missing field values are NULL 
-            (country_id integer external (4),
-             country_desc char(200),
-             country_code char(3) )
-         )
-     LOCATION ('iso_3166.tab')
-)
-reject LIMIT unlimited;
-
---==============================================================
--- Table: ext_geo_structure_iso3166                           
---==============================================================
-DROP TABLE ext_geo_structure_iso3166;
-create table ext_geo_structure_iso3166  
-      (child_code           NUMBER(10,0),
-       parent_code          NUMBER(10,0),
-       structure_desc       VARCHAR2(200 CHAR),
-       structure_level      VARCHAR2(200 CHAR)
-       )
-ORGANIZATION EXTERNAL (
-    TYPE ORACLE_LOADER
-    DEFAULT DIRECTORY ext_tables
-     ACCESS PARAMETERS
-        (RECORDS DELIMITED BY 0x'0D'
-         nobadfile nodiscardfile nologfile fields terminated by ';'
-         missing field values are NULL
-              (child_code integer external (4),
-               parent_code integer external,
-               structure_desc char(200),
-               structure_level char(200) )
-         )
-    location ('iso_3166_geo_un.tab')
-)
-reject limit unlimited;
-
---==============================================================
--- Table: t_ext_cntr2structure_iso3166
---==============================================================
-DROP TABLE ext_cntr2structure_iso3166;
-create table ext_cntr2structure_iso3166
-      (country_id           NUMBER(10,0),
-       country_desc          VARCHAR2(200 CHAR),
-       structure_code       NUMBER(10,0),
-       structure_desc       VARCHAR2(200 CHAR)
-       )
-ORGANIZATION EXTERNAL (
-    TYPE ORACLE_LOADER
-    DEFAULT DIRECTORY ext_tables
-     ACCESS PARAMETERS
-        (RECORDS DELIMITED BY 0x'0D0A'
-         nobadfile nodiscardfile nologfile fields terminated by ';'
-         missing field values are NULL
-              (country_id integer external(4),
-               country_desc char(200),
-               structure_code integer external,
-               structure_desc char(200) )
-         )
-    location ('iso_3166_geo_un_contries.tab')
-)
-reject limit unlimited;
-*/
-
-

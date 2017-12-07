@@ -1,0 +1,21 @@
+-- CE_PRODUCTS
+execute pkg_drop.DROP_proc('"BL_3NF"."CE_PRODUCTS"','table');
+CREATE TABLE "BL_3NF"."CE_PRODUCTS"
+(
+	"PRODUCT_ID" NUMBER(8) NOT NULL,
+	"PRODUCT_CODE" VARCHAR2(50),
+	"PRODUCT_NAME" VARCHAR2(50),
+	"LOCALIZATION_ID" NUMBER(8,2),
+	"CATEGORY_ID" NUMBER(8,2),
+  "PRICE" NUMBER(8,2),
+	"UPDATE_DT" DATE,
+	"INSERT_DT" DATE DEFAULT TRUNC(SYSDATE)
+)
+;
+
+execute pkg_drop.DROP_proc('seq_product','sequence');
+CREATE SEQUENCE seq_product
+      INCREMENT BY 1 
+          START WITH 1 
+       MINVALUE 1 
+        NOCYCLE; 

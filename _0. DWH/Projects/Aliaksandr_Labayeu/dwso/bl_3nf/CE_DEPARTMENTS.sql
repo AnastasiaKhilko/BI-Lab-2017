@@ -1,0 +1,22 @@
+-- CE_DEPARTMENTS
+execute pkg_drop.DROP_proc('"BL_3NF"."CE_DEPARTMENTS"','table');
+CREATE TABLE "BL_3NF"."CE_DEPARTMENTS"
+(
+	"DEPARTMENT_ID" NUMBER(8,2) NOT NULL,
+	"DEPARTMENT_CODE" VARCHAR(10),
+	"DEPARTMENT_DESC" VARCHAR2(50),
+	"ADDRESS_ID" NUMBER(10),
+  "START_DT" DATE,
+  "END_DT" DATE,
+  "IS_ACTIVE" VARCHAR(1),
+	"UPDATE_DT" DATE,
+	"INSERT_DT" DATE DEFAULT TRUNC(SYSDATE)
+)
+;
+
+execute pkg_drop.DROP_proc('seq_departments','sequence');
+CREATE SEQUENCE seq_departments
+      INCREMENT BY 1 
+          START WITH 1 
+       MINVALUE 1 
+        NOCYCLE;  

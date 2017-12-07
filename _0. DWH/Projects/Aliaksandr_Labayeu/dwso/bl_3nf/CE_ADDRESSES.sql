@@ -1,0 +1,21 @@
+-- CE_ADDRESSES
+execute pkg_drop.DROP_proc('"BL_3NF"."CE_ADDRESSES"','table');
+CREATE TABLE "BL_3NF"."CE_ADDRESSES"
+(
+	"ADDRESS_ID" NUMBER(10) NOT NULL,
+	"ADDRESS_CODE" VARCHAR2(50),
+	"ADDRESS" VARCHAR2(50),
+	"POSTAL_CODE" VARCHAR2(50),
+	"PHONE" VARCHAR2(50),
+	"CITY_ID" NUMBER(10),
+	"UPDATE_DT" DATE,
+	"INSERT_DT" DATE DEFAULT TRUNC(SYSDATE)
+)
+;
+
+execute pkg_drop.DROP_proc('seq_addresses','sequence');
+CREATE SEQUENCE seq_addresses
+      INCREMENT BY 1 
+          START WITH 1 
+       MINVALUE 1 
+        NOCYCLE;

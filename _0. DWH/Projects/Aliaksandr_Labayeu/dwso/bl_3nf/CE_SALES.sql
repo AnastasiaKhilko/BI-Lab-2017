@@ -1,0 +1,22 @@
+-- CE_SALES
+execute pkg_drop.DROP_proc('"BL_3NF"."CE_SALES"','table');
+CREATE TABLE "BL_3NF"."CE_SALES"
+(
+  "SALE_ID" NUMBER(15,2) NOT NULL,
+  "SALE_DATE" DATE,
+  "DEPARTMENT_ID" NUMBER(15,2),
+  "CONSUMER_ID" NUMBER(15,2),
+  "PRODUCT_ID" NUMBER(15,2),
+  "PROMO_ID" NUMBER(15,2),
+  "AMOUNT" NUMBER(15,2),
+  "UPDATE_DT" DATE,
+  "INSERT_DT" DATE DEFAULT TRUNC(SYSDATE)
+)
+;
+
+execute pkg_drop.DROP_proc('seq_sale','sequence');
+CREATE SEQUENCE seq_sale
+      INCREMENT BY 1 
+          START WITH 1 
+       MINVALUE 1 
+        NOCYCLE; 
