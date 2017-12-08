@@ -1,0 +1,135 @@
+CREATE OR REPLACE PACKAGE PKG_LOAD_3NF_HOTELS
+AS
+  PROCEDURE LOAD_HOTELS;
+  PROCEDURE LOAD_HOTELS_CLS;
+  PROCEDURE LOAD_CE;
+END PKG_LOAD_3NF_HOTELS;
+/
+CREATE OR REPLACE PACKAGE BODY PKG_LOAD_3NF_HOTELS
+AS
+PROCEDURE LOAD_HOTELS
+IS
+BEGIN
+  EXECUTE IMMEDIATE 'truncate table wrk_hotels';
+  INSERT INTO WRK_HOTELS
+  SELECT     ADDRESS,
+    --categories VARCHAR2 ( 200),
+    CITY,
+    COUNTRY ,
+    '',--LATITUDE,
+    '',--LONGITUDE,
+    NAME_,
+    POSTALCODE,
+    PROVINCE,
+    max(REVIEWS_DATE),
+    max(REVIEWS_RATING) FROM SA_SRC.EXT_HOTELS group by name_, CITY, COUNTRY, POSTALCODE, PROVINCE, 
+ADDRESS, '';
+  COMMIT;
+END LOAD_HOTELS;
+PROCEDURE LOAD_HOTELS_CLS
+IS
+BEGIN
+  EXECUTE IMMEDIATE 'truncate table cls_hotels';
+  INSERT INTO CLS_HOTELS
+  SELECT TO_CHAR(ROUND( DBMS_RANDOM.VALUE(100,999)))
+    ||UPPER(DBMS_RANDOM.STRING('A',3)),
+    ADDRESS_ID,
+    --categories VARCHAR2 ( 200),
+    --1,--category_id,
+    least(ROUND( ABS(DBMS_RANDOM.NORMAL*4)+0.59),(select count(*) from bl_3nf.ce_categories)),
+    -- city VARCHAR2 ( 200  ),
+    -- country  VARCHAR2 ( 200  ),
+    -- latitude VARCHAR2 ( 200  ),
+    -- longitude VARCHAR2 ( 200  ),
+    NAME_,
+    REPLACE(UPPER(SUBSTR(NAME_,1,1))
+    || LOWER(SUBSTR(NAME_,2,29)
+    || '@gmail.com'),' ',''),
+    -- sysdate,
+    --postalCode VARCHAR2 ( 200 ),
+    -- province VARCHAR2 ( 200  ),
+    nvl2(substr(reviews_date,0,10),to_date(substr(reviews_date,0,10),'YYYY-MM-DD'),to_date('2999-12-31','YYYY-MM-DD')),
+    round(least(dbms_random.normal * 2  + dbms_random.value(5,6),10 ),2)
+  FROM WRK_HOTELS H
+  LEFT JOIN BL_3NF.CE_CITIES CC
+  ON UPPER(H.CITY) = UPPER(CC.CITY_NAME)
+  LEFT JOIN BL_3NF.CE_ADDRESSES A
+  ON CC.CITY_3NF_ID = A.CITY_ID
+  AND H.POSTALCODE  = A.POSTAL_CODE;
+  --GROUP BY H.NAME_ ;
+  COMMIT;
+END LOAD_HOTELS_CLS;
+PROCEDURE LOAD_CE
+IS
+BEGIN
+  MERGE INTO BL_3NF.CE_HOTELS CE USING
+  (SELECT HOTEL_CODE,
+    NAME,
+    CATEGORY_ID,
+    ADDRESS_ID,
+    --categories VARCHAR2 ( 200),
+    -- city VARCHAR2 ( 200  ),
+    -- country  VARCHAR2 ( 200  ),
+    -- latitude VARCHAR2 ( 200  ),
+    -- longitude VARCHAR2 ( 200  ),
+    EMAIL,--????????
+    -- update_date,--????????
+    --postalCode VARCHAR2 ( 200 ),
+    -- province VARCHAR2 ( 200  ),
+    REVIEWS_DATE,
+    REVIEWS_RATING
+  FROM CLS_HOTELS
+  MINUS
+  SELECT --hotel_3nf_id number primary key,
+    HOTEL_CODE,
+    HOTEL_NAME,
+    CATEGORY_ID,
+    ADDRESS_ID,
+    EMAIL,
+    --update_dt,
+    REVIEWS_DATE,
+    REVIEWS_RATING
+  FROM BL_3NF.CE_HOTELS
+  ) CLS ON ( CLS.NAME = CE.HOTEL_NAME )
+WHEN MATCHED THEN
+  UPDATE
+  SET CE.HOTEL_CODE   = CLS.HOTEL_CODE,
+    CE.CATEGORY_ID    = CLS.CATEGORY_ID,
+    CE.ADDRESS_ID     = CLS.ADDRESS_ID,
+    CE.EMAIL          = CLS.EMAIL,
+    CE.UPDATE_DT      =SYSDATE,
+    CE.REVIEWS_DATE   = CLS.REVIEWS_DATE,
+    CE.REVIEWS_RATING = CLS.REVIEWS_RATING WHEN NOT MATCHED THEN
+  INSERT
+    (
+      HOTEL_3NF_ID,
+      HOTEL_CODE,
+      HOTEL_NAME,
+      CATEGORY_ID,
+      ADDRESS_ID,
+      EMAIL,
+      UPDATE_DT,
+      REVIEWS_DATE,
+      REVIEWS_RATING
+    )
+    VALUES
+    (
+      BL_3NF.SEQ_HOTELS_3NF.NEXTVAL ,
+      CLS.HOTEL_CODE,
+      CLS.NAME,
+      CLS.CATEGORY_ID,
+      CLS.ADDRESS_ID,
+      CLS.EMAIL,
+      SYSDATE,
+      CLS.REVIEWS_DATE,
+      CLS.REVIEWS_RATING
+    ) ;
+  --end;
+  COMMIT;
+END LOAD_CE;
+END PKG_LOAD_3NF_HOTELS;
+/
+--EXECUTE PKG_LOAD_3NF_HOTELS.LOAD_HOTELS;
+--EXECUTE PKG_LOAD_3NF_HOTELS.LOAD_HOTELS_CLS;
+--EXECUTE PKG_LOAD_3NF_HOTELS.LOAD_CE;
+--select * from wrk_hotels;
