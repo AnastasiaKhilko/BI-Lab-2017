@@ -15,7 +15,6 @@ CREATE TABLE ce_customers
     end_dt             DATE DEFAULT '31-DEC-9999',
     is_active          VARCHAR2 ( 200 CHAR ) NOT NULL,
     CONSTRAINT customer_id_pk PRIMARY KEY ( customer_id ),
-    CONSTRAINT customer_scrid_unq UNIQUE ( customer_srcid ),
     CONSTRAINT city_srcid_fk FOREIGN KEY ( city_srcid ) 
     REFERENCES ce_cities ( city_srcid )
   );

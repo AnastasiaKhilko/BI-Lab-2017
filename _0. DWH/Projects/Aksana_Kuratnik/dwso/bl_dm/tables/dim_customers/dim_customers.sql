@@ -1,3 +1,4 @@
+--DIM_CUSTOMERS
 DROP TABLE dim_customers;
 CREATE TABLE dim_customers(
     customer_surr_id   NUMBER(38) NOT NULL,

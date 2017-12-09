@@ -11,7 +11,7 @@ DROP TABLE ext_customers;
          phone           VARCHAR2 (250),
          address         VARCHAR2 (250),
          city            VARCHAR2 (250),
-         country_id      VARCHAR2 (250),
+         country_id      VARCHAR2 (20),
          start_dt        DATE,
          end_dt          DATE,
          is_active       VARCHAR2 (50)
@@ -22,4 +22,3 @@ DROP TABLE ext_customers;
                             LOCATION ('customers.csv')
     )
     REJECT LIMIT UNLIMITED;
-    

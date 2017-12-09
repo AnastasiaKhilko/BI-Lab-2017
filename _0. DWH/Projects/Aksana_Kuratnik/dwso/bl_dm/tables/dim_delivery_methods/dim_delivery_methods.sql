@@ -1,3 +1,4 @@
+--DIM_DELIVERY_METHODS.
 DROP TABLE dim_delivery_methods;
 CREATE TABLE dim_delivery_methods
   (

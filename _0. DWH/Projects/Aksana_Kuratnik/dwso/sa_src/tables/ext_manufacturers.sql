@@ -1,4 +1,5 @@
 -- EXT_STORES.
+    DROP TABLE ext_manufacturers;
     CREATE TABLE ext_manufacturers
   (
     manufacturer_code VARCHAR2 ( 200 CHAR ),

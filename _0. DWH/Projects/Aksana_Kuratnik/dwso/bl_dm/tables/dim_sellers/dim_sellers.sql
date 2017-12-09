@@ -1,3 +1,4 @@
+--DIM_SELLERS.
 DROP TABLE dim_sellers;
 CREATE TABLE dim_sellers
   (
@@ -5,7 +6,6 @@ CREATE TABLE dim_sellers
     seller_id      NUMBER(38) NOT NULL,
     first_name     VARCHAR2(50 BYTE) NOT NULL,
     last_name      VARCHAR2(50 BYTE) NOT NULL,
-    sgender        VARCHAR2(50 BYTE) NOT NULL,
     age            VARCHAR2(50 BYTE) NOT NULL,
     email          VARCHAR2(50 BYTE) NOT NULL,
     phone          VARCHAR2(50 BYTE) NOT NULL,

@@ -1,3 +1,4 @@
+--DIM_PRODUCTS.
 DROP TABLE dim_products;
 CREATE TABLE dim_products(
     product_surr_id     NUMBER(38) NOT NULL,

@@ -11,7 +11,8 @@ CREATE TABLE ext_products
     balance         VARCHAR2 ( 300 CHAR ),
     start_dt        DATE,
     end_dt          DATE,
-    is_active       VARCHAR2 ( 300 CHAR )
+    is_active       VARCHAR2 ( 300 CHAR ),
+    manufacturer_name VARCHAR2 ( 300 CHAR )
   )
     ORGANIZATION EXTERNAL
         (TYPE oracle_loader DEFAULT DIRECTORY ext_sources
