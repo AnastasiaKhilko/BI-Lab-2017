@@ -1,3 +1,5 @@
+CREATE OR REPLACE DIRECTORY ext_tables AS '/media/sf_shared';
+
 --==============================================================
 -- Table: ext_products
 --==============================================================
@@ -110,9 +112,8 @@ ORGANIZATION EXTERNAL
 )
 reject LIMIT unlimited;
 
---==============================================================
--- Table: ext_locations
---==============================================================
+-- SELECT * FROM ext_departments ORDER BY 2;
+-- SELECT COUNT( DISTINCT city) FROM ext_departments; -- CODE REBUILd!!!!!!!!!!!!!!!!!!!!
 
 DROP TABLE ext_locations;
 create table ext_locations

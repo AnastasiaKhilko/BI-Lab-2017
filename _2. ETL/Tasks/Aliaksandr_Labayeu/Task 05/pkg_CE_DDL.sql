@@ -270,18 +270,12 @@ COMMIT;
 END;
 
 -- CE_LOCALIZATION
-PROCEDURE CE_LOCALIZATION AS 
-type TObjectTable is table of cls_localization%ROWTYPE;
-t TObjectTable;
-begin
-  EXECUTE IMMEDIATE ('TRUNCATE TABLE ce_localization');
-  select *
-    BULK COLLECT INTO t
-  from cls_localization;
-forall x in t.First..t.Last
-insert into ce_localization values t(x) ;
+PROCEDURE CE_LOCALIZATION AS
+BEGIN
+EXECUTE IMMEDIATE ('TRUNCATE TABLE "BL_3NF"."CE_CONSUMER_RATE"');
+INSERT INTO ce_localization SELECT * FROM cls_localization;
 COMMIT;
-end;
+END;
 
 -- CE_PRODUCTS
 PROCEDURE CE_PRODUCTS AS
@@ -553,8 +547,13 @@ WHEN NOT MATCHED
       cl.amount,
       sysdate,
       sysdate);
-      
+
   COMMIT;
     END;
 END CE_DDL;
 /
+
+   
+BEGIN
+  CE_DDL.CE_PROMOTIONS  ;  
+END;

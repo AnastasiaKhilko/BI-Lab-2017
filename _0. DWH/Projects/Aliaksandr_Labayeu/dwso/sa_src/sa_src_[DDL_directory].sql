@@ -1,0 +1,1 @@
+CREATE OR REPLACE DIRECTORY ext_tables AS 'D:\dwso\sa_src';

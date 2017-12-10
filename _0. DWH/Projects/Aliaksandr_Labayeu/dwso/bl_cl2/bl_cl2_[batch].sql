@@ -11,6 +11,13 @@ show user;
 @CLS2_CONSUMERS.sql
 
 @CE_[DDL-SYNONYMS].sql
-@bl_cl2_[DML].sql
+@pkg_DWH_DML.sql
+
+execute DWH_DDL.DIM_CONSUMERS;
+execute DWH_DDL.DIM_DEPARTMENTS;
+execute DWH_DDL.DIM_PRODUCTS;
+execute DWH_DDL.DIM_PROMOTIONS;
+execute DWH_DDL.FCT_SALES;
+
 
 
